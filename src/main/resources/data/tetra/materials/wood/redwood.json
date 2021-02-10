@@ -1,0 +1,27 @@
+{
+    "key": "redwood",
+    "category": "wood",
+    "primary": "2",
+    "secondary": "1.4",
+    "tertiary": "6",
+    "durability": "50",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "108",
+    "toolLevel": "1",
+    "toolEfficiency": "3",
+    "tints": {
+        "glyph": "934931",
+        "texture": "934931"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "byg:redwood_planks"
+    },
+    "requiredTools": {
+        "axe": 1
+    }
+}

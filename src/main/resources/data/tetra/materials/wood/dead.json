@@ -1,0 +1,27 @@
+{
+    "key": "dead",
+    "category": "wood",
+    "primary": "4",
+    "secondary": "1.3",
+    "tertiary": "4.5",
+    "durability": "180",
+    "integrityCost": "1",
+    "integrityGain": "3",
+    "magicCapacity": "102",
+    "toolLevel": "2",
+    "toolEfficiency": "5",
+    "tints": {
+        "glyph": "807a72",
+        "texture": "807a72"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "biomesoplenty:dead_planks"
+    },
+    "requiredTools": {
+        "axe": 2
+    }
+}

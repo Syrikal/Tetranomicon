@@ -1,0 +1,30 @@
+{
+    "key": "green_enchanted",
+    "category": "wood",
+    "primary": "3",
+    "secondary": "1.5",
+    "tertiary": "6",
+    "durability": "59",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "120",
+    "toolLevel": "1",
+    "toolEfficiency": "3",
+    "tints": {
+        "glyph": "709a62",
+        "texture": "709a62"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "byg:green_enchanted_planks"
+    },
+    "effects": {
+        "stabilizing": 15
+    },
+    "requiredTools": {
+        "axe": 2
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "key": "nightshade",
+    "category": "wood",
+    "primary": "5",
+    "secondary": "1.3",
+    "tertiary": "5",
+    "durability": "780",
+    "integrityCost": "2",
+    "integrityGain": "7",
+    "magicCapacity": "90",
+    "toolLevel": "3",
+    "toolEfficiency": "6",
+    "tints": {
+        "glyph": "915f2a",
+        "texture": "915f2a"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "byg:nightshade_planks"
+    },
+    "requiredTools": {
+        "axe": 5
+    }
+}

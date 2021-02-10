@@ -1,0 +1,28 @@
+{
+    "key": "soapstone",
+    "category": "stone",
+    "primary": "3",
+    "secondary": "3.5",
+    "tertiary": "0",
+    "durability": "300",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "84",
+    "toolLevel": "2",
+    "toolEfficiency": "3.5",
+    "tints": {
+        "glyph": "3f3f3f",
+        "texture": "3f3f3f"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "byg:soapstone"
+    },
+    "requiredTools": {
+        "hammer": 1
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "key": "embur",
+    "category": "wood",
+    "primary": "2.8",
+    "secondary": "1.2",
+    "tertiary": "7.5",
+    "durability": "100",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "2",
+    "toolEfficiency": "4",
+    "tints": {
+        "glyph": "463527",
+        "texture": "463527"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "byg:embur_planks"
+    },
+    "requiredTools": {
+        "axe": 3
+    }
+}

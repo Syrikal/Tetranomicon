@@ -1,0 +1,33 @@
+{
+    "key": "aurora_crystal",
+    "category": "gem",
+    "primary": "5",
+    "secondary": "2",
+    "tertiary": "0",
+    "durability": "131",
+    "integrityCost": "2",
+    "integrityGain": "1",
+    "magicCapacity": "150",
+    "toolLevel": "6",
+    "toolEfficiency": "6",
+    "tints": {
+        "glyph": "862ec0",
+        "texture": "862ec0"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "betterendforge:crystal_shards"
+    },
+    "improvements": {
+        "arrested": 0
+    },
+    "effects": {
+        "intuit": 1
+    },
+    "requiredTools": {
+        "hammer": 5
+    }
+}

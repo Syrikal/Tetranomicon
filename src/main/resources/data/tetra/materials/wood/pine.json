@@ -1,0 +1,27 @@
+{
+    "key": "pine",
+    "category": "wood",
+    "primary": "2",
+    "secondary": "1.5",
+    "tertiary": "6",
+    "durability": "45",
+    "integrityCost": "1",
+    "integrityGain": "3",
+    "magicCapacity": "108",
+    "toolLevel": "1",
+    "toolEfficiency": "3",
+    "tints": {
+        "glyph": "968b70",
+        "texture": "968b70"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "byg:pine_planks"
+    },
+    "requiredTools": {
+        "axe": 1
+    }
+}

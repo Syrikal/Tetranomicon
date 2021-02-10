@@ -1,0 +1,27 @@
+{
+    "key": "cypress",
+    "category": "wood",
+    "primary": "3.5",
+    "secondary": "1.7",
+    "tertiary": "6",
+    "durability": "120",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "1",
+    "toolEfficiency": "2.5",
+    "tints": {
+        "glyph": "b4b37b",
+        "texture": "b4b37b"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "byg:cypress_planks"
+    },
+    "requiredTools": {
+        "axe": 1
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "key": "umbrella",
+    "category": "wood",
+    "primary": "4",
+    "secondary": "2.4",
+    "tertiary": "6",
+    "durability": "600",
+    "integrityCost": "2",
+    "integrityGain": "6",
+    "magicCapacity": "114",
+    "toolLevel": "2",
+    "toolEfficiency": "10",
+    "tints": {
+        "glyph": "04646c",
+        "texture": "04646c"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "betterendforge:umbrella_tree_planks"
+    },
+    "requiredTools": {
+        "axe": 5
+    }
+}

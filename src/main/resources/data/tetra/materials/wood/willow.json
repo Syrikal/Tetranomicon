@@ -1,0 +1,27 @@
+{
+    "key": "willow",
+    "category": "wood",
+    "primary": "2",
+    "secondary": "1.2",
+    "tertiary": "7",
+    "durability": "40",
+    "integrityCost": "1",
+    "integrityGain": "2",
+    "magicCapacity": "108",
+    "toolLevel": "1",
+    "toolEfficiency": "3",
+    "tints": {
+        "glyph": "576832",
+        "texture": "576832"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "byg:willow_planks"
+    },
+    "requiredTools": {
+        "axe": 1
+    }
+}

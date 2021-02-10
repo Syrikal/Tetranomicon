@@ -1,0 +1,37 @@
+modLoader="javafml" #mandatory
+loaderVersion="[35,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="MIT"
+issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]] #mandatory
+modId="tetranomicon" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Tetranomicon" #mandatory
+updateJSONURL="http://myurl.me/" #optional
+displayURL="http://example.com/" #optional
+logoFile="examplemod.png" #optional
+credits="Mickelus made most of the templates and Tetra itself. Credits for the other mods' materials go to their respective authors." #optional
+authors="Syric" #optional
+description='''
+Adds Tetra support to materials from Better End, BOP, BYG, Enderite, Quark, and Wyrmroost.
+'''
+
+[[dependencies.tetranomicon]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[35,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+# Here's another dependency
+[[dependencies.tetranomicon]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4,1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.tetranomicon]]
+    modId="tetra"
+    mandatory=true
+    versionRange="[3.3.0,)"
+    ordering="NONE"
+    side="BOTH"

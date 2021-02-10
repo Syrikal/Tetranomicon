@@ -1,0 +1,28 @@
+{
+    "key": "aeternium",
+    "category": "metal",
+    "primary": "7.5",
+    "secondary": "3.5",
+    "tertiary": "4.5",
+    "durability": "2196",
+    "integrityCost": "2",
+    "integrityGain": "12",
+    "magicCapacity": "108",
+    "toolLevel": "6",
+    "toolEfficiency": "10",
+    "tints": {
+        "glyph": "6c8c84",
+        "texture": "6c8c84"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "item": "betterendforge:aeternium_ingot",
+        "count": 1
+    },
+    "requiredTools": {
+        "hammer": 6
+    }
+}

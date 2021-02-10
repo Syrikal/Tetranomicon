@@ -1,0 +1,27 @@
+{
+    "key": "umbran",
+    "category": "wood",
+    "primary": "3.5",
+    "secondary": "1.6",
+    "tertiary": "6.5",
+    "durability": "200",
+    "integrityCost": "1",
+    "integrityGain": "5",
+    "magicCapacity": "132",
+    "toolLevel": "2",
+    "toolEfficiency": "6",
+    "tints": {
+        "glyph": "655575",
+        "texture": "655575"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "biomesoplenty:umbran_planks"
+    },
+    "requiredTools": {
+        "axe": 3
+    }
+}

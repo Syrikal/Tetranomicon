@@ -1,0 +1,30 @@
+{
+    "key": "tenanea",
+    "category": "wood",
+    "primary": "3.5",
+    "secondary": "2",
+    "tertiary": "6.2",
+    "durability": "780",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "96",
+    "toolLevel": "3",
+    "toolEfficiency": "11",
+    "effects": {
+        "enderReverb": [6, 0.6]
+    },
+    "tints": {
+        "glyph": "944f86",
+        "texture": "944f86"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "betterendforge:tenanea_planks"
+    },
+    "requiredTools": {
+        "axe": 5
+    }
+}

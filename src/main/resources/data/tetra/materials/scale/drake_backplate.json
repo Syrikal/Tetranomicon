@@ -1,0 +1,27 @@
+{
+    "key": "drake_backplate",
+    "category": "scale",
+    "primary": "6",
+    "secondary": "3.2",
+    "tertiary": "2",
+    "durability": "360",
+    "integrityCost": "2",
+    "integrityGain": "5",
+    "magicCapacity": "54",
+    "toolLevel": "0",
+    "toolEfficiency": "0",
+    "tints": {
+        "glyph": "3c5d45",
+        "texture": "3c5d45"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "wyrmroost:drake_backplate"
+    },
+    "requiredTools": {
+        "cut": 3
+    }
+}

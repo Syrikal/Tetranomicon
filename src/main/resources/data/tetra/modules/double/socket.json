@@ -1,0 +1,139 @@
+{
+    "replace": false,
+    "variants": [
+        {
+            "key": "double_socket/ametrine",
+            "category": "gem",
+            "durability": 1024,
+            "durabilityMultiplier": 1,
+            "integrity": -1,
+            "attributes": {
+                "generic.armor": 2,
+                "generic.armor_toughness": 2
+            },
+            "glyph": {
+                "tint": "d399d1",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/double/binding/socket/default",
+                "tint": "d399d1"
+            }]
+        },
+        {
+            "key": "double_socket/blue_geode",
+            "category": "gem",
+            "durability": 512,
+            "durabilityMultiplier": 0.8,
+            "integrity": -1,
+            "attributes": {
+                "**generic.attack_damage": 0.1
+            },
+            "tools": {
+                "axe": [0, 2],
+                "shovel": [0, 2],
+                "pickaxe": [0, 2],
+                "hoe": [0, 2],
+                "cut": [0, 2]
+            },
+            "glyph": {
+                "tint": "225589",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/double/binding/socket/default",
+                "tint": "225589"
+            }]
+        },
+        {
+            "key": "double_socket/red_geode",
+            "category": "gem",
+            "durability": 640,
+            "durabilityMultiplier": 0.8,
+            "integrity": -1,
+            "attributes": {
+                "**generic.attack_damage": 0.2
+            },
+            "tools": {
+                "axe": [0, 3],
+                "shovel": [0, 3],
+                "pickaxe": [0, 3],
+                "hoe": [0, 3],
+                "cut": [0, 3]
+            },
+            "glyph": {
+                "tint": "8d2e2f",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/double/binding/socket/default",
+                "tint": "8d2e2f"
+            }]
+        },
+        {
+            "key": "double_socket/purple_geode",
+            "category": "gem",
+            "durability": 768,
+            "durabilityMultiplier": 0.8,
+            "integrity": -1,
+            "attributes": {
+                "**generic.attack_damage": 0.3
+            },
+            "tools": {
+                "axe": [0, 5],
+                "shovel": [0, 5],
+                "pickaxe": [0, 5],
+                "hoe": [0, 5],
+                "cut": [0, 5]
+            },
+            "glyph": {
+                "tint": "9b0dbf",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/double/binding/socket/default",
+                "tint": "9b0dbf"
+            }]
+        },
+        {
+            "key": "double_socket/aurora_crystal",
+            "category": "gem",
+            "integrity": -1,
+            "glyph": {
+                "tint": "862ec0",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/double/binding/socket/default",
+                "tint": "862ec0"
+            }],
+            "effects": {
+                "intuit": 1
+            }
+        },
+        {
+            "key": "double_socket/eternal_crystal",
+            "category": "gem",
+            "durability": 512,
+            "durabilityMultiplier": 0.8,
+            "integrity": -1,
+            "glyph": {
+                "tint": "00fbf8",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/double/binding/socket/default",
+                "tint": "00fbf8"
+            }],
+            "effects": {
+                "intuit": 3
+            }
+        }
+    ]
+}

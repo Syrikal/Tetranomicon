@@ -1,0 +1,31 @@
+{
+    "key": "violecite",
+    "category": "stone",
+    "primary": "4.5",
+    "secondary": "7",
+    "tertiary": "0",
+    "durability": "500",
+    "integrityCost": "3",
+    "integrityGain": "2",
+    "magicCapacity": "90",
+    "toolLevel": "2",
+    "toolEfficiency": "6",
+    "improvements": {
+        "violecite_density": 0
+    },
+    "tints": {
+        "glyph": "3b2f43",
+        "texture": "3b2f43"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "betterendforge:violecite"
+    },
+    "requiredTools": {
+        "hammer": 5
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "key": "hellbark",
+    "category": "wood",
+    "primary": "4.5",
+    "secondary": "1.7",
+    "tertiary": "5.5",
+    "durability": "250",
+    "integrityCost": "2",
+    "integrityGain": "6",
+    "magicCapacity": "72",
+    "toolLevel": "2",
+    "toolEfficiency": "4",
+    "tints": {
+        "glyph": "372c2d",
+        "texture": "372c2d"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "biomesoplenty:hellbark_planks"
+    },
+    "requiredTools": {
+        "axe": 3
+    }
+}

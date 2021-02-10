@@ -1,0 +1,28 @@
+{
+    "key": "marble",
+    "category": "stone",
+    "primary": "3",
+    "secondary": "3.5",
+    "tertiary": "0",
+    "durability": "200",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "2",
+    "toolEfficiency": "4",
+    "tints": {
+        "glyph": "c0c2c4",
+        "texture": "c0c2c4"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "quark:marble"
+    },
+    "requiredTools": {
+        "hammer": 1
+    }
+}

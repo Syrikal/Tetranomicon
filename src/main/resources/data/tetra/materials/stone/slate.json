@@ -1,0 +1,28 @@
+{
+    "key": "slate",
+    "category": "stone",
+    "primary": "4.5",
+    "secondary": "3",
+    "tertiary": "0",
+    "durability": "131",
+    "integrityCost": "1",
+    "integrityGain": "2",
+    "magicCapacity": "78",
+    "toolLevel": "2",
+    "toolEfficiency": "4",
+    "tints": {
+        "glyph": "4a5c5e",
+        "texture": "4a5c5e"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "quark:slate"
+    },
+    "requiredTools": {
+        "hammer": 1
+    }
+}

@@ -1,0 +1,88 @@
+[
+  {
+    "predicate": {
+      "item": "byg:pendorite_shovel"
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/pendorite"],
+      "single/handle": ["single/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "enderitemod:enderite_shovel"
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/enderite"],
+      "single/handle": ["single/basic_handle", "basic_handle/stick"]
+    },
+    "improvements": {
+      "single/head:enderite_void_floating_innate": 3
+    }
+  },
+  {
+    "predicate": {
+      "item": "wyrmroost:blue_geode_shovel"
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/blue_geode"],
+      "single/handle": ["single/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "wyrmroost:red_geode_shovel"
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/red_geode"],
+      "single/handle": ["single/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "wyrmroost:purple_geode_shovel"
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/purple_geode"],
+      "single/handle": ["single/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "wyrmroost:platinum_shovel"
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/platinum"],
+      "single/handle": ["single/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "betterendforge:terminite_shovel"
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/terminite"],
+      "single/handle": ["single/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "betterendforge:aeternium_shovel"
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/aeternium"],
+      "single/handle": ["single/basic_handle", "basic_handle/stick"]
+    },
+    "improvements": {
+      "single/handle:basic_handle/wrap_leather": 1
+    }
+  }
+]

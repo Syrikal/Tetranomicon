@@ -1,0 +1,27 @@
+{
+    "key": "ether",
+    "category": "wood",
+    "primary": "4.5",
+    "secondary": "1",
+    "tertiary": "5",
+    "durability": "200",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "102",
+    "toolLevel": "3",
+    "toolEfficiency": "6",
+    "tints": {
+        "glyph": "5f9584",
+        "texture": "5f9584"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "byg:ether_planks"
+    },
+    "requiredTools": {
+        "axe": 5
+    }
+}

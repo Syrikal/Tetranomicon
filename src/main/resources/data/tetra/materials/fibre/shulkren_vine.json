@@ -1,0 +1,27 @@
+{
+    "key": "shulkren_vine",
+    "category": "fibre",
+    "primary": "3",
+    "secondary": "1.2",
+    "tertiary": "3.5",
+    "durability": "650",
+    "integrityCost": "1",
+    "integrityGain": "6",
+    "magicCapacity": "108",
+    "toolLevel": "0",
+    "toolEfficiency": "0",
+    "tints": {
+        "glyph": "007e3e",
+        "texture": "007e3e"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "byg:shulkren_vine"
+    },
+    "requiredTools": {
+        "cut": 3
+    }
+}

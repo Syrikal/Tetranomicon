@@ -1,0 +1,69 @@
+{
+    "replace": false,
+    "outcomes": [
+        {
+            "material": {
+                "item": "minecraft:nether_star"
+            },
+            "experienceCost": 30,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/nether_star"
+        },
+        {
+            "material": {
+                "item": "byg:ametrine_gems"
+            },
+            "experienceCost": 10,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/ametrine"
+        },
+        {
+            "material": {
+                "item": "wyrmroost:blue_geode"
+            },
+            "experienceCost": 2,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/blue_geode"
+        },
+        {
+            "material": {
+                "item": "wyrmroost:red_geode"
+            },
+            "experienceCost": 5,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/red_geode"
+        },
+        {
+            "material": {
+                "item": "wyrmroost:purple_geode"
+            },
+            "experienceCost": 10,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/purple_geode"
+        },
+        {
+            "material": {
+                "item": "betterendforge:crystal_shards"
+            },
+            "experienceCost": 5,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/aurora_crystal"
+        },
+        {
+            "material": {
+                "item": "betterendforge:eternal_crystal"
+            },
+            "experienceCost": 20,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/eternal_crystal"
+        },
+        {
+            "material": {
+                "item": "betterendforge:amber_gem"
+            },
+            "experienceCost": 2,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/amber"
+        }
+    ]
+}

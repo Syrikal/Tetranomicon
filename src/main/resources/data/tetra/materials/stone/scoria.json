@@ -1,0 +1,28 @@
+{
+    "key": "scoria",
+    "category": "stone",
+    "primary": "3.5",
+    "secondary": "2.4",
+    "tertiary": "0",
+    "durability": "100",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "102",
+    "toolLevel": "2",
+    "toolEfficiency": "4",
+    "tints": {
+        "glyph": "712f25",
+        "texture": "712f25"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "byg:scoria_cobblestone"
+    },
+    "requiredTools": {
+        "hammer": 1
+    }
+}

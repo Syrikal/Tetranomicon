@@ -1,0 +1,27 @@
+{
+    "key": "helix",
+    "category": "wood",
+    "primary": "5",
+    "secondary": "1.6",
+    "tertiary": "7",
+    "durability": "200",
+    "integrityCost": "2",
+    "integrityGain": "5",
+    "magicCapacity": "102",
+    "toolLevel": "4",
+    "toolEfficiency": "5",
+    "tints": {
+        "glyph": "c87d20",
+        "texture": "c87d20"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "betterendforge:helix_tree_planks"
+    },
+    "requiredTools": {
+        "axe": 5
+    }
+}

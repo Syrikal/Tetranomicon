@@ -1,0 +1,27 @@
+{
+    "key": "baobab",
+    "category": "wood",
+    "primary": "4.5",
+    "secondary": "2",
+    "tertiary": "7.5",
+    "durability": "180",
+    "integrityCost": "2",
+    "integrityGain": "7",
+    "magicCapacity": "78",
+    "toolLevel": "2",
+    "toolEfficiency": "4",
+    "tints": {
+        "glyph": "ad9b5c",
+        "texture": "ad9b5c"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "byg:baobab_planks"
+    },
+    "requiredTools": {
+        "axe": 3
+    }
+}

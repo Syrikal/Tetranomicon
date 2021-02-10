@@ -1,0 +1,27 @@
+{
+    "key": "witch_hazel",
+    "category": "wood",
+    "primary": "3.5",
+    "secondary": "1.7",
+    "tertiary": "6",
+    "durability": "120",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "1",
+    "toolEfficiency": "2.5",
+    "tints": {
+        "glyph": "276041",
+        "texture": "276041"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "byg:witch_hazel_planks"
+    },
+    "requiredTools": {
+        "axe": 1
+    }
+}

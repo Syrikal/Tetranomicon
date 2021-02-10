@@ -1,0 +1,31 @@
+{
+    "key": "magmatic_stone",
+    "category": "stone",
+    "primary": "4.3",
+    "secondary": "4.3",
+    "tertiary": "0",
+    "durability": "400",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "3",
+    "toolEfficiency": "5",
+    "tints": {
+        "glyph": "20110d",
+        "texture": "20110d"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "byg:magmatic_stone"
+    },
+    "effects": {
+        "fierySelf": [1, 0.05]
+    },
+    "requiredTools": {
+        "hammer": 2
+    }
+}

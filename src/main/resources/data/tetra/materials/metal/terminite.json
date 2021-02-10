@@ -1,0 +1,27 @@
+{
+    "key": "terminite",
+    "category": "metal",
+    "primary": "6",
+    "secondary": "3",
+    "tertiary": "3.5",
+    "durability": "1230",
+    "integrityCost": "2",
+    "integrityGain": "5",
+    "magicCapacity": "84",
+    "toolLevel": "4",
+    "toolEfficiency": "8.5",
+    "tints": {
+        "glyph": "7aada6",
+        "texture": "7aada6"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "item": "betterendforge:terminite_ingot"
+    },
+    "requiredTools": {
+        "hammer": 3
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "key": "skyris",
+    "category": "wood",
+    "primary": "2.8",
+    "secondary": "1",
+    "tertiary": "6",
+    "durability": "59",
+    "integrityCost": "1",
+    "integrityGain": "2",
+    "magicCapacity": "90",
+    "toolLevel": "1",
+    "toolEfficiency": "3",
+    "tints": {
+        "glyph": "57798c",
+        "texture": "57798c"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "byg:skyris_planks"
+    },
+    "requiredTools": {
+        "axe": 2
+    }
+}

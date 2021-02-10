@@ -1,0 +1,28 @@
+{
+    "key": "flavolite",
+    "category": "stone",
+    "primary": "4",
+    "secondary": "4",
+    "tertiary": "0",
+    "durability": "1561",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "2",
+    "toolEfficiency": "4",
+    "tints": {
+        "glyph": "d4c098",
+        "texture": "d4c098"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "betterendforge:flavolite"
+    },
+    "requiredTools": {
+        "hammer": 5
+    }
+}

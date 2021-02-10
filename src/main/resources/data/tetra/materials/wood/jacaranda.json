@@ -1,0 +1,27 @@
+{
+    "key": "jacaranda",
+    "category": "wood",
+    "primary": "2",
+    "secondary": "1.5",
+    "tertiary": "6",
+    "durability": "50",
+    "integrityCost": "1",
+    "integrityGain": "3",
+    "magicCapacity": "108",
+    "toolLevel": "1",
+    "toolEfficiency": "3",
+    "tints": {
+        "glyph": "966b6a",
+        "texture": "966b6a"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "byg:jacaranda_planks"
+    },
+    "requiredTools": {
+        "axe": 1
+    }
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "predicate": {
+      "item": "byg:pendorite_pickaxe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/pendorite"],
+      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/pendorite"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "enderitemod:enderite_pickaxe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/enderite"],
+      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/enderite"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    },
+    "improvements": {
+      "double/head_left:enderite_void_floating_innate": 3,
+      "double/head_right:enderite_void_floating_innate": 3
+    }
+  },
+  {
+    "predicate": {
+      "item": "wyrmroost:blue_geode_pickaxe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/blue_geode"],
+      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/blue_geode"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "wyrmroost:red_geode_pickaxe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/red_geode"],
+      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/red_geode"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "wyrmroost:purple_geode_pickaxe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/purple_geode"],
+      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/purple_geode"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "wyrmroost:platinum_pickaxe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/platinum"],
+      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/platinum"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "betterendforge:terminite_pickaxe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/terminite"],
+      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/terminite"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "betterendforge:aeternium_pickaxe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/aeternium"],
+      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/aeternium"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    },
+    "improvements": {
+      "double/handle:basic_handle/wrap_leather": 1
+    }
+  }
+]

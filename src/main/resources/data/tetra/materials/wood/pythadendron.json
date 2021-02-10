@@ -1,0 +1,27 @@
+{
+    "key": "pythadendron",
+    "category": "wood",
+    "primary": "5.5",
+    "secondary": "1.7",
+    "tertiary": "5",
+    "durability": "1021",
+    "integrityCost": "2",
+    "integrityGain": "8",
+    "magicCapacity": "90",
+    "toolLevel": "3",
+    "toolEfficiency": "7",
+    "tints": {
+        "glyph": "6b546b",
+        "texture": "6b546b"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "betterendforge:pythadendron_planks"
+    },
+    "requiredTools": {
+        "axe": 5
+    }
+}

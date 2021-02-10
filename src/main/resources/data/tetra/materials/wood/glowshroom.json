@@ -1,0 +1,30 @@
+{
+    "key": "glowshroom",
+    "category": "wood",
+    "primary": "3.8",
+    "secondary": "1.8",
+    "tertiary": "6.5",
+    "durability": "59",
+    "integrityCost": "3",
+    "integrityGain": "1",
+    "magicCapacity": "84",
+    "toolLevel": "3",
+    "toolEfficiency": "18",
+    "tints": {
+        "glyph": "019c87",
+        "texture": "019c87"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "betterendforge:mossy_glowshroom_planks"
+    },
+    "effects": {
+        "unstable": 15
+    },
+    "requiredTools": {
+        "axe": 5
+    }
+}

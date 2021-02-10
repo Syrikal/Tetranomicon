@@ -1,0 +1,30 @@
+{
+    "key": "lament",
+    "category": "wood",
+    "primary": "4",
+    "secondary": "3",
+    "tertiary": "5.5",
+    "durability": "220",
+    "integrityCost": "2",
+    "integrityGain": "5",
+    "magicCapacity": "75",
+    "toolLevel": "2",
+    "toolEfficiency": "4",
+    "tints": {
+        "glyph": "554f9a",
+        "texture": "554f9a"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "byg:lament_planks"
+    },
+    "effects": {
+        "unstable": 10
+    },
+    "requiredTools": {
+        "axe": 3
+    }
+}

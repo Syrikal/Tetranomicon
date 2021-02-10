@@ -1,0 +1,27 @@
+{
+    "key": "dragon_tree",
+    "category": "wood",
+    "primary": "4",
+    "secondary": "2.2",
+    "tertiary": "9",
+    "durability": "600",
+    "integrityCost": "2",
+    "integrityGain": "4",
+    "magicCapacity": "102",
+    "toolLevel": "2",
+    "toolEfficiency": "2",
+    "tints": {
+        "glyph": "302242",
+        "texture": "302242"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "betterendforge:dragon_tree_planks"
+    },
+    "requiredTools": {
+        "axe": 6
+    }
+}

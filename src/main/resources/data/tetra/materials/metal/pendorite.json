@@ -1,0 +1,27 @@
+{
+    "key": "pendorite",
+    "category": "metal",
+    "primary": "8",
+    "secondary": "5",
+    "tertiary": "3",
+    "durability": "2500",
+    "integrityCost": "2",
+    "integrityGain": "6",
+    "magicCapacity": "90",
+    "toolLevel": "6",
+    "toolEfficiency": "9.5",
+    "tints": {
+        "glyph": "723770",
+        "texture": "723770"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "item": "byg:pendorite_scraps"
+    },
+    "requiredTools": {
+        "hammer": 5
+    }
+}

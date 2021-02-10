@@ -1,0 +1,27 @@
+{
+    "key": "lament_vine",
+    "category": "fibre",
+    "primary": "5",
+    "secondary": "3.5",
+    "tertiary": "3",
+    "durability": "400",
+    "integrityCost": "1",
+    "integrityGain": "5",
+    "magicCapacity": "96",
+    "toolLevel": "0",
+    "toolEfficiency": "0",
+    "tints": {
+        "glyph": "48386a",
+        "texture": "48386a"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "byg:lament_vine"
+    },
+    "requiredTools": {
+        "cut": 2
+    }
+}
