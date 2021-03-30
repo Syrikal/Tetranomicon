@@ -1,0 +1,27 @@
+{
+    "key": "bambooab",
+    "category": "wood",
+    "primary": "2.2",
+    "secondary": "1.4",
+    "tertiary": "7.2",
+    "durability": "40",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "90",
+    "toolLevel": "1",
+    "toolEfficiency": "3",
+    "tints": {
+        "glyph": "bb9a4c",
+        "texture": "bb9a4c"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "bamboo_blocks:bamboo_planks"
+    },
+    "requiredTools": {
+        "axe": 1
+    }
+}

@@ -103,5 +103,17 @@
     "improvements": {
       "sword/hilt:basic_hilt/wrap_leather": 1
     }
+  },
+  {
+    "predicate": {
+      "item": "betterendforge:thallasium_sword"
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": ["sword/basic_blade", "basic_blade/thallasium"],
+      "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+      "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/thallasium"],
+      "sword/guard": ["sword/makeshift_guard", "makeshift_guard/thallasium"]
+    }
   }
 ]

@@ -1,0 +1,27 @@
+{
+    "key": "driftwood",
+    "category": "wood",
+    "primary": "3",
+    "secondary": "1.4",
+    "tertiary": "4",
+    "durability": "50",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "96",
+    "toolLevel": "1",
+    "toolEfficiency": "2",
+    "tints": {
+        "glyph": "625c53",
+        "texture": "625c53"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "upgrade_aquatic:driftwood_planks"
+    },
+    "requiredTools": {
+        "axe": 1
+    }
+}

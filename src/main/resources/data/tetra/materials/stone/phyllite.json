@@ -1,0 +1,28 @@
+{
+    "key": "phyllite",
+    "category": "stone",
+    "primary": "4.7",
+    "secondary": "3",
+    "tertiary": "0",
+    "durability": "160",
+    "integrityCost": "1",
+    "integrityGain": "2",
+    "magicCapacity": "78",
+    "toolLevel": "2",
+    "toolEfficiency": "4",
+    "tints": {
+        "glyph": "767676",
+        "texture": "767676"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "unearthed:phyllite"
+    },
+    "requiredTools": {
+        "hammer": 1
+    }
+}

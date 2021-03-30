@@ -3,14 +3,6 @@
     "outcomes": [
         {
             "material": {
-                "item": "minecraft:nether_star"
-            },
-            "experienceCost": 30,
-            "moduleKey": "double/socket",
-            "moduleVariant": "double_socket/nether_star"
-        },
-        {
-            "material": {
                 "item": "byg:ametrine_gems"
             },
             "experienceCost": 10,
@@ -64,6 +56,30 @@
             "experienceCost": 2,
             "moduleKey": "double/socket",
             "moduleVariant": "double_socket/amber"
+        },
+        {
+            "material": {
+                "item": "outer_end:cobalt_crystal_shard"
+            },
+            "experienceCost": 10,
+            "moduleKey": "double/socket",
+            "moduleVariant": "double_socket/cobalt_crystal"
+        },
+        {
+            "material": {
+                "item": "outer_end:rose_crystal_shard"
+            },
+            "experienceCost": 10,
+            "moduleKey": "double/socket",
+            "moduleVariant": "double_socket/rose_crystal"
+        },
+        {
+            "material": {
+                "item": "outer_end:mint_crystal_shard"
+            },
+            "experienceCost": 10,
+            "moduleKey": "double/socket",
+            "moduleVariant": "double_socket/mint_crystal"
         }
     ]
 }

@@ -67,10 +67,7 @@
                 "**generic.attack_damage": 0.1
             },
             "tools": {
-                "axe": [0, 2],
                 "shovel": [0, 2],
-                "pickaxe": [0, 2],
-                "hoe": [0, 2],
                 "cut": [0, 2]
             },
             "glyph": {
@@ -93,10 +90,7 @@
                 "**generic.attack_damage": 0.2
             },
             "tools": {
-                "axe": [0, 3],
                 "shovel": [0, 3],
-                "pickaxe": [0, 3],
-                "hoe": [0, 3],
                 "cut": [0, 3]
             },
             "glyph": {
@@ -119,10 +113,7 @@
                 "**generic.attack_damage": 0.3
             },
             "tools": {
-                "axe": [0, 5],
                 "shovel": [0, 5],
-                "pickaxe": [0, 5],
-                "hoe": [0, 5],
                 "cut": [0, 5]
             },
             "glyph": {
@@ -133,6 +124,67 @@
             "models": [{
                 "location": "tetra:items/module/single/binding/socket/default",
                 "tint": "9b0dbf"
+            }]
+        },
+        {
+            "key": "single_socket/cobalt_crystal",
+            "category": "gem",
+            "durability": 0,
+            "durabilityMultiplier": 0,
+            "integrity": -1,
+            "glyph": {
+                "tint": "768ed0",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/single/binding/socket/default",
+                "tint": "768ed0"
+            }],
+            "effects": {
+                "intuit": 3
+            }
+        },
+
+        {
+            "key": "single_socket/rose_crystal",
+            "category": "gem",
+            "durability": 0,
+            "durabilityMultiplier": 0,
+            "integrity": -1,
+            "attributes": {
+                "**generic.attack_damage": 0.25
+            },
+            "glyph": {
+                "tint": "c56eb9",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/single/binding/socket/default",
+                "tint": "c56eb9"
+            }]
+        },
+
+
+        {
+            "key": "single_socket/mint_crystal",
+            "category": "gem",
+            "durability": 640,
+            "durabilityMultiplier": 0.8,
+            "integrity": -1,
+            "tools": {
+                "shovel": [0, 3],
+                "cut": [0, 3]
+            },
+            "glyph": {
+                "tint": "6fc39c",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/single/binding/socket/default",
+                "tint": "6fc39c"
             }]
         }
     ]

@@ -1,0 +1,27 @@
+{
+    "key": "poise",
+    "category": "wood",
+    "primary": "4.5",
+    "secondary": "1",
+    "tertiary": "5",
+    "durability": "250",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "102",
+    "toolLevel": "2",
+    "toolEfficiency": "5",
+    "tints": {
+        "glyph": "6e3c6f",
+        "texture": "6e3c6f"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "endergetic:poise_planks"
+    },
+    "requiredTools": {
+        "axe": 4
+    }
+}

@@ -84,5 +84,15 @@
     "improvements": {
       "single/handle:basic_handle/wrap_leather": 1
     }
+  },
+  {
+    "predicate": {
+      "item": "betterendforge:thallasium_shovel"
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/thallasium"],
+      "single/handle": ["single/basic_handle", "basic_handle/stick"]
+    }
   }
 ]
