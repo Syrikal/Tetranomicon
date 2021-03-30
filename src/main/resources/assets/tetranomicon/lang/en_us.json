@@ -171,9 +171,9 @@
   "tetra.material.shulkren_vine.prefix": "Shulkren",
   "tetra.material.skyris_vine": "Skyris Vine",
   "tetra.material.skyris_vine.prefix": "Skyris Vine",
-  "tetra.variant.double_socket/ametrine": "Socket [§eAmet§drine§f]",
-  "tetra.variant.single_socket/ametrine": "Socket [§eAmet§drine§f]",
-  "tetra.variant.sword_socket/ametrine": "Socket [§eAmet§drine§f]",
+  "tetra.variant.double_socket/ametrine": "Socket [§eAmet§drine§r]",
+  "tetra.variant.single_socket/ametrine": "Socket [§eAmet§drine§r]",
+  "tetra.variant.sword_socket/ametrine": "Socket [§eAmet§drine§r]",
 
 
   "tetra.material.andesite_alloy": "Andesite Alloy",
@@ -220,15 +220,15 @@
   "tetra.improvement.stave_grip/wrap_tidescale.description": "Increases damage, speed, and durability, reduces negative hilt effects.",
 
 
-  "tetra.variant.double_socket/cobalt_crystal": "Socket [§3Cobalt Crystal§f]",
-  "tetra.variant.single_socket/cobalt_crystal": "Socket [§3Cobalt Crystal§f]",
-  "tetra.variant.sword_socket/cobalt_crystal": "Socket [§3Cobalt Crystal§f]",
-  "tetra.variant.double_socket/rose_crystal": "Socket [§cRose Crystal§f]",
-  "tetra.variant.single_socket/rose_crystal": "Socket [§cRose Crystal§f]",
-  "tetra.variant.sword_socket/rose_crystal": "Socket [§cRose Crystal§f]",
-  "tetra.variant.double_socket/mint_crystal": "Socket [§aMint Crystal§f]",
-  "tetra.variant.single_socket/mint_crystal": "Socket [§aMint Crystal§f]",
-  "tetra.variant.sword_socket/mint_crystal": "Socket [§aMint Crystal§f]",
+  "tetra.variant.double_socket/cobalt_crystal": "Socket [§3Cobalt Crystal§r]",
+  "tetra.variant.single_socket/cobalt_crystal": "Socket [§3Cobalt Crystal§r]",
+  "tetra.variant.sword_socket/cobalt_crystal": "Socket [§3Cobalt Crystal§r]",
+  "tetra.variant.double_socket/rose_crystal": "Socket [§cRose Crystal§r]",
+  "tetra.variant.single_socket/rose_crystal": "Socket [§cRose Crystal§r]",
+  "tetra.variant.sword_socket/rose_crystal": "Socket [§cRose Crystal§r]",
+  "tetra.variant.double_socket/mint_crystal": "Socket [§aMint Crystal§r]",
+  "tetra.variant.single_socket/mint_crystal": "Socket [§aMint Crystal§r]",
+  "tetra.variant.sword_socket/mint_crystal": "Socket [§aMint Crystal§r]",
 
 
   "tetra.material.slate": "Slate",
@@ -275,13 +275,13 @@
   "tetra.material.platinum.prefix": "Platinum",
   "tetra.material.drake_backplate": "Drake Plate",
   "tetra.material.drake_backplate.prefix": "Drake Plate",
-  "tetra.variant.double_socket/blue_geode": "Socket [§9Blue Geode§f]",
-  "tetra.variant.single_socket/blue_geode": "Socket [§9Blue Geode§f]",
-  "tetra.variant.sword_socket/blue_geode": "Socket [§9Blue Geode§f]",
-  "tetra.variant.double_socket/red_geode": "Socket [§4Red Geode§f]",
-  "tetra.variant.single_socket/red_geode": "Socket [§4Red Geode§f]",
-  "tetra.variant.sword_socket/red_geode": "Socket [§4Red Geode§f]",
-  "tetra.variant.double_socket/purple_geode": "Socket [§5Purple Geode§f]",
-  "tetra.variant.single_socket/purple_geode": "Socket [§5Purple Geode§f]",
-  "tetra.variant.sword_socket/purple_geode": "Socket [§5Purple Geode§f]"
+  "tetra.variant.double_socket/blue_geode": "Socket [§9Blue Geode§r]",
+  "tetra.variant.single_socket/blue_geode": "Socket [§9Blue Geode§r]",
+  "tetra.variant.sword_socket/blue_geode": "Socket [§9Blue Geode§r]",
+  "tetra.variant.double_socket/red_geode": "Socket [§4Red Geode§r]",
+  "tetra.variant.single_socket/red_geode": "Socket [§4Red Geode§r]",
+  "tetra.variant.sword_socket/red_geode": "Socket [§4Red Geode§r]",
+  "tetra.variant.double_socket/purple_geode": "Socket [§5Purple Geode§r]",
+  "tetra.variant.single_socket/purple_geode": "Socket [§5Purple Geode§r]",
+  "tetra.variant.sword_socket/purple_geode": "Socket [§5Purple Geode§r]"
 }
