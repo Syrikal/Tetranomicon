@@ -1,9 +1,24 @@
 # Tetranomicon
 
-Adds Tetra support to resources from BetterEnd, BOP, BYG, Enderite, Quark, and Wyrmroost.
+Adds Tetra support to resources from Abnormals mods, BetterEnd, BOP, BYG, Create, Enderite, Ice and Fire, Outer End, Quark, Unearthed, and Wyrmroost.
 
 # Materials List
+## Abnormals Mods
+All wood types from Atmospheric, Autumnity, Bamboo Blocks, Endergetic Expansion, Upgrade Aquatic:
+ - Rosewood
+ - Morado
+ - Yucca
+ - Kousa
+ - Aspen
+ - Grimwood
+ - Maple
+ - Bamboo
+ - Poise
+ - Driftwood
+ - River Wood
+
 ## Better End
+ - Thallasium
  - Terminite
  - Aeternium
  - Aurora Crystals: can be socketed to grant Intuit, like lapis.
@@ -22,7 +37,7 @@ Adds Tetra support to resources from BetterEnd, BOP, BYG, Enderite, Quark, and W
  - Flavolite: like cobblestone but extremely durable.
  - Eternal Runed Flavolite: Has a durability nearly 12 times higher than netherite, making it all but unbreakable. Otherwise identical to cobblestone.
 
-# #Biomes O'Plenty
+##Biomes O'Plenty
  - Cherry
  - Dead: hard and durable, and more enchantable than Hellbark.
  - Hellbark: hard and durable, and as good at mining as stone.
@@ -83,8 +98,27 @@ Wood:
  - Witch Hazel
  - Zelkova
 
+## Create (credit to 2Naato)
+ - Andesite Alloy
+ - Brass
+ - Shadow Steel: enchantable
+ - Refined Radiance: very enchantable
+
 ## Enderite
  - Enderite: major modules grant the Void Floating improvement, which keeps the tools from falling into the Void.
+
+## Ice & Fire
+ - Dragon and sea serpent scales can be used to wrap hilts, grips, and handles. All will improve durability, damage, swing speed, and reduce negative item effects such as Ender Reverb and Blazing.
+ - Fire dragon scales give better damage and reduce Blazing more
+ - Ice dragon scales give better durability
+ - Lightning dragon scales give better swing speed
+ - Sea serpent scales are inferior to dragon scales and do not excel in any particular area
+ - Currently I have no intention to add dragonsteel (it requires significantly more work to add new item effects).
+ - Dragonbone and witherbone are compatible with Tetra by default.
+
+## Outer End
+ - Azure wood
+ - Crystal shards can be socketed: rose for damage, mint for efficiency, cobalt for Intuit (like lapis).
 
 ## Quark
  - Slate
@@ -93,6 +127,17 @@ Wood:
  - Jasper: nearly iron in stats.
  - Voidstone: more durable than obsidian, with better Integrity use, and nearly as good everywhere else.
  - Myalite: better than iron at mining and harder than diamond, but not as light or durable.
+
+## Unearthed
+ - Gabbro
+ - Rhyolite
+ - Kimberlite
+ - Phyllite
+ - Slate
+ - Quartzite
+ - Marble
+ - Schist
+ - Limestone
 
 ## Wyrmroost
  - Blue Geode: roughly equal to diamond. Can be socketed.
@@ -105,6 +150,6 @@ Wood:
 
 This compatibility pack was written and compiled by Syric.
 
-mickelus wrote Tetra and made the templates I used. The other mods' authors wrote their mods and came up with all the materials.
+mickelus wrote Tetra and made the templates I used. The other mods' authors wrote their mods and came up with all the materials. 2Naato wrote the Create materials' files.
 
 Thank you to everyone who helped along the way.

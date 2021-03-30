@@ -13,7 +13,7 @@ logoFile="examplemod.png" #optional
 credits="Mickelus made most of the templates and Tetra itself. Credits for the other mods' materials go to their respective authors." #optional
 authors="Syric" #optional
 description='''
-Adds Tetra support to materials from Better End, BOP, BYG, Enderite, Quark, and Wyrmroost.
+Adds Tetra support to materials from Abnormals mods, Better End, BOP, BYG, Create, Enderite, Ice and Fire, Outer End, Quark, Unearthed, and Wyrmroost.
 '''
 
 [[dependencies.tetranomicon]] #optional
