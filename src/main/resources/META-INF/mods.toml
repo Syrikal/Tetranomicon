@@ -33,5 +33,5 @@ Adds Tetra support to materials from Abnormals mods, Better End, BOP, BYG, Creat
     modId="tetra"
     mandatory=true
     versionRange="[3.3.0,)"
-    ordering="NONE"
+    ordering="AFTER"
     side="BOTH"
