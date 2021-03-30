@@ -129,8 +129,6 @@
         {
             "key": "single_socket/cobalt_crystal",
             "category": "gem",
-            "durability": 0,
-            "durabilityMultiplier": 0,
             "integrity": -1,
             "glyph": {
                 "tint": "768ed0",
@@ -149,8 +147,6 @@
         {
             "key": "single_socket/rose_crystal",
             "category": "gem",
-            "durability": 0,
-            "durabilityMultiplier": 0,
             "integrity": -1,
             "attributes": {
                 "**generic.attack_damage": 0.25
