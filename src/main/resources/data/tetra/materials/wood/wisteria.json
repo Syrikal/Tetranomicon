@@ -1,0 +1,27 @@
+{
+    "key": "wisteria",
+    "category": "wood",
+    "primary": "2.8",
+    "secondary": "2",
+    "tertiary": "5.7",
+    "durability": "80",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "102",
+    "toolLevel": "1",
+    "toolEfficiency": "2",
+    "tints": {
+        "glyph": "e0d4b0",
+        "texture": "e0d4b0"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "environmental:wisteria_planks"
+    },
+    "requiredTools": {
+        "axe": 1
+    }
+}
