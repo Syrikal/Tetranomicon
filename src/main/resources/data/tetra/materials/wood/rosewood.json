@@ -1,0 +1,27 @@
+{
+    "key": "rosewood",
+    "category": "wood",
+    "primary": "3.5",
+    "secondary": "2",
+    "tertiary": "6.5",
+    "durability": "90",
+    "integrityCost": "2",
+    "integrityGain": "5",
+    "magicCapacity": "96",
+    "toolLevel": "1",
+    "toolEfficiency": "4",
+    "tints": {
+        "glyph": "735a5b",
+        "texture": "735a5b"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "atmospheric:rosewood_planks"
+    },
+    "requiredTools": {
+        "axe": 2
+    }
+}

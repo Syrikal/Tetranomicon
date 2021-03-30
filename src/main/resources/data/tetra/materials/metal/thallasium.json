@@ -1,0 +1,27 @@
+{
+    "key": "thallasium",
+    "category": "metal",
+    "primary": "4.5",
+    "secondary": "3.6",
+    "tertiary": "2.8",
+    "durability": "320",
+    "integrityCost": "2",
+    "integrityGain": "5",
+    "magicCapacity": "72",
+    "toolLevel": "3",
+    "toolEfficiency": "7",
+    "tints": {
+        "glyph": "98e3d8",
+        "texture": "98e3d8"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "item": "betterendforge:thallasium_ingot"
+    },
+    "requiredTools": {
+        "hammer": 2
+    }
+}

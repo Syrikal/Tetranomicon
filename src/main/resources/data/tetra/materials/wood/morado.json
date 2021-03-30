@@ -1,0 +1,27 @@
+{
+    "key": "morado",
+    "category": "wood",
+    "primary": "3.5",
+    "secondary": "2",
+    "tertiary": "6.5",
+    "durability": "90",
+    "integrityCost": "2",
+    "integrityGain": "5",
+    "magicCapacity": "96",
+    "toolLevel": "1",
+    "toolEfficiency": "4",
+    "tints": {
+        "glyph": "7e3439",
+        "texture": "7e3439"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "atmospheric:morado_planks"
+    },
+    "requiredTools": {
+        "axe": 2
+    }
+}

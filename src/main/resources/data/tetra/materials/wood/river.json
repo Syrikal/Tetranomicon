@@ -1,0 +1,27 @@
+{
+    "key": "river",
+    "category": "wood",
+    "primary": "2.8",
+    "secondary": "1.8",
+    "tertiary": "6",
+    "durability": "80",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "1",
+    "toolEfficiency": "2",
+    "tints": {
+        "glyph": "735844",
+        "texture": "735844"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "upgrade_aquatic:river_planks"
+    },
+    "requiredTools": {
+        "axe": 1
+    }
+}

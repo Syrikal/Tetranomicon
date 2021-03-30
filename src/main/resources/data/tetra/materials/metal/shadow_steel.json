@@ -1,0 +1,31 @@
+{
+   "key": "shadow_steel",
+   "category": "metal",
+   "primary": "6.2",
+   "secondary": "3.5",
+   "tertiary": "2.1",
+   "durability": "1365",
+   "integrityCost": "2",
+   "integrityGain": "5",
+   "magicCapacity": "99",
+   "toolLevel": "4",
+   "toolEfficiency": "8",
+   "tints": {
+	"glyph":"5d5164",
+	"texture":"5d5164"
+   },
+   "textures": [
+	"metal",
+	"default"
+   ],
+   "material": {
+ 	"item":"create:shadow_steel"
+   },
+   "effects": {
+	"stabilizing":8
+   },
+
+   "requiredTools":{
+	"hammer":4
+   }
+}

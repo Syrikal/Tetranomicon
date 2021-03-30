@@ -1,0 +1,28 @@
+{
+    "key": "rhyolite",
+    "category": "stone",
+    "primary": "4",
+    "secondary": "3.5",
+    "tertiary": "0",
+    "durability": "180",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "2",
+    "toolEfficiency": "4.5",
+    "tints": {
+        "glyph": "ac7c6c",
+        "texture": "ac7c6c"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "unearthed:rhyolite"
+    },
+    "requiredTools": {
+        "hammer": 1
+    }
+}

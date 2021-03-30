@@ -1,0 +1,27 @@
+{
+    "key": "grimwood",
+    "category": "wood",
+    "primary": "3.5",
+    "secondary": "1.6",
+    "tertiary": "6.5",
+    "durability": "200",
+    "integrityCost": "1",
+    "integrityGain": "5",
+    "magicCapacity": "102",
+    "toolLevel": "2",
+    "toolEfficiency": "6",
+    "tints": {
+        "glyph": "211414",
+        "texture": "211414"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "atmospheric:grimwood_planks"
+    },
+    "requiredTools": {
+        "axe": 3
+    }
+}

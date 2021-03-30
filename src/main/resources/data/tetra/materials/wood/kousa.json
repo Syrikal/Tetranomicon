@@ -1,0 +1,27 @@
+{
+    "key": "kousa",
+    "category": "wood",
+    "primary": "4",
+    "secondary": "2.4",
+    "tertiary": "2.8",
+    "durability": "180",
+    "integrityCost": "2",
+    "integrityGain": "6",
+    "magicCapacity": "72",
+    "toolLevel": "2",
+    "toolEfficiency": "5",
+    "tints": {
+        "glyph": "728778",
+        "texture": "728778"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "atmospheric:kousa_planks"
+    },
+    "requiredTools": {
+        "axe": 2
+    }
+}
