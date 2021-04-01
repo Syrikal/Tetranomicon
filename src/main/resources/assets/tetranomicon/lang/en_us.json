@@ -31,6 +31,10 @@
   "tetra.material.yucca.prefix": "Yucca",
 
 
+  "tetra.material.cypressbb": "Cypress",
+  "tetra.material.cypressbb.prefix": "Cypress",
+
+
   "tetra.material.thallasium": "Thallasium",
   "tetra.material.thallasium.prefix": "Thallasium",
   "tetra.material.terminite": "Terminite",
@@ -198,6 +202,13 @@
   "tetra.improvement.enderite_void_floating_innate.description": "Causes the item to float above the Void instead of falling in.",
 
 
+  "tetra.material.fire_dragonsteel": "Fire Dragonsteel",
+  "tetra.material.fire_dragonsteel.prefix": "Fire Dragonsteel",
+  "tetra.material.ice_dragonsteel": "Ice Dragonsteel",
+  "tetra.material.ice_dragonsteel.prefix": "Ice Dragonsteel",
+  "tetra.material.lightning_dragonsteel": "Lightning Dragonsteel",
+  "tetra.material.lightning_dragonsteel.prefix": "Lightning Dragonsteel",
+
   "tetra.improvement.basic_handle/wrap_flamescale.name": "Flamescale Wrap",
   "tetra.improvement.basic_handle/wrap_flamescale.description": "Increases damage, speed, and durability, reduces negative hilt effects.",
   "tetra.improvement.basic_handle/wrap_frostscale.name": "Frostscale Wrap",
@@ -217,13 +228,13 @@
   "tetra.improvement.basic_hilt/wrap_tidescale.description": "Increases damage, speed, and durability, reduces negative hilt effects.",
 
   "tetra.improvement.stave_grip/wrap_flamescale.name": "Flamescale Wrap",
-  "tetra.improvement.stave_grip/wrap_flamescale.description": "Increases damage, speed, and durability, reduces negative hilt effects.",
+  "tetra.improvement.stave_grip/wrap_flamescale.description": "Increases power, draw speed, and durability.",
   "tetra.improvement.stave_grip/wrap_frostscale.name": "Frostscale Wrap",
-  "tetra.improvement.stave_grip/wrap_frostscale.description": "Increases damage, speed, and durability, reduces negative hilt effects.",
+  "tetra.improvement.stave_grip/wrap_frostscale.description": "Increases power, draw speed, and durability.",
   "tetra.improvement.stave_grip/wrap_stormscale.name": "Stormscale Wrap",
-  "tetra.improvement.stave_grip/wrap_stormscale.description": "Increases damage, speed, and durability, reduces negative hilt effects.",
+  "tetra.improvement.stave_grip/wrap_stormscale.description": "Increases power, draw speed, and durability.",
   "tetra.improvement.stave_grip/wrap_tidescale.name": "Tidescale Wrap",
-  "tetra.improvement.stave_grip/wrap_tidescale.description": "Increases damage, speed, and durability, reduces negative hilt effects.",
+  "tetra.improvement.stave_grip/wrap_tidescale.description": "Increases power, draw speed, and durability.",
 
 
   "tetra.variant.double_socket/cobalt_crystal": "Socket [§3Cobalt Crystal§r]",
