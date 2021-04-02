@@ -4,7 +4,7 @@ Adds Tetra support to resources from Abnormals mods, BetterEnd, BOP, BYG, Create
 
 # Materials List
 ## Abnormals Mods
-All wood types from Atmospheric, Autumnity, Bamboo Blocks, Endergetic Expansion, Upgrade Aquatic:
+All wood types from Atmospheric, Autumnity, Bamboo Blocks, Endergetic Expansion, Environmental, Upgrade Aquatic:
  - Rosewood
  - Morado
  - Yucca
@@ -16,6 +16,12 @@ All wood types from Atmospheric, Autumnity, Bamboo Blocks, Endergetic Expansion,
  - Poise
  - Driftwood
  - River Wood
+ - Cherry
+ - Willow
+ - Wisteria
+
+##Bayou Blues
+ - Cypress wood
 
 ## Better End
  - Thallasium
@@ -113,7 +119,7 @@ Wood:
  - Ice dragon scales give better durability
  - Lightning dragon scales give better swing speed
  - Sea serpent scales are inferior to dragon scales and do not excel in any particular area
- - Currently I have no intention to add dragonsteel (it requires significantly more work to add new item effects).
+ - Dragonsteel (please note: it has no effects, is not affected by the I&F config, and you can't directly modify existing dragonsteel tools.)
  - Dragonbone and witherbone are compatible with Tetra by default.
 
 ## Outer End
