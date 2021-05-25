@@ -104,5 +104,27 @@
         "double/head_right": ["double/butt_right", "butt/thallasium"],
         "double/handle": ["double/basic_handle", "basic_handle/stick"]
       }
+  },
+  {
+    "predicate": {
+      "item": "twilightforest:ironwood_hoe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/hoe_left", "hoe/ironwood"],
+      "double/head_right": ["double/butt_right", "butt/ironwood"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "twilightforest:steeleaf_hoe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/hoe_left", "hoe/steeleaf"],
+      "double/head_right": ["double/butt_right", "butt/steeleaf"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    }
   }
 ]

@@ -22,7 +22,7 @@
         "default"
     ],
     "material": {
-        "tag": "twilightforest:ironwood_ingot"
+        "item": "twilightforest:ironwood_ingot"
     },
     "requiredTools": {
         "hammer": 2

@@ -11,8 +11,8 @@
     "toolLevel": "4",
     "toolEfficiency": "8",
     "improvements": {
-        "tetra:enchantment/efficiency": 2,
-        "tetra:enchantment/looting": 2
+        "enchantment/efficiency": 2,
+        "enchantment/looting": 2
     },
     "tints": {
         "glyph": "385e2b",

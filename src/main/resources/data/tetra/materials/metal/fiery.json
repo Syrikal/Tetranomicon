@@ -11,7 +11,7 @@
     "toolLevel": "5",
     "toolEfficiency": "9",
     "improvements": {
-        "tetra:enchantment/fire_aspect": 1
+        "enchantment/fire_aspect": 1
     },
     "effects": {
         "fierySelf": [3, 0.1]

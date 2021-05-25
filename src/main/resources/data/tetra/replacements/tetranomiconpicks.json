@@ -104,5 +104,56 @@
       "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/thallasium"],
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
     }
+  },
+  {
+    "predicate": {
+      "item": "twilightforest:fiery_pickaxe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/fiery"],
+      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/fiery"],
+      "double/handle": ["double/basic_handle", "basic_handle/blaze_rod"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "twilightforest:ironwood_pickaxe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/ironwood"],
+      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/ironwood"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    },
+    "improvements": {
+      "double/handle:enchantment/efficiency": 1
+    }
+  },
+  {
+    "predicate": {
+      "item": "twilightforest:knightmetal_pickaxe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/knightmetal"],
+      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/knightmetal"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "twilightforest:steeleaf_pickaxe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/steeleaf"],
+      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/steeleaf"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    },
+    "improvements": {
+      "double/head_left:enchantment/fortune": 1,
+      "double/head_right:enchantment/fortune": 1
+    }
   }
 ]

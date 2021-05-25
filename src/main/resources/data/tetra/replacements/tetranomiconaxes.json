@@ -115,5 +115,44 @@
             "double/head_right": ["double/butt_right", "butt/thallasium"],
             "double/handle": ["double/basic_handle", "basic_handle/stick"]
           }
+      },
+      {
+        "predicate": {
+          "item": "twilightforest:knightmetal_axe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+          "double/head_left": ["double/basic_axe_left", "basic_axe/knightmetal"],
+          "double/head_right": ["double/butt_right", "butt/knightmetal"],
+          "double/handle": ["double/basic_handle", "basic_handle/stick"]
+        }
+      },
+      {
+        "predicate": {
+          "item": "twilightforest:steeleaf_axe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+          "double/head_left": ["double/basic_axe_left", "basic_axe/steeleaf"],
+          "double/head_right": ["double/butt_right", "butt/steeleaf"],
+          "double/handle": ["double/basic_handle", "basic_handle/stick"]
+        },
+        "improvements": {
+          "double/head_left:enchantment/efficiency": 2
+        }
+      },
+      {
+        "predicate": {
+          "item": "twilightforest:ironwood_axe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+          "double/head_left": ["double/basic_axe_left", "basic_axe/ironwood"],
+          "double/head_right": ["double/butt_right", "butt/ironwood"],
+          "double/handle": ["double/basic_handle", "basic_handle/ironwood"]
+        },
+        "improvements": {
+          "double/head_left:enchantment/fortune": 1
+        }
       }
 ]

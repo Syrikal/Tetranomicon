@@ -94,5 +94,31 @@
       "single/head": ["single/basic_shovel", "basic_shovel/thallasium"],
       "single/handle": ["single/basic_handle", "basic_handle/stick"]
     }
+  },
+  {
+    "predicate": {
+      "item": "twilightforest:ironwood_shovel"
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/ironwood"],
+      "single/handle": ["single/basic_handle", "basic_handle/stick"]
+    },
+    "improvements": {
+      "single/handle:enchantment/unbreaking": 1
+    }
+  },
+  {
+    "predicate": {
+      "item": "twilightforest:steeleaf_shovel"
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/steeleaf"],
+      "single/handle": ["single/basic_handle", "basic_handle/stick"]
+    },
+    "improvements": {
+      "single/handle:enchantment/efficiency": 2
+    }
   }
 ]

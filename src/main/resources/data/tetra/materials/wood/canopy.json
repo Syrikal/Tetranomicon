@@ -1,27 +1,27 @@
 {
     "key": "canopy",
     "category": "wood",
-    "primary": "4",
-    "secondary": "1.4",
-    "tertiary": "5.5",
-    "durability": "512",
+    "primary": "3.5",
+    "secondary": "1.5",
+    "tertiary": "6.5",
+    "durability": "256",
     "integrityCost": "1",
-    "integrityGain": "6",
-    "magicCapacity": "102",
+    "integrityGain": "4",
+    "magicCapacity": "90",
     "toolLevel": "2",
-    "toolEfficiency": "6",
+    "toolEfficiency": "5",
     "tints": {
-        "glyph": "442c1c",
-        "texture": "442c1c"
+        "glyph": "8c7254",
+        "texture": "8c7254"
     },
     "textures": [
         "crude",
         "wooden"
     ],
     "material": {
-        "item": "twilightforest:canopy_planks"
+        "item": "twilightforest:twilight_oak_planks"
     },
     "requiredTools": {
-        "axe": 2
+        "axe": 3
     }
 }

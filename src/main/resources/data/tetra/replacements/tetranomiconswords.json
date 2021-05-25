@@ -115,5 +115,62 @@
       "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/thallasium"],
       "sword/guard": ["sword/makeshift_guard", "makeshift_guard/thallasium"]
     }
+  },
+  {
+    "predicate": {
+      "item": "twilightforest:fiery_sword"
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": ["sword/basic_blade", "basic_blade/fiery"],
+      "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+      "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/fiery"],
+      "sword/guard": ["sword/makeshift_guard", "makeshift_guard/fiery"]
+    },
+    "improvements": {
+      "sword/blade:enchantment/fire_aspect": 1
+    }
+  },
+  {
+    "predicate": {
+      "item": "twilightforest:ironwood_sword"
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": ["sword/basic_blade", "basic_blade/ironwood"],
+      "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+      "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/ironwood"],
+      "sword/guard": ["sword/makeshift_guard", "makeshift_guard/ironwood"]
+    },
+    "improvements": {
+      "sword/hilt:enchantment/knockback": 1
+    }
+  },
+  {
+    "predicate": {
+      "item": "twilightforest:knightmetal_sword"
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": ["sword/basic_blade", "basic_blade/knightmetal"],
+      "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+      "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/knightmetal"],
+      "sword/guard": ["sword/makeshift_guard", "makeshift_guard/knightmetal"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "twilightforest:steeleaf_sword"
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": ["sword/basic_blade", "basic_blade/steeleaf"],
+      "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+      "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/steeleaf"],
+      "sword/guard": ["sword/makeshift_guard", "makeshift_guard/steeleaf"]
+    },
+    "improvements": {
+      "sword/blade:enchantment/looting": 2
+    }
   }
 ]
