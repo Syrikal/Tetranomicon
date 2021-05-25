@@ -1,0 +1,31 @@
+{
+    "key": "knightmetal",
+    "category": "metal",
+    "primary": "6",
+    "secondary": "2.9",
+    "tertiary": "3.5",
+    "durability": "512",
+    "integrityCost": "2",
+    "integrityGain": "6",
+    "magicCapacity": "48",
+    "toolLevel": "4",
+    "toolEfficiency": "8",
+    "effects": {
+        "armorPenetration": 20,
+        "crushing": 2
+    },
+    "tints": {
+        "glyph": "748b77",
+        "texture": "748b77"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "item": "twilightforest:knightmetal_ingot"
+    },
+    "requiredTools": {
+        "hammer": 3
+    }
+}

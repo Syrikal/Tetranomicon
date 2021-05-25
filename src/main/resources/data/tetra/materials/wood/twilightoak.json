@@ -1,0 +1,27 @@
+{
+    "key": "twilightoak",
+    "category": "wood",
+    "primary": "3.5",
+    "secondary": "1.5",
+    "tertiary": "6.5",
+    "durability": "256",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "2",
+    "toolEfficiency": "5",
+    "tints": {
+        "glyph": "8c7254",
+        "texture": "8c7254"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "twilightforest:twilight_oak_planks"
+    },
+    "requiredTools": {
+        "axe": 3
+    }
+}
