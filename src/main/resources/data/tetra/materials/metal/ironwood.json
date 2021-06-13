@@ -10,8 +10,11 @@
     "magicCapacity": "150",
     "toolLevel": "3",
     "toolEfficiency": "6.5",
-    "effects": {
-        "unbreaking": 1
+    "improvements": {
+        "ironwood_innate_efficiency": 1,
+        "ironwood_innate_unbreaking": 1,
+        "ironwood_innate_fortune": 1,
+        "ironwood_innate_knockback": 1
     },
     "tints": {
         "glyph": "979283",

@@ -69,13 +69,18 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.4-35.1.28'
+    minecraft 'net.minecraftforge:forge:1.16.5-36.1.0'
 
     compile fg.deobf("curse.maven:mgui:3104239")
     compile fg.deobf("curse.maven:tetra:3232294")
-    compile fg.deobf("curse.maven:citadel:3198842")
-    compile fg.deobf("curse.maven:ice-and-fire-dragons:3217622")
+
+    compile fg.deobf("curse.maven:the-twilight-forest:3334287")
+
+//    compile fg.deobf("curse.maven:citadel:3299591")
+//    compile fg.deobf("curse.maven:ice-and-fire-dragons:3217622")
+
 }
+
 
 jar {
     manifest {

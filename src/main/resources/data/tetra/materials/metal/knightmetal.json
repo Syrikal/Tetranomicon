@@ -11,8 +11,7 @@
     "toolLevel": "4",
     "toolEfficiency": "8",
     "effects": {
-        "armorPenetration": 20,
-        "crushing": 2
+        "armorPenetration": 2
     },
     "tints": {
         "glyph": "748b77",

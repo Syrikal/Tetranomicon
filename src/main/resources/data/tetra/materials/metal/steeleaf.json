@@ -11,8 +11,10 @@
     "toolLevel": "4",
     "toolEfficiency": "8",
     "improvements": {
-        "enchantment/efficiency": 2,
-        "enchantment/looting": 2
+        "steeleaf_innate_efficiency": 1,
+        "steeleaf_innate_efficiency_two": 2,
+        "steeleaf_innate_looting": 2,
+        "steeleaf_innate_fortune": 1
     },
     "tints": {
         "glyph": "385e2b",

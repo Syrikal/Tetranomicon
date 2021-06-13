@@ -125,9 +125,6 @@
       "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/ironwood"],
       "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/ironwood"],
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
-    },
-    "improvements": {
-      "double/handle:enchantment/efficiency": 1
     }
   },
   {
@@ -150,10 +147,6 @@
       "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/steeleaf"],
       "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/steeleaf"],
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
-    },
-    "improvements": {
-      "double/head_left:enchantment/fortune": 1,
-      "double/head_right:enchantment/fortune": 1
     }
   }
 ]
