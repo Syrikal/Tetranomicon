@@ -1,0 +1,31 @@
+{
+    "key": "sulphuricrock",
+    "category": "stone",
+    "primary": "4.5",
+    "secondary": "4.3",
+    "tertiary": "0",
+    "durability": "1561",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "2",
+    "toolEfficiency": "6",
+    "tints": {
+        "glyph": "644c4c",
+        "texture": "644c4c"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "betterendforge:sulphuric_rock"
+    },
+    "effects": {
+        "fierySelf": [1, 0.02]
+    },
+    "requiredTools": {
+        "hammer": 4
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "key": "jellyshroom",
+    "category": "wood",
+    "primary": "4",
+    "secondary": "3",
+    "tertiary": "7",
+    "durability": "200",
+    "integrityCost": "2",
+    "integrityGain": "6",
+    "magicCapacity": "120",
+    "toolLevel": "2",
+    "toolEfficiency": "8",
+    "tints": {
+        "glyph": "7ea0a8",
+        "texture": "7ea0a8"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "betterendforge:jellyshroom_planks"
+    },
+    "requiredTools": {
+        "axe": 4
+    }
+}

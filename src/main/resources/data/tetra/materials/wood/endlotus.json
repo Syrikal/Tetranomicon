@@ -1,0 +1,27 @@
+{
+    "key": "endlotus",
+    "category": "wood",
+    "primary": "2",
+    "secondary": "1.3",
+    "tertiary": "6",
+    "durability": "200",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "2",
+    "toolEfficiency": "5",
+    "tints": {
+        "glyph": "7bd1ea",
+        "texture": "7bd1ea"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "betterendforge:end_lotus_planks"
+    },
+    "requiredTools": {
+        "axe": 4
+    }
+}

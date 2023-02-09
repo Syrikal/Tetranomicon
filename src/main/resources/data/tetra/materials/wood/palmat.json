@@ -1,0 +1,27 @@
+{
+    "key": "palmat",
+    "category": "wood",
+    "primary": "2.2",
+    "secondary": "1.4",
+    "tertiary": "6",
+    "durability": "59",
+    "integrityCost": "1",
+    "integrityGain": "3",
+    "magicCapacity": "108",
+    "toolLevel": "1",
+    "toolEfficiency": "3",
+    "tints": {
+        "glyph": "ab8556",
+        "texture": "ab8556"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "atum:palm_planks"
+    },
+    "requiredTools": {
+        "axe": 1
+    }
+}

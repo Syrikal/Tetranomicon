@@ -2,28 +2,29 @@ buildscript {
     repositories {
         maven { url = 'https://files.minecraftforge.net/maven' }
         maven {url "https://plugins.gradle.org/m2/"}
+        maven { url 'https://repo.spongepowered.org/maven' }
         jcenter()
         mavenCentral()
     }
     dependencies {
-        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
-        classpath "com.wynprice.cursemaven:CurseMaven:2.1.1"
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
+        classpath 'org.spongepowered:mixingradle:0.7-SNAPSHOT'
     }
 }
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
-apply plugin: "com.wynprice.cursemaven"
+apply plugin: 'org.spongepowered.mixin'
 
-version = '1.3'
+version = '1.4'
 group = 'com.syric.tetranomicon' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'tetranomicon'
 
-sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
+java.toolchain.languageVersion = JavaLanguageVersion.of(8) // Mojang ships Java 8 to end users, so your mod should target Java 8.
 
 println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
 minecraft {
-    mappings channel: 'snapshot', version: '20201028-1.16.3'
+    mappings channel: 'official', version: '1.16.5'
 
     runs {
         client {
@@ -67,14 +68,30 @@ minecraft {
 }
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }
+repositories {
+    maven {
+        name = "cursemaven"
+        url = "https://cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+    mavenCentral()
+}
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.5-36.1.0'
+    minecraft 'net.minecraftforge:forge:1.16.5-36.2.34'
 
-    compile fg.deobf("curse.maven:mgui:3104239")
-    compile fg.deobf("curse.maven:tetra:3232294")
+    implementation fg.deobf("curse.maven:tetra-289712:3585032")
+    implementation fg.deobf("curse.maven:mutil-351914:3456505")
 
-    compile fg.deobf("curse.maven:the-twilight-forest:3334287")
+    implementation fg.deobf("curse.maven:nether-agriculture-504384:3423164")
+    implementation fg.deobf("curse.maven:stalwart-dungeons-474817:3495397")
+    implementation fg.deobf("curse.maven:atum-59621:3990329")
+    implementation fg.deobf("curse.maven:curios-309927:3725386")
+    implementation fg.deobf("curse.maven:betterend-re-forked-537247:3523090")
+
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
 //    compile fg.deobf("curse.maven:citadel:3299591")
 //    compile fg.deobf("curse.maven:ice-and-fire-dragons:3217622")

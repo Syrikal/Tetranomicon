@@ -1,0 +1,28 @@
+{
+    "key": "blazing_gold",
+    "category": "metal",
+    "primary": "5",
+    "secondary": "4.2",
+    "tertiary": "1",
+    "durability": "768",
+    "integrityCost": "2",
+    "integrityGain": "4",
+    "magicCapacity": "132",
+    "toolLevel": "2",
+    "toolEfficiency": "50",
+    "tints": {
+        "glyph": "ee7b29",
+        "texture": "ee7b29"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "item": "netheragriculture:blazing_gold_ingot",
+        "count": 1
+    },
+    "requiredTools": {
+        "hammer": 3
+    }
+}

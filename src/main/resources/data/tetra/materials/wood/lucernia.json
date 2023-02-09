@@ -1,0 +1,27 @@
+{
+    "key": "lucernia",
+    "category": "wood",
+    "primary": "3",
+    "secondary": "2",
+    "tertiary": "6.2",
+    "durability": "780",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "96",
+    "toolLevel": "3",
+    "toolEfficiency": "11",
+    "tints": {
+        "glyph": "d46c64",
+        "texture": "d46c64"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "betterendforge:lucernia_planks"
+    },
+    "requiredTools": {
+        "axe": 5
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "key": "umbralith",
+    "category": "stone",
+    "primary": "4",
+    "secondary": "5",
+    "tertiary": "0",
+    "durability": "1561",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "90",
+    "toolLevel": "2",
+    "toolEfficiency": "6",
+    "tints": {
+        "glyph": "110f22",
+        "texture": "110f22"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "betterendforge:umbralith"
+    },
+    "requiredTools": {
+        "hammer": 5
+    }
+}

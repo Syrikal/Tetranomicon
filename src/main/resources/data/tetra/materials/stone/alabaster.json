@@ -1,0 +1,28 @@
+{
+    "key": "alabaster",
+    "category": "stone",
+    "primary": "3",
+    "secondary": "3.5",
+    "tertiary": "0",
+    "durability": "200",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "2",
+    "toolEfficiency": "4",
+    "tints": {
+        "glyph": "efe3d1",
+        "texture": "efe3d1"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "atum:alabaster"
+    },
+    "requiredTools": {
+        "hammer": 1
+    }
+}

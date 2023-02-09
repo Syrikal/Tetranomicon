@@ -1,0 +1,28 @@
+{
+    "key": "azurejadestone",
+    "category": "stone",
+    "primary": "4",
+    "secondary": "3.8",
+    "tertiary": "0",
+    "durability": "2100",
+    "integrityCost": "2",
+    "integrityGain": "4",
+    "magicCapacity": "102",
+    "toolLevel": "2",
+    "toolEfficiency": "4",
+    "tints": {
+        "glyph": "396e67",
+        "texture": "396e67"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "betterendforge:azure_jadestone"
+    },
+    "requiredTools": {
+        "hammer": 5
+    }
+}

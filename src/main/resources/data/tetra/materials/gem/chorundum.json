@@ -1,0 +1,27 @@
+{
+    "key": "chorundum",
+    "category": "gem",
+    "primary": "8",
+    "secondary": "3.3",
+    "tertiary": "0",
+    "durability": "2021",
+    "integrityCost": "2",
+    "integrityGain": "8",
+    "magicCapacity": "168",
+    "toolLevel": "5",
+    "toolEfficiency": "11",
+    "tints": {
+        "glyph": "b38ef3",
+        "texture": "b38ef3"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "stalwart_dungeons:chorundum"
+    },
+    "requiredTools": {
+        "hammer": 5
+    }
+}

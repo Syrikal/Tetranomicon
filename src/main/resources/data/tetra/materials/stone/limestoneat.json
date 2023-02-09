@@ -1,0 +1,28 @@
+{
+    "key": "limestoneat",
+    "category": "stone",
+    "primary": "4.2",
+    "secondary": "3.5",
+    "tertiary": "0",
+    "durability": "100",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "2",
+    "toolEfficiency": "4",
+    "tints": {
+        "glyph": "c6a886",
+        "texture": "c6a886"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "atum:limestone"
+    },
+    "requiredTools": {
+        "hammer": 1
+    }
+}
