@@ -80,6 +80,22 @@
             "experienceCost": 10,
             "moduleKey": "sword/socket",
             "moduleVariant": "sword_socket/mint_crystal"
+        },
+        {
+            "material": {
+                "tag": "atum:godshards"
+            },
+            "experienceCost": 30,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/godshard"
+        },
+        {
+            "material": {
+                "item": "betterendforge:smaragdant_crystal_shard"
+            },
+            "experienceCost": 30,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/smaragdant"
         }
     ]
 }

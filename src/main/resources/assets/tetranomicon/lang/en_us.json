@@ -95,6 +95,9 @@
   "tetra.variant.double_socket/eternal_crystal": "Socket [§dEternal Crystal§f]",
   "tetra.variant.single_socket/eternal_crystal": "Socket [§dEternal Crystal§f]",
   "tetra.variant.sword_socket/eternal_crystal": "Socket [§dEternal Crystal§f]",
+  "tetra.variant.double_socket/smaragdant": "Socket [§3Smaragdant§r]",
+  "tetra.variant.single_socket/smaragdant": "Socket [§3Smaragdant§r]",
+  "tetra.variant.sword_socket/smaragdant": "Socket [§3Smaragdant§r]",
   "tetra.improvement.violecite_density.name": "Dense",
   "tetra.improvement.violecite_density.description": "Violecite tools' weight slows their bearer and provides knockback resistance.",
 
@@ -377,6 +380,9 @@
   "tetra.material.palmat.prefix": "Palm",
   "tetra.material.deadat": "Deadwood",
   "tetra.material.deadat.prefix": "Deadwood",
+  "tetra.variant.double_socket/godshard": "Socket [§bGodshard§r]",
+  "tetra.variant.single_socket/godshard": "Socket [§bGodshard§r]",
+  "tetra.variant.sword_socket/godshard": "Socket [§bGodshard§r]",
 
 
   "tetra.material.tungsten": "Tungsten",
@@ -386,5 +392,7 @@
 
 
   "tetra.material.blazing_gold": "Blazing Gold",
-  "tetra.material.blazing_gold.prefix": "Blazing Gold"
+  "tetra.material.blazing_gold.prefix": "Blazing Golden",
+  "tetra.improvement.blazing_innate_fire.name": "Fire Aspect",
+  "tetra.improvement.blazing_innate_fire.description": "Blazing Gold Innate Enchantment"
 }

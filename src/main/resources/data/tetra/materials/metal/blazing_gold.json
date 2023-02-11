@@ -10,11 +10,18 @@
     "magicCapacity": "132",
     "toolLevel": "2",
     "toolEfficiency": "50",
+    "effects": {
+        "fierySelf": [3, 0.05]
+    },
+    "improvements": {
+        "blazing_innate_fire": 4
+    },
     "tints": {
         "glyph": "ee7b29",
         "texture": "ee7b29"
     },
     "textures": [
+        "shiny",
         "metal",
         "default"
     ],
