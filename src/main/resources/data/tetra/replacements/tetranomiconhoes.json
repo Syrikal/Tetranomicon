@@ -126,5 +126,53 @@
       "double/head_right": ["double/butt_right", "butt/steeleaf"],
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
     }
+  },
+  {
+    "predicate": {
+      "item": "stalwart_dungeons:tungsten_hoe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/hoe_left", "hoe/tungsten"],
+      "double/head_right": ["double/butt_right", "butt/tungsten"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "stalwart_dungeons:chorundum_hoe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/hoe_left", "hoe/chorundum"],
+      "double/head_right": ["double/butt_right", "butt/chorundum"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "atum:limestone_hoe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/hoe_left", "hoe/limestoneat"],
+      "double/head_right": ["double/butt_right", "butt/limestoneat"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "netheragriculture:blazing_gold_hoe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/hoe_left", "hoe/blazing_gold"],
+      "double/head_right": ["double/butt_right", "butt/blazing_gold"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    },
+    "improvements": {
+      "double/head_left:blazing_tool": 2,
+      "double/head_right:blazing_tool": 2
+    }
   }
 ]

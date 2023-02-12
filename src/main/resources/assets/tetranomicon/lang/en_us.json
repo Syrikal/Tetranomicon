@@ -89,8 +89,8 @@
   "tetra.material.azurejadestone.prefix": "Azure Jadestone",
   "tetra.material.umbralith": "Umbralith",
   "tetra.material.umbralith.prefix": "Umbral",
-  "tetra.material.sulphuricrock": "Sulphuric Rock",
-  "tetra.material.sulphuricrock.prefix": "Sulphuric",
+  "tetra.material.sulphuricrock": "Sulfuric Rock",
+  "tetra.material.sulphuricrock.prefix": "Sulfuric",
   "tetra.variant.double_socket/aurora_crystal": "Socket [§dAurora Crystal§f]",
   "tetra.variant.single_socket/aurora_crystal": "Socket [§dAurora Crystal§f]",
   "tetra.variant.sword_socket/aurora_crystal": "Socket [§dAurora Crystal§f]",
@@ -382,9 +382,15 @@
   "tetra.material.palmat.prefix": "Palm",
   "tetra.material.deadat": "Deadwood",
   "tetra.material.deadat.prefix": "Deadwood",
+  "tetra.material.khnumite": "Khnumite",
+  "tetra.material.khnumite.prefix": "Stoneguard",
+  "tetra.material.nebu": "Nebu",
+  "tetra.material.nebu.prefix": "Nebu",
   "tetra.variant.double_socket/godshard": "Socket [§bGodshard§r]",
   "tetra.variant.single_socket/godshard": "Socket [§bGodshard§r]",
   "tetra.variant.sword_socket/godshard": "Socket [§bGodshard§r]",
+  "tetra.improvement.brutal.name": "Brutal",
+  "tetra.improvement.brutal.description": "Desert greatswords are slow, powerful weapons.",
 
 
   "tetra.material.tungsten": "Tungsten",
@@ -395,6 +401,10 @@
 
   "tetra.material.blazing_gold": "Blazing Gold",
   "tetra.material.blazing_gold.prefix": "Blazing Golden",
-  "tetra.improvement.blazing_innate_fire.name": "Fire Aspect",
-  "tetra.improvement.blazing_innate_fire.description": "Blazing Gold Innate Enchantment"
+  "tetra.material.glowing": "Glowing",
+  "tetra.material.glowing.prefix": "Glowing",
+  "tetra.improvement.blazing_tool.name": "Fire Aspect",
+  "tetra.improvement.blazing_tool.description": "Blazing Gold Innate Enchantment",
+  "tetra.improvement.blazing_blade.name": "Fire Aspect",
+  "tetra.improvement.blazing_blade.description": "Blazing Gold Innate Enchantment"
 }

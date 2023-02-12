@@ -148,5 +148,53 @@
       "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/steeleaf"],
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
     }
+  },
+  {
+    "predicate": {
+      "item": "stalwart_dungeons:tungsten_pickaxe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/tungsten"],
+      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/tungsten"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "stalwart_dungeons:chorundum_pickaxe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/chorundum"],
+      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/chorundum"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "atum:limestone_pickaxe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/limestoneat"],
+      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/limestoneat"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "netheragriculture:blazing_gold_pickaxe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/blazing_gold"],
+      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/blazing_gold"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    },
+    "improvements": {
+      "double/head_left:blazing_tool": 2,
+      "double/head_right:blazing_tool": 2
+    }
   }
 ]

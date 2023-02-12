@@ -114,5 +114,48 @@
       "single/head": ["single/basic_shovel", "basic_shovel/steeleaf"],
       "single/handle": ["single/basic_handle", "basic_handle/stick"]
     }
+  },
+  {
+    "predicate": {
+      "item": "stalwart_dungeons:tungsten_shovel"
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/tungsten"],
+      "single/handle": ["single/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "stalwart_dungeons:chorundum_shovel"
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/chorundum"],
+      "single/handle": ["single/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "atum:limestone_shovel"
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/limestoneat"],
+      "single/handle": ["single/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "netheragriculture:blazing_gold_shovel"
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/blazing_gold"],
+      "single/handle": ["single/basic_handle", "basic_handle/stick"]
+    },
+    "improvements": {
+      "single/head:blazing_tool": 2
+    }
   }
 ]

@@ -166,5 +166,98 @@
       "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/steeleaf"],
       "sword/guard": ["sword/makeshift_guard", "makeshift_guard/steeleaf"]
     }
+  },
+  {
+    "predicate": {
+      "item": "stalwart_dungeons:tungsten_sword"
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": ["sword/basic_blade", "basic_blade/tungsten"],
+      "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+      "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/tungsten"],
+      "sword/guard": ["sword/makeshift_guard", "makeshift_guard/tungsten"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "stalwart_dungeons:chorundum_sword"
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": ["sword/basic_blade", "basic_blade/chorundum"],
+      "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+      "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/chorundum"],
+      "sword/guard": ["sword/makeshift_guard", "makeshift_guard/chorundum"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "atum:limestone_sword"
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": ["sword/basic_blade", "basic_blade/limestoneat"],
+      "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+      "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/limestoneat"],
+      "sword/guard": ["sword/makeshift_guard", "makeshift_guard/limestoneat"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "atum:iron_greatsword"
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": ["sword/heavy_blade", "heavy_blade/iron"],
+      "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+      "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/gold"],
+      "sword/guard": ["sword/makeshift_guard", "makeshift_guard/gold"]
+    },
+    "improvements": {
+      "sword/blade:brutal": 0
+    }
+  },
+  {
+    "predicate": {
+      "item": "atum:stoneguard_sword"
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": ["sword/basic_blade", "basic_blade/khnumite"],
+      "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+      "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/khnumite"],
+      "sword/guard": ["sword/makeshift_guard", "makeshift_guard/khnumite"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "atum:stoneguard_greatsword"
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": ["sword/heavy_blade", "heavy_blade/khnumite"],
+      "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+      "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/khnumite"],
+      "sword/guard": ["sword/makeshift_guard", "makeshift_guard/khnumite"]
+    },
+    "improvements": {
+      "sword/blade:brutal": 0
+    }
+  },
+  {
+    "predicate": {
+      "item": "netheragriculture:blazing_gold_sword"
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": ["sword/basic_blade", "basic_blade/blazing_gold"],
+      "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+      "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/blazing_gold"],
+      "sword/guard": ["sword/makeshift_guard", "makeshift_guard/blazing_gold"]
+    },
+    "improvements": {
+      "sword/blade:blazing_blade": 4
+    }
   }
 ]

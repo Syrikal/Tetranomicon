@@ -11,10 +11,11 @@
     "toolLevel": "2",
     "toolEfficiency": "50",
     "effects": {
-        "fierySelf": [3, 0.05]
+        "fierySelf": [2, 0.02]
     },
     "improvements": {
-        "blazing_innate_fire": 4
+        "blazing_tool": 2,
+        "blazing_blade": 4
     },
     "tints": {
         "glyph": "ee7b29",
