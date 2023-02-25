@@ -16,15 +16,15 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
-version = '1.4-1.16.5'
+version = '1.4-1.18.2'
 group = 'com.syric.tetranomicon' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'tetranomicon'
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(8) // Mojang ships Java 8 to end users, so your mod should target Java 8.
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
 minecraft {
-    mappings channel: 'official', version: '1.16.5'
+    mappings channel: 'official', version: '1.18.2'
 
     runs {
         client {
@@ -80,16 +80,16 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.5-36.2.34'
+    minecraft 'net.minecraftforge:forge:1.18.2-40.2.0'
 
-    implementation fg.deobf("curse.maven:tetra-289712:3585032")
-    implementation fg.deobf("curse.maven:mutil-351914:3456505")
-
-    implementation fg.deobf("curse.maven:nether-agriculture-504384:3423164")
-    implementation fg.deobf("curse.maven:stalwart-dungeons-474817:3495397")
-    implementation fg.deobf("curse.maven:atum-59621:3990329")
-    implementation fg.deobf("curse.maven:curios-309927:3725386")
-    implementation fg.deobf("curse.maven:betterend-re-forked-537247:3523090")
+    implementation fg.deobf("curse.maven:mutil-351914:3788376")
+    implementation fg.deobf("curse.maven:tetra-289712:4029100")
+//
+//    implementation fg.deobf("curse.maven:nether-agriculture-504384:3423164")
+//    implementation fg.deobf("curse.maven:stalwart-dungeons-474817:3495397")
+//    implementation fg.deobf("curse.maven:atum-59621:3990329")
+//    implementation fg.deobf("curse.maven:curios-309927:3725386")
+//    implementation fg.deobf("curse.maven:betterend-re-forked-537247:3523090")
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
