@@ -1,0 +1,26 @@
+{
+  "key" : "betterendforge_tenanea_flowers",
+  "category" : "fibre",
+  "primary" : 4.0,
+  "secondary" : 1.0,
+  "tertiary" : 3.0,
+  "durability" : 90,
+  "integrityCost" : 2,
+  "integrityGain" : 1,
+  "magicCapacity" : 78,
+  "toolEfficiency" : 0.0,
+  "tints" : {
+    "glyph" : "a362b2",
+    "texture" : "a362b2"
+  },
+  "textures" : [ "crude", "default" ],
+  "material" : {
+    "items" : [ "betterendforge:tenanea_flowers" ]
+  },
+  "effects" : {
+    "enderReverb" : [ -6, -0.6 ]
+  },
+  "requiredTools" : {
+    "cut" : "minecraft:stone"
+  }
+}

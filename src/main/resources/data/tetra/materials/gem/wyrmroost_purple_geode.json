@@ -1,0 +1,24 @@
+{
+  "key" : "wyrmroost_purple_geode",
+  "category" : "gem",
+  "primary" : 8.0,
+  "secondary" : 2.4,
+  "tertiary" : 0.0,
+  "durability" : 4214,
+  "integrityCost" : 2,
+  "integrityGain" : 4,
+  "magicCapacity" : 168,
+  "toolLevel" : "tetranomicon:seven",
+  "toolEfficiency" : 15.0,
+  "tints" : {
+    "glyph" : "9b0dbf",
+    "texture" : "9b0dbf"
+  },
+  "textures" : [ "shiny", "crude" ],
+  "material" : {
+    "items" : [ "wyrmroost:purple_geode" ]
+  },
+  "requiredTools" : {
+    "hammer_dig" : "tetranomicon:six"
+  }
+}

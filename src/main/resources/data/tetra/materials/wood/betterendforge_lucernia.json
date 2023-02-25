@@ -1,0 +1,24 @@
+{
+  "key" : "betterendforge_lucernia",
+  "category" : "wood",
+  "primary" : 3.0,
+  "secondary" : 2.0,
+  "tertiary" : 6.2,
+  "durability" : 780,
+  "integrityCost" : 2,
+  "integrityGain" : 2,
+  "magicCapacity" : 96,
+  "toolLevel" : "minecraft:iron",
+  "toolEfficiency" : 11.0,
+  "tints" : {
+    "glyph" : "d46c64",
+    "texture" : "d46c64"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "betterendforge:lucernia_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:netherite"
+  }
+}

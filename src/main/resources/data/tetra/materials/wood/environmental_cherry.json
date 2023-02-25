@@ -1,0 +1,24 @@
+{
+  "key" : "environmental_cherry",
+  "category" : "wood",
+  "primary" : 3.5,
+  "secondary" : 2.0,
+  "tertiary" : 6.5,
+  "durability" : 70,
+  "integrityCost" : 1,
+  "integrityGain" : 5,
+  "magicCapacity" : 72,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 4.0,
+  "tints" : {
+    "glyph" : "7c342c",
+    "texture" : "7c342c"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "environmental:cherry_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:stone"
+  }
+}

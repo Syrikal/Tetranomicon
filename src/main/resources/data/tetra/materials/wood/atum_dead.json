@@ -1,0 +1,24 @@
+{
+  "key" : "atum_dead",
+  "category" : "wood",
+  "primary" : 4.0,
+  "secondary" : 1.3,
+  "tertiary" : 4.5,
+  "durability" : 180,
+  "integrityCost" : 1,
+  "integrityGain" : 3,
+  "magicCapacity" : 102,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 5.0,
+  "tints" : {
+    "glyph" : "8d8460",
+    "texture" : "8d8460"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "atum:deadwood_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:stone"
+  }
+}

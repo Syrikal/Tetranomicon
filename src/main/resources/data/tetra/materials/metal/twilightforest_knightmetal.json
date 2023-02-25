@@ -1,0 +1,27 @@
+{
+  "key" : "twilightforest_knightmetal",
+  "category" : "metal",
+  "primary" : 6.0,
+  "secondary" : 2.9,
+  "tertiary" : 3.5,
+  "durability" : 512,
+  "integrityCost" : 2,
+  "integrityGain" : 6,
+  "magicCapacity" : 48,
+  "toolLevel" : "minecraft:diamond",
+  "toolEfficiency" : 8.0,
+  "tints" : {
+    "glyph" : "748b77",
+    "texture" : "748b77"
+  },
+  "textures" : [ "metal", "default" ],
+  "material" : {
+    "items" : [ "twilightforest:knightmetal_ingot" ]
+  },
+  "effects" : {
+    "armorPenetration" : 2
+  },
+  "requiredTools" : {
+    "hammer_dig" : "minecraft:iron"
+  }
+}

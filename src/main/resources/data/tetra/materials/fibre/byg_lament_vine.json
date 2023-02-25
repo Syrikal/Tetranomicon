@@ -1,0 +1,23 @@
+{
+  "key" : "byg_lament_vine",
+  "category" : "fibre",
+  "primary" : 5.0,
+  "secondary" : 3.5,
+  "tertiary" : 3.0,
+  "durability" : 400,
+  "integrityCost" : 1,
+  "integrityGain" : 5,
+  "magicCapacity" : 96,
+  "toolEfficiency" : 0.0,
+  "tints" : {
+    "glyph" : "48386a",
+    "texture" : "48386a"
+  },
+  "textures" : [ "crude", "default" ],
+  "material" : {
+    "items" : [ "byg:lament_vine" ]
+  },
+  "requiredTools" : {
+    "cut" : "minecraft:stone"
+  }
+}

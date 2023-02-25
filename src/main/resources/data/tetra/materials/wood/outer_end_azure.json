@@ -1,0 +1,24 @@
+{
+  "key" : "outer_end_azure",
+  "category" : "wood",
+  "primary" : 4.7,
+  "secondary" : 1.3,
+  "tertiary" : 6.0,
+  "durability" : 240,
+  "integrityCost" : 1,
+  "integrityGain" : 5,
+  "magicCapacity" : 102,
+  "toolLevel" : "minecraft:iron",
+  "toolEfficiency" : 6.0,
+  "tints" : {
+    "glyph" : "343c64",
+    "texture" : "343c64"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "outer_end:azure_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:netherite"
+  }
+}

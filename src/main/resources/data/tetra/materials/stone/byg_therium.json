@@ -1,0 +1,27 @@
+{
+  "key" : "byg_therium",
+  "category" : "stone",
+  "primary" : 5.5,
+  "secondary" : 2.0,
+  "tertiary" : 0.0,
+  "durability" : 250,
+  "integrityCost" : 2,
+  "integrityGain" : 4,
+  "magicCapacity" : 54,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 7.0,
+  "tints" : {
+    "glyph" : "b5e3df",
+    "texture" : "b5e3df"
+  },
+  "textures" : [ "grainy", "crude", "default" ],
+  "material" : {
+    "items" : [ "byg:therium_crystal" ]
+  },
+  "effects" : {
+    "unstable" : 25
+  },
+  "requiredTools" : {
+    "hammer_dig" : "minecraft:iron"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "key" : "atum_palm",
+  "category" : "wood",
+  "primary" : 2.2,
+  "secondary" : 1.4,
+  "tertiary" : 6.0,
+  "durability" : 59,
+  "integrityCost" : 1,
+  "integrityGain" : 3,
+  "magicCapacity" : 108,
+  "toolLevel" : "minecraft:wood",
+  "toolEfficiency" : 3.0,
+  "tints" : {
+    "glyph" : "ab8556",
+    "texture" : "ab8556"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "atum:palm_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:wood"
+  }
+}

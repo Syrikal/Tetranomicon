@@ -1,0 +1,24 @@
+{
+  "key" : "iceandfire_ice_dragonsteel",
+  "category" : "metal",
+  "primary" : 24.0,
+  "secondary" : 3.4,
+  "tertiary" : 4.0,
+  "durability" : 8000,
+  "integrityCost" : 2,
+  "integrityGain" : 10,
+  "magicCapacity" : 60,
+  "toolLevel" : "tetranomicon:six",
+  "toolEfficiency" : 10.0,
+  "tints" : {
+    "glyph" : "aed4ea",
+    "texture" : "aed4ea"
+  },
+  "textures" : [ "metal", "default" ],
+  "material" : {
+    "items" : [ "iceandfire:dragonsteel_ice_ingot" ]
+  },
+  "requiredTools" : {
+    "hammer_dig" : "tetranomicon:six"
+  }
+}

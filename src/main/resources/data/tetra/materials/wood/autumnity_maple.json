@@ -1,0 +1,24 @@
+{
+  "key" : "autumnity_maple",
+  "category" : "wood",
+  "primary" : 3.5,
+  "secondary" : 2.0,
+  "tertiary" : 6.5,
+  "durability" : 90,
+  "integrityCost" : 2,
+  "integrityGain" : 5,
+  "magicCapacity" : 96,
+  "toolLevel" : "minecraft:wood",
+  "toolEfficiency" : 4.0,
+  "tints" : {
+    "glyph" : "9c6134",
+    "texture" : "9c6134"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "autumnity:maple_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:stone"
+  }
+}

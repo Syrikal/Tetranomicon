@@ -1,0 +1,24 @@
+{
+  "key" : "byg_cherry",
+  "category" : "wood",
+  "primary" : 3.5,
+  "secondary" : 2.0,
+  "tertiary" : 6.5,
+  "durability" : 70,
+  "integrityCost" : 1,
+  "integrityGain" : 5,
+  "magicCapacity" : 72,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 4.0,
+  "tints" : {
+    "glyph" : "531814",
+    "texture" : "531814"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "byg:cherry_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:stone"
+  }
+}

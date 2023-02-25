@@ -1,7 +1,7 @@
 [
   {
     "predicate": {
-      "item": "netheragriculture:knife"
+      "items": [ "netheragriculture:knife" ]
     },
     "item": "tetra:modular_sword",
     "modules": {
@@ -11,7 +11,7 @@
   },
   {
     "predicate": {
-      "item": "netheragriculture:diamond_knife"
+      "items": [ "netheragriculture:diamond_knife" ]
     },
     "item": "tetra:modular_sword",
     "modules": {
@@ -24,7 +24,7 @@
   },
   {
     "predicate": {
-      "item": "netheragriculture:netherite_knife"
+      "items": [ "netheragriculture:netherite_knife" ]
     },
     "item": "tetra:modular_sword",
     "modules": {

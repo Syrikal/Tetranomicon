@@ -1,0 +1,24 @@
+{
+  "key" : "byg_maple",
+  "category" : "wood",
+  "primary" : 3.5,
+  "secondary" : 2.0,
+  "tertiary" : 6.5,
+  "durability" : 90,
+  "integrityCost" : 2,
+  "integrityGain" : 5,
+  "magicCapacity" : 96,
+  "toolLevel" : "minecraft:wood",
+  "toolEfficiency" : 4.0,
+  "tints" : {
+    "glyph" : "82786f",
+    "texture" : "82786f"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "byg:maple_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:stone"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "key" : "atum_alabaster",
+  "category" : "stone",
+  "primary" : 3.0,
+  "secondary" : 3.5,
+  "tertiary" : 0.0,
+  "durability" : 200,
+  "integrityCost" : 1,
+  "integrityGain" : 4,
+  "magicCapacity" : 90,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 4.0,
+  "tints" : {
+    "glyph" : "efe3d1",
+    "texture" : "efe3d1"
+  },
+  "textures" : [ "grainy", "crude", "default" ],
+  "material" : {
+    "items" : [ "atum:alabaster" ]
+  },
+  "requiredTools" : {
+    "hammer_dig" : "minecraft:wood"
+  }
+}

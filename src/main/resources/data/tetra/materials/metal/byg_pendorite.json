@@ -1,0 +1,24 @@
+{
+  "key" : "byg_pendorite",
+  "category" : "metal",
+  "primary" : 8.0,
+  "secondary" : 5.0,
+  "tertiary" : 3.0,
+  "durability" : 2500,
+  "integrityCost" : 2,
+  "integrityGain" : 6,
+  "magicCapacity" : 90,
+  "toolLevel" : "tetranomicon:six",
+  "toolEfficiency" : 9.5,
+  "tints" : {
+    "glyph" : "723770",
+    "texture" : "723770"
+  },
+  "textures" : [ "metal", "default" ],
+  "material" : {
+    "items" : [ "byg:pendorite_scraps" ]
+  },
+  "requiredTools" : {
+    "hammer_dig" : "minecraft:netherite"
+  }
+}

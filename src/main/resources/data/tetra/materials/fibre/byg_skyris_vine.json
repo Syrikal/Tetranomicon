@@ -1,0 +1,23 @@
+{
+  "key" : "byg_skyris_vine",
+  "category" : "fibre",
+  "primary" : 3.0,
+  "secondary" : 0.7,
+  "tertiary" : 2.8,
+  "durability" : 150,
+  "integrityCost" : 1,
+  "integrityGain" : 2,
+  "magicCapacity" : 90,
+  "toolEfficiency" : 0.0,
+  "tints" : {
+    "glyph" : "f1a9a9",
+    "texture" : "f1a9a9"
+  },
+  "textures" : [ "crude", "default" ],
+  "material" : {
+    "items" : [ "byg:skyris_vine" ]
+  },
+  "requiredTools" : {
+    "cut" : "minecraft:stone"
+  }
+}

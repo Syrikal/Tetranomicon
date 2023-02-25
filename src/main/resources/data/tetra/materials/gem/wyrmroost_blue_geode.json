@@ -1,0 +1,24 @@
+{
+  "key" : "wyrmroost_blue_geode",
+  "category" : "gem",
+  "primary" : 5.5,
+  "secondary" : 2.9,
+  "tertiary" : 0.0,
+  "durability" : 2164,
+  "integrityCost" : 2,
+  "integrityGain" : 2,
+  "magicCapacity" : 120,
+  "toolLevel" : "minecraft:netherite",
+  "toolEfficiency" : 9.3,
+  "tints" : {
+    "glyph" : "225589",
+    "texture" : "225589"
+  },
+  "textures" : [ "shiny", "crude" ],
+  "material" : {
+    "items" : [ "wyrmroost:blue_geode" ]
+  },
+  "requiredTools" : {
+    "hammer_dig" : "minecraft:netherite"
+  }
+}

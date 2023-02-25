@@ -1,0 +1,24 @@
+{
+  "key" : "byg_dacite",
+  "category" : "stone",
+  "primary" : 4.0,
+  "secondary" : 3.5,
+  "tertiary" : 0.0,
+  "durability" : 180,
+  "integrityCost" : 1,
+  "integrityGain" : 4,
+  "magicCapacity" : 90,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 4.5,
+  "tints" : {
+    "glyph" : "bab1a9",
+    "texture" : "bab1a9"
+  },
+  "textures" : [ "grainy", "crude", "default" ],
+  "material" : {
+    "items" : [ "byg:dacite" ]
+  },
+  "requiredTools" : {
+    "hammer_dig" : "minecraft:wood"
+  }
+}

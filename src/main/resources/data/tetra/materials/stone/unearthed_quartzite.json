@@ -1,0 +1,24 @@
+{
+  "key" : "unearthed_quartzite",
+  "category" : "stone",
+  "primary" : 4.7,
+  "secondary" : 3.8,
+  "tertiary" : 0.0,
+  "durability" : 250,
+  "integrityCost" : 1,
+  "integrityGain" : 4,
+  "magicCapacity" : 90,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 5.0,
+  "tints" : {
+    "glyph" : "f2ece4",
+    "texture" : "f2ece4"
+  },
+  "textures" : [ "grainy", "crude", "default" ],
+  "material" : {
+    "items" : [ "unearthed:quartzite" ]
+  },
+  "requiredTools" : {
+    "hammer_dig" : "minecraft:stone"
+  }
+}

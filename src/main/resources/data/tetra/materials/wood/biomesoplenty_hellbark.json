@@ -1,0 +1,24 @@
+{
+  "key" : "biomesoplenty_hellbark",
+  "category" : "wood",
+  "primary" : 4.5,
+  "secondary" : 1.7,
+  "tertiary" : 5.5,
+  "durability" : 250,
+  "integrityCost" : 2,
+  "integrityGain" : 6,
+  "magicCapacity" : 72,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 4.0,
+  "tints" : {
+    "glyph" : "372c2d",
+    "texture" : "372c2d"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "biomesoplenty:hellbark_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:iron"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "key" : "byg_lament",
+  "category" : "wood",
+  "primary" : 4.0,
+  "secondary" : 3.0,
+  "tertiary" : 5.5,
+  "durability" : 220,
+  "integrityCost" : 2,
+  "integrityGain" : 5,
+  "magicCapacity" : 75,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 4.0,
+  "tints" : {
+    "glyph" : "554f9a",
+    "texture" : "554f9a"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "byg:lament_planks" ]
+  },
+  "effects" : {
+    "unstable" : 10
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:iron"
+  }
+}

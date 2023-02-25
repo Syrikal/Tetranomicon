@@ -1,0 +1,31 @@
+{
+  "key" : "netheragriculture_blazing_gold",
+  "category" : "metal",
+  "primary" : 5.0,
+  "secondary" : 4.2,
+  "tertiary" : 1.0,
+  "durability" : 768,
+  "integrityCost" : 2,
+  "integrityGain" : 4,
+  "magicCapacity" : 132,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 50.0,
+  "tints" : {
+    "glyph" : "ee7b29",
+    "texture" : "ee7b29"
+  },
+  "textures" : [ "shiny", "metal", "default" ],
+  "material" : {
+    "items" : [ "netheragriculture:blazing_gold_ingot" ]
+  },
+  "effects" : {
+    "fierySelf" : [ 2, 0.02 ]
+  },
+  "improvements" : {
+    "blazing_tool" : 2,
+    "blazing_blade" : 4
+  },
+  "requiredTools" : {
+    "hammer_dig" : "minecraft:iron"
+  }
+}

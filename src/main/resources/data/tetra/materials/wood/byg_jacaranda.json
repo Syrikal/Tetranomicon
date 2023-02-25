@@ -1,0 +1,24 @@
+{
+  "key" : "byg_jacaranda",
+  "category" : "wood",
+  "primary" : 2.0,
+  "secondary" : 1.5,
+  "tertiary" : 6.0,
+  "durability" : 50,
+  "integrityCost" : 1,
+  "integrityGain" : 3,
+  "magicCapacity" : 108,
+  "toolLevel" : "minecraft:wood",
+  "toolEfficiency" : 3.0,
+  "tints" : {
+    "glyph" : "966b6a",
+    "texture" : "966b6a"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "byg:jacaranda_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:wood"
+  }
+}

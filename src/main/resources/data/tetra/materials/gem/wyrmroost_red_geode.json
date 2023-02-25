@@ -1,0 +1,24 @@
+{
+  "key" : "wyrmroost_red_geode",
+  "category" : "gem",
+  "primary" : 6.5,
+  "secondary" : 3.5,
+  "tertiary" : 0.0,
+  "durability" : 3264,
+  "integrityCost" : 2,
+  "integrityGain" : 3,
+  "magicCapacity" : 144,
+  "toolLevel" : "tetranomicon:six",
+  "toolEfficiency" : 10.0,
+  "tints" : {
+    "glyph" : "8d2e2f",
+    "texture" : "8d2e2f"
+  },
+  "textures" : [ "shiny", "crude" ],
+  "material" : {
+    "items" : [ "wyrmroost:red_geode" ]
+  },
+  "requiredTools" : {
+    "hammer_dig" : "tetranomicon:six"
+  }
+}

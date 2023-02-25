@@ -1,0 +1,24 @@
+{
+  "key" : "quark_voidstone",
+  "category" : "stone",
+  "primary" : 5.5,
+  "secondary" : 5.5,
+  "tertiary" : 0.0,
+  "durability" : 700,
+  "integrityCost" : 2,
+  "integrityGain" : 4,
+  "magicCapacity" : 90,
+  "toolLevel" : "minecraft:iron",
+  "toolEfficiency" : 8.0,
+  "tints" : {
+    "glyph" : "121212",
+    "texture" : "121212"
+  },
+  "textures" : [ "grainy", "crude", "default" ],
+  "material" : {
+    "items" : [ "quark:voidstone" ]
+  },
+  "requiredTools" : {
+    "hammer_dig" : "minecraft:netherite"
+  }
+}

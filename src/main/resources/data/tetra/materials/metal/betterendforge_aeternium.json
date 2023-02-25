@@ -1,0 +1,24 @@
+{
+  "key" : "betterendforge_aeternium",
+  "category" : "metal",
+  "primary" : 7.5,
+  "secondary" : 3.5,
+  "tertiary" : 4.5,
+  "durability" : 2196,
+  "integrityCost" : 2,
+  "integrityGain" : 12,
+  "magicCapacity" : 108,
+  "toolLevel" : "tetranomicon:six",
+  "toolEfficiency" : 10.0,
+  "tints" : {
+    "glyph" : "6c8c84",
+    "texture" : "6c8c84"
+  },
+  "textures" : [ "metal", "default" ],
+  "material" : {
+    "items" : [ "betterendforge:aeternium_ingot" ]
+  },
+  "requiredTools" : {
+    "hammer_dig" : "tetranomicon:six"
+  }
+}
