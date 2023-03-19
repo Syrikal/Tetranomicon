@@ -84,6 +84,7 @@ dependencies {
 
     implementation fg.deobf("curse.maven:mutil-351914:3788376")
     implementation fg.deobf("curse.maven:tetra-289712:4029100")
+    implementation fg.deobf("curse.maven:scroll-of-harvests-571339:3805701")
 
     //Abnormals: Atmospheric, Autumnity, Bamboo Blocks (NO), Bayou Blues (NO), Endergetic (NO), Environmental, Upgrade Aquatic
     implementation fg.deobf("curse.maven:atmospheric-362393:4367068")
@@ -115,6 +116,9 @@ dependencies {
     implementation fg.deobf("curse.maven:enderite-mod-for-forge-401284:4287555")
 
     //Ice and Fire: not available
+    implementation fg.deobf("curse.maven:citadel-331936:3783096")
+    implementation fg.deobf("curse.maven:ice-and-fire-dragons-264231:4434019")
+
 
     //Nether Agriculture: not available
 
