@@ -1,7 +1,7 @@
 {
   "key" : "byg_pendorite",
   "category" : "metal",
-  "primary" : 8.0,
+  "primary" : 7.0,
   "secondary" : 5.0,
   "tertiary" : 3.0,
   "durability" : 2500,
@@ -9,7 +9,7 @@
   "integrityGain" : 6,
   "magicCapacity" : 90,
   "toolLevel" : "tetranomicon:six",
-  "toolEfficiency" : 9.5,
+  "toolEfficiency" : 10,
   "tints" : {
     "glyph" : "723770",
     "texture" : "723770"

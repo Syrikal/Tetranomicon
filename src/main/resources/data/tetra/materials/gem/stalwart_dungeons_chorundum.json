@@ -1,7 +1,7 @@
 {
   "key" : "stalwart_dungeons_chorundum",
   "category" : "gem",
-  "primary" : 8.0,
+  "primary" : 7.0,
   "secondary" : 3.3,
   "tertiary" : 0.0,
   "durability" : 2021,
@@ -9,7 +9,7 @@
   "integrityGain" : 8,
   "magicCapacity" : 168,
   "toolLevel" : "minecraft:netherite",
-  "toolEfficiency" : 11.0,
+  "toolEfficiency" : 10.0,
   "tints" : {
     "glyph" : "b38ef3",
     "texture" : "b38ef3"
