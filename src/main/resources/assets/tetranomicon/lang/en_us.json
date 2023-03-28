@@ -267,6 +267,35 @@
   "tetra.improvement.stave_grip/wrap_tidescale.name": "Tidescale Wrap",
   "tetra.improvement.stave_grip/wrap_tidescale.description": "Increases power, draw speed, and durability.",
 
+  "tetra/schematic/double/basic_handle/wrap_handle_hone_1.name": "Hone: Wrap II",
+  "tetra/schematic/double/basic_handle/wrap_handle_hone_1.slot1": "Material",
+  "tetra/schematic/double/basic_handle/wrap_handle_hone_1.description": "Improve the handle wrap, further increasing damage and speed, and reducing negative effects.",
+  "tetra/schematic/double/basic_handle/wrap_handle_hone_2.name": "Hone: Wrap III",
+  "tetra/schematic/double/basic_handle/wrap_handle_hone_2.slot1": "Material",
+  "tetra/schematic/double/basic_handle/wrap_handle_hone_2.description": "Further improve the handle wrap, further increasing damage and speed, and reducing negative effects.",
+
+  "tetra/schematic/single/basic_handle/wrap_handle_hone_1.name": "Hone: Wrap II",
+  "tetra/schematic/single/basic_handle/wrap_handle_hone_1.slot1": "Material",
+  "tetra/schematic/single/basic_handle/wrap_handle_hone_1.description": "Improve the handle wrap, further increasing damage and speed, and reducing negative effects.",
+  "tetra/schematic/single/basic_handle/wrap_handle_hone_2.name": "Hone: Wrap III",
+  "tetra/schematic/single/basic_handle/wrap_handle_hone_2.slot1": "Material",
+  "tetra/schematic/single/basic_handle/wrap_handle_hone_2.description": "Further improve the handle wrap, further increasing damage and speed, and reducing negative effects.",
+
+  "tetra/schematic/bow/stave/wrap_grip_hone_1.name": "Hone: Wrap II",
+  "tetra/schematic/bow/stave/wrap_grip_hone_1.slot1": "Material",
+  "tetra/schematic/bow/stave/wrap_grip_hone_1.description": "Improve the grip wrap, further increasing damage and drawspeed, and reducing negative effects.",
+  "tetra/schematic/bow/stave/wrap_grip_hone_2.name": "Hone: Wrap III",
+  "tetra/schematic/bow/stave/wrap_grip_hone_2.slot1": "Material",
+  "tetra/schematic/bow/stave/wrap_grip_hone_1.description": "Further improve the grip wrap, further increasing damage and drawspeed, and reducing negative effects.",
+
+  "tetra/schematic/sword/basic_hilt/wrap_hilt_hone_1.name": "Hone: Wrap II",
+  "tetra/schematic/sword/basic_hilt/wrap_hilt_hone_1.slot1": "Material",
+  "tetra/schematic/sword/basic_hilt/wrap_hilt_hone_1.description": "Improve the hilt wrap, further increasing damage and speed, and reducing negative effects.",
+  "tetra/schematic/sword/basic_hilt/wrap_hilt_hone_2.name": "Hone: Wrap III",
+  "tetra/schematic/sword/basic_hilt/wrap_hilt_hone_2.slot1": "Material",
+  "tetra/schematic/sword/basic_hilt/wrap_hilt_hone_1.description": "Further improve the hilt wrap, further increasing damage and speed, and reducing negative effects.",
+
+
 
   "tetra.variant.double_socket/cobalt_crystal": "Socket [§3Cobalt Crystal§r]",
   "tetra.variant.single_socket/cobalt_crystal": "Socket [§3Cobalt Crystal§r]",

@@ -19,7 +19,7 @@
         "wooden"
     ],
     "material": {
-        "item": "twilightforest:twilight_oak_planks"
+        "item": "twilightforest:canopy_planks"
     },
     "requiredTools": {
         "axe": 3
