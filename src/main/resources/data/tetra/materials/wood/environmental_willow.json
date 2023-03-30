@@ -1,0 +1,24 @@
+{
+  "key" : "environmental_willow",
+  "category" : "wood",
+  "primary" : 2.0,
+  "secondary" : 1.2,
+  "tertiary" : 7.0,
+  "durability" : 40,
+  "integrityCost" : 1,
+  "integrityGain" : 2,
+  "magicCapacity" : 108,
+  "toolLevel" : "minecraft:wood",
+  "toolEfficiency" : 3.0,
+  "tints" : {
+    "glyph" : "5c7444",
+    "texture" : "5c7444"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "environmental:willow_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:wood"
+  }
+}

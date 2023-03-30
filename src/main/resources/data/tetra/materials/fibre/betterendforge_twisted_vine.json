@@ -1,0 +1,23 @@
+{
+  "key" : "betterendforge_twisted_vine",
+  "category" : "fibre",
+  "primary" : 1.0,
+  "secondary" : 0.8,
+  "tertiary" : 5.0,
+  "durability" : 900,
+  "integrityCost" : 2,
+  "integrityGain" : 7,
+  "magicCapacity" : 108,
+  "toolEfficiency" : 0.0,
+  "tints" : {
+    "glyph" : "0a0a0a",
+    "texture" : "0a0a0a"
+  },
+  "textures" : [ "crude", "default" ],
+  "material" : {
+    "items" : [ "betterendforge:twisted_vine" ]
+  },
+  "requiredTools" : {
+    "cut" : "minecraft:iron"
+  }
+}

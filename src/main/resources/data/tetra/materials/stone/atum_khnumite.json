@@ -1,0 +1,27 @@
+{
+  "key" : "atum_khnumite",
+  "category" : "stone",
+  "primary" : 4.1,
+  "secondary" : 3.5,
+  "tertiary" : 0.0,
+  "durability" : 160,
+  "integrityCost" : 1,
+  "integrityGain" : 4,
+  "magicCapacity" : 60,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 6.0,
+  "tints" : {
+    "glyph" : "998b59",
+    "texture" : "998b59"
+  },
+  "textures" : [ "grainy", "crude", "default" ],
+  "material" : {
+    "items" : [ "atum:khnumite" ]
+  },
+  "improvements" : {
+    "brutal" : 0
+  },
+  "requiredTools" : {
+    "hammer_dig" : "minecraft:wood"
+  }
+}

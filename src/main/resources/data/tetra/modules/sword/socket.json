@@ -152,7 +152,6 @@
                 "intuit": 3
             }
         },
-
         {
             "key": "sword_socket/rose_crystal",
             "category": "gem",
@@ -170,8 +169,6 @@
                 "tint": "c56eb9"
             }]
         },
-
-
         {
             "key": "sword_socket/mint_crystal",
             "category": "gem",
@@ -190,6 +187,39 @@
                 "location": "tetra:items/module/sword/guard/socket/default",
                 "tint": "6fc39c"
             }]
+        },
+        {
+            "key": "sword_socket/godshard",
+            "category": "gem",
+            "durability": 1024,
+            "durabilityMultiplier": 0.8,
+            "integrity": -1,
+            "attributes": {
+                "**generic.attack_damage": 0.5,
+                "**generic.attack_speed": 0.1,
+                "**generic.movement_speed": 0.2
+            },
+            "tools": {
+                "cut": [0, 6]
+            }
+        },
+        {
+            "key": "sword_socket/smaragdant",
+            "category": "gem",
+            "durability": 256,
+            "integrity": -1,
+            "glyph": {
+                "tint": "00cca6",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/guard/socket/default",
+                "tint": "00cca6"
+            }],
+            "effects": {
+                "criticalStrike": [25, 2.5]
+            }
         }
     ]
 }

@@ -12,10 +12,9 @@
     },
     "displayType": "improvement",
     "requirement": {
-        "type": "tetra:modular_item",
-        "improvements": {
-            "stave_grip/wrap_tidescale": 1
-        }
+        "type": "tetra:improvement",
+        "improvement": "stave_grip/wrap_tidescale",
+        "level": 1
     },
     "outcomes": [
         {
@@ -24,7 +23,7 @@
                 "count": 6
             },
             "requiredTools": {
-                "cut": 2
+                "cut": "minecraft:gold"
             },
             "improvements": {
                 "stave_grip/wrap_tidescale": 2

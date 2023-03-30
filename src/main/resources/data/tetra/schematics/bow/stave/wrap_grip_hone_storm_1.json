@@ -12,10 +12,9 @@
     },
     "displayType": "improvement",
     "requirement": {
-        "type": "tetra:modular_item",
-        "improvements": {
-            "stave_grip/wrap_stormscale": 1
-        }
+        "type": "tetra:improvement",
+        "improvement": "stave_grip/wrap_stormscale",
+        "level": 1
     },
     "outcomes": [
         {
@@ -24,7 +23,7 @@
                 "count": 6
             },
             "requiredTools": {
-                "cut": 3
+                "cut": "minecraft:stone"
             },
             "improvements": {
                 "stave_grip/wrap_stormscale": 2

@@ -1,0 +1,24 @@
+{
+  "key" : "betterendforge_umbralith",
+  "category" : "stone",
+  "primary" : 4.0,
+  "secondary" : 5.0,
+  "tertiary" : 0.0,
+  "durability" : 1561,
+  "integrityCost" : 2,
+  "integrityGain" : 2,
+  "magicCapacity" : 90,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 6.0,
+  "tints" : {
+    "glyph" : "110f22",
+    "texture" : "110f22"
+  },
+  "textures" : [ "grainy", "crude", "default" ],
+  "material" : {
+    "items" : [ "betterendforge:umbralith" ]
+  },
+  "requiredTools" : {
+    "hammer_dig" : "minecraft:netherite"
+  }
+}

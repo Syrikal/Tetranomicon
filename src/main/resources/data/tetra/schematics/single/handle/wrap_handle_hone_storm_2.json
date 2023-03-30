@@ -1,21 +1,20 @@
 {
     "replace": true,
-    "localizationKey": "single/handle/wrap_handle_hone_2",
+    "localizationKey": "single/basic_handle/wrap_handle_hone_2",
     "slots": [
         "single/handle"
     ],
     "materialSlotCount": 1,
     "hone": true,
     "rarity": "hone",
+    "displayType": "improvement",
     "glyph": {
         "textureX": 16
     },
-    "displayType": "improvement",
     "requirement": {
-        "type": "tetra:modular_item",
-        "improvements": {
-            "basic_handle/wrap_stormscale": 2
-        }
+        "type": "tetra:improvement",
+        "improvement": "basic_handle/wrap_stormscale",
+        "level": 2
     },
     "outcomes": [
         {
@@ -24,7 +23,7 @@
                 "count": 8
             },
             "requiredTools": {
-                "cut": 4
+                "cut": "minecraft:iron"
             },
             "improvements": {
                 "basic_handle/wrap_stormscale": 3

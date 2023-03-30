@@ -1,0 +1,27 @@
+{
+  "key" : "byg_blue_enchanted",
+  "category" : "wood",
+  "primary" : 3.0,
+  "secondary" : 1.5,
+  "tertiary" : 6.0,
+  "durability" : 59,
+  "integrityCost" : 1,
+  "integrityGain" : 4,
+  "magicCapacity" : 120,
+  "toolLevel" : "minecraft:wood",
+  "toolEfficiency" : 3.0,
+  "tints" : {
+    "glyph" : "5a6d94",
+    "texture" : "5a6d94"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "byg:blue_enchanted_planks" ]
+  },
+  "effects" : {
+    "stabilizing" : 15
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:stone"
+  }
+}

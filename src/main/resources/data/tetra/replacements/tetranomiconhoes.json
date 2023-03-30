@@ -1,23 +1,23 @@
 [
   {
     "predicate": {
-      "item": "byg:pendorite_hoe"
+      "items": [ "byg:pendorite_hoe" ]
     },
     "item": "tetra:modular_double",
     "modules": {
-      "double/head_left": ["double/hoe_left", "hoe/pendorite"],
-      "double/head_right": ["double/butt_right", "butt/pendorite"],
+      "double/head_left": ["double/hoe_left", "hoe/byg_pendorite"],
+      "double/head_right": ["double/butt_right", "butt/byg_pendorite"],
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
     }
   },
   {
     "predicate": {
-      "item": "enderitemod:enderite_hoe"
+      "items": [ "enderitemod:enderite_hoe" ]
     },
     "item": "tetra:modular_double",
     "modules": {
-      "double/head_left": ["double/hoe_left", "hoe/enderite"],
-      "double/head_right": ["double/butt_right", "butt/enderite"],
+      "double/head_left": ["double/hoe_left", "hoe/enderitemod_enderite"],
+      "double/head_right": ["double/butt_right", "butt/enderitemod_enderite"],
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
     },
     "improvements": {
@@ -27,67 +27,67 @@
   },
   {
     "predicate": {
-      "item": "wyrmroost:blue_geode_hoe"
+      "items": [ "wyrmroost:blue_geode_hoe" ]
     },
     "item": "tetra:modular_double",
     "modules": {
-      "double/head_left": ["double/hoe_left", "hoe/blue_geode"],
-      "double/head_right": ["double/butt_right", "butt/blue_geode"],
+      "double/head_left": ["double/hoe_left", "hoe/wyrmroost_blue_geode"],
+      "double/head_right": ["double/butt_right", "butt/wyrmroost_blue_geode"],
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
     }
   },
   {
     "predicate": {
-      "item": "wyrmroost:red_geode_hoe"
+      "items": [ "wyrmroost:red_geode_hoe" ]
     },
     "item": "tetra:modular_double",
     "modules": {
-      "double/head_left": ["double/hoe_left", "hoe/red_geode"],
-      "double/head_right": ["double/butt_right", "butt/red_geode"],
+      "double/head_left": ["double/hoe_left", "hoe/wyrmroost_red_geode"],
+      "double/head_right": ["double/butt_right", "butt/wyrmroost_red_geode"],
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
     }
   },
   {
     "predicate": {
-      "item": "wyrmroost:purple_geode_hoe"
+      "items": [ "wyrmroost:purple_geode_hoe" ]
     },
     "item": "tetra:modular_double",
     "modules": {
-      "double/head_left": ["double/hoe_left", "hoe/purple_geode"],
-      "double/head_right": ["double/butt_right", "butt/purple_geode"],
+      "double/head_left": ["double/hoe_left", "hoe/wyrmroost_purple_geode"],
+      "double/head_right": ["double/butt_right", "butt/wyrmroost_purple_geode"],
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
     }
   },
   {
     "predicate": {
-      "item": "wyrmroost:platinum_hoe"
+      "items": [ "wyrmroost:platinum_hoe" ]
     },
     "item": "tetra:modular_double",
     "modules": {
-      "double/head_left": ["double/hoe_left", "hoe/platinum"],
-      "double/head_right": ["double/butt_right", "butt/platinum"],
+      "double/head_left": ["double/hoe_left", "hoe/wyrmroost_platinum"],
+      "double/head_right": ["double/butt_right", "butt/wyrmroost_platinum"],
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
     }
   },
   {
     "predicate": {
-      "item": "betterendforge:terminite_hoe"
+      "items": [ "betterendforge:terminite_hoe" ]
     },
     "item": "tetra:modular_double",
     "modules": {
-      "double/head_left": ["double/hoe_left", "hoe/terminite"],
-      "double/head_right": ["double/butt_right", "butt/terminite"],
+      "double/head_left": ["double/hoe_left", "hoe/betterendforge_terminite"],
+      "double/head_right": ["double/butt_right", "butt/betterendforge_terminite"],
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
     }
   },
   {
     "predicate": {
-      "item": "betterendforge:aeternium_hoe"
+      "items": [ "betterendforge:aeternium_hoe" ]
     },
     "item": "tetra:modular_double",
     "modules": {
-      "double/head_left": ["double/hoe_left", "hoe/aeternium"],
-      "double/head_right": ["double/butt_right", "butt/aeternium"],
+      "double/head_left": ["double/hoe_left", "hoe/betterendforge_aeternium"],
+      "double/head_right": ["double/butt_right", "butt/betterendforge_aeternium"],
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
     },
     "improvements": {
@@ -96,35 +96,83 @@
   },
   {
       "predicate": {
-        "item": "betterendforge:thallasium_hoe"
+        "items": [ "betterendforge:thallasium_hoe" ]
       },
       "item": "tetra:modular_double",
       "modules": {
-        "double/head_left": ["double/hoe_left", "hoe/thallasium"],
-        "double/head_right": ["double/butt_right", "butt/thallasium"],
+        "double/head_left": ["double/hoe_left", "hoe/betterendforge_thallasium"],
+        "double/head_right": ["double/butt_right", "butt/betterendforge_thallasium"],
         "double/handle": ["double/basic_handle", "basic_handle/stick"]
       }
   },
   {
     "predicate": {
-      "item": "twilightforest:ironwood_hoe"
+      "items": [ "twilightforest:ironwood_hoe" ]
     },
     "item": "tetra:modular_double",
     "modules": {
-      "double/head_left": ["double/hoe_left", "hoe/ironwood"],
-      "double/head_right": ["double/butt_right", "butt/ironwood"],
+      "double/head_left": ["double/hoe_left", "hoe/twilightforest_ironwood"],
+      "double/head_right": ["double/butt_right", "butt/twilightforest_ironwood"],
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
     }
   },
   {
     "predicate": {
-      "item": "twilightforest:steeleaf_hoe"
+      "items": [ "twilightforest:steeleaf_hoe" ]
     },
     "item": "tetra:modular_double",
     "modules": {
-      "double/head_left": ["double/hoe_left", "hoe/steeleaf"],
-      "double/head_right": ["double/butt_right", "butt/steeleaf"],
+      "double/head_left": ["double/hoe_left", "hoe/twilightforest_steeleaf"],
+      "double/head_right": ["double/butt_right", "butt/twilightforest_steeleaf"],
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "items": [ "stalwart_dungeons:tungsten_hoe" ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/hoe_left", "hoe/stalwart_dungeons_tungsten"],
+      "double/head_right": ["double/butt_right", "butt/stalwart_dungeons_tungsten"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "items": [ "stalwart_dungeons:chorundum_hoe" ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/hoe_left", "hoe/stalwart_dungeons_chorundum"],
+      "double/head_right": ["double/butt_right", "butt/stalwart_dungeons_chorundum"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "items": [ "atum:limestone_hoe" ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/hoe_left", "hoe/atum_limestone"],
+      "double/head_right": ["double/butt_right", "butt/atum_limestone"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "items": [ "netheragriculture:blazing_gold_hoe" ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/hoe_left", "hoe/netheragriculture_blazing_gold"],
+      "double/head_right": ["double/butt_right", "butt/netheragriculture_blazing_gold"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    },
+    "improvements": {
+      "double/head_left:blazing_tool": 2,
+      "double/head_right:blazing_tool": 2
     }
   }
 ]

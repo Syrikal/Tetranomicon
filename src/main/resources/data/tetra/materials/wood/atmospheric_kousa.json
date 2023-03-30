@@ -1,0 +1,24 @@
+{
+  "key" : "atmospheric_kousa",
+  "category" : "wood",
+  "primary" : 4.0,
+  "secondary" : 2.4,
+  "tertiary" : 2.8,
+  "durability" : 180,
+  "integrityCost" : 2,
+  "integrityGain" : 6,
+  "magicCapacity" : 72,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 5.0,
+  "tints" : {
+    "glyph" : "728778",
+    "texture" : "728778"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "atmospheric:kousa_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:stone"
+  }
+}

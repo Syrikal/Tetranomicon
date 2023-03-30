@@ -1,0 +1,24 @@
+{
+  "key" : "atmospheric_morado",
+  "category" : "wood",
+  "primary" : 3.5,
+  "secondary" : 2.0,
+  "tertiary" : 6.5,
+  "durability" : 90,
+  "integrityCost" : 2,
+  "integrityGain" : 5,
+  "magicCapacity" : 96,
+  "toolLevel" : "minecraft:wood",
+  "toolEfficiency" : 4.0,
+  "tints" : {
+    "glyph" : "7e3439",
+    "texture" : "7e3439"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "atmospheric:morado_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:stone"
+  }
+}

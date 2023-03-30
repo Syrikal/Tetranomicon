@@ -182,6 +182,40 @@
                 "location": "tetra:items/module/single/binding/socket/default",
                 "tint": "6fc39c"
             }]
+        },
+        {
+            "key": "single_socket/godshard",
+            "category": "gem",
+            "durability": 1024,
+            "durabilityMultiplier": 0.8,
+            "integrity": -1,
+            "attributes": {
+                "**generic.attack_damage": 0.5,
+                "**generic.attack_speed": 0.1,
+                "**generic.movement_speed": 0.2
+            },
+            "tools": {
+                "shovel": [0, 6],
+                "cut": [0, 6]
+            }
+        },
+        {
+            "key": "single_socket/smaragdant",
+            "category": "gem",
+            "durability": 256,
+            "integrity": -1,
+            "glyph": {
+                "tint": "00cca6",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/single/binding/socket/default",
+                "tint": "00cca6"
+            }],
+            "effects": {
+                "criticalStrike": [25, 2.5]
+            }
         }
     ]
 }

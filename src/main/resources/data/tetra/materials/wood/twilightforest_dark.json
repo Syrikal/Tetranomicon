@@ -1,0 +1,24 @@
+{
+  "key" : "twilightforest_dark",
+  "category" : "wood",
+  "primary" : 4.0,
+  "secondary" : 2.5,
+  "tertiary" : 6.0,
+  "durability" : 768,
+  "integrityCost" : 2,
+  "integrityGain" : 5,
+  "magicCapacity" : 90,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 7.0,
+  "tints" : {
+    "glyph" : "82512e",
+    "texture" : "82512e"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "twilightforest:dark_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:stone"
+  }
+}

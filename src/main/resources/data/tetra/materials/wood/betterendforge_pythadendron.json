@@ -1,0 +1,24 @@
+{
+  "key" : "betterendforge_pythadendron",
+  "category" : "wood",
+  "primary" : 5.5,
+  "secondary" : 1.7,
+  "tertiary" : 5.0,
+  "durability" : 1021,
+  "integrityCost" : 2,
+  "integrityGain" : 8,
+  "magicCapacity" : 90,
+  "toolLevel" : "minecraft:iron",
+  "toolEfficiency" : 7.0,
+  "tints" : {
+    "glyph" : "6b546b",
+    "texture" : "6b546b"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "betterendforge:pythadendron_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:netherite"
+  }
+}

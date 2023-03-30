@@ -15,7 +15,7 @@
               "count": 4
           },
           "requiredTools": {
-              "cut": 3
+              "cut": "minecraft:gold"
           },
           "improvements": {
               "basic_handle/wrap_flamescale": 1
@@ -27,7 +27,7 @@
               "count": 4
           },
           "requiredTools": {
-              "cut": 3
+              "cut": "minecraft:gold"
           },
           "improvements": {
               "basic_handle/wrap_frostscale": 1
@@ -39,7 +39,7 @@
               "count": 4
           },
           "requiredTools": {
-              "cut": 3
+              "cut": "minecraft:gold"
           },
           "improvements": {
               "basic_handle/wrap_stormscale": 1
@@ -51,7 +51,7 @@
               "count": 4
           },
           "requiredTools": {
-              "cut": 2
+              "cut": "minecraft:wood"
           },
           "improvements": {
               "basic_handle/wrap_tidescale": 1

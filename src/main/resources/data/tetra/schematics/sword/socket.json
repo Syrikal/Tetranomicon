@@ -3,7 +3,7 @@
     "outcomes": [
         {
             "material": {
-                "item": "byg:ametrine_gems"
+                "items": [ "byg:ametrine_gems" ]
             },
             "experienceCost": 10,
             "moduleKey": "sword/socket",
@@ -11,7 +11,7 @@
         },
         {
             "material": {
-                "item": "wyrmroost:blue_geode"
+                "items": [ "wyrmroost:blue_geode" ]
             },
             "experienceCost": 2,
             "moduleKey": "sword/socket",
@@ -19,7 +19,7 @@
         },
         {
             "material": {
-                "item": "wyrmroost:red_geode"
+                "items": [ "wyrmroost:red_geode" ]
             },
             "experienceCost": 5,
             "moduleKey": "sword/socket",
@@ -27,7 +27,7 @@
         },
         {
             "material": {
-                "item": "wyrmroost:purple_geode"
+                "items": [ "wyrmroost:purple_geode" ]
             },
             "experienceCost": 10,
             "moduleKey": "sword/socket",
@@ -35,7 +35,7 @@
         },
         {
             "material": {
-                "item": "betterendforge:crystal_shards"
+                "items": [ "betterendforge:crystal_shards" ]
             },
             "experienceCost": 5,
             "moduleKey": "sword/socket",
@@ -43,7 +43,7 @@
         },
         {
             "material": {
-                "item": "betterendforge:eternal_crystal"
+                "items": [ "betterendforge:eternal_crystal" ]
             },
             "experienceCost": 20,
             "moduleKey": "sword/socket",
@@ -51,7 +51,7 @@
         },
         {
             "material": {
-                "item": "betterendforge:amber_gem"
+                "items": [ "betterendforge:amber_gem" ]
             },
             "experienceCost": 2,
             "moduleKey": "sword/socket",
@@ -59,7 +59,7 @@
         },
         {
             "material": {
-                "item": "outer_end:cobalt_crystal_shard"
+                "items": [ "outer_end:cobalt_crystal_shard" ]
             },
             "experienceCost": 10,
             "moduleKey": "sword/socket",
@@ -67,7 +67,7 @@
         },
         {
             "material": {
-                "item": "outer_end:rose_crystal_shard"
+                "items": [ "outer_end:rose_crystal_shard" ]
             },
             "experienceCost": 10,
             "moduleKey": "sword/socket",
@@ -75,11 +75,27 @@
         },
         {
             "material": {
-                "item": "outer_end:mint_crystal_shard"
+                "items": [ "outer_end:mint_crystal_shard" ]
             },
             "experienceCost": 10,
             "moduleKey": "sword/socket",
             "moduleVariant": "sword_socket/mint_crystal"
+        },
+        {
+            "material": {
+                "tag": "atum:godshards"
+            },
+            "experienceCost": 30,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/godshard"
+        },
+        {
+            "material": {
+                "items": [ "betterendforge:smaragdant_crystal_shard" ]
+            },
+            "experienceCost": 30,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/smaragdant"
         }
     ]
 }

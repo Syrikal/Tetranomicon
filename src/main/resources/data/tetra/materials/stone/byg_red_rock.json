@@ -1,0 +1,24 @@
+{
+  "key" : "byg_red_rock",
+  "category" : "stone",
+  "primary" : 3.8,
+  "secondary" : 3.0,
+  "tertiary" : 0.0,
+  "durability" : 160,
+  "integrityCost" : 1,
+  "integrityGain" : 4,
+  "magicCapacity" : 90,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 4.0,
+  "tints" : {
+    "glyph" : "914d2d",
+    "texture" : "914d2d"
+  },
+  "textures" : [ "grainy", "crude", "default" ],
+  "material" : {
+    "items" : [ "byg:red_rock" ]
+  },
+  "requiredTools" : {
+    "hammer_dig" : "minecraft:wood"
+  }
+}

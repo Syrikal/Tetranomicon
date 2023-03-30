@@ -1,0 +1,24 @@
+{
+  "key" : "betterendforge_helix_tree",
+  "category" : "wood",
+  "primary" : 5.0,
+  "secondary" : 1.6,
+  "tertiary" : 7.0,
+  "durability" : 200,
+  "integrityCost" : 2,
+  "integrityGain" : 5,
+  "magicCapacity" : 102,
+  "toolLevel" : "minecraft:diamond",
+  "toolEfficiency" : 5.0,
+  "tints" : {
+    "glyph" : "c87d20",
+    "texture" : "c87d20"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "betterendforge:helix_tree_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:netherite"
+  }
+}

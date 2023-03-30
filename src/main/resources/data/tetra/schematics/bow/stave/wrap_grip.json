@@ -16,7 +16,7 @@
 
             },
             "requiredTools": {
-                "cut": 3
+                "cut": "minecraft:gold"
             },
             "improvements": {
                 "stave_grip/wrap_flamescale": 1
@@ -28,7 +28,7 @@
                 "count": 4
             },
             "requiredTools": {
-                "cut": 3
+                "cut": "minecraft:gold"
             },
             "improvements": {
                 "stave_grip/wrap_frostscale": 1
@@ -39,7 +39,7 @@
                 "tag": "forge:scales/lightning_dragon",
                 "count": 4
             },"requiredTools": {
-                "cut": 3
+                "cut": "minecraft:gold"
             },
             "improvements": {
                 "stave_grip/wrap_stormscale": 1
@@ -50,7 +50,7 @@
                 "tag": "forge:scales/sea_serpent",
                 "count": 4
             },"requiredTools": {
-                "cut": 2
+                "cut": "minecraft:wood"
             },
             "improvements": {
                 "stave_grip/wrap_tidescale": 1

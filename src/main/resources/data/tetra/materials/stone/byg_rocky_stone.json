@@ -1,0 +1,24 @@
+{
+  "key" : "byg_rocky_stone",
+  "category" : "stone",
+  "primary" : 4.0,
+  "secondary" : 3.0,
+  "tertiary" : 0.0,
+  "durability" : 131,
+  "integrityCost" : 1,
+  "integrityGain" : 4,
+  "magicCapacity" : 90,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 4.0,
+  "tints" : {
+    "glyph" : "787777",
+    "texture" : "787777"
+  },
+  "textures" : [ "grainy", "crude", "default" ],
+  "material" : {
+    "items" : [ "byg:rocky_stone" ]
+  },
+  "requiredTools" : {
+    "hammer_dig" : "minecraft:wood"
+  }
+}

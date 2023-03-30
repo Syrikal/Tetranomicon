@@ -1,0 +1,24 @@
+{
+  "key" : "byg_nightshade",
+  "category" : "wood",
+  "primary" : 5.0,
+  "secondary" : 1.3,
+  "tertiary" : 5.0,
+  "durability" : 780,
+  "integrityCost" : 2,
+  "integrityGain" : 7,
+  "magicCapacity" : 90,
+  "toolLevel" : "minecraft:iron",
+  "toolEfficiency" : 6.0,
+  "tints" : {
+    "glyph" : "915f2a",
+    "texture" : "915f2a"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "byg:nightshade_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:netherite"
+  }
+}

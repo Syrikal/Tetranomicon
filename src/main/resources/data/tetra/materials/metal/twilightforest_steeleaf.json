@@ -1,0 +1,30 @@
+{
+  "key" : "twilightforest_steeleaf",
+  "category" : "metal",
+  "primary" : 6.0,
+  "secondary" : 2.5,
+  "tertiary" : 3.0,
+  "durability" : 131,
+  "integrityCost" : 2,
+  "integrityGain" : 4,
+  "magicCapacity" : 54,
+  "toolLevel" : "minecraft:diamond",
+  "toolEfficiency" : 8.0,
+  "tints" : {
+    "glyph" : "385e2b",
+    "texture" : "385e2b"
+  },
+  "textures" : [ "metal", "default" ],
+  "material" : {
+    "items" : [ "twilightforest:steeleaf_ingot" ]
+  },
+  "improvements" : {
+    "steeleaf_innate_efficiency" : 1,
+    "steeleaf_innate_efficiency_two" : 2,
+    "steeleaf_innate_looting" : 2,
+    "steeleaf_innate_fortune" : 1
+  },
+  "requiredTools" : {
+    "hammer_dig" : "minecraft:iron"
+  }
+}

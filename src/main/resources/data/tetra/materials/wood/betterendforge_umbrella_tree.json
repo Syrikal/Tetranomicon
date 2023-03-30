@@ -1,0 +1,24 @@
+{
+  "key" : "betterendforge_umbrella_tree",
+  "category" : "wood",
+  "primary" : 4.0,
+  "secondary" : 2.4,
+  "tertiary" : 6.0,
+  "durability" : 600,
+  "integrityCost" : 2,
+  "integrityGain" : 6,
+  "magicCapacity" : 114,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 10.0,
+  "tints" : {
+    "glyph" : "04646c",
+    "texture" : "04646c"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "betterendforge:umbrella_tree_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:netherite"
+  }
+}

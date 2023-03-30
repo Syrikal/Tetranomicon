@@ -1,0 +1,60 @@
+{
+    "replace": false,
+    "slots": [
+        "bow/stave"
+    ],
+    "materialSlotCount": 1,
+    "glyph": {
+        "textureX": 16
+    },
+    "displayType": "improvement",
+    "outcomes": [
+        {
+            "material": {
+                "tag": "forge:scales/fire_dragon",
+                "count": 4
+
+            },
+            "requiredTools": {
+                "cut": 3
+            },
+            "improvements": {
+                "stave_grip/wrap_flamescale": 1
+            }
+        },
+        {
+            "material": {
+                "tag": "forge:scales/ice_dragon",
+                "count": 4
+            },
+            "requiredTools": {
+                "cut": 3
+            },
+            "improvements": {
+                "stave_grip/wrap_frostscale": 1
+            }
+        },
+        {
+            "material": {
+                "tag": "forge:scales/lightning_dragon",
+                "count": 4
+            },"requiredTools": {
+                "cut": 3
+            },
+            "improvements": {
+                "stave_grip/wrap_stormscale": 1
+            }
+        },
+        {
+            "material": {
+                "tag": "forge:scales/sea_serpent",
+                "count": 4
+            },"requiredTools": {
+                "cut": 2
+            },
+            "improvements": {
+                "stave_grip/wrap_tidescale": 1
+            }
+        }
+    ]
+}

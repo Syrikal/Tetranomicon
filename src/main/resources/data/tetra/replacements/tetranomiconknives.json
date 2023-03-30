@@ -1,0 +1,38 @@
+[
+  {
+    "predicate": {
+      "items": [ "netheragriculture:knife" ]
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": ["sword/short_blade", "short_blade/iron"],
+      "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "items": [ "netheragriculture:diamond_knife" ]
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": ["sword/short_blade", "short_blade/diamond"],
+      "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"]
+    },
+    "improvements": {
+      "sword/blade:arrested": 0
+    }
+  },
+  {
+    "predicate": {
+      "items": [ "netheragriculture:netherite_knife" ]
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": ["sword/short_blade", "short_blade/netherite"],
+      "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"]
+    },
+    "improvements": {
+      "sword/hilt:basic_hilt/soot": 0
+    }
+  }
+]

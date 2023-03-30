@@ -1,0 +1,27 @@
+{
+  "key" : "enderitemod_enderite",
+  "category" : "metal",
+  "primary" : 8.0,
+  "secondary" : 2.5,
+  "tertiary" : 4.0,
+  "durability" : 4096,
+  "integrityCost" : 2,
+  "integrityGain" : 10,
+  "magicCapacity" : 102,
+  "toolLevel" : "minecraft:netherite",
+  "toolEfficiency" : 15.0,
+  "tints" : {
+    "glyph" : "144038",
+    "texture" : "144038"
+  },
+  "textures" : [ "metal", "default" ],
+  "material" : {
+    "items" : [ "enderitemod:enderite_ingot" ]
+  },
+  "improvements" : {
+    "enderite_void_floating_innate" : 3
+  },
+  "requiredTools" : {
+    "hammer_dig" : "tetranomicon:six"
+  }
+}

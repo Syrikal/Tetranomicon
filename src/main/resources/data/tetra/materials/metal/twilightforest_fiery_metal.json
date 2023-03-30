@@ -1,0 +1,30 @@
+{
+  "key" : "twilightforest_fiery_metal",
+  "category" : "metal",
+  "primary" : 7.0,
+  "secondary" : 4.0,
+  "tertiary" : 3.0,
+  "durability" : 1024,
+  "integrityCost" : 2,
+  "integrityGain" : 5,
+  "magicCapacity" : 60,
+  "toolLevel" : "minecraft:netherite",
+  "toolEfficiency" : 9.0,
+  "tints" : {
+    "glyph" : "dc7404",
+    "texture" : "dc7404"
+  },
+  "textures" : [ "metal", "default" ],
+  "material" : {
+    "items" : [ "twilightforest:fiery_ingot" ]
+  },
+  "effects" : {
+    "fierySelf" : [ 3, 0.1 ]
+  },
+  "improvements" : {
+    "enchantment/fire_aspect" : 1
+  },
+  "requiredTools" : {
+    "hammer_dig" : "minecraft:iron"
+  }
+}

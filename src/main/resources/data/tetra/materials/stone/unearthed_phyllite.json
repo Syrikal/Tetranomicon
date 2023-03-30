@@ -1,0 +1,24 @@
+{
+  "key" : "unearthed_phyllite",
+  "category" : "stone",
+  "primary" : 4.7,
+  "secondary" : 3.0,
+  "tertiary" : 0.0,
+  "durability" : 160,
+  "integrityCost" : 1,
+  "integrityGain" : 2,
+  "magicCapacity" : 78,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 4.0,
+  "tints" : {
+    "glyph" : "767676",
+    "texture" : "767676"
+  },
+  "textures" : [ "grainy", "crude", "default" ],
+  "material" : {
+    "items" : [ "unearthed:phyllite" ]
+  },
+  "requiredTools" : {
+    "hammer_dig" : "minecraft:wood"
+  }
+}
