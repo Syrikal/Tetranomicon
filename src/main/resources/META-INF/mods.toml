@@ -1,5 +1,5 @@
 modLoader="javafml" #mandatory
-loaderVersion="[40,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+loaderVersion="[43,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 license="MIT"
 issueTrackerURL="http://my.issue.tracker/" #optional
 
@@ -19,19 +19,19 @@ Adds Tetra support to materials from Abnormals mods, Better End, BOP, BYG, Creat
 [[dependencies.tetranomicon]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
-    versionRange="[40,)" #mandatory
+    versionRange="[43,)" #mandatory
     ordering="NONE"
     side="BOTH"
 # Here's another dependency
 [[dependencies.tetranomicon]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.18.2,1.19)"
+    versionRange="[1.19.2,1.20)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.tetranomicon]]
     modId="tetra"
     mandatory=true
-    versionRange="[3.3.0,)"
+    versionRange="[5.1.0,)"
     ordering="AFTER"
     side="BOTH"

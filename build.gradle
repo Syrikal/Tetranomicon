@@ -16,7 +16,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
-version = '1.4-1.18.2'
+version = '1.4-1.19.2'
 group = 'com.syric.tetranomicon' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'tetranomicon'
 
@@ -24,7 +24,7 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
 minecraft {
-    mappings channel: 'official', version: '1.18.2'
+    mappings channel: 'official', version: '1.19.2'
 
     runs {
         client {
@@ -80,44 +80,46 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.18.2-40.2.0'
+    minecraft 'net.minecraftforge:forge:1.19.2-43.2.0'
 
-    implementation fg.deobf("curse.maven:mutil-351914:3788376")
-    implementation fg.deobf("curse.maven:tetra-289712:4029100")
-    implementation fg.deobf("curse.maven:scroll-of-harvests-571339:3805701")
+    implementation fg.deobf("curse.maven:mutil-351914:3941314")
+    implementation fg.deobf("curse.maven:tetra-289712:4448541")
+    implementation fg.deobf("curse.maven:scroll-of-harvests-571339:4379788")
 
     //Abnormals: Atmospheric, Autumnity, Bamboo Blocks (NO), Bayou Blues (NO), Endergetic (NO), Environmental, Upgrade Aquatic
-    implementation fg.deobf("curse.maven:atmospheric-362393:4367068")
-    implementation fg.deobf("curse.maven:autumnity-365045:4365141")
-    implementation fg.deobf("curse.maven:environmental-388992:4381294")
-    implementation fg.deobf("curse.maven:upgrade-aquatic-326895:4365140")
+    implementation fg.deobf("curse.maven:atmospheric-362393:4415516")
+    implementation fg.deobf("curse.maven:autumnity-365045:4415512")
+    implementation fg.deobf("curse.maven:environmental-388992:4415514")
+    implementation fg.deobf("curse.maven:upgrade-aquatic-326895:4415517")
     //Blueprint
-    implementation fg.deobf("curse.maven:blueprint-382216:3991478")
+    implementation fg.deobf("curse.maven:blueprint-382216:4442628")
 
     //Atum: Not available
 
     //Better End: Not available
 
     //BOP
-    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:3759236")
+    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:4128419")
     //Terrablender
-    implementation fg.deobf("curse.maven:terrablender-563928:3957976")
+    implementation fg.deobf("curse.maven:terrablender-563928:4205732")
 
 
     //BYG
-    implementation fg.deobf("curse.maven:oh-the-biomes-youll-go-247560:4036050")
+    implementation fg.deobf("curse.maven:oh-the-biomes-youll-go-247560:4027228")
 
     //Create
-    implementation fg.deobf("curse.maven:create-328085:4371807")
+//    implementation fg.deobf("curse.maven:create-328085:4371809")
     //Flywheel
-    implementation fg.deobf("curse.maven:flywheel-486392:4341461")
+//    implementation fg.deobf("curse.maven:flywheel-486392:4341461")
 
     //Enderite
-    implementation fg.deobf("curse.maven:enderite-mod-for-forge-401284:4287555")
+//    implementation fg.deobf("curse.maven:enderite-mod-for-forge-401284:4282088")
+//    implementation fg.deobf("curse.maven:architectury-api-419699:4384406")
+//    implementation fg.deobf("curse.maven:cloth-config-348521:3972423")
 
     //Ice and Fire: not available
-    implementation fg.deobf("curse.maven:citadel-331936:3783096")
-    implementation fg.deobf("curse.maven:ice-and-fire-dragons-264231:4434019")
+//    implementation fg.deobf("curse.maven:citadel-331936:3783096")
+//    implementation fg.deobf("curse.maven:ice-and-fire-dragons-264231:4434019")
 
 
     //Nether Agriculture: not available
@@ -125,33 +127,28 @@ dependencies {
     //Outer End: not available
 
     //Quark
-    implementation fg.deobf("curse.maven:quark-243121:3840125")
+//    implementation fg.deobf("curse.maven:quark-243121:4463411")
     //AutoRegLib
-    implementation fg.deobf("curse.maven:autoreglib-250363:3642382")
+//    implementation fg.deobf("curse.maven:autoreglib-250363:4100299")
 
     //Stalwart Dungeons
-    implementation fg.deobf("curse.maven:stalwart-dungeons-474817:4022451")
+//    implementation fg.deobf("curse.maven:stalwart-dungeons-474817:4455108")
 
 
     //Twilight Forest
-    implementation fg.deobf("curse.maven:the-twilight-forest-227639:4337390")
+//    implementation fg.deobf("curse.maven:the-twilight-forest-227639:4389567")
 
-    //Unearthed
-    implementation fg.deobf("curse.maven:unearthed-406825:3999558")
-    //Hyle
-    implementation fg.deobf("curse.maven:hyle-609850:3748968")
+    //Unearthed: not available
+    //Hyle: not available
 
     //Wyrmroost: not available
 
 
     //JEI
-    implementation fg.deobf("curse.maven:jei-238222:3940240")
+    implementation fg.deobf("curse.maven:jei-238222:4434397")
 
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
-
-//    compile fg.deobf("curse.maven:citadel:3299591")
-//    compile fg.deobf("curse.maven:ice-and-fire-dragons:3217622")
 
 }
 
