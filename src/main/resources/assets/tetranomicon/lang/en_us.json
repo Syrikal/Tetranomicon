@@ -274,12 +274,12 @@
   "tetra/schematic/double/basic_handle/wrap_handle_hone_2.slot1": "Material",
   "tetra/schematic/double/basic_handle/wrap_handle_hone_2.description": "Further improve the handle wrap, further increasing damage and speed, and reducing negative effects.",
 
-  "tetra/schematic/single/basic_handle/wrap_handle_hone_1.name": "Hone: Wrap II",
-  "tetra/schematic/single/basic_handle/wrap_handle_hone_1.slot1": "Material",
-  "tetra/schematic/single/basic_handle/wrap_handle_hone_1.description": "Improve the handle wrap, further increasing damage and speed, and reducing negative effects.",
-  "tetra/schematic/single/basic_handle/wrap_handle_hone_2.name": "Hone: Wrap III",
-  "tetra/schematic/single/basic_handle/wrap_handle_hone_2.slot1": "Material",
-  "tetra/schematic/single/basic_handle/wrap_handle_hone_2.description": "Further improve the handle wrap, further increasing damage and speed, and reducing negative effects.",
+  "tetra/schematic/single/handle/wrap_handle_hone_1.name": "Hone: Wrap II",
+  "tetra/schematic/single/handle/wrap_handle_hone_1.slot1": "Material",
+  "tetra/schematic/single/handle/wrap_handle_hone_1.description": "Improve the handle wrap, further increasing damage and speed, and reducing negative effects.",
+  "tetra/schematic/single/handle/wrap_handle_hone_2.name": "Hone: Wrap III",
+  "tetra/schematic/single/handle/wrap_handle_hone_2.slot1": "Material",
+  "tetra/schematic/single/handle/wrap_handle_hone_2.description": "Further improve the handle wrap, further increasing damage and speed, and reducing negative effects.",
 
   "tetra/schematic/bow/stave/wrap_grip_hone_1.name": "Hone: Wrap II",
   "tetra/schematic/bow/stave/wrap_grip_hone_1.slot1": "Material",
