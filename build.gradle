@@ -99,44 +99,37 @@ dependencies {
     //Better End: Not available
 
     //BOP
-    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:4128419")
+    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:4473556")
     //Terrablender
     implementation fg.deobf("curse.maven:terrablender-563928:4205732")
 
 
     //BYG
-    implementation fg.deobf("curse.maven:oh-the-biomes-youll-go-247560:4027228")
+//    implementation fg.deobf("curse.maven:oh-the-biomes-youll-go-247560:4426501")
 
     //Create
-//    implementation fg.deobf("curse.maven:create-328085:4371809")
-    //Flywheel
-//    implementation fg.deobf("curse.maven:flywheel-486392:4341461")
+    implementation fg.deobf("curse.maven:create-328085:4371809")
+    //Flywheel: (n/a)
 
-    //Enderite
-//    implementation fg.deobf("curse.maven:enderite-mod-for-forge-401284:4282088")
-//    implementation fg.deobf("curse.maven:architectury-api-419699:4384406")
-//    implementation fg.deobf("curse.maven:cloth-config-348521:3972423")
+    //Enderite: not available
 
     //Ice and Fire: not available
-//    implementation fg.deobf("curse.maven:citadel-331936:3783096")
-//    implementation fg.deobf("curse.maven:ice-and-fire-dragons-264231:4434019")
-
 
     //Nether Agriculture: not available
 
     //Outer End: not available
 
     //Quark
-//    implementation fg.deobf("curse.maven:quark-243121:4463411")
+    implementation fg.deobf("curse.maven:quark-243121:4480516")
     //AutoRegLib
-//    implementation fg.deobf("curse.maven:autoreglib-250363:4100299")
+    implementation fg.deobf("curse.maven:autoreglib-250363:4100299")
 
     //Stalwart Dungeons
-//    implementation fg.deobf("curse.maven:stalwart-dungeons-474817:4455108")
+    implementation fg.deobf("curse.maven:stalwart-dungeons-474817:4484759")
 
 
     //Twilight Forest
-//    implementation fg.deobf("curse.maven:the-twilight-forest-227639:4389567")
+//    implementation fg.deobf("curse.maven:the-twilight-forest-227639:4490392")
 
     //Unearthed: not available
     //Hyle: not available
@@ -146,6 +139,10 @@ dependencies {
 
     //JEI
     implementation fg.deobf("curse.maven:jei-238222:4434397")
+
+    //GeckoLib??
+//    implementation fg.deobf("curse.maven:geckolib-388172:4407241")
+
 
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'

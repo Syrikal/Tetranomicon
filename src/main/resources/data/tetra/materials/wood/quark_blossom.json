@@ -1,0 +1,24 @@
+{
+  "key" : "quark_blossom",
+  "category" : "wood",
+  "primary" : 3,
+  "secondary" : 1.5,
+  "tertiary" : 6,
+  "durability" : 131,
+  "integrityCost" : 1,
+  "integrityGain" : 5,
+  "magicCapacity" : 108,
+  "toolLevel" : "minecraft:wood",
+  "toolEfficiency" : 2.0,
+  "tints" : {
+    "glyph" : "5c3420",
+    "texture" : "5c3420"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "quark:blossom_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:wood"
+  }
+}

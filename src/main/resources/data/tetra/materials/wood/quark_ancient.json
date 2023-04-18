@@ -1,0 +1,24 @@
+{
+  "key" : "quark_ancient",
+  "category" : "wood",
+  "primary" : 4.5,
+  "secondary" : 1.6,
+  "tertiary" : 5.5,
+  "durability" : 250,
+  "integrityCost" : 2,
+  "integrityGain" : 6,
+  "magicCapacity" : 84,
+  "toolLevel" : "minecraft:gold",
+  "toolEfficiency" : 4.0,
+  "tints" : {
+    "glyph" : "e3ede9",
+    "texture" : "e3ede9"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "quark:ancient_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:stone"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "key" : "quark_shale",
+  "category" : "stone",
+  "primary" : 4,
+  "secondary" : 3.0,
+  "tertiary" : 0.0,
+  "durability" : 110,
+  "integrityCost" : 1,
+  "integrityGain" : 2,
+  "magicCapacity" : 78,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 4.0,
+  "tints" : {
+    "glyph" : "5a7177",
+    "texture" : "5a7177"
+  },
+  "textures" : [ "grainy", "crude", "default" ],
+  "material" : {
+    "items" : [ "quark:shale" ]
+  },
+  "requiredTools" : {
+    "hammer_dig" : "minecraft:wood"
+  }
+}

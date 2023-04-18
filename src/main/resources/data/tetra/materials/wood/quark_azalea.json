@@ -1,0 +1,24 @@
+{
+  "key" : "quark_azalea",
+  "category" : "wood",
+  "primary" : 3,
+  "secondary" : 1.5,
+  "tertiary" : 6,
+  "durability" : 59,
+  "integrityCost" : 1,
+  "integrityGain" : 5,
+  "magicCapacity" : 102,
+  "toolLevel" : "minecraft:wood",
+  "toolEfficiency" : 2.0,
+  "tints" : {
+    "glyph" : "bfc664",
+    "texture" : "bfc664"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "quark:azalea_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:wood"
+  }
+}
