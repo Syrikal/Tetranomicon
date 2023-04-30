@@ -7,5 +7,6 @@ import net.minecraftforge.fml.common.Mod;
 public class Tetranomicon {
     public Tetranomicon () {
         MinecraftForge.EVENT_BUS.register(this);
+        TierRegistration.init();
     }
 }
