@@ -22,6 +22,6 @@
     "enderite_void_floating_innate" : 3
   },
   "requiredTools" : {
-    "hammer_dig" : "tetranomicon:six"
+    "hammer_dig" : "tetra:maxed_forge_hammer"
   }
 }

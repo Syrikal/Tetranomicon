@@ -114,7 +114,10 @@ dependencies {
     implementation fg.deobf("curse.maven:create-328085:4371809")
     //Flywheel: (n/a)
 
-    //Enderite: not available
+    //Enderite
+    implementation fg.deobf("curse.maven:enderite-mod-for-forge-401284:4282088")
+    implementation fg.deobf("curse.maven:architectury-api-419699:4555749")
+    implementation fg.deobf("curse.maven:cloth-config-348521:3972423")
 
     //Ice and Fire: not available
 
