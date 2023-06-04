@@ -1,0 +1,24 @@
+{
+  "key" : "byg_ether_stone",
+  "category" : "stone",
+  "primary" : 4.0,
+  "secondary" : 4.0,
+  "tertiary" : 0.0,
+  "durability" : 1561,
+  "integrityCost" : 1,
+  "integrityGain" : 2,
+  "magicCapacity" : 90,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 6.0,
+  "tints" : {
+    "glyph" : "859898",
+    "texture" : "859898"
+  },
+  "textures" : [ "grainy", "crude", "default" ],
+  "material" : {
+    "items" : [ "byg:ether_stone" ]
+  },
+  "requiredTools" : {
+    "hammer_dig" : "minecraft:netherite"
+  }
+}

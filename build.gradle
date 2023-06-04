@@ -16,7 +16,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
-version = '1.4.2-1.19.2'
+version = '1.4.3-1.19.2'
 group = 'com.syric.tetranomicon' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'tetranomicon'
 
@@ -99,13 +99,16 @@ dependencies {
     //Better End: Not available
 
     //BOP
-    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:4473556")
+//    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:4473556")
     //Terrablender
     implementation fg.deobf("curse.maven:terrablender-563928:4205732")
 
 
     //BYG
-//    implementation fg.deobf("curse.maven:oh-the-biomes-youll-go-247560:4426501")
+    implementation fg.deobf("curse.maven:oh-the-biomes-youll-go-247560:4027228")
+    implementation fg.deobf("curse.maven:geckolib-388172:4407241")
+    implementation fg.deobf("curse.maven:corgilib-693313:4554111")
+
 
     //Create
     implementation fg.deobf("curse.maven:create-328085:4371809")
@@ -140,8 +143,6 @@ dependencies {
     //JEI
     implementation fg.deobf("curse.maven:jei-238222:4434397")
 
-    //GeckoLib??
-//    implementation fg.deobf("curse.maven:geckolib-388172:4407241")
 
 
 
