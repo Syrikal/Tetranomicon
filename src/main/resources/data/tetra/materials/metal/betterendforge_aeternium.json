@@ -8,7 +8,7 @@
   "integrityCost" : 2,
   "integrityGain" : 12,
   "magicCapacity" : 108,
-  "toolLevel" : "tetranomicon:six",
+  "toolLevel" : "tetranomicon:netherite_plus",
   "toolEfficiency" : 10.0,
   "tints" : {
     "glyph" : "6c8c84",
@@ -19,6 +19,6 @@
     "items" : [ "betterendforge:aeternium_ingot" ]
   },
   "requiredTools" : {
-    "hammer_dig" : "tetranomicon:six"
+    "hammer_dig" : "minecraft:netherite"
   }
 }

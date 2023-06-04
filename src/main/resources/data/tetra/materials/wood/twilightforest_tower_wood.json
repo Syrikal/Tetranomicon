@@ -16,7 +16,7 @@
   },
   "textures" : [ "crude", "wooden" ],
   "material" : {
-    "items" : [ "twilightforest:tower_wood" ]
+    "items" : [ "twilightforest:towerwood" ]
   },
   "requiredTools" : {
     "axe_dig" : "minecraft:netherite"

@@ -8,7 +8,7 @@
   "integrityCost" : 2,
   "integrityGain" : 10,
   "magicCapacity" : 60,
-  "toolLevel" : "tetranomicon:six",
+  "toolLevel" : "tetranomicon:netherite_plus",
   "toolEfficiency" : 10.0,
   "tints" : {
     "glyph" : "856fb5",
@@ -19,6 +19,6 @@
     "items" : [ "iceandfire:dragonsteel_lightning_ingot" ]
   },
   "requiredTools" : {
-    "hammer_dig" : "tetranomicon:six"
+    "hammer_dig" : "minecraft:netherite"
   }
 }

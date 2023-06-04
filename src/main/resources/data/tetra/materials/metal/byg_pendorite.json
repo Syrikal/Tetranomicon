@@ -8,7 +8,7 @@
   "integrityCost" : 2,
   "integrityGain" : 6,
   "magicCapacity" : 90,
-  "toolLevel" : "tetranomicon:six",
+  "toolLevel" : "tetranomicon:netherite_plus",
   "toolEfficiency" : 10,
   "tints" : {
     "glyph" : "723770",
@@ -16,7 +16,7 @@
   },
   "textures" : [ "metal", "default" ],
   "material" : {
-    "items" : [ "byg:pendorite_scraps" ]
+    "items" : [ "byg:pendorite_ingot" ]
   },
   "requiredTools" : {
     "hammer_dig" : "minecraft:netherite"
