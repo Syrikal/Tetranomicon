@@ -99,7 +99,7 @@ dependencies {
     //Better End: Not available
 
     //BOP
-//    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:4473556")
+    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:4473556")
     //Terrablender
     implementation fg.deobf("curse.maven:terrablender-563928:4205732")
 
@@ -135,7 +135,7 @@ dependencies {
 
 
     //Twilight Forest
-//    implementation fg.deobf("curse.maven:the-twilight-forest-227639:4490392")
+    implementation fg.deobf("curse.maven:the-twilight-forest-227639:4389567")
 
     //Unearthed: not available
     //Hyle: not available
