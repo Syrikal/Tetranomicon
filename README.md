@@ -134,6 +134,39 @@ Wood:
  - Voidstone: more durable than obsidian, with better Integrity use, and nearly as good everywhere else.
  - Myalite: better than iron at mining and harder than diamond, but not as light or durable.
 
+## Regions Unexplored
+Wood:
+ - Alpha: identical to oak
+ - Baobab: 
+ - Blackwood: improved integrity but otherwise inferior to other woods
+ - Blue Bioshroom: overworld, slightly magical
+ - Brimwood: nether, more magical less durable alternative to hellbark
+ - Cobalt: nether, hardy and heavy
+ - Cypress
+ - Dead
+ - Eucalyptus
+ - Green Bioshroom: overworld, slightly magical
+ - Joshua
+ - Kapok: magical fantastical looking tree, efficient
+ - Larch: durable
+ - Magnolia: efficient, higher tier
+ - Maple
+ - Mauve: very magical
+ - Palm
+ - Pine
+ - Pink Bioshroom: overworld rare, touch above the other bioshrooms
+ - Redwood
+ - Socotra: (literally a ritual magic dragon blood tree)[https://en.wikipedia.org/wiki/Dracaena_cinnabari], very magical
+ - Willow
+ - Yellow Bioshroom: nether, tier above other bioshrooms
+
+Stone:
+ - Argillite: shale variant, light brittle efficient
+
+Fibre:
+- Glistering Ivy: magical wrapping
+- Kapok Vines: slightly hardier than vanilla vines
+
 ## Unearthed
  - Gabbro
  - Rhyolite
