@@ -1,0 +1,26 @@
+{
+  "key" : "regionsunexplored_glistering_ivy",
+  "category" : "fibre",
+  "primary" : 3.5,
+  "secondary" : 2.0,
+  "tertiary" : 3.0,
+  "durability" : 225,
+  "integrityCost" : 1,
+  "integrityGain" : 4,
+  "magicCapacity" : 135,
+  "toolEfficiency" : 0.0,
+  "tints" : {
+    "glyph" : "e437c5",
+    "texture" : "e437c5"
+  },
+  "textures" : [ "crude", "default" ],
+  "material" : {
+    "items" : [ "regions_unexplored:glistering_ivy" ]
+  },
+    "effects": {
+        "unstable": 20
+    },
+  "requiredTools" : {
+    "cut" : "minecraft:gold"
+  }
+}
