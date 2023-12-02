@@ -20,7 +20,7 @@ All wood types from Atmospheric, Autumnity, Bamboo Blocks, Endergetic Expansion,
  - Willow
  - Wisteria
 
-##Bayou Blues
+## Bayou Blues
  - Cypress wood
 
 ## Better End
