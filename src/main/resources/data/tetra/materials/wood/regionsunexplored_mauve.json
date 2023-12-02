@@ -7,7 +7,7 @@
   "durability" : 58,
   "integrityCost" : 1,
   "integrityGain" : 5,
-  "magicCapacity" : 122,
+  "magicCapacity" : 115,
   "toolLevel" : "minecraft:wood",
   "toolEfficiency" : 2.5,
   "tints" : {
