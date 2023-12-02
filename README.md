@@ -43,7 +43,7 @@ All wood types from Atmospheric, Autumnity, Bamboo Blocks, Endergetic Expansion,
  - Flavolite: like cobblestone but extremely durable.
  - Eternal Runed Flavolite: Has a durability nearly 12 times higher than netherite, making it all but unbreakable. Otherwise identical to cobblestone.
 
-##Biomes O'Plenty
+## Biomes O'Plenty
  - Cherry
  - Dead: hard and durable, and more enchantable than Hellbark.
  - Hellbark: hard and durable, and as good at mining as stone.
@@ -156,7 +156,7 @@ Wood:
  - Pine
  - Pink Bioshroom: overworld rare, touch above the other bioshrooms
  - Redwood
- - Socotra: (literally a ritual magic dragon blood tree)[https://en.wikipedia.org/wiki/Dracaena_cinnabari], very magical
+ - Socotra: [literally a ritual magic dragon blood tree](https://en.wikipedia.org/wiki/Dracaena_cinnabari), very magical
  - Willow
  - Yellow Bioshroom: nether, tier above other bioshrooms
 
