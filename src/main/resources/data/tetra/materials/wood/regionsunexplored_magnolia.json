@@ -1,0 +1,24 @@
+{
+  "key" : "regionsunexplored_magnolia",
+  "category" : "wood",
+  "primary" : 3.1,
+  "secondary" : 1.7,
+  "tertiary" : 7,
+  "durability" : 60,
+  "integrityCost" : 1,
+  "integrityGain" : 5,
+  "magicCapacity" : 95,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 4.0,
+  "tints" : {
+    "glyph" : "922f36",
+    "texture" : "922f36"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "regions_unexplored:magnolia_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:stone"
+  }
+}

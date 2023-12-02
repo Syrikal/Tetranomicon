@@ -1,0 +1,24 @@
+{
+    "key": "regionsunexplored_socotra",
+    "category": "wood",
+    "primary": 1.8,
+    "secondary": 1.6,
+    "tertiary": 7.4,
+    "durability": 42,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 116,
+    "toolLevel": "minecraft:wood",
+    "toolEfficiency": 3.0,
+    "tints": {
+        "glyph": "95653b",
+        "texture": "95653b"
+    },
+    "textures": ["crude", "wooden"],
+    "material": {
+        "items": ["regions_unexplored:socotra_planks"]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:stone"
+    }
+}

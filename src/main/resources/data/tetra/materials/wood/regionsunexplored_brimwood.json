@@ -1,0 +1,24 @@
+{
+    "key": "regionsunexplored_brimwood",
+    "category": "wood",
+    "primary": 3.6,
+    "secondary": 1.4,
+    "tertiary": 6.5,
+    "durability": 175,
+    "integrityCost": 2,
+    "integrityGain": 5,
+    "magicCapacity": 100,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 4.0,
+    "tints": {
+        "glyph": "2f2015",
+        "texture": "2f2015"
+    },
+    "textures": ["crude", "wooden"],
+    "material": {
+        "items": ["regions_unexplored:brimwood_planks"]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:iron"
+    }
+}

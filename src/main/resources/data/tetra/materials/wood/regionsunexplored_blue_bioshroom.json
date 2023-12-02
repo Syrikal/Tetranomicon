@@ -1,0 +1,27 @@
+{
+    "key": "regionsunexplored_blue_bioshroom",
+    "category": "wood",
+    "primary": 3,
+    "secondary": 1.2,
+    "tertiary": 8.5,
+    "durability": 65,
+    "integrityCost": 2,
+    "integrityGain": 6,
+    "magicCapacity": 110,
+    "toolLevel": "minecraft:wood",
+    "toolEfficiency": 3,
+    "tints": {
+        "glyph": "56b4c8",
+        "texture": "56b4c8"
+    },
+    "textures": ["crude", "wooden"],
+    "material": {
+        "items": ["regions_unexplored:blue_bioshroom_planks"]
+    },
+    "effects": {
+        "unstable": 10
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:stone"
+    }
+}

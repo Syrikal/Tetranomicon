@@ -1,0 +1,24 @@
+{
+  "key" : "regionsunexplored_dead",
+  "category" : "wood",
+  "primary" : 4.0,
+  "secondary" : 1.3,
+  "tertiary" : 4.5,
+  "durability" : 180,
+  "integrityCost" : 1,
+  "integrityGain" : 3,
+  "magicCapacity" : 102,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 5.0,
+  "tints" : {
+    "glyph" : "5e514c",
+    "texture" : "5e514c"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "regions_unexplored:dead_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:stone"
+  }
+}
