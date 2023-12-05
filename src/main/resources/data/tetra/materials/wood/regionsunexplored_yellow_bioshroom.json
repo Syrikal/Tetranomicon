@@ -16,7 +16,7 @@
     },
     "textures": ["crude", "wooden"],
     "material": {
-        "items": ["regions_unexplored:green_bioshroom_planks"]
+        "items": ["regions_unexplored:yellow_bioshroom_planks"]
     },
     "effects": {
         "unstable": 30
