@@ -1,0 +1,26 @@
+{
+  "replace": true,
+  "requirement": {
+      "type": "tetra:and",
+      "requirements": [
+          {
+              "type": "tetra:craft_type",
+              "craft": "module"
+          },
+          {
+              "type": "tetra:material",
+              "material": {
+                  "items": [ "enderitemod:enderite_ingot" ]
+              }
+          }
+      ]
+  },
+  "outcomes": [
+      {
+          "type": "tetra:apply_enchantments",
+          "enchantments": {
+              "enderitemod:void_floating": 3
+          }
+      }
+  ]
+}

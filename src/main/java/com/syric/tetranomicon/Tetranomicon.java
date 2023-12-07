@@ -1,10 +1,12 @@
-package com.tetranomicon.tetranomicon;
+package com.syric.tetranomicon;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 
-@Mod("tetranomicon")
+@Mod(Tetranomicon.MODID)
 public class Tetranomicon {
+    public static final String MODID = "tetranomicon";
+
     public Tetranomicon () {
         MinecraftForge.EVENT_BUS.register(this);
         TierRegistration.init();

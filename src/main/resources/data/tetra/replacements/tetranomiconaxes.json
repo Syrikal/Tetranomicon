@@ -1,27 +1,11 @@
 [
       {
-          "predicate": {
-            "items": [ "byg:pendorite_axe" ]
-          },
-          "item": "tetra:modular_double",
-          "modules": {
-            "double/head_left": ["double/basic_axe_left", "basic_axe/byg_pendorite"],
-            "double/head_right": ["double/butt_right", "butt/byg_pendorite"],
-            "double/handle": ["double/basic_handle", "basic_handle/stick"]
-          }
-      },
-      {
-          "predicate": {
-            "items": [ "byg:pendorite_battleaxe" ]
-          },
-          "item": "tetra:modular_double",
-          "modules": {
-            "double/head_left": ["double/basic_axe_left", "basic_axe/byg_pendorite"],
-            "double/head_right": ["double/basic_axe_right", "basic_axe/byg_pendorite"],
-            "double/handle": ["double/basic_handle", "basic_handle/stick"]
-          }
-      },
-      {
+          "conditions": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "enderitemod"
+            }
+          ],
           "predicate": {
             "items": [ "enderitemod:enderite_axe" ]
           },
@@ -37,86 +21,12 @@
           }
       },
       {
-          "predicate": {
-            "items": [ "wyrmroost:blue_geode_axe" ]
-          },
-          "item": "tetra:modular_double",
-          "modules": {
-            "double/head_left": ["double/basic_axe_left", "basic_axe/wyrmroost_blue_geode"],
-            "double/head_right": ["double/basic_axe_right", "basic_axe/wyrmroost_blue_geode"],
-            "double/handle": ["double/basic_handle", "basic_handle/stick"]
-          }
-      },
-      {
-          "predicate": {
-            "items": [ "wyrmroost:red_geode_axe" ]
-          },
-          "item": "tetra:modular_double",
-          "modules": {
-            "double/head_left": ["double/basic_axe_left", "basic_axe/wyrmroost_red_geode"],
-            "double/head_right": ["double/basic_axe_right", "basic_axe/wyrmroost_red_geode"],
-            "double/handle": ["double/basic_handle", "basic_handle/stick"]
-          }
-      },
-      {
-          "predicate": {
-            "items": [ "wyrmroost:purple_geode_axe" ]
-          },
-          "item": "tetra:modular_double",
-          "modules": {
-            "double/head_left": ["double/basic_axe_left", "basic_axe/wyrmroost_purple_geode"],
-            "double/head_right": ["double/basic_axe_right", "basic_axe/wyrmroost_purple_geode"],
-            "double/handle": ["double/basic_handle", "basic_handle/stick"]
-          }
-      },
-      {
-          "predicate": {
-            "items": [ "wyrmroost:platinum_axe" ]
-          },
-          "item": "tetra:modular_double",
-          "modules": {
-            "double/head_left": ["double/basic_axe_left", "basic_axe/wyrmroost_platinum"],
-            "double/head_right": ["double/butt_right", "butt/wyrmroost_platinum"],
-            "double/handle": ["double/basic_handle", "basic_handle/stick"]
-          }
-      },
-      {
-          "predicate": {
-            "items": [ "betterendforge:terminite_axe" ]
-          },
-          "item": "tetra:modular_double",
-          "modules": {
-            "double/head_left": ["double/basic_axe_left", "basic_axe/betterendforge_terminite"],
-            "double/head_right": ["double/butt_right", "butt/betterendforge_terminite"],
-            "double/handle": ["double/basic_handle", "basic_handle/stick"]
-          }
-      },
-      {
-          "predicate": {
-            "items": [ "betterendforge:aeternium_axe" ]
-          },
-          "item": "tetra:modular_double",
-          "modules": {
-            "double/head_left": ["double/basic_axe_left", "basic_axe/betterendforge_aeternium"],
-            "double/head_right": ["double/butt_right", "butt/betterendforge_aeternium"],
-            "double/handle": ["double/basic_handle", "basic_handle/stick"]
-          },
-          "improvements": {
-            "double/handle:basic_handle/wrap_leather": 1
-          }
-      },
-      {
-          "predicate": {
-            "items": [ "betterendforge:thallasium_axe" ]
-          },
-          "item": "tetra:modular_double",
-          "modules": {
-            "double/head_left": ["double/basic_axe_left", "basic_axe/betterendforge_thallasium"],
-            "double/head_right": ["double/butt_right", "butt/betterendforge_thallasium"],
-            "double/handle": ["double/basic_handle", "basic_handle/stick"]
-          }
-      },
-      {
+        "conditions": [
+                    {
+                      "type": "forge:mod_loaded",
+                      "modid": "twilightforest"
+                    }
+                  ],
         "predicate": {
           "items": [ "twilightforest:knightmetal_axe" ]
         },
@@ -128,6 +38,12 @@
         }
       },
       {
+        "conditions": [
+                    {
+                      "type": "forge:mod_loaded",
+                      "modid": "twilightforest"
+                    }
+                  ],
         "predicate": {
           "items": [ "twilightforest:steeleaf_axe" ]
         },
@@ -139,6 +55,12 @@
         }
       },
       {
+        "conditions": [
+                    {
+                      "type": "forge:mod_loaded",
+                      "modid": "twilightforest"
+                    }
+                  ],
         "predicate": {
           "items": [ "twilightforest:ironwood_axe" ]
         },
@@ -150,6 +72,12 @@
         }
       },
       {
+        "conditions": [
+                    {
+                      "type": "forge:mod_loaded",
+                      "modid": "stalwart_dungeons"
+                    }
+                  ],
         "predicate": {
           "items": [ "stalwart_dungeons:tungsten_axe" ]
         },
@@ -161,6 +89,12 @@
         }
       },
       {
+        "conditions": [
+                    {
+                      "type": "forge:mod_loaded",
+                      "modid": "stalwart_dungeons"
+                    }
+                  ],
         "predicate": {
           "items": [ "stalwart_dungeons:chorundum_axe" ]
         },
@@ -169,32 +103,6 @@
           "double/head_left": ["double/basic_axe_left", "basic_axe/stalwart_dungeons_chorundum"],
           "double/head_right": ["double/butt_right", "butt/stalwart_dungeons_chorundum"],
           "double/handle": ["double/basic_handle", "basic_handle/stick"]
-        }
-      },
-      {
-        "predicate": {
-          "items": [ "atum:limestone_axe" ]
-        },
-        "item": "tetra:modular_double",
-        "modules": {
-          "double/head_left": ["double/basic_axe_left", "basic_axe/atum_limestone"],
-          "double/head_right": ["double/butt_right", "butt/atum_limestone"],
-          "double/handle": ["double/basic_handle", "basic_handle/stick"]
-        }
-      },
-      {
-        "predicate": {
-          "items": [ "netheragriculture:blazing_gold_axe" ]
-        },
-        "item": "tetra:modular_double",
-        "modules": {
-          "double/head_left": ["double/basic_axe_left", "basic_axe/netheragriculture_blazing_gold"],
-          "double/head_right": ["double/butt_right", "butt/netheragriculture_blazing_gold"],
-          "double/handle": ["double/basic_handle", "basic_handle/stick"]
-        },
-        "improvements": {
-          "double/head_left:blazing_tool": 2,
-          "double/head_right:blazing_tool": 2
         }
       }
 ]

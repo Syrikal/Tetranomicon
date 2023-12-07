@@ -1,68 +1,88 @@
 buildscript {
     repositories {
+        mavenLocal()
         maven { url = 'https://files.minecraftforge.net/maven' }
-        maven {url "https://plugins.gradle.org/m2/"}
-        maven { url 'https://repo.spongepowered.org/maven' }
+        maven { url = "https://plugins.gradle.org/m2/" }
+        maven { url = 'https://repo.spongepowered.org/repository/maven-public/' }
         jcenter()
         mavenCentral()
     }
     dependencies {
-        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
-        classpath 'org.spongepowered:mixingradle:0.7-SNAPSHOT'
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
+        classpath "com.wynprice.cursemaven:CurseMaven:2.1.1"
+        classpath group: 'org.spongepowered', name: 'mixingradle', version: '0.7-SNAPSHOT'
     }
 }
-apply plugin: 'net.minecraftforge.gradle'
-apply plugin: 'eclipse'
-apply plugin: 'maven-publish'
+
+plugins {
+    id 'eclipse'
+    id 'idea'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+}
+
 apply plugin: 'org.spongepowered.mixin'
 
-version = '1.4.3-1.19.2'
-group = 'com.syric.tetranomicon' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'tetranomicon'
+version = mod_version
+group = mod_group_id
+base {
+    archivesName = mod_id
+}
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
-println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
+println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
 minecraft {
-    mappings channel: 'official', version: '1.19.2'
+    mappings channel: mapping_channel, version: mapping_version
+    copyIdeResources = true
 
     runs {
-        client {
+        // applies to all the run configs below
+        configureEach {
             workingDirectory project.file('run')
-            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+
+            // Recommended logging data for a userdev environment
+            // The markers can be added/remove as needed separated by commas.
+            // "SCAN": For mods scan.
+            // "REGISTRIES": For firing of registry events.
+            // "REGISTRYDUMP": For getting the contents of all registries.
+            property 'forge.logging.markers', 'REGISTRIES'
+
+            // Recommended logging level for the console
+            // You can set various levels here.
+            // Please read: https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                examplemod {
+                "${mod_id}" {
                     source sourceSets.main
                 }
             }
+        }
+
+        client {
+            // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
+            property 'forge.enabledGameTestNamespaces', mod_id
         }
 
         server {
-            workingDirectory project.file('run')
-            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
-            property 'forge.logging.console.level', 'debug'
+            property 'forge.enabledGameTestNamespaces', mod_id
+            args '--nogui'
+        }
 
-            mods {
-                examplemod {
-                    source sourceSets.main
-                }
-            }
+        // This run config launches GameTestServer and runs all registered gametests, then exits.
+        // By default, the server will crash when no gametests are provided.
+        // The gametest system is also enabled by default for other run configs under the /test command.
+        gameTestServer {
+            property 'forge.enabledGameTestNamespaces', mod_id
         }
 
         data {
-            workingDirectory project.file('run')
-            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
-            property 'forge.logging.console.level', 'debug'
+            // example of overriding the workingDirectory set in configureEach above
+            workingDirectory project.file('run-data')
 
-            args '--mod', 'examplemod', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
-
-            mods {
-                examplemod {
-                    source sourceSets.main
-                }
-            }
+            // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
+            args '--mod', mod_id, '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
         }
     }
 }
@@ -80,105 +100,87 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.19.2-43.2.0'
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-    implementation fg.deobf("curse.maven:mutil-351914:3941314")
-    implementation fg.deobf("curse.maven:tetra-289712:4448541")
-    implementation fg.deobf("curse.maven:scroll-of-harvests-571339:4379788")
-
-    //Abnormals: Atmospheric, Autumnity, Bamboo Blocks (NO), Bayou Blues (NO), Endergetic (NO), Environmental, Upgrade Aquatic
-    implementation fg.deobf("curse.maven:atmospheric-362393:4415516")
-    implementation fg.deobf("curse.maven:autumnity-365045:4415512")
-    implementation fg.deobf("curse.maven:environmental-388992:4415514")
-    implementation fg.deobf("curse.maven:upgrade-aquatic-326895:4415517")
-    //Blueprint
-    implementation fg.deobf("curse.maven:blueprint-382216:4442628")
-
-    //Atum: Not available
-
-    //Better End: Not available
+    implementation fg.deobf("curse.maven:mutil-351914:4824501")
+    implementation fg.deobf("curse.maven:tetra-289712:4857842")
+    implementation fg.deobf("curse.maven:scroll-of-harvests-571339:4706191")
 
     //BOP
-    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:4473556")
+    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:4617259")
     //Terrablender
-    implementation fg.deobf("curse.maven:terrablender-563928:4205732")
-
-
-    //BYG
-    implementation fg.deobf("curse.maven:oh-the-biomes-youll-go-247560:4027228")
-    implementation fg.deobf("curse.maven:geckolib-388172:4407241")
-    implementation fg.deobf("curse.maven:corgilib-693313:4554111")
-
-
-    //Create
-    implementation fg.deobf("curse.maven:create-328085:4371809")
-    //Flywheel: (n/a)
+    implementation fg.deobf("curse.maven:terrablender-563928:4647094")
 
     //Enderite
-    implementation fg.deobf("curse.maven:enderite-mod-for-forge-401284:4282088")
-    implementation fg.deobf("curse.maven:architectury-api-419699:4555749")
-    implementation fg.deobf("curse.maven:cloth-config-348521:3972423")
-
-    //Ice and Fire: not available
-
-    //Nether Agriculture: not available
-
-    //Outer End: not available
-
-    //Quark
-    implementation fg.deobf("curse.maven:quark-243121:4480516")
-    //AutoRegLib
-    implementation fg.deobf("curse.maven:autoreglib-250363:4100299")
+    implementation fg.deobf("curse.maven:enderite-mod-for-forge-401284:4630504")
+    implementation fg.deobf("curse.maven:architectury-api-419699:4663010")
+    implementation fg.deobf("curse.maven:cloth-config-348521:4633444")
 
     //Stalwart Dungeons
-    implementation fg.deobf("curse.maven:stalwart-dungeons-474817:4484759")
-
+    implementation fg.deobf("curse.maven:stalwart-dungeons-474817:4703671")
 
     //Twilight Forest
-    implementation fg.deobf("curse.maven:the-twilight-forest-227639:4389567")
-
-    //Unearthed: not available
-    //Hyle: not available
-
-    //Wyrmroost: not available
-
+    implementation fg.deobf("curse.maven:the-twilight-forest-227639:4865711")
 
     //JEI
-    implementation fg.deobf("curse.maven:jei-238222:4434397")
-
-
-
+    implementation fg.deobf("curse.maven:jei-238222:4712868")
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
 }
 
+// This block of code expands all declared replace properties in the specified resource targets.
+// A missing property will result in an error. Properties are expanded using ${} Groovy notation.
+// When "copyIdeResources" is enabled, this will also run before the game launches in IDE environments.
+// See https://docs.gradle.org/current/dsl/org.gradle.language.jvm.tasks.ProcessResources.html
+tasks.named('processResources', ProcessResources).configure {
+    var replaceProperties = [
+            minecraft_version: minecraft_version, minecraft_version_range: minecraft_version_range,
+            forge_version: forge_version, forge_version_range: forge_version_range,
+            loader_version_range: loader_version_range,
+            mod_id: mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version,
+            mod_authors: mod_authors, mod_description: mod_description,
+    ]
+    inputs.properties replaceProperties
 
-jar {
-    manifest {
-        attributes([
-            "Specification-Title": "Tetranomicon",
-            "Specification-Vendor": "Syric",
-            "Specification-Version": "1", // We are version 1 of ourselves
-            "Implementation-Title": project.name,
-            "Implementation-Version": "${version}",
-            "Implementation-Vendor" :"Syric",
-            "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
-        ])
+    filesMatching(['META-INF/mods.toml', 'pack.mcmeta']) {
+        expand replaceProperties + [project: project]
     }
 }
 
-jar.finalizedBy('reobfJar')
 
+// Example for how to get properties into the manifest for reading at runtime.
+tasks.named('jar', Jar).configure {
+    manifest {
+        attributes([
+                'Specification-Title'     : mod_id,
+                'Specification-Vendor'    : mod_authors,
+                'Specification-Version'   : '1', // We are version 1 of ourselves
+                'Implementation-Title'    : project.name,
+                'Implementation-Version'  : project.jar.archiveVersion,
+                'Implementation-Vendor'   : mod_authors,
+                'Implementation-Timestamp': new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
+    }
+
+    // This is the preferred method to reobfuscate your jar file
+    finalizedBy 'reobfJar'
+}
+
+// Example configuration to allow publishing using the maven-publish plugin
 publishing {
     publications {
-        mavenJava(MavenPublication) {
+        register('mavenJava', MavenPublication) {
             artifact jar
         }
     }
     repositories {
         maven {
-            url "file:///${project.projectDir}/mcmodsrepo"
+            url "file://${project.projectDir}/mcmodsrepo"
         }
     }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
 }

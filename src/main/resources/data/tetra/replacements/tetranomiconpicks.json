@@ -1,16 +1,11 @@
 [
   {
-    "predicate": {
-      "items": [ "byg:pendorite_pickaxe" ]
-    },
-    "item": "tetra:modular_double",
-    "modules": {
-      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/byg_pendorite"],
-      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/byg_pendorite"],
-      "double/handle": ["double/basic_handle", "basic_handle/stick"]
-    }
-  },
-  {
+    "conditions": [
+                    {
+                      "type": "forge:mod_loaded",
+                      "modid": "enderitemod"
+                    }
+                  ],
     "predicate": {
       "items": [ "enderitemod:enderite_pickaxe" ]
     },
@@ -26,86 +21,12 @@
     }
   },
   {
-    "predicate": {
-      "items": [ "wyrmroost:blue_geode_pickaxe" ]
-    },
-    "item": "tetra:modular_double",
-    "modules": {
-      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/wyrmroost_blue_geode"],
-      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/wyrmroost_blue_geode"],
-      "double/handle": ["double/basic_handle", "basic_handle/stick"]
-    }
-  },
-  {
-    "predicate": {
-      "items": [ "wyrmroost:red_geode_pickaxe" ]
-    },
-    "item": "tetra:modular_double",
-    "modules": {
-      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/wyrmroost_red_geode"],
-      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/wyrmroost_red_geode"],
-      "double/handle": ["double/basic_handle", "basic_handle/stick"]
-    }
-  },
-  {
-    "predicate": {
-      "items": [ "wyrmroost:purple_geode_pickaxe" ]
-    },
-    "item": "tetra:modular_double",
-    "modules": {
-      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/wyrmroost_purple_geode"],
-      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/wyrmroost_purple_geode"],
-      "double/handle": ["double/basic_handle", "basic_handle/stick"]
-    }
-  },
-  {
-    "predicate": {
-      "items": [ "wyrmroost:platinum_pickaxe" ]
-    },
-    "item": "tetra:modular_double",
-    "modules": {
-      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/wyrmroost_platinum"],
-      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/wyrmroost_platinum"],
-      "double/handle": ["double/basic_handle", "basic_handle/stick"]
-    }
-  },
-  {
-    "predicate": {
-      "items": [ "betterendforge:terminite_pickaxe" ]
-    },
-    "item": "tetra:modular_double",
-    "modules": {
-      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/betterendforge_terminite"],
-      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/betterendforge_terminite"],
-      "double/handle": ["double/basic_handle", "basic_handle/stick"]
-    }
-  },
-  {
-    "predicate": {
-      "items": [ "betterendforge:aeternium_pickaxe" ]
-    },
-    "item": "tetra:modular_double",
-    "modules": {
-      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/betterendforge_aeternium"],
-      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/betterendforge_aeternium"],
-      "double/handle": ["double/basic_handle", "basic_handle/stick"]
-    },
-    "improvements": {
-      "double/handle:basic_handle/wrap_leather": 1
-    }
-  },
-  {
-    "predicate": {
-      "items": [ "betterendforge:thallasium_pickaxe" ]
-    },
-    "item": "tetra:modular_double",
-    "modules": {
-      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/betterendforge_thallasium"],
-      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/betterendforge_thallasium"],
-      "double/handle": ["double/basic_handle", "basic_handle/stick"]
-    }
-  },
-  {
+    "conditions": [
+                    {
+                      "type": "forge:mod_loaded",
+                      "modid": "twilightforest"
+                    }
+                  ],
     "predicate": {
       "items": [ "twilightforest:fiery_pickaxe" ]
     },
@@ -117,6 +38,12 @@
     }
   },
   {
+    "conditions": [
+                    {
+                      "type": "forge:mod_loaded",
+                      "modid": "twilightforest"
+                    }
+                  ],
     "predicate": {
       "items": [ "twilightforest:ironwood_pickaxe" ]
     },
@@ -128,6 +55,12 @@
     }
   },
   {
+    "conditions": [
+                    {
+                      "type": "forge:mod_loaded",
+                      "modid": "twilightforest"
+                    }
+                  ],
     "predicate": {
       "items": [ "twilightforest:knightmetal_pickaxe" ]
     },
@@ -139,6 +72,12 @@
     }
   },
   {
+    "conditions": [
+                    {
+                      "type": "forge:mod_loaded",
+                      "modid": "twilightforest"
+                    }
+                  ],
     "predicate": {
       "items": [ "twilightforest:steeleaf_pickaxe" ]
     },
@@ -150,6 +89,12 @@
     }
   },
   {
+    "conditions": [
+                    {
+                      "type": "forge:mod_loaded",
+                      "modid": "stalwart_dungeons"
+                    }
+                  ],
     "predicate": {
       "items": [ "stalwart_dungeons:tungsten_pickaxe" ]
     },
@@ -161,6 +106,12 @@
     }
   },
   {
+    "conditions": [
+                    {
+                      "type": "forge:mod_loaded",
+                      "modid": "stalwart_dungeons"
+                    }
+                  ],
     "predicate": {
       "items": [ "stalwart_dungeons:chorundum_pickaxe" ]
     },
@@ -169,32 +120,6 @@
       "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/stalwart_dungeons_chorundum"],
       "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/stalwart_dungeons_chorundum"],
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
-    }
-  },
-  {
-    "predicate": {
-      "items": [ "atum:limestone_pickaxe" ]
-    },
-    "item": "tetra:modular_double",
-    "modules": {
-      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/atum_limestone"],
-      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/atum_limestone"],
-      "double/handle": ["double/basic_handle", "basic_handle/stick"]
-    }
-  },
-  {
-    "predicate": {
-      "items": [ "netheragriculture:blazing_gold_pickaxe" ]
-    },
-    "item": "tetra:modular_double",
-    "modules": {
-      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/netheragriculture_blazing_gold"],
-      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/netheragriculture_blazing_gold"],
-      "double/handle": ["double/basic_handle", "basic_handle/stick"]
-    },
-    "improvements": {
-      "double/head_left:blazing_tool": 2,
-      "double/head_right:blazing_tool": 2
     }
   }
 ]

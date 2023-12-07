@@ -1,15 +1,11 @@
 [
   {
-    "predicate": {
-      "items": [ "byg:pendorite_shovel" ]
-    },
-    "item": "tetra:modular_single",
-    "modules": {
-      "single/head": ["single/basic_shovel", "basic_shovel/byg_pendorite"],
-      "single/handle": ["single/basic_handle", "basic_handle/stick"]
-    }
-  },
-  {
+    "conditions": [
+                        {
+                          "type": "forge:mod_loaded",
+                          "modid": "enderitemod"
+                        }
+                      ],
     "predicate": {
       "items": [ "enderitemod:enderite_shovel" ]
     },
@@ -23,79 +19,12 @@
     }
   },
   {
-    "predicate": {
-      "items": [ "wyrmroost:blue_geode_shovel" ]
-    },
-    "item": "tetra:modular_single",
-    "modules": {
-      "single/head": ["single/basic_shovel", "basic_shovel/wyrmroost_blue_geode"],
-      "single/handle": ["single/basic_handle", "basic_handle/stick"]
-    }
-  },
-  {
-    "predicate": {
-      "items": [ "wyrmroost:red_geode_shovel" ]
-    },
-    "item": "tetra:modular_single",
-    "modules": {
-      "single/head": ["single/basic_shovel", "basic_shovel/wyrmroost_red_geode"],
-      "single/handle": ["single/basic_handle", "basic_handle/stick"]
-    }
-  },
-  {
-    "predicate": {
-      "items": [ "wyrmroost:purple_geode_shovel" ]
-    },
-    "item": "tetra:modular_single",
-    "modules": {
-      "single/head": ["single/basic_shovel", "basic_shovel/wyrmroost_purple_geode"],
-      "single/handle": ["single/basic_handle", "basic_handle/stick"]
-    }
-  },
-  {
-    "predicate": {
-      "items": [ "wyrmroost:platinum_shovel" ]
-    },
-    "item": "tetra:modular_single",
-    "modules": {
-      "single/head": ["single/basic_shovel", "basic_shovel/wyrmroost_platinum"],
-      "single/handle": ["single/basic_handle", "basic_handle/stick"]
-    }
-  },
-  {
-    "predicate": {
-      "items": [ "betterendforge:terminite_shovel" ]
-    },
-    "item": "tetra:modular_single",
-    "modules": {
-      "single/head": ["single/basic_shovel", "basic_shovel/betterendforge_terminite"],
-      "single/handle": ["single/basic_handle", "basic_handle/stick"]
-    }
-  },
-  {
-    "predicate": {
-      "items": [ "betterendforge:aeternium_shovel" ]
-    },
-    "item": "tetra:modular_single",
-    "modules": {
-      "single/head": ["single/basic_shovel", "basic_shovel/betterendforge_aeternium"],
-      "single/handle": ["single/basic_handle", "basic_handle/stick"]
-    },
-    "improvements": {
-      "single/handle:basic_handle/wrap_leather": 1
-    }
-  },
-  {
-    "predicate": {
-      "items": [ "betterendforge:thallasium_shovel" ]
-    },
-    "item": "tetra:modular_single",
-    "modules": {
-      "single/head": ["single/basic_shovel", "basic_shovel/betterendforge_thallasium"],
-      "single/handle": ["single/basic_handle", "basic_handle/stick"]
-    }
-  },
-  {
+    "conditions": [
+                        {
+                          "type": "forge:mod_loaded",
+                          "modid": "twilightforest"
+                        }
+                      ],
     "predicate": {
       "items": [ "twilightforest:ironwood_shovel" ]
     },
@@ -106,6 +35,12 @@
     }
   },
   {
+    "conditions": [
+                        {
+                          "type": "forge:mod_loaded",
+                          "modid": "twilightforest"
+                        }
+                      ],
     "predicate": {
       "items": [ "twilightforest:steeleaf_shovel" ]
     },
@@ -116,6 +51,12 @@
     }
   },
   {
+    "conditions": [
+                        {
+                          "type": "forge:mod_loaded",
+                          "modid": "stalwart_dungeons"
+                        }
+                      ],
     "predicate": {
       "items": [ "stalwart_dungeons:tungsten_shovel" ]
     },
@@ -126,6 +67,12 @@
     }
   },
   {
+    "conditions": [
+                        {
+                          "type": "forge:mod_loaded",
+                          "modid": "stalwart_dungeons"
+                        }
+                      ],
     "predicate": {
       "items": [ "stalwart_dungeons:chorundum_shovel" ]
     },
@@ -133,29 +80,6 @@
     "modules": {
       "single/head": ["single/basic_shovel", "basic_shovel/stalwart_dungeons_chorundum"],
       "single/handle": ["single/basic_handle", "basic_handle/stick"]
-    }
-  },
-  {
-    "predicate": {
-      "items": [ "atum:limestone_shovel" ]
-    },
-    "item": "tetra:modular_single",
-    "modules": {
-      "single/head": ["single/basic_shovel", "basic_shovel/atum_limestone"],
-      "single/handle": ["single/basic_handle", "basic_handle/stick"]
-    }
-  },
-  {
-    "predicate": {
-      "items": [ "netheragriculture:blazing_gold_shovel" ]
-    },
-    "item": "tetra:modular_single",
-    "modules": {
-      "single/head": ["single/basic_shovel", "basic_shovel/netheragriculture_blazing_gold"],
-      "single/handle": ["single/basic_handle", "basic_handle/stick"]
-    },
-    "improvements": {
-      "single/head:blazing_tool": 2
     }
   }
 ]
