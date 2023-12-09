@@ -18,12 +18,6 @@
   "material" : {
     "items" : [ "twilightforest:ironwood_ingot" ]
   },
-  "improvements" : {
-    "ironwood_innate_efficiency" : 1,
-    "ironwood_innate_unbreaking" : 1,
-    "ironwood_innate_fortune" : 1,
-    "ironwood_innate_knockback" : 1
-  },
   "requiredTools" : {
     "hammer_dig" : "minecraft:stone"
   }

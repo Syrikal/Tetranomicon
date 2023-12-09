@@ -1,0 +1,41 @@
+{
+  "replace": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "requirement": {
+      "type": "tetra:and",
+      "requirements": [
+          {
+              "type": "tetra:craft_type",
+              "craft": "module"
+          },
+          {
+              "type": "tetra:or",
+              "requirements": [
+                  {
+                    "type": "tetra:module",
+                    "module": "double/basic_axe_left",
+                    "variant": "basic_axe/twilightforest_ironwood"
+                  },
+                  {
+                    "type": "tetra:module",
+                    "module": "double/adze_left",
+                    "variant": "adze/twilightforest_ironwood"
+                  }
+              ]
+          }
+      ]
+  },
+  "outcomes": [
+      {
+          "type": "tetra:apply_enchantments",
+          "enchantments": {
+            "minecraft:fortune": 1
+          }
+      }
+  ]
+}

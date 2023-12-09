@@ -1,0 +1,51 @@
+{
+  "replace": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "requirement": {
+      "type": "tetra:and",
+      "requirements": [
+          {
+              "type": "tetra:craft_type",
+              "craft": "module"
+          },
+          {
+              "type": "tetra:or",
+              "requirements": [
+                  {
+                    "type": "tetra:module",
+                    "module": "sword/basic_blade",
+                    "variant": "basic_blade/twilightforest_ironwood"
+                  },
+                  {
+                    "type": "tetra:module",
+                    "module": "single/basic_shovel",
+                    "variant": "basic_shovel/twilightforest_ironwood"
+                  },
+                  {
+                    "type": "tetra:module",
+                    "module": "sword/heavy_blade",
+                    "variant": "heavy_blade/twilightforest_ironwood"
+                  },
+                  {
+                    "type": "tetra:module",
+                    "module": "sword/short_blade",
+                    "variant": "short_blade/twilightforest_ironwood"
+                  }
+              ]
+          }
+      ]
+  },
+  "outcomes": [
+      {
+          "type": "tetra:apply_enchantments",
+          "enchantments": {
+            "minecraft:unbreaking": 1
+          }
+      }
+  ]
+}

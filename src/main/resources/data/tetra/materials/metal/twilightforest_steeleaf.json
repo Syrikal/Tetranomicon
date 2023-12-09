@@ -18,12 +18,6 @@
   "material" : {
     "items" : [ "twilightforest:steeleaf_ingot" ]
   },
-  "improvements" : {
-    "steeleaf_innate_efficiency" : 1,
-    "steeleaf_innate_efficiency_two" : 2,
-    "steeleaf_innate_looting" : 2,
-    "steeleaf_innate_fortune" : 1
-  },
   "requiredTools" : {
     "hammer_dig" : "minecraft:iron"
   }

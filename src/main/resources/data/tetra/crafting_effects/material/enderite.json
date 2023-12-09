@@ -1,5 +1,11 @@
 {
   "replace": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enderitemod"
+    }
+  ],
   "requirement": {
       "type": "tetra:and",
       "requirements": [

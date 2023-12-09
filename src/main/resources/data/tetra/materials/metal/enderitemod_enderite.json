@@ -18,9 +18,6 @@
   "material" : {
     "items" : [ "enderitemod:enderite_ingot" ]
   },
-  "improvements" : {
-    "enderite_void_floating_innate" : 3
-  },
   "requiredTools" : {
     "hammer_dig" : "tetra:maxed_forge_hammer"
   }
