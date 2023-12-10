@@ -122,8 +122,36 @@ dependencies {
     //Twilight Forest
     implementation fg.deobf("curse.maven:the-twilight-forest-227639:4865711")
 
+    //Aether
+    implementation fg.deobf("curse.maven:aether-255308:4926220")
+
+    //Alex's Caves
+    implementation fg.deobf("curse.maven:alexs-caves-924854:4852042")
+    implementation fg.deobf("curse.maven:citadel-331936:4848887")
+
+    //Blue Skies
+    implementation fg.deobf("curse.maven:blue-skies-312918:4765673")
+    implementation fg.deobf("curse.maven:structure-gel-api-378802:4900814")
+
+    //Deeper and Darker
+    implementation fg.deobf("curse.maven:deeperdarker-659011:4807511")
+
+    //Mo' Shiz
+    implementation fg.deobf("curse.maven:mo-shiz-mod-62536:4838746")
+
+    //Ores Above Diamond
+    implementation fg.deobf("curse.maven:ores-above-diamonds-351339:4682592")
+
+    //Regions Unexplored
+    implementation fg.deobf("curse.maven:regions-unexplored-659110:4779426")
+
     //JEI
     implementation fg.deobf("curse.maven:jei-238222:4712868")
+
+    //Optimization
+    implementation fg.deobf("curse.maven:rubidium-574856:4767529")
+    implementation fg.deobf("curse.maven:oculus-581495:4767500")
+
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
