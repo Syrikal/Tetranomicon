@@ -28,6 +28,11 @@
                   },
                   {
                     "type": "tetra:module",
+                    "module": "single/spearhead",
+                    "variant": "spearhead/twilightforest_ironwood"
+                  },
+                  {
+                    "type": "tetra:module",
                     "module": "sword/heavy_blade",
                     "variant": "heavy_blade/twilightforest_ironwood"
                   },

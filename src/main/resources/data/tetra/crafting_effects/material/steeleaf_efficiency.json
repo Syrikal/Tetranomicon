@@ -30,6 +30,11 @@
                     "type": "tetra:module",
                     "module": "double/adze_left",
                     "variant": "adze/twilightforest_steeleaf"
+                  },
+                  {
+                    "type": "tetra:module",
+                    "module": "double/adze_left",
+                    "variant": "adze/twilightforest_steeleaf"
                   }
               ]
           }
