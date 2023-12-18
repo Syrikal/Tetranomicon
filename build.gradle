@@ -119,6 +119,9 @@ dependencies {
 //    //Twilight Forest
 //    implementation fg.deobf("curse.maven:the-twilight-forest-227639:4865711")
 
+    //Create
+    implementation fg.deobf("curse.maven:create-328085:4835191")
+
 
     //SET ONE
     //Aether
@@ -188,9 +191,23 @@ dependencies {
     implementation fg.deobf("curse.maven:ob-aquamirae-536254:4616373")
 
 
+    //SET 4
+    //L2 Complements (Requires L2 Library)
+    implementation fg.deobf("curse.maven:l2-complements-758349:4905064")
+
+    //Epic Samurai (Requires AzureLib)
+    implementation fg.deobf("curse.maven:epic-samurais-848381:4924677")
+
+//    //Liroth Revamped (Requires GeckoLib and Cloth Config)
+//    implementation fg.deobf("curse.maven:liroth-revamped-forge-682860:4778705")
+
+    //Ecologics
+    implementation fg.deobf("curse.maven:ecologics-570463:4857272")
+
 
     //JEI
     implementation fg.deobf("curse.maven:jei-238222:4712868")
+//    implementation fg.deobf("curse.maven:just-enough-resources-jer-240630:NOTREADYYET")
 
     //Optimization
     implementation fg.deobf("curse.maven:rubidium-574856:4767529")
@@ -215,6 +232,7 @@ dependencies {
     implementation fg.deobf("curse.maven:obscure-api-638417:4616364")
     implementation fg.deobf("curse.maven:aeroblender-879879:4789008")
     implementation fg.deobf("curse.maven:patchouli-306770:4892162")
+    implementation fg.deobf("curse.maven:l2library-620203:4846530")
 
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
