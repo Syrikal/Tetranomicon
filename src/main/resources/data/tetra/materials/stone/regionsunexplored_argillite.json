@@ -1,0 +1,24 @@
+{
+  "key" : "regionsunexplored_argillite",
+  "category" : "stone",
+  "primary" : 3.7,
+  "secondary" : 1.8,
+  "tertiary" : 0.0,
+  "durability" : 86,
+  "integrityCost" : 1,
+  "integrityGain" : 3,
+  "magicCapacity" : 71,
+  "toolLevel" : "minecraft:stone",
+  "toolEfficiency" : 5.0,
+  "tints" : {
+    "glyph" : "a76c46",
+    "texture" : "a76c46"
+  },
+  "textures" : [ "grainy", "crude", "default" ],
+  "material" : {
+    "items" : [ "regions_unexplored:argillite" ]
+  },
+  "requiredTools" : {
+    "hammer_dig" : "minecraft:wood"
+  }
+}

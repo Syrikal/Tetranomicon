@@ -20,7 +20,7 @@ All wood types from Atmospheric, Autumnity, Bamboo Blocks, Endergetic Expansion,
  - Willow
  - Wisteria
 
-##Bayou Blues
+## Bayou Blues
  - Cypress wood
 
 ## Better End
@@ -43,7 +43,7 @@ All wood types from Atmospheric, Autumnity, Bamboo Blocks, Endergetic Expansion,
  - Flavolite: like cobblestone but extremely durable.
  - Eternal Runed Flavolite: Has a durability nearly 12 times higher than netherite, making it all but unbreakable. Otherwise identical to cobblestone.
 
-##Biomes O'Plenty
+## Biomes O'Plenty
  - Cherry
  - Dead: hard and durable, and more enchantable than Hellbark.
  - Hellbark: hard and durable, and as good at mining as stone.
@@ -133,6 +133,39 @@ Wood:
  - Jasper: nearly iron in stats.
  - Voidstone: more durable than obsidian, with better Integrity use, and nearly as good everywhere else.
  - Myalite: better than iron at mining and harder than diamond, but not as light or durable.
+
+## Regions Unexplored
+Wood:
+ - Alpha: identical to oak
+ - Baobab: 
+ - Blackwood: improved integrity but otherwise inferior to other woods
+ - Blue Bioshroom: overworld, slightly magical
+ - Brimwood: nether, more magical less durable alternative to hellbark
+ - Cobalt: nether, hardy and heavy
+ - Cypress
+ - Dead
+ - Eucalyptus
+ - Green Bioshroom: overworld, slightly magical
+ - Joshua
+ - Kapok: magical fantastical looking tree, efficient
+ - Larch: durable
+ - Magnolia: efficient, higher tier
+ - Maple
+ - Mauve: very magical
+ - Palm
+ - Pine
+ - Pink Bioshroom: overworld rare, touch above the other bioshrooms
+ - Redwood
+ - Socotra: [literally a ritual magic dragon blood tree](https://en.wikipedia.org/wiki/Dracaena_cinnabari), very magical
+ - Willow
+ - Yellow Bioshroom: nether, tier above other bioshrooms
+
+Stone:
+ - Argillite: shale variant, light brittle efficient
+
+Fibre:
+- Glistering Ivy: magical wrapping
+- Kapok Vines: slightly hardier than vanilla vines
 
 ## Unearthed
  - Gabbro

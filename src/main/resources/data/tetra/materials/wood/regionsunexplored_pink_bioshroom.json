@@ -1,0 +1,27 @@
+{
+    "key": "regionsunexplored_pink_bioshroom",
+    "category": "wood",
+    "primary": 3,
+    "secondary": 1.2,
+    "tertiary": 8.5,
+    "durability": 76,
+    "integrityCost": 2,
+    "integrityGain": 6,
+    "magicCapacity": 115,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 3,
+    "tints": {
+        "glyph": "be5bb3",
+        "texture": "be5bb3"
+    },
+    "textures": ["crude", "wooden"],
+    "material": {
+        "items": ["regions_unexplored:pink_bioshroom_planks"]
+    },
+    "effects": {
+        "unstable": 20
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:stone"
+    }
+}

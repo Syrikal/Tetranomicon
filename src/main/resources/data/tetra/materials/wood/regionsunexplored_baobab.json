@@ -1,0 +1,24 @@
+{
+    "key": "regionsunexplored_baobab",
+    "category": "wood",
+    "primary": 3.0,
+    "secondary": 2.2,
+    "tertiary": 5.5,
+    "durability": 180,
+    "integrityCost": 2,
+    "integrityGain": 5,
+    "magicCapacity": 78,
+    "toolLevel": "minecraft:wood",
+    "toolEfficiency": 4.0,
+    "tints": {
+        "glyph": "dab196",
+        "texture": "dab196"
+    },
+    "textures": ["crude", "wooden"],
+    "material": {
+        "items": ["regions_unexplored:baobab_planks"]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:stone"
+    }
+}

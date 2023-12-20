@@ -1,0 +1,24 @@
+{
+  "key" : "regionsunexplored_redwood",
+  "category" : "wood",
+  "primary" : 2.0,
+  "secondary" : 1.4,
+  "tertiary" : 6.0,
+  "durability" : 50,
+  "integrityCost" : 1,
+  "integrityGain" : 4,
+  "magicCapacity" : 108,
+  "toolLevel" : "minecraft:wood",
+  "toolEfficiency" : 3.0,
+  "tints" : {
+    "glyph" : "93452f",
+    "texture" : "93452f"
+  },
+  "textures" : [ "crude", "wooden" ],
+  "material" : {
+    "items" : [ "regions_unexplored:redwood_planks" ]
+  },
+  "requiredTools" : {
+    "axe_dig" : "minecraft:wood"
+  }
+}
