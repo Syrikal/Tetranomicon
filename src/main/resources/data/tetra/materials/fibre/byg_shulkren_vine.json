@@ -1,0 +1,35 @@
+{
+    "key": "byg_shulkren_vine",
+    "category": "fibre",
+    "primary": 3,
+    "secondary": 1.2,
+    "tertiary": 3.5,
+    "durability": 768,
+    "integrityCost": 1,
+    "integrityGain": 6,
+    "magicCapacity": 114,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "007e3e",
+        "texture": "007e3e"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "byg:shulkren_vine"
+        ]
+    },
+    "requiredTools": {
+        "cut": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "byg"
+        }
+    ]
+}

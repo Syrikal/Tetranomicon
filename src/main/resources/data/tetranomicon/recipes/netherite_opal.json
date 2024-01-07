@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:smithing_transform",
+  "type": "minecraft:smithing",
   "base": {
     "item": "oresabovediamonds:black_opal"
   },
@@ -8,8 +8,5 @@
   },
   "result": {
     "item": "tetranomicon:netherite_opal"
-  },
-  "template": {
-    "item": "minecraft:netherite_upgrade_smithing_template"
   }
 }

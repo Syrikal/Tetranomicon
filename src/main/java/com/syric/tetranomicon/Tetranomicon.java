@@ -4,6 +4,7 @@ import com.syric.tetranomicon.registry.TetranomiconItems;
 import com.syric.tetranomicon.registry.TetranomiconTiers;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
@@ -16,6 +17,8 @@ public class Tetranomicon {
         TetranomiconTiers.init();
 
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        TetranomiconItems.ITEMS.register(modEventBus);
+        if (ModList.get().isLoaded("oresabovediamonds")) {
+            TetranomiconItems.ITEMS.register(modEventBus);
+        }
     }
 }
