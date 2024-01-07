@@ -1,0 +1,40 @@
+{
+    "key": "silentgear_tyrian_steel",
+    "category": "metal",
+    "primary": 11,
+    "secondary": 5,
+    "tertiary": 3.7,
+    "durability": 3652,
+    "integrityCost": 3,
+    "integrityGain": 7,
+    "magicCapacity": 96,
+    "toolLevel": "tetra:maxed_forge_hammer",
+    "toolEfficiency": 18,
+    "effects": {
+        "unbreaking": 2,
+        "armorPenetration": 20
+    },
+    "tints": {
+        "glyph": "b01080",
+        "texture": "b01080"
+    },
+    "textures": [
+        "heavy",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "silentgear:tyrian_steel_ingot"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "tetra:maxed_forge_hammer"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgear"
+        }
+    ]
+}

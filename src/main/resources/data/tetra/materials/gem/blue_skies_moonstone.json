@@ -1,0 +1,39 @@
+{
+    "key": "blue_skies_moonstone",
+    "category": "gem",
+    "primary": 4.5,
+    "secondary": 2.7,
+    "tertiary": 0,
+    "durability": 250,
+    "integrityCost": 1,
+    "integrityGain": 2,
+    "magicCapacity": 120,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 6,
+    "effects": {
+        "stabilizing": 15
+    },
+    "tints": {
+        "glyph": "c4e3f1",
+        "texture": "c4e3f1"
+    },
+    "textures": [
+        "shiny",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "blue_skies:moonstone_shard"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "blue_skies"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "key": "ms_bronze",
+    "category": "metal",
+    "primary": 4.8,
+    "secondary": 3.8,
+    "tertiary": 3,
+    "durability": 237,
+    "integrityCost": 1,
+    "integrityGain": 5,
+    "magicCapacity": 60,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 5.4,
+    "improvements": {
+        "workable": 1
+    },
+    "tints": {
+        "glyph": "a26622",
+        "texture": "a26622"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "ms:gem/bronze_ingot"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:wood"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

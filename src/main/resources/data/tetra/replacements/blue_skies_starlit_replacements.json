@@ -1,0 +1,166 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "blue_skies"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "blue_skies:starlit_axe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_axe_left",
+                "basic_axe/blue_skies_starlit_wood"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/blue_skies_starlit_wood"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "blue_skies"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "blue_skies:starlit_hoe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/hoe_left",
+                "hoe/blue_skies_starlit_wood"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/blue_skies_starlit_wood"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "blue_skies"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "blue_skies:starlit_pickaxe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_pickaxe_left",
+                "basic_pickaxe/blue_skies_starlit_wood"
+            ],
+            "double/head_right": [
+                "double/basic_pickaxe_right",
+                "basic_pickaxe/blue_skies_starlit_wood"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "blue_skies"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "blue_skies:starlit_shovel"
+            ]
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [
+                "single/basic_shovel",
+                "basic_shovel/blue_skies_starlit_wood"
+            ],
+            "single/handle": [
+                "single/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "blue_skies"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "blue_skies:starlit_spear"
+            ]
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [
+                "single/spearhead",
+                "spearhead/blue_skies_moonstone"
+            ],
+            "single/handle": [
+                "single/light_handle",
+                "light_handle/blue_skies_starlit"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "blue_skies"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "blue_skies:starlit_sword"
+            ]
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/blue_skies_starlit_wood"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/stick"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/blue_skies_starlit_wood"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/blue_skies_starlit_wood"
+            ]
+        }
+    }
+]

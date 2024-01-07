@@ -1,0 +1,35 @@
+{
+    "key": "alexscaves_heavy_bone",
+    "category": "bone",
+    "primary": 5.5,
+    "secondary": 2.4,
+    "tertiary": 4.3,
+    "durability": 512,
+    "integrityCost": 2,
+    "integrityGain": 6,
+    "magicCapacity": 120,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 5,
+    "tints": {
+        "glyph": "dddac3",
+        "texture": "dddac3"
+    },
+    "textures": [
+        "bone",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "alexscaves:heavy_bone"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alexscaves"
+        }
+    ]
+}

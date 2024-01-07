@@ -1,0 +1,41 @@
+{
+    "key": "deep_dark_regrowth_plasma",
+    "category": "metal",
+    "primary": 1,
+    "secondary": 0.4,
+    "tertiary": 0,
+    "durability": 16384,
+    "integrityCost": 1,
+    "integrityGain": 6,
+    "magicCapacity": 1,
+    "toolLevel": "minecraft:netherite",
+    "toolEfficiency": 20,
+    "improvements": {
+        "arrested": 0
+    },
+    "effects": {
+        "unbreaking": 100
+    },
+    "tints": {
+        "glyph": "a3ffff",
+        "texture": "a3ffff"
+    },
+    "textures": [
+        "shiny",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "deep_dark_regrowth:plasma"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:netherite"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "deep_dark_regrowth"
+        }
+    ]
+}

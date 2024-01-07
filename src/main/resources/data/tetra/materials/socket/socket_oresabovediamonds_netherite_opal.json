@@ -1,0 +1,36 @@
+{
+    "key": "socket_oresabovediamonds_netherite_opal",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 1024.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 6.0,
+    "attributes": {
+        "**generic.attack_damage": 0.3
+    },
+    "tints": {
+        "glyph": "210a2d",
+        "texture": "210a2d"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 40,
+    "material": {
+        "items": [
+            "tetranomicon:netherite_opal"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "oresabovediamonds"
+        }
+    ]
+}

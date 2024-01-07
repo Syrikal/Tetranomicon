@@ -1,0 +1,35 @@
+{
+    "key": "ms_pyridium",
+    "category": "metal",
+    "primary": 6,
+    "secondary": 3.8,
+    "tertiary": 3,
+    "durability": 1561,
+    "integrityCost": 2,
+    "integrityGain": 7,
+    "magicCapacity": 60,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 8,
+    "tints": {
+        "glyph": "cc8303",
+        "texture": "cc8303"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "ms:gem/pyridium_ingot"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "key": "socket_ms_amethyst",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 0.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "attributes": {
+        "forge:reach_distance": 0.5,
+        "forge:attack_distance": 0.5
+    },
+    "effects": {
+        "reaching": [
+            10,
+            0.45
+        ]
+    },
+    "tints": {
+        "glyph": "8d6acc",
+        "texture": "8d6acc"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 4,
+    "material": {
+        "items": [
+            "ms:gem/refined_amethyst_ingot"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

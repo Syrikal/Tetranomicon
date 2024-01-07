@@ -1,0 +1,36 @@
+{
+    "key": "socket_oresabovediamonds_amethyst",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 714.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 4.0,
+    "attributes": {
+        "**generic.attack_damage": 0.2
+    },
+    "tints": {
+        "glyph": "c25fdf",
+        "texture": "c25fdf"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 20,
+    "material": {
+        "items": [
+            "oresabovediamonds:amethyst"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "oresabovediamonds"
+        }
+    ]
+}

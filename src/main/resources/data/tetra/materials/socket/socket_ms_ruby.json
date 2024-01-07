@@ -1,0 +1,39 @@
+{
+    "key": "socket_ms_ruby",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 0.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 2.0,
+    "effects": {
+        "criticalStrike": [
+            20,
+            2
+        ]
+    },
+    "tints": {
+        "glyph": "f90606",
+        "texture": "f90606"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 4,
+    "material": {
+        "items": [
+            "ms:gem/ruby"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

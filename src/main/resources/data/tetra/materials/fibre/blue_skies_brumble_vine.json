@@ -1,0 +1,35 @@
+{
+    "key": "blue_skies_brumble_vine",
+    "category": "fibre",
+    "primary": 4,
+    "secondary": 1.5,
+    "tertiary": 3,
+    "durability": 320,
+    "integrityCost": 1,
+    "integrityGain": 5,
+    "magicCapacity": 96,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "b5553c",
+        "texture": "b5553c"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "blue_skies:brumble_vine_top"
+        ]
+    },
+    "requiredTools": {
+        "cut": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "blue_skies"
+        }
+    ]
+}

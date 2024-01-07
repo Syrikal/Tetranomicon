@@ -1,0 +1,36 @@
+{
+    "key": "ad_astra_sky_stone",
+    "category": "stone",
+    "primary": 4.7,
+    "secondary": 3,
+    "tertiary": 0,
+    "durability": 384,
+    "integrityCost": 1,
+    "integrityGain": 3,
+    "magicCapacity": 102,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 10,
+    "tints": {
+        "glyph": "5a3d3d",
+        "texture": "5a3d3d"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "ad_astra:sky_stone"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ad_astra"
+        }
+    ]
+}

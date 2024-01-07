@@ -1,0 +1,38 @@
+{
+    "key": "blue_skies_charoite",
+    "category": "gem",
+    "primary": 6,
+    "secondary": 2.6,
+    "tertiary": 0,
+    "durability": 1561,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 60,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 8,
+    "improvements": {
+        "arrested": 0
+    },
+    "tints": {
+        "glyph": "9d71c3",
+        "texture": "9d71c3"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "blue_skies:charoite"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "blue_skies"
+        }
+    ]
+}

@@ -1,0 +1,166 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "blue_skies"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "blue_skies:frostbright_axe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_axe_left",
+                "basic_axe/blue_skies_frostbright"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/blue_skies_frostbright"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "blue_skies"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "blue_skies:frostbright_hoe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/hoe_left",
+                "hoe/blue_skies_frostbright"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/blue_skies_frostbright"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "blue_skies"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "blue_skies:frostbright_pickaxe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_pickaxe_left",
+                "basic_pickaxe/blue_skies_frostbright"
+            ],
+            "double/head_right": [
+                "double/basic_pickaxe_right",
+                "basic_pickaxe/blue_skies_frostbright"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "blue_skies"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "blue_skies:frostbright_shovel"
+            ]
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [
+                "single/basic_shovel",
+                "basic_shovel/blue_skies_frostbright"
+            ],
+            "single/handle": [
+                "single/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "blue_skies"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "blue_skies:frostbright_spear"
+            ]
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [
+                "single/spearhead",
+                "spearhead/blue_skies_moonstone"
+            ],
+            "single/handle": [
+                "single/light_handle",
+                "light_handle/blue_skies_frostbright"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "blue_skies"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "blue_skies:frostbright_sword"
+            ]
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/blue_skies_frostbright"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/stick"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/blue_skies_frostbright"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/blue_skies_frostbright"
+            ]
+        }
+    }
+]

@@ -1,0 +1,36 @@
+{
+    "key": "ad_astra_glacio_stone",
+    "category": "stone",
+    "primary": 4,
+    "secondary": 4.5,
+    "tertiary": 0,
+    "durability": 1561,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 96,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 9,
+    "tints": {
+        "glyph": "9185b6",
+        "texture": "9185b6"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "ad_astra:glacio_cobblestone"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:diamond"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ad_astra"
+        }
+    ]
+}

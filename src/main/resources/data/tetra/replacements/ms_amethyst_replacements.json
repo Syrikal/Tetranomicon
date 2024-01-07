@@ -1,0 +1,142 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "ms:tool/amethyst_axe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_axe_left",
+                "basic_axe/ms_amethyst"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/ms_amethyst"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "ms:tool/amethyst_hoe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/hoe_left",
+                "hoe/ms_amethyst"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/ms_amethyst"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "ms:tool/amethyst_pickaxe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_pickaxe_left",
+                "basic_pickaxe/ms_amethyst"
+            ],
+            "double/head_right": [
+                "double/basic_pickaxe_right",
+                "basic_pickaxe/ms_amethyst"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "ms:tool/amethyst_shovel"
+            ]
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [
+                "single/basic_shovel",
+                "basic_shovel/ms_amethyst"
+            ],
+            "single/handle": [
+                "single/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "ms:tool/amethyst_sword"
+            ]
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/ms_amethyst"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/stick"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/ms_amethyst"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/ms_amethyst"
+            ]
+        }
+    }
+]

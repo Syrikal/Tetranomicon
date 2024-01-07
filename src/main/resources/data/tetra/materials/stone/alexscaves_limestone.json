@@ -1,0 +1,36 @@
+{
+    "key": "alexscaves_limestone",
+    "category": "stone",
+    "primary": 4.2,
+    "secondary": 3.5,
+    "tertiary": 0,
+    "durability": 96,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:gold",
+    "toolEfficiency": 4,
+    "tints": {
+        "glyph": "9f916d",
+        "texture": "9f916d"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "alexscaves:limestone"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:wood"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alexscaves"
+        }
+    ]
+}

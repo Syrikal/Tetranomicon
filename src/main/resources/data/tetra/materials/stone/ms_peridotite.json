@@ -1,0 +1,36 @@
+{
+    "key": "ms_peridotite",
+    "category": "stone",
+    "primary": 4,
+    "secondary": 3.5,
+    "tertiary": 0,
+    "durability": 180,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 4.5,
+    "tints": {
+        "glyph": "566250",
+        "texture": "566250"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "ms:stone/peridotite"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:wood"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

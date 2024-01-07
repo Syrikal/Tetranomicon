@@ -1,0 +1,142 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "l2complements"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "l2complements:sculkium_axe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_axe_left",
+                "basic_axe/l2complements_sculkium"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/l2complements_sculkium"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/netherite"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "l2complements"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "l2complements:sculkium_hoe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/hoe_left",
+                "hoe/l2complements_sculkium"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/l2complements_sculkium"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/netherite"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "l2complements"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "l2complements:sculkium_pickaxe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_pickaxe_left",
+                "basic_pickaxe/l2complements_sculkium"
+            ],
+            "double/head_right": [
+                "double/basic_pickaxe_right",
+                "basic_pickaxe/l2complements_sculkium"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/netherite"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "l2complements"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "l2complements:sculkium_shovel"
+            ]
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [
+                "single/basic_shovel",
+                "basic_shovel/l2complements_sculkium"
+            ],
+            "single/handle": [
+                "single/basic_handle",
+                "basic_handle/netherite"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "l2complements"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "l2complements:sculkium_sword"
+            ]
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/l2complements_sculkium"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/netherite"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/l2complements_sculkium"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/l2complements_sculkium"
+            ]
+        }
+    }
+]

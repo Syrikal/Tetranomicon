@@ -1,0 +1,36 @@
+{
+    "key": "alexscaves_guanostone",
+    "category": "stone",
+    "primary": 3,
+    "secondary": 3.7,
+    "tertiary": 0,
+    "durability": 131,
+    "integrityCost": 1,
+    "integrityGain": 2,
+    "magicCapacity": 66,
+    "toolLevel": "minecraft:gold",
+    "toolEfficiency": 3,
+    "tints": {
+        "glyph": "a08365",
+        "texture": "a08365"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "alexscaves:guanostone"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:wood"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alexscaves"
+        }
+    ]
+}

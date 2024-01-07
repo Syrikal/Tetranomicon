@@ -1,0 +1,42 @@
+{
+    "key": "socket_aquamirae_echo_of_the_ship_graveyard",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 714.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 4.0,
+    "attributes": {
+        "**generic.attack_speed": 0.1,
+        "**generic.movement_speed": 0.1,
+        "generic.armor": 2
+    },
+    "effects": {
+        "workable": 15,
+        "stabilizing": 20
+    },
+    "tints": {
+        "glyph": "6df8fe",
+        "texture": "6df8fe"
+    },
+    "textures": [
+        "pristine"
+    ],
+    "experienceCost": 30,
+    "material": {
+        "items": [
+            "aquamirae:ship_graveyard_echo"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "aquamirae"
+        }
+    ]
+}

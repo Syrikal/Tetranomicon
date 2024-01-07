@@ -1,0 +1,36 @@
+{
+    "key": "socket_alexscaves_amber_curiosity",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 0.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "effects": {
+        "earthbind": 8
+    },
+    "tints": {
+        "glyph": "ff8c00",
+        "texture": "ff8c00"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 10,
+    "material": {
+        "items": [
+            "alexscaves:amber_curiosity"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alexscaves"
+        }
+    ]
+}

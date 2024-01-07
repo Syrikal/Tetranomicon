@@ -106,29 +106,29 @@ dependencies {
     implementation fg.deobf("curse.maven:tetra-289712:4857842")
     implementation fg.deobf("curse.maven:scroll-of-harvests-571339:4706191")
 
-//    //PREVIOUSLY SUPPORTED
-//    //BOP (requires terrablender)
-//    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:4617259")
-//
-//    //Enderite (requires architectury api and cloth config)
-//    implementation fg.deobf("curse.maven:enderite-mod-for-forge-401284:4630504")
-//
-//    //Stalwart Dungeons
-//    implementation fg.deobf("curse.maven:stalwart-dungeons-474817:4703671")
-//
-//    //Twilight Forest
-//    implementation fg.deobf("curse.maven:the-twilight-forest-227639:4865711")
+    //PREVIOUSLY SUPPORTED
+    //BOP (requires terrablender)
+    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:4617259")
+
+    //Enderite (requires architectury api and cloth config)
+    implementation fg.deobf("curse.maven:enderite-mod-for-forge-401284:4630504")
+
+    //Stalwart Dungeons
+    implementation fg.deobf("curse.maven:stalwart-dungeons-474817:4703671")
+
+    //Twilight Forest
+    implementation fg.deobf("curse.maven:the-twilight-forest-227639:4865711")
 
     //Create
     implementation fg.deobf("curse.maven:create-328085:4835191")
 
 
     //SET ONE
-    //Aether
-    implementation fg.deobf("curse.maven:aether-255308:4926220")
-
-    //Deep Aether (requires Aether, geckolib, terrablender, and aeroblender)
-    implementation fg.deobf("curse.maven:deep-aether-852465:4861346")
+//    //Aether
+//    implementation fg.deobf("curse.maven:aether-255308:4926220")
+//
+//    //Deep Aether (requires Aether, geckolib, terrablender, and aeroblender)
+//    implementation fg.deobf("curse.maven:deep-aether-852465:4861346")
 
     //Alex's Caves (requires citadel)
     implementation fg.deobf("curse.maven:alexs-caves-924854:4852042")
@@ -207,11 +207,12 @@ dependencies {
 
     //JEI
     implementation fg.deobf("curse.maven:jei-238222:4712868")
+//    implementation fg.deobf("curse.maven:configured-457570:NOTREADYYET")
 //    implementation fg.deobf("curse.maven:just-enough-resources-jer-240630:NOTREADYYET")
 
     //Optimization
-    implementation fg.deobf("curse.maven:rubidium-574856:4767529")
-    implementation fg.deobf("curse.maven:oculus-581495:4767500")
+//    implementation fg.deobf("curse.maven:rubidium-574856:4767529")
+//    implementation fg.deobf("curse.maven:oculus-581495:4767500")
 
     //Libraries and Dependencies
     implementation fg.deobf("curse.maven:mutil-351914:4824501")
@@ -230,7 +231,7 @@ dependencies {
     implementation fg.deobf("curse.maven:resourceful-config-714059:4683093")
     implementation fg.deobf("curse.maven:botarium-704113:4831434")
     implementation fg.deobf("curse.maven:obscure-api-638417:4616364")
-    implementation fg.deobf("curse.maven:aeroblender-879879:4789008")
+//    implementation fg.deobf("curse.maven:aeroblender-879879:4789008")
     implementation fg.deobf("curse.maven:patchouli-306770:4892162")
     implementation fg.deobf("curse.maven:l2library-620203:4846530")
 

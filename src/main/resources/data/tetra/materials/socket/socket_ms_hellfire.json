@@ -1,0 +1,42 @@
+{
+    "key": "socket_ms_hellfire",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 448.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 2.0,
+    "attributes": {
+        "**generic.attack_damage": 0.2
+    },
+    "effects": {
+        "fierySelf": [
+            1,
+            0.04
+        ]
+    },
+    "tints": {
+        "glyph": "5203cb",
+        "texture": "5203cb"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 10,
+    "material": {
+        "items": [
+            "ms:gem/hellfire_crystal"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

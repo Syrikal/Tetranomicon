@@ -1,0 +1,142 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "phantasm"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "phantasm:crystalline_axe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_axe_left",
+                "basic_axe/phantasm_void_crystal"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/phantasm_void_crystal"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "phantasm"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "phantasm:crystalline_hoe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/hoe_left",
+                "hoe/phantasm_void_crystal"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/phantasm_void_crystal"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "phantasm"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "phantasm:crystalline_pickaxe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_pickaxe_left",
+                "basic_pickaxe/phantasm_void_crystal"
+            ],
+            "double/head_right": [
+                "double/basic_pickaxe_right",
+                "basic_pickaxe/phantasm_void_crystal"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "phantasm"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "phantasm:crystalline_shovel"
+            ]
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [
+                "single/basic_shovel",
+                "basic_shovel/phantasm_void_crystal"
+            ],
+            "single/handle": [
+                "single/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "phantasm"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "phantasm:crystalline_sword"
+            ]
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/phantasm_void_crystal"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/stick"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/phantasm_void_crystal"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/phantasm_void_crystal"
+            ]
+        }
+    }
+]

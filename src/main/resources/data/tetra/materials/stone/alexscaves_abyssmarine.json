@@ -1,0 +1,39 @@
+{
+    "key": "alexscaves_abyssmarine",
+    "category": "stone",
+    "primary": 4.5,
+    "secondary": 4.5,
+    "tertiary": 0,
+    "durability": 512,
+    "integrityCost": 1,
+    "integrityGain": 3,
+    "magicCapacity": 102,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 5,
+    "effects": {
+        "stabilizing": 10
+    },
+    "tints": {
+        "glyph": "1d2431",
+        "texture": "1d2431"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "alexscaves:abyssmarine"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alexscaves"
+        }
+    ]
+}

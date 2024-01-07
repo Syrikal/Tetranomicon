@@ -1,0 +1,39 @@
+{
+    "key": "socket_organics_frozen_quartz",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 512.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "attributes": {
+        "generic.armor": 2
+    },
+    "effects": {
+        "earthbind": 4
+    },
+    "tints": {
+        "glyph": "abc6f8",
+        "texture": "abc6f8"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 5,
+    "material": {
+        "items": [
+            "organics:frozen_quartz"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "organics"
+        }
+    ]
+}

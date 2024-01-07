@@ -1,0 +1,35 @@
+{
+    "key": "regions_unexplored_dropleaf",
+    "category": "fibre",
+    "primary": 5,
+    "secondary": 1.8,
+    "tertiary": 3,
+    "durability": 131,
+    "integrityCost": 1,
+    "integrityGain": 5,
+    "magicCapacity": 120,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "577b32",
+        "texture": "577b32"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "regions_unexplored:dropleaf"
+        ]
+    },
+    "requiredTools": {
+        "cut": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "regions_unexplored"
+        }
+    ]
+}

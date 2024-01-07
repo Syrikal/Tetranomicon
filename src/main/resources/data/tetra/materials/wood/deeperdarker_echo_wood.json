@@ -1,0 +1,41 @@
+{
+    "key": "deeperdarker_echo_wood",
+    "category": "wood",
+    "primary": 5,
+    "secondary": 1.6,
+    "tertiary": 5,
+    "durability": 2031,
+    "integrityCost": 2,
+    "integrityGain": 8,
+    "magicCapacity": 120,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 5,
+    "effects": {
+        "enderReverb": [
+            2,
+            0.2
+        ]
+    },
+    "tints": {
+        "glyph": "b0ba99",
+        "texture": "b0ba99"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "deeperdarker:echo_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "tetra:maxed_forge_hammer"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "deeperdarker"
+        }
+    ]
+}

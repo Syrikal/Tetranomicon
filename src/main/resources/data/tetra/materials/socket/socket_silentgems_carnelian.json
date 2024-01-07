@@ -1,0 +1,36 @@
+{
+    "key": "socket_silentgems_carnelian",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 512.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "attributes": {
+        "**generic.attack_damage": 0.1
+    },
+    "tints": {
+        "glyph": "e6351f",
+        "texture": "e6351f"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 6,
+    "material": {
+        "items": [
+            "silentgems:carnelian"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

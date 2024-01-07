@@ -1,0 +1,142 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "ms:tool/platinum_axe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_axe_left",
+                "basic_axe/ms_platinum"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/ms_platinum"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/blaze_rod"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "ms:tool/platinum_hoe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/hoe_left",
+                "hoe/ms_platinum"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/ms_platinum"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/blaze_rod"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "ms:tool/platinum_pickaxe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_pickaxe_left",
+                "basic_pickaxe/ms_platinum"
+            ],
+            "double/head_right": [
+                "double/basic_pickaxe_right",
+                "basic_pickaxe/ms_platinum"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/blaze_rod"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "ms:tool/platinum_shovel"
+            ]
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [
+                "single/basic_shovel",
+                "basic_shovel/ms_platinum"
+            ],
+            "single/handle": [
+                "single/basic_handle",
+                "basic_handle/blaze_rod"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "ms:tool/platinum_sword"
+            ]
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/ms_platinum"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/blaze_rod"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/ms_platinum"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/ms_platinum"
+            ]
+        }
+    }
+]

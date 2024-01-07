@@ -1,0 +1,37 @@
+{
+    "key": "socket_blue_skies_sunstone_crystal",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 512.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "attributes": {
+        "**generic.attack_damage": 0.2,
+        "generic.max_health": 2
+    },
+    "tints": {
+        "glyph": "ef9a7e",
+        "texture": "ef9a7e"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 10,
+    "material": {
+        "items": [
+            "blue_skies:sunstone_crystal"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "blue_skies"
+        }
+    ]
+}

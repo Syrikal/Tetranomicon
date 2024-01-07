@@ -1,0 +1,114 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "voidscape"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "voidscape:astral_axe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_axe_left",
+                "basic_axe/voidscape_astral_crystal"
+            ],
+            "double/head_right": [
+                "double/basic_axe_right",
+                "basic_axe/voidscape_astral_crystal"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "voidscape"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "voidscape:astral_pickaxe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_pickaxe_left",
+                "basic_pickaxe/voidscape_astral_crystal"
+            ],
+            "double/head_right": [
+                "double/basic_pickaxe_right",
+                "basic_pickaxe/voidscape_astral_crystal"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "voidscape"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "voidscape:astral_shovel"
+            ]
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [
+                "single/basic_shovel",
+                "basic_shovel/voidscape_astral_crystal"
+            ],
+            "single/handle": [
+                "single/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "voidscape"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "voidscape:astral_sword"
+            ]
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/voidscape_astral_crystal"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/stick"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/voidscape_astral_crystal"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/voidscape_astral_crystal"
+            ]
+        }
+    }
+]

@@ -1,0 +1,35 @@
+{
+    "key": "regions_unexplored_kapok",
+    "category": "wood",
+    "primary": 3.2,
+    "secondary": 1.4,
+    "tertiary": 5,
+    "durability": 131,
+    "integrityCost": 1,
+    "integrityGain": 5,
+    "magicCapacity": 108,
+    "toolLevel": "minecraft:wood",
+    "toolEfficiency": 3,
+    "tints": {
+        "glyph": "9c7559",
+        "texture": "9c7559"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "regions_unexplored:kapok_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:wood"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "regions_unexplored"
+        }
+    ]
+}

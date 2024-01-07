@@ -1,0 +1,35 @@
+{
+    "key": "nature_arise_fir",
+    "category": "wood",
+    "primary": 2.6,
+    "secondary": 1.5,
+    "tertiary": 6,
+    "durability": 48,
+    "integrityCost": 1,
+    "integrityGain": 3,
+    "magicCapacity": 108,
+    "toolLevel": "minecraft:wood",
+    "toolEfficiency": 3,
+    "tints": {
+        "glyph": "957339",
+        "texture": "957339"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "nature_arise:fir_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:wood"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "nature_arise"
+        }
+    ]
+}

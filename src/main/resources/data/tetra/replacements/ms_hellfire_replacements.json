@@ -1,0 +1,142 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "ms:tool/hellfire_axe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_axe_left",
+                "basic_axe/ms_hellfire"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/ms_hellfire"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/iron"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "ms:tool/hellfire_hoe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/hoe_left",
+                "hoe/ms_hellfire"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/ms_hellfire"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/iron"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "ms:tool/hellfire_pickaxe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_pickaxe_left",
+                "basic_pickaxe/ms_hellfire"
+            ],
+            "double/head_right": [
+                "double/basic_pickaxe_right",
+                "basic_pickaxe/ms_hellfire"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/iron"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "ms:tool/hellfire_shovel"
+            ]
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [
+                "single/basic_shovel",
+                "basic_shovel/ms_hellfire"
+            ],
+            "single/handle": [
+                "single/basic_handle",
+                "basic_handle/iron"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "ms:tool/hellfire_sword"
+            ]
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/ms_hellfire"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/iron"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/ms_hellfire"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/ms_hellfire"
+            ]
+        }
+    }
+]

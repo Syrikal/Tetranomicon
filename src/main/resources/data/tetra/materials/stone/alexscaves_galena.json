@@ -1,0 +1,40 @@
+{
+    "key": "alexscaves_galena",
+    "category": "stone",
+    "primary": 4.7,
+    "secondary": 5.5,
+    "tertiary": 0,
+    "durability": 512,
+    "integrityCost": 2,
+    "integrityGain": 4,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 5,
+    "improvements": {
+        "arrested": 0
+    },
+    "tints": {
+        "glyph": "443c4c",
+        "texture": "443c4c"
+    },
+    "textures": [
+        "heavy",
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "alexscaves:galena"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alexscaves"
+        }
+    ]
+}

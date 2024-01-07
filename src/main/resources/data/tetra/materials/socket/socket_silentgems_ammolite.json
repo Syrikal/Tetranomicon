@@ -1,0 +1,36 @@
+{
+    "key": "socket_silentgems_ammolite",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 0.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 2.0,
+    "attributes": {
+        "generic.armor": 2
+    },
+    "tints": {
+        "glyph": "b834f9",
+        "texture": "b834f9"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 6,
+    "material": {
+        "items": [
+            "silentgems:ammolite"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

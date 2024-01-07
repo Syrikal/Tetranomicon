@@ -1,0 +1,38 @@
+{
+    "key": "silentgems_black_diamond",
+    "category": "gem",
+    "primary": 7,
+    "secondary": 2.9,
+    "tertiary": 0,
+    "durability": 1792,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 72,
+    "toolLevel": "minecraft:netherite",
+    "toolEfficiency": 9,
+    "effects": {
+        "unbreaking": 1
+    },
+    "tints": {
+        "glyph": "5f524c",
+        "texture": "5f524c"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "silentgems:black_diamond"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "key": "ms_sapphire",
+    "category": "gem",
+    "primary": 5.45,
+    "secondary": 2.9,
+    "tertiary": 0,
+    "durability": 450,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 66,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 7.4,
+    "improvements": {
+        "arrested": 0
+    },
+    "tints": {
+        "glyph": "8c79ff",
+        "texture": "8c79ff"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "ms:gem/sapphire"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

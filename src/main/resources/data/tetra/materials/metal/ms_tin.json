@@ -1,0 +1,39 @@
+{
+    "key": "ms_tin",
+    "category": "metal",
+    "primary": 4.35,
+    "secondary": 3.2,
+    "tertiary": 3,
+    "durability": 157,
+    "integrityCost": 1,
+    "integrityGain": 5,
+    "magicCapacity": 54,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 4.12,
+    "improvements": {
+        "workable": 1
+    },
+    "tints": {
+        "glyph": "dffcff",
+        "texture": "dffcff"
+    },
+    "textures": [
+        "shiny",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "ms:gem/tin_ingot"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:wood"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "key": "ad_astra_venus_stone",
+    "category": "stone",
+    "primary": 3.8,
+    "secondary": 3.4,
+    "tertiary": 0,
+    "durability": 1024,
+    "integrityCost": 2,
+    "integrityGain": 4,
+    "magicCapacity": 114,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 5,
+    "tints": {
+        "glyph": "b88143",
+        "texture": "b88143"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "ad_astra:venus_cobblestone"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ad_astra"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "key": "endlessbiomes_penumbra_wood",
+    "category": "wood",
+    "primary": 5,
+    "secondary": 1.4,
+    "tertiary": 5,
+    "durability": 1561,
+    "integrityCost": 2,
+    "integrityGain": 8,
+    "magicCapacity": 120,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 5,
+    "tints": {
+        "glyph": "452f8f",
+        "texture": "452f8f"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "endlessbiomes:penumbra_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "tetra:maxed_forge_hammer"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "endlessbiomes"
+        }
+    ]
+}

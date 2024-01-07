@@ -1,0 +1,35 @@
+{
+    "key": "ms_black_diamond",
+    "category": "gem",
+    "primary": 8.2,
+    "secondary": 2.9,
+    "tertiary": 0,
+    "durability": 2143,
+    "integrityCost": 3,
+    "integrityGain": 2,
+    "magicCapacity": 72,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 8.2,
+    "tints": {
+        "glyph": "562980",
+        "texture": "562980"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "ms:gem/black_diamond"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:netherite"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

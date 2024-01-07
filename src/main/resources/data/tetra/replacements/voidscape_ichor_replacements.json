@@ -1,0 +1,90 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "voidscape"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "voidscape:ichor_axe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_axe_left",
+                "basic_axe/voidscape_ichor"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/voidscape_ichor"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "voidscape"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "voidscape:ichor_pickaxe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_pickaxe_left",
+                "basic_pickaxe/voidscape_ichor"
+            ],
+            "double/head_right": [
+                "double/basic_pickaxe_right",
+                "basic_pickaxe/voidscape_ichor"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "voidscape"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "voidscape:ichor_sword"
+            ]
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/voidscape_ichor"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/stick"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/voidscape_ichor"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/voidscape_ichor"
+            ]
+        }
+    }
+]

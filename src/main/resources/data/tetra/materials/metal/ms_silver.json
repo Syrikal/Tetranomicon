@@ -1,0 +1,39 @@
+{
+    "key": "ms_silver",
+    "category": "metal",
+    "primary": 4.9,
+    "secondary": 4.2,
+    "tertiary": 1,
+    "durability": 121,
+    "integrityCost": 2,
+    "integrityGain": 1,
+    "magicCapacity": 60,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 8.9,
+    "effects": {
+        "stabilizing": 30
+    },
+    "tints": {
+        "glyph": "b9c8cc",
+        "texture": "b9c8cc"
+    },
+    "textures": [
+        "shiny",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "ms:gem/silver_ingot"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "key": "regions_unexplored_yellow_bioshroom",
+    "category": "wood",
+    "primary": 2.8,
+    "secondary": 1.5,
+    "tertiary": 5.5,
+    "durability": 48,
+    "integrityCost": 1,
+    "integrityGain": 5,
+    "magicCapacity": 114,
+    "toolLevel": "minecraft:wood",
+    "toolEfficiency": 2,
+    "tints": {
+        "glyph": "d1bb60",
+        "texture": "d1bb60"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "regions_unexplored:yellow_bioshroom_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "regions_unexplored"
+        }
+    ]
+}

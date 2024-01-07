@@ -1,0 +1,36 @@
+{
+    "key": "ms_quartz",
+    "category": "stone",
+    "primary": 4.78,
+    "secondary": 3.2,
+    "tertiary": 0,
+    "durability": 196,
+    "integrityCost": 1,
+    "integrityGain": 1,
+    "magicCapacity": 48,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 5,
+    "tints": {
+        "glyph": "d4caba",
+        "texture": "d4caba"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "ms:gem/refined_quartz_ingot"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

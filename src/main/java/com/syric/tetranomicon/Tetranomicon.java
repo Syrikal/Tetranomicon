@@ -1,7 +1,11 @@
 package com.syric.tetranomicon;
 
+import com.syric.tetranomicon.registry.TetranomiconItems;
+import com.syric.tetranomicon.registry.TetranomiconTiers;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod(Tetranomicon.MODID)
 public class Tetranomicon {
@@ -9,6 +13,9 @@ public class Tetranomicon {
 
     public Tetranomicon () {
         MinecraftForge.EVENT_BUS.register(this);
-        TierRegistration.init();
+        TetranomiconTiers.init();
+
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        TetranomiconItems.ITEMS.register(modEventBus);
     }
 }

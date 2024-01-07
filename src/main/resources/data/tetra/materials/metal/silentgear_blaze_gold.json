@@ -1,0 +1,39 @@
+{
+    "key": "silentgear_blaze_gold",
+    "category": "metal",
+    "primary": 5,
+    "secondary": 4.2,
+    "tertiary": 1,
+    "durability": 69,
+    "integrityCost": 2,
+    "integrityGain": 4,
+    "magicCapacity": 144,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 15,
+    "improvements": {
+        "workable": 1
+    },
+    "tints": {
+        "glyph": "e3a645",
+        "texture": "e3a645"
+    },
+    "textures": [
+        "shiny",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "silentgear:blaze_gold_ingot"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgear"
+        }
+    ]
+}

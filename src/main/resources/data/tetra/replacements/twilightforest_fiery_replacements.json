@@ -1,0 +1,62 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "twilightforest"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "twilightforest:fiery_pickaxe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_pickaxe_left",
+                "basic_pickaxe/twilightforest_fiery_metal"
+            ],
+            "double/head_right": [
+                "double/basic_pickaxe_right",
+                "basic_pickaxe/twilightforest_fiery_metal"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "twilightforest"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "twilightforest:fiery_sword"
+            ]
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/twilightforest_fiery_metal"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/stick"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/twilightforest_fiery_metal"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/twilightforest_fiery_metal"
+            ]
+        }
+    }
+]

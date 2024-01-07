@@ -1,0 +1,43 @@
+{
+    "key": "socket_enlightened_end_malachite",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 714.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 4.0,
+    "attributes": {
+        "**generic.movement_speed": 0.05,
+        "**generic.attack_speed": 0.1
+    },
+    "effects": {
+        "criticalStrike": [
+            20,
+            2
+        ]
+    },
+    "tints": {
+        "glyph": "57d996",
+        "texture": "57d996"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 20,
+    "material": {
+        "items": [
+            "enlightened_end:malachite"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "enlightened_end"
+        }
+    ]
+}

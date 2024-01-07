@@ -1,0 +1,38 @@
+{
+    "key": "ms_wither_rod",
+    "category": "rod",
+    "primary": 6.5,
+    "secondary": 4,
+    "tertiary": 1,
+    "durability": 958,
+    "integrityCost": 2,
+    "integrityGain": 5,
+    "magicCapacity": 182,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "effects": {
+        "unstable": 10
+    },
+    "tints": {
+        "glyph": "2c2c2c",
+        "texture": "2c2c2c"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "ms:materials/wither_rod"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "key": "socket_voidscape_astral_crystal",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 1561.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 1,
+    "toolEfficiency": 6.0,
+    "attributes": {
+        "**generic.attack_damage": 0.3,
+        "**generic.movement_speed": 0.15,
+        "**generic.attack_speed": 0.1
+    },
+    "effects": {
+        "skewering": [
+            2,
+            10
+        ]
+    },
+    "tints": {
+        "glyph": "c24cab",
+        "texture": "c24cab"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 45,
+    "material": {
+        "items": [
+            "voidscape:astral_crystal"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "voidscape"
+        }
+    ]
+}

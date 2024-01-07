@@ -1,0 +1,39 @@
+{
+    "key": "socket_phantasm_void_crystal_shard",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 512.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "attributes": {
+        "**generic.attack_damage": 0.25
+    },
+    "effects": {
+        "armorPenetration": 20
+    },
+    "tints": {
+        "glyph": "c99bc4",
+        "texture": "c99bc4"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 20,
+    "material": {
+        "items": [
+            "phantasm:void_crystal_shard"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "phantasm"
+        }
+    ]
+}

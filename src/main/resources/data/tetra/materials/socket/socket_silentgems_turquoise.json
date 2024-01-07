@@ -1,0 +1,36 @@
+{
+    "key": "socket_silentgems_turquoise",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 512.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 2.0,
+    "attributes": {
+        "**generic.attack_damage": 0.1
+    },
+    "tints": {
+        "glyph": "3df4bd",
+        "texture": "3df4bd"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 6,
+    "material": {
+        "items": [
+            "silentgems:turquoise"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

@@ -1,0 +1,174 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "enlightened_end"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "enlightened_end:adamantite_axe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_axe_left",
+                "basic_axe/enlightened_end_adamantite"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/enlightened_end_adamantite"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "enlightened_end"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "enlightened_end:adamantite_hoe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/hoe_left",
+                "hoe/enlightened_end_adamantite"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/enlightened_end_adamantite"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "enlightened_end"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "enlightened_end:adamantite_knife"
+            ]
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/short_blade",
+                "short_blade/enlightened_end_adamantite"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/stick"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/enlightened_end_adamantite"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/enlightened_end_adamantite"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "enlightened_end"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "enlightened_end:adamantite_pickaxe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_pickaxe_left",
+                "basic_pickaxe/enlightened_end_adamantite"
+            ],
+            "double/head_right": [
+                "double/basic_pickaxe_right",
+                "basic_pickaxe/enlightened_end_adamantite"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "enlightened_end"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "enlightened_end:adamantite_shovel"
+            ]
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [
+                "single/basic_shovel",
+                "basic_shovel/enlightened_end_adamantite"
+            ],
+            "single/handle": [
+                "single/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "enlightened_end"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "enlightened_end:adamantite_sword"
+            ]
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/enlightened_end_adamantite"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/stick"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/enlightened_end_adamantite"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/enlightened_end_adamantite"
+            ]
+        }
+    }
+]

@@ -1,0 +1,42 @@
+{
+    "key": "socket_deeperdarker_reinforced_echo_shard",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 512.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 5.0,
+    "attributes": {
+        "**generic.attack_damage": 0.3
+    },
+    "effects": {
+        "enderReverb": [
+            1,
+            0.1
+        ]
+    },
+    "tints": {
+        "glyph": "74553",
+        "texture": "74553"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 10,
+    "material": {
+        "items": [
+            "deeperdarker:reinforced_echo_shard"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "deeperdarker"
+        }
+    ]
+}

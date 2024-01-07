@@ -1,0 +1,35 @@
+{
+    "key": "ms_hellwood",
+    "category": "wood",
+    "primary": 4.5,
+    "secondary": 1.7,
+    "tertiary": 5.5,
+    "durability": 512,
+    "integrityCost": 2,
+    "integrityGain": 6,
+    "magicCapacity": 84,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 4,
+    "tints": {
+        "glyph": "3d1937",
+        "texture": "3d1937"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "ms:nature/hellwood_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

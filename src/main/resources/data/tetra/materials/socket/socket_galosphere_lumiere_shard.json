@@ -1,0 +1,36 @@
+{
+    "key": "socket_galosphere_lumiere_shard",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 512.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 2.0,
+    "effects": {
+        "stabilizing": 15
+    },
+    "tints": {
+        "glyph": "ffc559",
+        "texture": "ffc559"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 5,
+    "material": {
+        "items": [
+            "galosphere:lumiere_shard"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "galosphere"
+        }
+    ]
+}

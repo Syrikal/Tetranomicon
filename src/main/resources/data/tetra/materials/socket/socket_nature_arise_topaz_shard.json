@@ -1,0 +1,36 @@
+{
+    "key": "socket_nature_arise_topaz_shard",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 512.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "attributes": {
+        "**generic.attack_damage": 0.2
+    },
+    "tints": {
+        "glyph": "e9b92e",
+        "texture": "e9b92e"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 10,
+    "material": {
+        "items": [
+            "nature_arise:topaz_shard"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "nature_arise"
+        }
+    ]
+}

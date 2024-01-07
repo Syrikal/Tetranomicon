@@ -1,0 +1,44 @@
+{
+    "key": "socket_alexscaves_occult_gem",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 0.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 2.0,
+    "attributes": {
+        "generic.max_health": -4
+    },
+    "effects": {
+        "bleeding": 2,
+        "backstab": 2,
+        "severing": [
+            20,
+            2
+        ]
+    },
+    "tints": {
+        "glyph": "ee0000",
+        "texture": "ee0000"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 20,
+    "material": {
+        "items": [
+            "alexscaves:occult_gem"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alexscaves"
+        }
+    ]
+}

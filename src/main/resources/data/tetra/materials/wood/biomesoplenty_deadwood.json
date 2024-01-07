@@ -1,0 +1,35 @@
+{
+    "key": "biomesoplenty_deadwood",
+    "category": "wood",
+    "primary": 4,
+    "secondary": 1.8,
+    "tertiary": 4.5,
+    "durability": 250,
+    "integrityCost": 1,
+    "integrityGain": 6,
+    "magicCapacity": 102,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 5,
+    "tints": {
+        "glyph": "807a72",
+        "texture": "807a72"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "biomesoplenty:dead_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "biomesoplenty"
+        }
+    ]
+}
