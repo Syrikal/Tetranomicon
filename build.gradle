@@ -125,6 +125,9 @@ dependencies {
     //Enderite (requires Architectury and Cloth Config)
     implementation fg.deobf("curse.maven:enderite-mod-for-forge-401284:4282088")
 
+    //Ice and Fire (requires Citadel)
+    implementation fg.deobf("curse.maven:ice-and-fire-dragons-264231:5037952")
+
     //Quark (requires AutoRegLib)
     implementation fg.deobf("curse.maven:quark-243121:4480516")
 
@@ -199,6 +202,7 @@ dependencies {
     implementation fg.deobf("curse.maven:corgilib-693313:4554111") //For BYG
     implementation fg.deobf("curse.maven:architectury-api-419699:4555749") //For Enderite
     implementation fg.deobf("curse.maven:cloth-config-348521:3972423") //For Enderite
+    implementation fg.deobf("curse.maven:citadel-331936:4556677") //For Ice & Fire
     implementation fg.deobf("curse.maven:autoreglib-250363:4100299") //For Quark
     implementation fg.deobf("curse.maven:hyle-609850:4672046") //For Unearthed
 
