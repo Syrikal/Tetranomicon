@@ -1,0 +1,2970 @@
+{
+    "replace": false,
+    "variants": [
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "aquamirae"
+                }
+            ],
+            "key": "double_socket/aquamirae_abyssal_amethyst",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "effects": {
+                "criticalStrike": [
+                    20,
+                    2
+                ],
+                "backstab": 2
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    2.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "ff7bff",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "ff7bff"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "aquamirae"
+                }
+            ],
+            "key": "double_socket/aquamirae_echo_of_the_ship_graveyard",
+            "category": "gem",
+            "durability": 714,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_speed": 0.1,
+                "**generic.movement_speed": 0.1,
+                "generic.armor": 2
+            },
+            "effects": {
+                "workable": 15,
+                "stabilizing": 20
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    4.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "6df8fe",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "6df8fe"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "blue_skies"
+                }
+            ],
+            "key": "double_socket/blue_skies_aquite",
+            "category": "gem",
+            "integrity": 1,
+            "effects": {
+                "intuit": 1
+            },
+            "glyph": {
+                "tint": "62bee3",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "62bee3"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "blue_skies"
+                }
+            ],
+            "key": "double_socket/blue_skies_charoite",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.1
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    4.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "9d71c3",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "9d71c3"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "blue_skies"
+                }
+            ],
+            "key": "double_socket/blue_skies_diopside",
+            "category": "gem",
+            "durability": 714,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.2
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    2.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "00cd15",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "00cd15"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "blue_skies"
+                }
+            ],
+            "key": "double_socket/blue_skies_moonstone",
+            "category": "gem",
+            "integrity": 1,
+            "effects": {
+                "stabilizing": 20
+            },
+            "glyph": {
+                "tint": "c4e3f1",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "c4e3f1"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "blue_skies"
+                }
+            ],
+            "key": "double_socket/blue_skies_pyrope",
+            "category": "gem",
+            "durability": 714,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.25
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    2.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "d62438",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "d62438"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "blue_skies"
+                }
+            ],
+            "key": "double_socket/blue_skies_sunstone_crystal",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.2,
+                "generic.max_health": 2
+            },
+            "glyph": {
+                "tint": "ef9a7e",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "ef9a7e"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "byg"
+                }
+            ],
+            "key": "double_socket/byg_ametrine",
+            "category": "gem",
+            "durability": 1024,
+            "integrity": 1,
+            "attributes": {
+                "generic.armor": 2,
+                "generic.armor_toughness": 2
+            },
+            "glyph": {
+                "tint": "d399d1",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "d399d1"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "endlessbiomes"
+                }
+            ],
+            "key": "double_socket/endlessbiomes_riftite_shard",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "**generic.movement_speed": 0.1,
+                "**generic.attack_speed": 0.1,
+                "**generic.attack_knockback": 1
+            },
+            "glyph": {
+                "tint": "50c9a7",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "50c9a7"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "enlightened_end"
+                }
+            ],
+            "key": "double_socket/enlightened_end_glacium",
+            "category": "gem",
+            "durability": 714,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.2,
+                "**generic.movement_speed": -0.1,
+                "generic.armor": 4
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    2.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "5693f9",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "5693f9"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "enlightened_end"
+                }
+            ],
+            "key": "double_socket/enlightened_end_malachite",
+            "category": "gem",
+            "durability": 714,
+            "integrity": 1,
+            "attributes": {
+                "**generic.movement_speed": 0.05,
+                "**generic.attack_speed": 0.1
+            },
+            "effects": {
+                "criticalStrike": [
+                    20,
+                    2
+                ]
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    4.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "57d996",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "57d996"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "epicsamurai"
+                }
+            ],
+            "key": "double_socket/epicsamurai_aquamarine",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.2
+            },
+            "glyph": {
+                "tint": "5f9fbf",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "5f9fbf"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "epicsamurai"
+                }
+            ],
+            "key": "double_socket/epicsamurai_jade",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "generic.armor": 2
+            },
+            "effects": {
+                "criticalStrike": [
+                    15,
+                    2
+                ]
+            },
+            "glyph": {
+                "tint": "6cd49d",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "6cd49d"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "epicsamurai"
+                }
+            ],
+            "key": "double_socket/epicsamurai_onyx",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "effects": {
+                "ArmorPenetration": 20
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    2.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "eed4bf",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "eed4bf"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "epicsamurai"
+                }
+            ],
+            "key": "double_socket/epicsamurai_ruby",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.1
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    2.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "b71643",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "b71643"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "galosphere"
+                }
+            ],
+            "key": "double_socket/galosphere_allurite_shard",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "generic.armor": 2,
+                "generic.armor_toughness": 2
+            },
+            "glyph": {
+                "tint": "8affff",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "8affff"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "galosphere"
+                }
+            ],
+            "key": "double_socket/galosphere_glinted_allurite_cluster",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "attributes": {
+                "generic.armor": 4,
+                "generic.armor_toughness": 4
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    2.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "24f6d8",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "24f6d8"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "galosphere"
+                }
+            ],
+            "key": "double_socket/galosphere_glinted_amethyst_cluster",
+            "category": "gem",
+            "integrity": 1,
+            "effects": {
+                "criticalStrike": [
+                    20,
+                    3
+                ]
+            },
+            "glyph": {
+                "tint": "8d6acc",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "8d6acc"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "galosphere"
+                }
+            ],
+            "key": "double_socket/galosphere_glinted_lumiere_cluster",
+            "category": "gem",
+            "durability": 714,
+            "integrity": 1,
+            "effects": {
+                "stabilizing": 25
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    4.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "eba138",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "eba138"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "galosphere"
+                }
+            ],
+            "key": "double_socket/galosphere_lumiere_shard",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "effects": {
+                "stabilizing": 15
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    2.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "ffc559",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "ffc559"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "key": "double_socket/ms_amethyst",
+            "category": "gem",
+            "integrity": 1,
+            "effects": {
+                "criticalStrike": [
+                    15,
+                    2
+                ]
+            },
+            "glyph": {
+                "tint": "8d6acc",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "8d6acc"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "key": "double_socket/ms_aquamarine",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.1
+            },
+            "glyph": {
+                "tint": "55f4ff",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "55f4ff"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "key": "double_socket/ms_black_diamond",
+            "category": "gem",
+            "durability": 714,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.1
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    4.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "562980",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "562980"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "key": "double_socket/ms_citrine",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.1
+            },
+            "effects": {
+                "intuit": 1
+            },
+            "glyph": {
+                "tint": "cda21b",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "cda21b"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "key": "double_socket/ms_hellfire",
+            "category": "gem",
+            "durability": 448,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.2
+            },
+            "effects": {
+                "fierySelf": [
+                    1,
+                    0.04
+                ]
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    2.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "5203cb",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "5203cb"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "key": "double_socket/ms_jade",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "generic.armor": 2
+            },
+            "effects": {
+                "criticalStrike": [
+                    20,
+                    2
+                ]
+            },
+            "glyph": {
+                "tint": "38851d",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "38851d"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "key": "double_socket/ms_olivine",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "**generic.movement_speed": 0.1
+            },
+            "glyph": {
+                "tint": "5aff4f",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "5aff4f"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "key": "double_socket/ms_onyx",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    2.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "212121",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "212121"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "key": "double_socket/ms_opal",
+            "category": "gem",
+            "integrity": 1,
+            "effects": {
+                "intuit": 1
+            },
+            "glyph": {
+                "tint": "f7d1f8",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "f7d1f8"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "key": "double_socket/ms_ruby",
+            "category": "gem",
+            "integrity": 1,
+            "effects": {
+                "criticalStrike": [
+                    20,
+                    2
+                ]
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    2.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "f90606",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "f90606"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "key": "double_socket/ms_sapphire",
+            "category": "gem",
+            "integrity": 1,
+            "effects": {
+                "intuit": 1
+            },
+            "glyph": {
+                "tint": "8c79ff",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "8c79ff"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "key": "double_socket/ms_scarlet_emerald",
+            "category": "gem",
+            "durability": 448,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.2
+            },
+            "glyph": {
+                "tint": "a00025",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "a00025"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "key": "double_socket/ms_tanzanite",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.2
+            },
+            "effects": {
+                "criticalStrike": [
+                    25,
+                    2
+                ]
+            },
+            "glyph": {
+                "tint": "9064ee",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "9064ee"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "key": "double_socket/ms_topaz",
+            "category": "gem",
+            "durability": 714,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.2
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    4.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "ffd350",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "ffd350"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "key": "double_socket/ms_trio",
+            "category": "gem",
+            "durability": 714,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.1
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    6.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    6.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    6.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    6.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    6.0
+                ]
+            },
+            "glyph": {
+                "tint": "62ff62",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "62ff62"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "key": "double_socket/ms_white_opal",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.1
+            },
+            "effects": {
+                "intuit": 2
+            },
+            "glyph": {
+                "tint": "d3edfe",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "d3edfe"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "oresabovediamonds"
+                }
+            ],
+            "key": "double_socket/oresabovediamonds_amethyst",
+            "category": "gem",
+            "durability": 714,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.2
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    4.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "c25fdf",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "c25fdf"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "oresabovediamonds"
+                }
+            ],
+            "key": "double_socket/oresabovediamonds_black_opal",
+            "category": "gem",
+            "durability": 916,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.25
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    5.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    5.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    5.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    5.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    5.0
+                ]
+            },
+            "glyph": {
+                "tint": "3b2361",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "3b2361"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "oresabovediamonds"
+                }
+            ],
+            "key": "double_socket/oresabovediamonds_netherite_opal",
+            "category": "gem",
+            "durability": 1024,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.3
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    6.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    6.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    6.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    6.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    6.0
+                ]
+            },
+            "glyph": {
+                "tint": "210a2d",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "210a2d"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "organics"
+                }
+            ],
+            "key": "double_socket/organics_endium",
+            "category": "gem",
+            "durability": 1024,
+            "integrity": 2,
+            "attributes": {
+                "**generic.attack_damage": 0.3,
+                "**generic.attack_speed": 0.1
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    1,
+                    5.0
+                ],
+                "ToolType.SHOVEL": [
+                    1,
+                    5.0
+                ],
+                "ToolType.PICKAXE": [
+                    1,
+                    5.0
+                ],
+                "ToolType.HOE": [
+                    1,
+                    5.0
+                ],
+                "ToolType.CUT": [
+                    1,
+                    5.0
+                ]
+            },
+            "glyph": {
+                "tint": "c35ad1",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "c35ad1"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "organics"
+                }
+            ],
+            "key": "double_socket/organics_frozen_quartz",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "attributes": {
+                "generic.armor": 2
+            },
+            "effects": {
+                "earthbind": 4
+            },
+            "glyph": {
+                "tint": "abc6f8",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "abc6f8"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "organics"
+                }
+            ],
+            "key": "double_socket/organics_iridite",
+            "category": "gem",
+            "durability": 714,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.2
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    4.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "e5ad06",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "e5ad06"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "organics"
+                }
+            ],
+            "key": "double_socket/organics_kuko",
+            "category": "gem",
+            "durability": 1024,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.3
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    5.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    5.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    5.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    5.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    5.0
+                ]
+            },
+            "glyph": {
+                "tint": "f03eff",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "f03eff"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "phantasm"
+                }
+            ],
+            "key": "double_socket/phantasm_crystal_shard",
+            "category": "gem",
+            "durability": 714,
+            "integrity": 1,
+            "attributes": {
+                "generic.armor": 2
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    4.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "b7c6e2",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "b7c6e2"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "phantasm"
+                }
+            ],
+            "key": "double_socket/phantasm_void_crystal_shard",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.25
+            },
+            "effects": {
+                "armorPenetration": 20
+            },
+            "glyph": {
+                "tint": "c99bc4",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "c99bc4"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "regions_unexplored"
+                }
+            ],
+            "key": "double_socket/regions_unexplored_prismarite_cluster",
+            "category": "gem",
+            "durability": 256,
+            "integrity": 1,
+            "attributes": {
+                "**generic.movement_speed": 0.05
+            },
+            "effects": {
+                "intuit": 2
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    4.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "abff6b",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "abff6b"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgear"
+                }
+            ],
+            "key": "double_socket/silentgear_azure_electrum_nugget",
+            "category": "gem",
+            "integrity": 1,
+            "effects": {
+                "stabilizing": 20
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    6.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    6.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    6.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    6.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    6.0
+                ]
+            },
+            "glyph": {
+                "tint": "4575e3",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "4575e3"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgear"
+                }
+            ],
+            "key": "double_socket/silentgear_azure_silver_nugget",
+            "category": "gem",
+            "integrity": 1,
+            "effects": {
+                "stabilizing": 10
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    4.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "d09ef6",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "d09ef6"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgear"
+                }
+            ],
+            "key": "double_socket/silentgear_blaze_gold_nugget",
+            "category": "gem",
+            "integrity": 1,
+            "effects": {
+                "workable": 10,
+                "stabilizing": 10
+            },
+            "glyph": {
+                "tint": "e3a645",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "e3a645"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgear"
+                }
+            ],
+            "key": "double_socket/silentgear_crimson_iron_nugget",
+            "category": "gem",
+            "integrity": 1,
+            "effects": {
+                "workable": 10
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    2.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "f3476f",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "f3476f"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgear"
+                }
+            ],
+            "key": "double_socket/silentgear_crimson_steel_nugget",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "effects": {
+                "workable": 15
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    4.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "dc143c",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "dc143c"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgear"
+                }
+            ],
+            "key": "double_socket/silentgear_tyrian_steel_nugget",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.3,
+                "generic.armor": 2
+            },
+            "effects": {
+                "unbreaking": 2,
+                "armorPenetration": 30
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    4.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "b01080",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "b01080"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "key": "double_socket/silentgems_alexandrite",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.1
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    2.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "9e17dd",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "9e17dd"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "key": "double_socket/silentgems_ammolite",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "generic.armor": 2
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    2.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "b834f9",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "b834f9"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "key": "double_socket/silentgems_black_diamond",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.15
+            },
+            "effects": {
+                "unbreaking": 1
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    2.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "5f524c",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "5f524c"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "key": "double_socket/silentgems_carnelian",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.1
+            },
+            "glyph": {
+                "tint": "e6351f",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "e6351f"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "key": "double_socket/silentgems_citrine",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.1
+            },
+            "effects": {
+                "intuit": 1
+            },
+            "glyph": {
+                "tint": "c48f17",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "c48f17"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "key": "double_socket/silentgems_heliodor",
+            "category": "gem",
+            "integrity": 1,
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    5.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    5.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    5.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    5.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    5.0
+                ]
+            },
+            "glyph": {
+                "tint": "ddcf17",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "ddcf17"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "key": "double_socket/silentgems_iolite",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.1
+            },
+            "effects": {
+                "crushing": 2
+            },
+            "glyph": {
+                "tint": "4f1edb",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "4f1edb"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "key": "double_socket/silentgems_kyanite",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.15
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    4.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "17a9dd",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "17a9dd"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "key": "double_socket/silentgems_moldavite",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.2
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    4.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "6f9a1e",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "6f9a1e"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "key": "double_socket/silentgems_peridot",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.15
+            },
+            "glyph": {
+                "tint": "4ef341",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "4ef341"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "key": "double_socket/silentgems_rose_quartz",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.15
+            },
+            "effects": {
+                "criticalStrike": [
+                    20,
+                    3
+                ]
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    4.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "ff6bbd",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "ff6bbd"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "key": "double_socket/silentgems_ruby",
+            "category": "gem",
+            "integrity": 1,
+            "effects": {
+                "criticalStrike": [
+                    20,
+                    2
+                ]
+            },
+            "glyph": {
+                "tint": "aa0004",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "aa0004"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "key": "double_socket/silentgems_sapphire",
+            "category": "gem",
+            "integrity": 1,
+            "effects": {
+                "intuit": 1
+            },
+            "glyph": {
+                "tint": "1849db",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "1849db"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "key": "double_socket/silentgems_topaz",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "**generic.movement_speed": 0.05
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    2.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "dd7d17",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "dd7d17"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "key": "double_socket/silentgems_turquoise",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.1
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    2.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    2.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "3df4bd",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "3df4bd"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "key": "double_socket/silentgems_white_diamond",
+            "category": "gem",
+            "durability": 714,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.15
+            },
+            "effects": {
+                "unbreaking": 1
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    4.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "f6f1f5",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "f6f1f5"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "voidscape"
+                }
+            ],
+            "key": "double_socket/voidscape_astral_crystal",
+            "category": "gem",
+            "durability": 1561,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.3,
+                "**generic.movement_speed": 0.15,
+                "**generic.attack_speed": 0.1
+            },
+            "effects": {
+                "skewering": [
+                    2,
+                    10
+                ]
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    1,
+                    6.0
+                ],
+                "ToolType.SHOVEL": [
+                    1,
+                    6.0
+                ],
+                "ToolType.PICKAXE": [
+                    1,
+                    6.0
+                ],
+                "ToolType.HOE": [
+                    1,
+                    6.0
+                ],
+                "ToolType.CUT": [
+                    1,
+                    6.0
+                ]
+            },
+            "glyph": {
+                "tint": "c24cab",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "c24cab"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "voidscape"
+                }
+            ],
+            "key": "double_socket/voidscape_crystallized_ichor",
+            "category": "gem",
+            "durability": 1024,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.3,
+                "**generic.movement_speed": 0.1
+            },
+            "effects": {
+                "skewering": [
+                    1,
+                    5
+                ]
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    6.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    6.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    6.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    6.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    6.0
+                ]
+            },
+            "glyph": {
+                "tint": "fda14b",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "fda14b"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "voidscape"
+                }
+            ],
+            "key": "double_socket/voidscape_purified_titanite_shard",
+            "category": "gem",
+            "durability": 714,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.3
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    5.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    5.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    5.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    5.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    5.0
+                ]
+            },
+            "glyph": {
+                "tint": "00c2a5",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "00c2a5"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "voidscape"
+                }
+            ],
+            "key": "double_socket/voidscape_voidic_crystal",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.2
+            },
+            "tools": {
+                "ToolType.AXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.SHOVEL": [
+                    0,
+                    4.0
+                ],
+                "ToolType.PICKAXE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.HOE": [
+                    0,
+                    4.0
+                ],
+                "ToolType.CUT": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "b03bd5",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "b03bd5"
+                }
+            ]
+        }
+    ]
+}

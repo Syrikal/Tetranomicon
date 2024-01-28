@@ -1,0 +1,1173 @@
+{
+    "replace": false,
+    "outcomes": [
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "aquamirae"
+                }
+            ],
+            "material": {
+                "items": [
+                    "aquamirae:abyssal_amethyst"
+                ]
+            },
+            "experienceCost": 15,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/aquamirae_abyssal_amethyst"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "aquamirae"
+                }
+            ],
+            "material": {
+                "items": [
+                    "aquamirae:ship_graveyard_echo"
+                ]
+            },
+            "experienceCost": 30,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/aquamirae_echo_of_the_ship_graveyard"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "blue_skies"
+                }
+            ],
+            "material": {
+                "items": [
+                    "blue_skies:aquite"
+                ]
+            },
+            "experienceCost": 5,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/blue_skies_aquite"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "blue_skies"
+                }
+            ],
+            "material": {
+                "items": [
+                    "blue_skies:charoite"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/blue_skies_charoite"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "blue_skies"
+                }
+            ],
+            "material": {
+                "items": [
+                    "blue_skies:diopside_gem"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/blue_skies_diopside"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "blue_skies"
+                }
+            ],
+            "material": {
+                "items": [
+                    "blue_skies:moonstone"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/blue_skies_moonstone"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "blue_skies"
+                }
+            ],
+            "material": {
+                "items": [
+                    "blue_skies:pyrope_gem"
+                ]
+            },
+            "experienceCost": 20,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/blue_skies_pyrope"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "blue_skies"
+                }
+            ],
+            "material": {
+                "items": [
+                    "blue_skies:sunstone_crystal"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/blue_skies_sunstone_crystal"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "byg"
+                }
+            ],
+            "material": {
+                "items": [
+                    "byg:ametrine_gems"
+                ]
+            },
+            "experienceCost": 15,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/byg_ametrine"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "endlessbiomes"
+                }
+            ],
+            "material": {
+                "items": [
+                    "endlessbiomes:riftite_shard"
+                ]
+            },
+            "experienceCost": 20,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/endlessbiomes_riftite_shard"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "enlightened_end"
+                }
+            ],
+            "material": {
+                "items": [
+                    "enlightened_end:glacium"
+                ]
+            },
+            "experienceCost": 20,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/enlightened_end_glacium"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "enlightened_end"
+                }
+            ],
+            "material": {
+                "items": [
+                    "enlightened_end:malachite"
+                ]
+            },
+            "experienceCost": 20,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/enlightened_end_malachite"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "epicsamurai"
+                }
+            ],
+            "material": {
+                "items": [
+                    "epicsamurai:aquamarine"
+                ]
+            },
+            "experienceCost": 4,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/epicsamurai_aquamarine"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "epicsamurai"
+                }
+            ],
+            "material": {
+                "items": [
+                    "epicsamurai:jade"
+                ]
+            },
+            "experienceCost": 4,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/epicsamurai_jade"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "epicsamurai"
+                }
+            ],
+            "material": {
+                "items": [
+                    "epicsamurai:onyx"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/epicsamurai_onyx"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "epicsamurai"
+                }
+            ],
+            "material": {
+                "items": [
+                    "epicsamurai:ruby"
+                ]
+            },
+            "experienceCost": 4,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/epicsamurai_ruby"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "galosphere"
+                }
+            ],
+            "material": {
+                "items": [
+                    "galosphere:allurite_shard"
+                ]
+            },
+            "experienceCost": 5,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/galosphere_allurite_shard"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "galosphere"
+                }
+            ],
+            "material": {
+                "items": [
+                    "galosphere:glinted_allurite_cluster"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/galosphere_glinted_allurite_cluster"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "galosphere"
+                }
+            ],
+            "material": {
+                "items": [
+                    "galosphere:glinted_amethyst_cluster"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/galosphere_glinted_amethyst_cluster"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "galosphere"
+                }
+            ],
+            "material": {
+                "items": [
+                    "galosphere:glinted_lumiere_cluster"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/galosphere_glinted_lumiere_cluster"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "galosphere"
+                }
+            ],
+            "material": {
+                "items": [
+                    "galosphere:lumiere_shard"
+                ]
+            },
+            "experienceCost": 5,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/galosphere_lumiere_shard"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "material": {
+                "items": [
+                    "ms:gem/refined_amethyst_ingot"
+                ]
+            },
+            "experienceCost": 4,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/ms_amethyst"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "material": {
+                "items": [
+                    "ms:gem/aquamarine"
+                ]
+            },
+            "experienceCost": 4,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/ms_aquamarine"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "material": {
+                "items": [
+                    "ms:gem/black_diamond"
+                ]
+            },
+            "experienceCost": 20,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/ms_black_diamond"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "material": {
+                "items": [
+                    "ms:gem/citrine"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/ms_citrine"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "material": {
+                "items": [
+                    "ms:gem/hellfire_crystal"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/ms_hellfire"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "material": {
+                "items": [
+                    "ms:gem/jade"
+                ]
+            },
+            "experienceCost": 6,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/ms_jade"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "material": {
+                "items": [
+                    "ms:gem/olivine"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/ms_olivine"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "material": {
+                "items": [
+                    "ms:gem/onyx"
+                ]
+            },
+            "experienceCost": 4,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/ms_onyx"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "material": {
+                "items": [
+                    "ms:gem/opal"
+                ]
+            },
+            "experienceCost": 4,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/ms_opal"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "material": {
+                "items": [
+                    "ms:gem/ruby"
+                ]
+            },
+            "experienceCost": 4,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/ms_ruby"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "material": {
+                "items": [
+                    "ms:gem/sapphire"
+                ]
+            },
+            "experienceCost": 4,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/ms_sapphire"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "material": {
+                "items": [
+                    "ms:gem/scarlet_emerald"
+                ]
+            },
+            "experienceCost": 20,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/ms_scarlet_emerald"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "material": {
+                "items": [
+                    "ms:gem/tanzanite"
+                ]
+            },
+            "experienceCost": 20,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/ms_tanzanite"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "material": {
+                "items": [
+                    "ms:gem/topaz"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/ms_topaz"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "material": {
+                "items": [
+                    "ms:gem/trio"
+                ]
+            },
+            "experienceCost": 20,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/ms_trio"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "material": {
+                "items": [
+                    "ms:gem/white_opal"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/ms_white_opal"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "oresabovediamonds"
+                }
+            ],
+            "material": {
+                "items": [
+                    "oresabovediamonds:amethyst"
+                ]
+            },
+            "experienceCost": 20,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/oresabovediamonds_amethyst"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "oresabovediamonds"
+                }
+            ],
+            "material": {
+                "items": [
+                    "oresabovediamonds:black_opal"
+                ]
+            },
+            "experienceCost": 30,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/oresabovediamonds_black_opal"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "oresabovediamonds"
+                }
+            ],
+            "material": {
+                "items": [
+                    "tetranomicon:netherite_opal"
+                ]
+            },
+            "experienceCost": 40,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/oresabovediamonds_netherite_opal"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "organics"
+                }
+            ],
+            "material": {
+                "items": [
+                    "organics:endium_gem"
+                ]
+            },
+            "experienceCost": 30,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/organics_endium"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "organics"
+                }
+            ],
+            "material": {
+                "items": [
+                    "organics:frozen_quartz"
+                ]
+            },
+            "experienceCost": 5,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/organics_frozen_quartz"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "organics"
+                }
+            ],
+            "material": {
+                "items": [
+                    "organics:iridite_gem"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/organics_iridite"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "organics"
+                }
+            ],
+            "material": {
+                "items": [
+                    "organics:kuko_gem"
+                ]
+            },
+            "experienceCost": 20,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/organics_kuko"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "phantasm"
+                }
+            ],
+            "material": {
+                "items": [
+                    "phantasm:crystal_spike_tip"
+                ]
+            },
+            "experienceCost": 20,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/phantasm_crystal_shard"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "phantasm"
+                }
+            ],
+            "material": {
+                "items": [
+                    "phantasm:void_crystal_spike_tip"
+                ]
+            },
+            "experienceCost": 20,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/phantasm_void_crystal_shard"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "regions_unexplored"
+                }
+            ],
+            "material": {
+                "items": [
+                    "regions_unexplored:prismarite_cluster"
+                ]
+            },
+            "experienceCost": 15,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/regions_unexplored_prismarite_cluster"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgear"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgear:azure_electrum_nugget"
+                ]
+            },
+            "experienceCost": 30,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/silentgear_azure_electrum_nugget"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgear"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgear:azure_silver_nugget"
+                ]
+            },
+            "experienceCost": 15,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/silentgear_azure_silver_nugget"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgear"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgear:blaze_gold_nugget"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/silentgear_blaze_gold_nugget"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgear"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgear:crimson_iron_nugget"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/silentgear_crimson_iron_nugget"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgear"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgear:crimson_steel_nugget"
+                ]
+            },
+            "experienceCost": 20,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/silentgear_crimson_steel_nugget"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgear"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgear:tyrian_steel_nugget"
+                ]
+            },
+            "experienceCost": 30,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/silentgear_tyrian_steel_nugget"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgems:alexandrite"
+                ]
+            },
+            "experienceCost": 6,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/silentgems_alexandrite"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgems:ammolite"
+                ]
+            },
+            "experienceCost": 6,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/silentgems_ammolite"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgems:black_diamond"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/silentgems_black_diamond"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgems:carnelian"
+                ]
+            },
+            "experienceCost": 6,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/silentgems_carnelian"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgems:citrine"
+                ]
+            },
+            "experienceCost": 6,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/silentgems_citrine"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgems:heliodor"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/silentgems_heliodor"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgems:iolite"
+                ]
+            },
+            "experienceCost": 4,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/silentgems_iolite"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgems:kyanite"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/silentgems_kyanite"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgems:moldavite"
+                ]
+            },
+            "experienceCost": 8,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/silentgems_moldavite"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgems:peridot"
+                ]
+            },
+            "experienceCost": 4,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/silentgems_peridot"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgems:rose_quartz"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/silentgems_rose_quartz"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgems:ruby"
+                ]
+            },
+            "experienceCost": 2,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/silentgems_ruby"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgems:sapphire"
+                ]
+            },
+            "experienceCost": 2,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/silentgems_sapphire"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgems:topaz"
+                ]
+            },
+            "experienceCost": 2,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/silentgems_topaz"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgems:turquoise"
+                ]
+            },
+            "experienceCost": 6,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/silentgems_turquoise"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgems:white_diamond"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/silentgems_white_diamond"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "voidscape"
+                }
+            ],
+            "material": {
+                "items": [
+                    "voidscape:astral_crystal"
+                ]
+            },
+            "experienceCost": 45,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/voidscape_astral_crystal"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "voidscape"
+                }
+            ],
+            "material": {
+                "items": [
+                    "voidscape:ichor_crystal"
+                ]
+            },
+            "experienceCost": 25,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/voidscape_crystallized_ichor"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "voidscape"
+                }
+            ],
+            "material": {
+                "items": [
+                    "voidscape:titanite_shard"
+                ]
+            },
+            "experienceCost": 15,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/voidscape_purified_titanite_shard"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "voidscape"
+                }
+            ],
+            "material": {
+                "items": [
+                    "voidscape:voidic_crystal"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/voidscape_voidic_crystal"
+        }
+    ]
+}
