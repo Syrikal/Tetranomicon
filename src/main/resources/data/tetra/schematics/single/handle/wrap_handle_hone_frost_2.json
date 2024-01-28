@@ -1,0 +1,33 @@
+{
+    "replace": true,
+    "localizationKey": "single/basic_handle/wrap_handle_hone_2",
+    "slots": [
+        "single/handle"
+    ],
+    "materialSlotCount": 1,
+    "hone": true,
+    "rarity": "hone",
+    "displayType": "improvement",
+    "glyph": {
+        "textureX": 16
+    },
+    "requirement": {
+        "type": "tetra:improvement",
+        "improvement": "basic_handle/wrap_frostscale",
+        "level": 2
+    },
+    "outcomes": [
+        {
+            "material": {
+                "tag": "forge:scales/ice_dragon",
+                "count": 8
+            },
+            "requiredTools": {
+                "cut": "minecraft:iron"
+            },
+            "improvements": {
+                "basic_handle/wrap_frostscale": 3
+            }
+        }
+    ]
+}
