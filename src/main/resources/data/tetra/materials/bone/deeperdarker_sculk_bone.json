@@ -1,0 +1,44 @@
+{
+    "key": "deeperdarker_sculk_bone",
+    "category": "bone",
+    "primary": 7,
+    "secondary": 3.5,
+    "tertiary": 3.5,
+    "durability": 1561,
+    "integrityCost": 2,
+    "integrityGain": 6,
+    "magicCapacity": 108,
+    "toolLevel": "minecraft:netherite",
+    "toolEfficiency": 8,
+    "improvements": {
+        "arrested": 0
+    },
+    "effects": {
+        "enderReverb": [
+            2,
+            0.2
+        ]
+    },
+    "tints": {
+        "glyph": "CBCEB3",
+        "texture": "CBCEB3"
+    },
+    "textures": [
+        "bone",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "deeperdarker:sculk_bone"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "deeperdarker"
+        }
+    ]
+}
