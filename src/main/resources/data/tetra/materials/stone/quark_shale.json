@@ -1,18 +1,18 @@
 {
-    "key": "create_gabbro",
+    "key": "quark_shale",
     "category": "stone",
     "primary": 4,
-    "secondary": 3.8,
+    "secondary": 3,
     "tertiary": 0,
-    "durability": 192,
-    "integrityCost": 2,
-    "integrityGain": 3,
-    "magicCapacity": 90,
+    "durability": 131,
+    "integrityCost": 1,
+    "integrityGain": 2,
+    "magicCapacity": 78,
     "toolLevel": "minecraft:stone",
-    "toolEfficiency": 4.5,
+    "toolEfficiency": 4,
     "tints": {
-        "glyph": "979795",
-        "texture": "979795"
+        "glyph": "5a7177",
+        "texture": "5a7177"
     },
     "textures": [
         "grainy",
@@ -21,7 +21,7 @@
     ],
     "material": {
         "items": [
-            "create:gabbro"
+            "quark:shale"
         ]
     },
     "requiredTools": {
@@ -30,7 +30,7 @@
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "create"
+            "modid": "quark"
         }
     ]
 }

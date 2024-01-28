@@ -1,36 +1,35 @@
 {
-    "key": "create_dark_scoria",
-    "category": "stone",
+    "key": "regions_unexplored_cherry",
+    "category": "wood",
     "primary": 3.5,
-    "secondary": 2.4,
-    "tertiary": 0,
+    "secondary": 2,
+    "tertiary": 6.5,
     "durability": 96,
     "integrityCost": 1,
-    "integrityGain": 4,
-    "magicCapacity": 102,
+    "integrityGain": 5,
+    "magicCapacity": 72,
     "toolLevel": "minecraft:stone",
     "toolEfficiency": 4,
     "tints": {
-        "glyph": "712f25",
-        "texture": "712f25"
+        "glyph": "B34D4D",
+        "texture": "B34D4D"
     },
     "textures": [
-        "grainy",
         "crude",
-        "default"
+        "wooden"
     ],
     "material": {
         "items": [
-            "create:dark_scoria"
+            "regions_unexplored:cherry_planks"
         ]
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:wood"
+        "axe_dig": "minecraft:gold"
     },
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "create"
+            "modid": "regions_unexplored"
         }
     ]
 }
