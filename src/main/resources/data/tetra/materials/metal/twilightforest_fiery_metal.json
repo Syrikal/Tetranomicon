@@ -10,9 +10,6 @@
     "magicCapacity": 60,
     "toolLevel": "minecraft:netherite",
     "toolEfficiency": 9,
-    "improvements": {
-        "enchantment/fire_aspect": 1
-    },
     "effects": {
         "fierySelf": [
             3,
