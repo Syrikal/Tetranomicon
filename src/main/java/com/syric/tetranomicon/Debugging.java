@@ -62,7 +62,7 @@ public class Debugging {
         if (!ConfigHandler.development.get()) {
             return;
         }
-        String rawText = event.getRawText();
+        String rawText = event.getMessage();
         if (rawText.contains("tetranomicon check missing")) {
             Tetranomicon.LOGGER.debug("Tetranomicon: scanning for missing materials...");
             for (MaterialData materialData : DataManager.instance.materialData.getData().values()) {
@@ -79,7 +79,7 @@ public class Debugging {
         if (!ConfigHandler.development.get()) {
             return;
         }
-        String rawText = event.getRawText();
+        String rawText = event.getMessage();
         if (rawText.contains("tetranomicon check candidates")) {
             Tetranomicon.LOGGER.debug("Tetranomicon: scanning for unused candidates...");
 

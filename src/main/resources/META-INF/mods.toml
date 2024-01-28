@@ -38,13 +38,13 @@ description='''${mod_description}'''
     modId="tetra"
     mandatory=true
     # This version range declares a minimum of the current minecraft version up to but not including the next major version
-    versionRange="[5.1.0,)"
+    versionRange="[3.3.0,)"
     ordering="AFTER"
     side="BOTH"
 [[dependencies.tetranomicon]]
     modId = "oresabovediamonds"
     mandatory = false
     # This version range declares a minimum of the current minecraft version up to but not including the next major version
-    versionRange = "[9.0.0,)"
+    versionRange = "[8.1.1,)"
     ordering = "AFTER"
     side = "BOTH"
