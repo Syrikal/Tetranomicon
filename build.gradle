@@ -160,8 +160,8 @@ dependencies {
     implementation fg.deobf("curse.maven:enlightend-502786:4747152")
     //Galosphere
     implementation fg.deobf("curse.maven:galosphere-631098:4398234")
-    //Voidscape
-    implementation fg.deobf("curse.maven:voidscape-251730:3841775")
+//    //Voidscape
+//    implementation fg.deobf("curse.maven:voidscape-251730:3841775")
     //Organics
     implementation fg.deobf("curse.maven:organics-411399:3823247")
 
@@ -178,8 +178,8 @@ dependencies {
 
 
     //SET FOUR
-    //Epic Samurai (requires GeckoLib)
-//    implementation fg.deobf("curse.maven:epic-samurais-848381:4645523")
+//    //Epic Samurai (requires GeckoLib)
+////    implementation fg.deobf("curse.maven:epic-samurais-848381:4645523")
     //Ecologics
     implementation fg.deobf("curse.maven:ecologics-570463:4171283")
 
