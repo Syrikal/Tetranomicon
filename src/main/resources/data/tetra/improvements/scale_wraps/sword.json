@@ -1,0 +1,239 @@
+[
+  {
+      "key": "basic_hilt/wrap_flamescale",
+      "level": 1,
+      "durability": 100,
+      "group": "wrap",
+      "integrity": -1,
+      "attributes": {
+          "generic.attack_speed": 0.1,
+          "**generic.attack_damage": 0.25
+      },
+      "effects": {
+          "enderReverb": [-3, -0.15],
+          "fierySelf": [-3, -0.05]
+      },
+      "models": [{
+          "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+          "tint": "752626"
+      }]
+  },
+  {
+      "key": "basic_hilt/wrap_flamescale",
+      "level": 2,
+      "durability": 150,
+      "group": "wrap",
+      "integrity": -1,
+      "attributes": {
+          "generic.attack_speed": 0.12,
+          "**generic.attack_damage": 0.3
+      },
+      "effects": {
+          "enderReverb": [-3, -0.17],
+          "fierySelf": [-3, -0.07]
+      },
+      "models": [{
+          "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+          "tint": "752626"
+      }]
+  },
+  {
+      "key": "basic_hilt/wrap_flamescale",
+      "level": 3,
+      "durability": 200,
+      "group": "wrap",
+      "integrity": -2,
+      "attributes": {
+          "generic.attack_speed": 0.15,
+          "**generic.attack_damage": 0.4
+      },
+      "effects": {
+          "enderReverb": [-3, -0.2],
+          "fierySelf": [-3, -0.1]
+      },
+      "models": [{
+          "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+          "tint": "752626"
+      }]
+  },
+
+
+
+  {
+      "key": "basic_hilt/wrap_frostscale",
+      "level": 1,
+      "durability": 200,
+      "group": "wrap",
+      "integrity": -1,
+      "attributes": {
+          "generic.attack_speed": 0.05,
+          "**generic.attack_damage": 0.2
+      },
+      "effects": {
+          "enderReverb": [-3, -0.15],
+          "fierySelf": [-2, -0.05]
+      },
+      "models": [{
+          "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+          "tint": "ecf4f4"
+      }]
+  },
+  {
+      "key": "basic_hilt/wrap_frostscale",
+      "level": 2,
+      "durability": 250,
+      "group": "wrap",
+      "integrity": -1,
+      "attributes": {
+          "generic.attack_speed": 0.1,
+          "**generic.attack_damage": 0.25
+      },
+      "effects": {
+          "enderReverb": [-3, -0.17],
+          "fierySelf": [-2, -0.07]
+      },
+      "models": [{
+          "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+          "tint": "ecf4f4"
+      }]
+  },
+  {
+      "key": "basic_hilt/wrap_frostscale",
+      "level": 3,
+      "durability": 300,
+      "group": "wrap",
+      "integrity": -2,
+      "attributes": {
+          "generic.attack_speed": 0.15,
+          "**generic.attack_damage": 0.3
+      },
+      "effects": {
+          "enderReverb": [-3, -0.2],
+          "fierySelf": [-2, -0.1]
+      },
+      "models": [{
+          "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+          "tint": "ecf4f4"
+      }]
+  },
+
+
+
+  {
+      "key": "basic_hilt/wrap_stormscale",
+      "level": 1,
+      "durability": 100,
+      "group": "wrap",
+      "integrity": -1,
+      "attributes": {
+          "generic.attack_speed": 0.12,
+          "**generic.attack_damage": 0.2
+      },
+      "effects": {
+          "enderReverb": [-4, -0.2],
+          "fierySelf": [-2, -0.05]
+      },
+      "models": [{
+          "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+          "tint": "241c5c"
+      }]
+  },
+  {
+      "key": "basic_hilt/wrap_stormscale",
+      "level": 2,
+      "durability": 150,
+      "group": "wrap",
+      "integrity": -1,
+      "attributes": {
+          "generic.attack_speed": 0.18,
+          "**generic.attack_damage": 0.25
+      },
+      "effects": {
+          "enderReverb": [-4, -0.35],
+          "fierySelf": [-2, -0.07]
+      },
+      "models": [{
+          "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+          "tint": "241c5c"
+      }]
+  },
+  {
+      "key": "basic_hilt/wrap_stormscale",
+      "level": 3,
+      "durability": 200,
+      "group": "wrap",
+      "integrity": -2,
+      "attributes": {
+          "generic.attack_speed": 0.25,
+          "**generic.attack_damage": 0.3
+      },
+      "effects": {
+          "enderReverb": [-4, -0.5],
+          "fierySelf": [-2, -0.1]
+      },
+      "models": [{
+          "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+          "tint": "241c5c"
+      }]
+  },
+
+
+
+  {
+      "key": "basic_hilt/wrap_tidescale",
+      "level": 1,
+      "durability": 40,
+      "group": "wrap",
+      "integrity": -1,
+      "attributes": {
+          "generic.attack_speed": 0.1,
+          "**generic.attack_damage": 0.15
+      },
+      "effects": {
+          "enderReverb": [-2, -0.1],
+          "fierySelf": [-1, -0.05]
+      },
+      "models": [{
+          "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+          "tint": "5484b4"
+      }]
+  },
+  {
+      "key": "basic_hilt/wrap_tidescale",
+      "level": 2,
+      "durability": 80,
+      "group": "wrap",
+      "integrity": -1,
+      "attributes": {
+          "generic.attack_speed": 0.12,
+          "**generic.attack_damage": 0.2
+      },
+      "effects": {
+          "enderReverb": [-2, -0.12],
+          "fierySelf": [-1, -0.07]
+      },
+      "models": [{
+          "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+          "tint": "5484b4"
+      }]
+  },
+  {
+      "key": "basic_hilt/wrap_tidescale",
+      "level": 3,
+      "durability": 120,
+      "group": "wrap",
+      "integrity": -2,
+      "attributes": {
+          "generic.attack_speed": 0.14,
+          "**generic.attack_damage": 0.24
+      },
+      "effects": {
+          "enderReverb": [-2, -0.15],
+          "fierySelf": [-1, -0.1]
+      },
+      "models": [{
+          "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+          "tint": "5484b4"
+      }]
+  }
+]
