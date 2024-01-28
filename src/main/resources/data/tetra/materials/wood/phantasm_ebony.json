@@ -1,0 +1,35 @@
+{
+    "key": "phantasm_ebony",
+    "category": "wood",
+    "primary": 4,
+    "secondary": 2.2,
+    "tertiary": 9,
+    "durability": 768,
+    "integrityCost": 2,
+    "integrityGain": 4,
+    "magicCapacity": 96,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 2,
+    "tints": {
+        "glyph": "332439",
+        "texture": "332439"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "phantasm:ebony_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:netherite"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "phantasm"
+        }
+    ]
+}

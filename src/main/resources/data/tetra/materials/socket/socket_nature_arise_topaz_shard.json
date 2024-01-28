@@ -1,5 +1,5 @@
 {
-    "key": "socket_phantasm_void_crystal_shard",
+    "key": "socket_nature_arise_topaz_shard",
     "hidden": true,
     "category": "socket",
     "primary": 0,
@@ -12,28 +12,25 @@
     "toolLevel": 0,
     "toolEfficiency": 0,
     "attributes": {
-        "**generic.attack_damage": 0.25
-    },
-    "effects": {
-        "armorPenetration": 20
+        "**generic.attack_damage": 0.2
     },
     "tints": {
-        "glyph": "c99bc4",
-        "texture": "c99bc4"
+        "glyph": "e9b92e",
+        "texture": "e9b92e"
     },
     "textures": [
         "default"
     ],
-    "experienceCost": 20,
+    "experienceCost": 10,
     "material": {
         "items": [
-            "phantasm:void_crystal_spike_tip"
+            "nature_arise:topaz_shard"
         ]
     },
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "phantasm"
+            "modid": "nature_arise"
         }
     ]
 }

@@ -24,7 +24,7 @@
     "experienceCost": 20,
     "material": {
         "items": [
-            "phantasm:crystal_shard"
+            "phantasm:crystal_spike_tip"
         ]
     },
     "conditions": [

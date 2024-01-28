@@ -20,7 +20,7 @@
     ],
     "material": {
         "items": [
-            "ms:materials/polar_bear_hide"
+            "ms:entity/polar_bear_hide"
         ]
     },
     "requiredTools": {
