@@ -10,9 +10,6 @@
     "magicCapacity": 102,
     "toolLevel": "minecraft:netherite",
     "toolEfficiency": 15,
-    "improvements": {
-        "enderite_void_floating_innate": 3
-    },
     "tints": {
         "glyph": "144038",
         "texture": "144038"
