@@ -1,0 +1,35 @@
+{
+    "key": "ms_demonite",
+    "category": "metal",
+    "primary": 6,
+    "secondary": 3.8,
+    "tertiary": 2.6,
+    "durability": 350,
+    "integrityCost": 2,
+    "integrityGain": 5,
+    "magicCapacity": 60,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 5,
+    "tints": {
+        "glyph": "5203cb",
+        "texture": "5203cb"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "ms:gem/demonite_ingot"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

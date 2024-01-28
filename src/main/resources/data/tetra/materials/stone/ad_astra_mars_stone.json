@@ -1,0 +1,36 @@
+{
+    "key": "ad_astra_mars_stone",
+    "category": "stone",
+    "primary": 4.3,
+    "secondary": 3.7,
+    "tertiary": 0,
+    "durability": 768,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 7,
+    "tints": {
+        "glyph": "c98555",
+        "texture": "c98555"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "ad_astra:mars_cobblestone"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ad_astra"
+        }
+    ]
+}

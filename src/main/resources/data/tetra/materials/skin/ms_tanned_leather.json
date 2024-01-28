@@ -1,0 +1,35 @@
+{
+    "key": "ms_tanned_leather",
+    "category": "skin",
+    "primary": 5,
+    "secondary": 2.5,
+    "tertiary": 1,
+    "durability": 300,
+    "integrityCost": 1,
+    "integrityGain": 5,
+    "magicCapacity": 90,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "963c30",
+        "texture": "963c30"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "ms:materials/tanned_leather"
+        ]
+    },
+    "requiredTools": {
+        "cut": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

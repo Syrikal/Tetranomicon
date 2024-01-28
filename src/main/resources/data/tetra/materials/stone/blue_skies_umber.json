@@ -1,0 +1,36 @@
+{
+    "key": "blue_skies_umber",
+    "category": "stone",
+    "primary": 4,
+    "secondary": 3,
+    "tertiary": 0,
+    "durability": 192,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 4.5,
+    "tints": {
+        "glyph": "3e2c2a",
+        "texture": "3e2c2a"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "blue_skies:umber"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:wood"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "blue_skies"
+        }
+    ]
+}

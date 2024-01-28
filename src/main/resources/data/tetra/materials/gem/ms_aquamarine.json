@@ -1,0 +1,35 @@
+{
+    "key": "ms_aquamarine",
+    "category": "gem",
+    "primary": 6.45,
+    "secondary": 2.9,
+    "tertiary": 0,
+    "durability": 375,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 60,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 7.1,
+    "tints": {
+        "glyph": "55f4ff",
+        "texture": "55f4ff"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "ms:gem/aquamarine"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:diamond"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "key": "ms_titanium",
+    "category": "metal",
+    "primary": 6.1,
+    "secondary": 2.9,
+    "tertiary": 3.5,
+    "durability": 1462,
+    "integrityCost": 2,
+    "integrityGain": 7,
+    "magicCapacity": 54,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 7.45,
+    "tints": {
+        "glyph": "777a8f",
+        "texture": "777a8f"
+    },
+    "textures": [
+        "shiny",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "ms:gem/titanium_ingot"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

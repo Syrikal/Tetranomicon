@@ -1,0 +1,41 @@
+{
+    "key": "regions_unexplored_sculkwood",
+    "category": "wood",
+    "primary": 2.8,
+    "secondary": 1.2,
+    "tertiary": 7.3,
+    "durability": 512,
+    "integrityCost": 1,
+    "integrityGain": 5,
+    "magicCapacity": 102,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 4,
+    "effects": {
+        "enderReverb": [
+            4,
+            0.2
+        ]
+    },
+    "tints": {
+        "glyph": "083e4a",
+        "texture": "083e4a"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "regions_unexplored:sculkwood_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "regions_unexplored"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "key": "silentgems_white_diamond",
+    "category": "gem",
+    "primary": 8,
+    "secondary": 2.9,
+    "tertiary": 0,
+    "durability": 2048,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 84,
+    "toolLevel": "minecraft:netherite",
+    "toolEfficiency": 12,
+    "effects": {
+        "unbreaking": 1
+    },
+    "tints": {
+        "glyph": "f6f1f5",
+        "texture": "f6f1f5"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "silentgems:white_diamond"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

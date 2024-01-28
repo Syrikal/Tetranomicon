@@ -1,0 +1,41 @@
+{
+    "key": "stalwart_dungeons_chorundum",
+    "category": "gem",
+    "primary": 7,
+    "secondary": 3.3,
+    "tertiary": 0,
+    "durability": 2021,
+    "integrityCost": 2,
+    "integrityGain": 5,
+    "magicCapacity": 168,
+    "toolLevel": "minecraft:netherite",
+    "toolEfficiency": 10,
+    "improvements": {
+        "arrested": 0
+    },
+    "effects": {
+        "unstable": 40
+    },
+    "tints": {
+        "glyph": "b38ef3",
+        "texture": "b38ef3"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "stalwart_dungeons:chorundum"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:diamond"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "stalwart_dungeons"
+        }
+    ]
+}

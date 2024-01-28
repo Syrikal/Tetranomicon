@@ -1,0 +1,35 @@
+{
+    "key": "ms_brown_bear_hide",
+    "category": "skin",
+    "primary": 6,
+    "secondary": 3,
+    "tertiary": 1,
+    "durability": 200,
+    "integrityCost": 1,
+    "integrityGain": 5,
+    "magicCapacity": 105,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "493e27",
+        "texture": "493e27"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "ms:entity/brown_bear_hide"
+        ]
+    },
+    "requiredTools": {
+        "cut": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

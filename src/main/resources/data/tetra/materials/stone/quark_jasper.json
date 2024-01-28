@@ -1,0 +1,36 @@
+{
+    "key": "quark_jasper",
+    "category": "stone",
+    "primary": 4.7,
+    "secondary": 3,
+    "tertiary": 0,
+    "durability": 512,
+    "integrityCost": 1,
+    "integrityGain": 3,
+    "magicCapacity": 102,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 6,
+    "tints": {
+        "glyph": "6a3e32",
+        "texture": "6a3e32"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "quark:jasper"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "quark"
+        }
+    ]
+}

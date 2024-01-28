@@ -1,0 +1,35 @@
+{
+    "key": "silentgems_iolite",
+    "category": "gem",
+    "primary": 6,
+    "secondary": 2.7,
+    "tertiary": 0,
+    "durability": 768,
+    "integrityCost": 1,
+    "integrityGain": 2,
+    "magicCapacity": 60,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 7,
+    "tints": {
+        "glyph": "4f1edb",
+        "texture": "4f1edb"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "silentgems:iolite"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

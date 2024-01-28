@@ -1,0 +1,41 @@
+{
+    "key": "organics_endium",
+    "category": "gem",
+    "primary": 11,
+    "secondary": 2.5,
+    "tertiary": 0,
+    "durability": 3200,
+    "integrityCost": 3,
+    "integrityGain": 2,
+    "magicCapacity": 12,
+    "toolLevel": "tetranomicon:tier_ten",
+    "toolEfficiency": 16,
+    "effects": {
+        "enderReverb": [
+            1,
+            0.05
+        ]
+    },
+    "tints": {
+        "glyph": "c35ad1",
+        "texture": "c35ad1"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "organics:endium_gem"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "tetra:maxed_forge_hammer"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "organics"
+        }
+    ]
+}

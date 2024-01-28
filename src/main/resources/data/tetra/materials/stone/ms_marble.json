@@ -1,0 +1,35 @@
+{
+    "key": "ms_marble",
+    "category": "stone",
+    "primary": 3,
+    "secondary": 3.5,
+    "tertiary": 0,
+    "durability": 192,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 4,
+    "tints": {
+        "glyph": "f1f1f2",
+        "texture": "f1f1f2"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "ms:stone/marble"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

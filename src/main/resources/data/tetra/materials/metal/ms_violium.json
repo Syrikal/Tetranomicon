@@ -1,0 +1,38 @@
+{
+    "key": "ms_violium",
+    "category": "metal",
+    "primary": 13.5,
+    "secondary": 3.9,
+    "tertiary": 3,
+    "durability": 3891,
+    "integrityCost": 4,
+    "integrityGain": 6,
+    "magicCapacity": 180,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 13.8,
+    "effects": {
+        "stabilizing": 10
+    },
+    "tints": {
+        "glyph": "853ce0",
+        "texture": "853ce0"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "ms:gem/violium_ingot"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "tetra:maxed_forge_hammer"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

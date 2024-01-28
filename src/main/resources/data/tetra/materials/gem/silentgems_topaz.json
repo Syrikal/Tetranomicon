@@ -1,0 +1,35 @@
+{
+    "key": "silentgems_topaz",
+    "category": "gem",
+    "primary": 5,
+    "secondary": 2.9,
+    "tertiary": 0,
+    "durability": 512,
+    "integrityCost": 1,
+    "integrityGain": 2,
+    "magicCapacity": 72,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 8,
+    "tints": {
+        "glyph": "dd7d17",
+        "texture": "dd7d17"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "silentgems:topaz"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

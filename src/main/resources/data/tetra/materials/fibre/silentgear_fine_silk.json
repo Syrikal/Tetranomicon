@@ -1,0 +1,35 @@
+{
+    "key": "silentgear_fine_silk",
+    "category": "fibre",
+    "primary": 3,
+    "secondary": 1,
+    "tertiary": 3,
+    "durability": 448,
+    "integrityCost": 1,
+    "integrityGain": 5,
+    "magicCapacity": 90,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "faf2ff",
+        "texture": "faf2ff"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "silentgear:fine_silk"
+        ]
+    },
+    "requiredTools": {
+        "cut": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgear"
+        }
+    ]
+}

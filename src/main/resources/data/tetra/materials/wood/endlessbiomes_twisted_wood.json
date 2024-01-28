@@ -1,0 +1,35 @@
+{
+    "key": "endlessbiomes_twisted_wood",
+    "category": "wood",
+    "primary": 4,
+    "secondary": 2.2,
+    "tertiary": 8.8,
+    "durability": 1024,
+    "integrityCost": 2,
+    "integrityGain": 4,
+    "magicCapacity": 102,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 2,
+    "tints": {
+        "glyph": "2d7859",
+        "texture": "2d7859"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "endlessbiomes:twisted_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "tetra:maxed_forge_hammer"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "endlessbiomes"
+        }
+    ]
+}

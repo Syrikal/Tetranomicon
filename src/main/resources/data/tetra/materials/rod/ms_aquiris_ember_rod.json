@@ -1,0 +1,35 @@
+{
+    "key": "ms_aquiris_ember_rod",
+    "category": "rod",
+    "primary": 5,
+    "secondary": 0.4,
+    "tertiary": 1,
+    "durability": 111,
+    "integrityCost": 2,
+    "integrityGain": 6,
+    "magicCapacity": 102,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "517f7d",
+        "texture": "517f7d"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "ms:materials/aquiris_ember_rod"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

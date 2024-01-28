@@ -1,0 +1,38 @@
+{
+    "key": "ms_topaz",
+    "category": "gem",
+    "primary": 9.3,
+    "secondary": 2.9,
+    "tertiary": 0,
+    "durability": 1884,
+    "integrityCost": 3,
+    "integrityGain": 2,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 8.7,
+    "improvements": {
+        "arrested": 0
+    },
+    "tints": {
+        "glyph": "ffd350",
+        "texture": "ffd350"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "ms:gem/topaz"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:netherite"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

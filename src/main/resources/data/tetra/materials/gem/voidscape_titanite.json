@@ -1,0 +1,36 @@
+{
+    "key": "voidscape_titanite",
+    "category": "gem",
+    "primary": 10,
+    "secondary": 4.6,
+    "tertiary": 0,
+    "durability": 3544,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 126,
+    "toolLevel": "tetranomicon:tier_nine",
+    "toolEfficiency": 10.5,
+    "tints": {
+        "glyph": "00c2a5",
+        "texture": "00c2a5"
+    },
+    "textures": [
+        "shiny",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "voidscape:titanite_shard"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "tetra:maxed_forge_hammer"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "voidscape"
+        }
+    ]
+}

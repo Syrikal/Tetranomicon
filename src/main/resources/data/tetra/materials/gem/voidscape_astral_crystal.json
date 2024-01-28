@@ -1,0 +1,41 @@
+{
+    "key": "voidscape_astral_crystal",
+    "category": "gem",
+    "primary": 12,
+    "secondary": 2.6,
+    "tertiary": 0,
+    "durability": 4550,
+    "integrityCost": 3,
+    "integrityGain": 2,
+    "magicCapacity": 150,
+    "toolLevel": "tetranomicon:tier_eleven",
+    "toolEfficiency": 11.5,
+    "effects": {
+        "skewering": [
+            3,
+            10
+        ]
+    },
+    "tints": {
+        "glyph": "c24cab",
+        "texture": "c24cab"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "voidscape:astral_crystal"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "tetra:maxed_forge_hammer"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "voidscape"
+        }
+    ]
+}

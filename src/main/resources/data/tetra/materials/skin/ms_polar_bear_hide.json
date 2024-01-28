@@ -1,0 +1,35 @@
+{
+    "key": "ms_polar_bear_hide",
+    "category": "skin",
+    "primary": 6,
+    "secondary": 3,
+    "tertiary": 1,
+    "durability": 200,
+    "integrityCost": 1,
+    "integrityGain": 5,
+    "magicCapacity": 120,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "f2f2f2",
+        "texture": "f2f2f2"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "ms:entity/polar_bear_hide"
+        ]
+    },
+    "requiredTools": {
+        "cut": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

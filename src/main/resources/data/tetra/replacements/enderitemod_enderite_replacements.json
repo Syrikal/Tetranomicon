@@ -25,10 +25,6 @@
                 "double/basic_handle",
                 "basic_handle/stick"
             ]
-        },
-        "improvements": {
-            "double/head_left:enderite_void_floating_innate": 3,
-            "double/head_right:enderite_void_floating_innate": 3
         }
     },
     {
@@ -57,10 +53,6 @@
                 "double/basic_handle",
                 "basic_handle/stick"
             ]
-        },
-        "improvements": {
-            "double/head_left:enderite_void_floating_innate": 3,
-            "double/head_right:enderite_void_floating_innate": 3
         }
     },
     {
@@ -89,10 +81,6 @@
                 "double/basic_handle",
                 "basic_handle/stick"
             ]
-        },
-        "improvements": {
-            "double/head_left:enderite_void_floating_innate": 3,
-            "double/head_right:enderite_void_floating_innate": 3
         }
     },
     {
@@ -117,9 +105,6 @@
                 "single/basic_handle",
                 "basic_handle/stick"
             ]
-        },
-        "improvements": {
-            "single/head:enderite_void_floating_innate": 3
         }
     },
     {
@@ -152,9 +137,6 @@
                 "sword/makeshift_guard",
                 "makeshift_guard/enderitemod_enderite"
             ]
-        },
-        "improvements": {
-            "sword/blade:enderite_void_floating_innate": 3
         }
     }
 ]

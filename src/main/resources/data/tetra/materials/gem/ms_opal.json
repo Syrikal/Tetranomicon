@@ -1,0 +1,38 @@
+{
+    "key": "ms_opal",
+    "category": "gem",
+    "primary": 5.34,
+    "secondary": 2.9,
+    "tertiary": 0,
+    "durability": 419,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 156,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 6.4,
+    "effects": {
+        "stabilizing": 15
+    },
+    "tints": {
+        "glyph": "f7d1f8",
+        "texture": "f7d1f8"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "ms:gem/opal"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "key": "voidscape_voidic_crystal",
+    "category": "gem",
+    "primary": 8,
+    "secondary": 3.4,
+    "tertiary": 0,
+    "durability": 2538,
+    "integrityCost": 1,
+    "integrityGain": 2,
+    "magicCapacity": 102,
+    "toolLevel": "tetra:maxed_forge_hammer",
+    "toolEfficiency": 9.5,
+    "improvements": {
+        "arrested": 0
+    },
+    "tints": {
+        "glyph": "b03bd5",
+        "texture": "b03bd5"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "voidscape:voidic_crystal"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:netherite"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "voidscape"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "key": "ad_astra_strophar",
+    "category": "wood",
+    "primary": 3.5,
+    "secondary": 1.6,
+    "tertiary": 6.5,
+    "durability": 512,
+    "integrityCost": 1,
+    "integrityGain": 6,
+    "magicCapacity": 102,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 4,
+    "tints": {
+        "glyph": "968c7d",
+        "texture": "968c7d"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "ad_astra:strophar_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ad_astra"
+        }
+    ]
+}

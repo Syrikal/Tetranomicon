@@ -1,0 +1,35 @@
+{
+    "key": "byg_fir",
+    "category": "wood",
+    "primary": 2.6,
+    "secondary": 1.5,
+    "tertiary": 6,
+    "durability": 48,
+    "integrityCost": 1,
+    "integrityGain": 3,
+    "magicCapacity": 108,
+    "toolLevel": "minecraft:wood",
+    "toolEfficiency": 3,
+    "tints": {
+        "glyph": "9f8361",
+        "texture": "9f8361"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "byg:fir_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:wood"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "byg"
+        }
+    ]
+}
