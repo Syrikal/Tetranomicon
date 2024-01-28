@@ -14,7 +14,7 @@
             "fierySelf": [-3, -0.05]
         },
         "models": [{
-            "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+            "location": "tetra:item/module/double/handle/basic/improvements/wrap",
             "tint": "752626"
         }]
     },
@@ -33,7 +33,7 @@
             "fierySelf": [-3, -0.07]
         },
         "models": [{
-            "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+            "location": "tetra:item/module/double/handle/basic/improvements/wrap",
             "tint": "752626"
         }]
     },
@@ -52,7 +52,7 @@
             "fierySelf": [-3, -0.1]
         },
         "models": [{
-            "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+            "location": "tetra:item/module/double/handle/basic/improvements/wrap",
             "tint": "752626"
         }]
     },
@@ -74,7 +74,7 @@
             "fierySelf": [-2, -0.05]
         },
         "models": [{
-            "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+            "location": "tetra:item/module/double/handle/basic/improvements/wrap",
             "tint": "ecf4f4"
         }]
     },
@@ -93,7 +93,7 @@
             "fierySelf": [-2, -0.07]
         },
         "models": [{
-            "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+            "location": "tetra:item/module/double/handle/basic/improvements/wrap",
             "tint": "ecf4f4"
         }]
     },
@@ -112,7 +112,7 @@
             "fierySelf": [-2, -0.1]
         },
         "models": [{
-            "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+            "location": "tetra:item/module/double/handle/basic/improvements/wrap",
             "tint": "ecf4f4"
         }]
     },
@@ -134,7 +134,7 @@
             "fierySelf": [-2, -0.05]
         },
         "models": [{
-            "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+            "location": "tetra:item/module/double/handle/basic/improvements/wrap",
             "tint": "241c5c"
         }]
     },
@@ -153,7 +153,7 @@
             "fierySelf": [-2, -0.07]
         },
         "models": [{
-            "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+            "location": "tetra:item/module/double/handle/basic/improvements/wrap",
             "tint": "241c5c"
         }]
     },
@@ -172,7 +172,7 @@
             "fierySelf": [-2, -0.1]
         },
         "models": [{
-            "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+            "location": "tetra:item/module/double/handle/basic/improvements/wrap",
             "tint": "241c5c"
         }]
     },
@@ -194,7 +194,7 @@
             "fierySelf": [-1, -0.05]
         },
         "models": [{
-            "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+            "location": "tetra:item/module/double/handle/basic/improvements/wrap",
             "tint": "5484b4"
         }]
     },
@@ -213,7 +213,7 @@
             "fierySelf": [-1, -0.07]
         },
         "models": [{
-            "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+            "location": "tetra:item/module/double/handle/basic/improvements/wrap",
             "tint": "5484b4"
         }]
     },
@@ -232,7 +232,7 @@
             "fierySelf": [-1, -0.1]
         },
         "models": [{
-            "location": "tetra:items/module/double/handle/basic/improvements/wrap",
+            "location": "tetra:item/module/double/handle/basic/improvements/wrap",
             "tint": "5484b4"
         }]
     }

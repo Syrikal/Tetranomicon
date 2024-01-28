@@ -113,6 +113,9 @@ dependencies {
     //Enderite (requires architectury api and cloth config)
     implementation fg.deobf("curse.maven:enderite-mod-for-forge-401284:4630504")
 
+    //Ice and Fire (requires Citadel)
+    implementation fg.deobf("curse.maven:ice-and-fire-dragons-264231:5037783")
+
     //Stalwart Dungeons
     implementation fg.deobf("curse.maven:stalwart-dungeons-474817:4703671")
 

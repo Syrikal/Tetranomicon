@@ -15,7 +15,7 @@
       },
       "models": [{
           "type": "static",
-          "location": "tetra:items/module/bow/stave/improvements/wrap",
+          "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "752626"
       }]
   },
@@ -35,7 +35,7 @@
       },
       "models": [{
           "type": "static",
-          "location": "tetra:items/module/bow/stave/improvements/wrap",
+          "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "752626"
       }]
   },
@@ -55,7 +55,7 @@
       },
       "models": [{
           "type": "static",
-          "location": "tetra:items/module/bow/stave/improvements/wrap",
+          "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "752626"
       }]
   },
@@ -78,7 +78,7 @@
       },
       "models": [{
           "type": "static",
-          "location": "tetra:items/module/bow/stave/improvements/wrap",
+          "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "ecf4f4"
       }]
   },
@@ -98,7 +98,7 @@
       },
       "models": [{
           "type": "static",
-          "location": "tetra:items/module/bow/stave/improvements/wrap",
+          "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "ecf4f4"
       }]
   },
@@ -118,7 +118,7 @@
       },
       "models": [{
           "type": "static",
-          "location": "tetra:items/module/bow/stave/improvements/wrap",
+          "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "ecf4f4"
       }]
   },
@@ -141,7 +141,7 @@
       },
       "models": [{
           "type": "static",
-          "location": "tetra:items/module/bow/stave/improvements/wrap",
+          "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "241c5c"
       }]
   },
@@ -161,7 +161,7 @@
       },
       "models": [{
           "type": "static",
-          "location": "tetra:items/module/bow/stave/improvements/wrap",
+          "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "241c5c"
       }]
   },
@@ -181,7 +181,7 @@
       },
       "models": [{
           "type": "static",
-          "location": "tetra:items/module/bow/stave/improvements/wrap",
+          "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "241c5c"
       }]
   },
@@ -204,7 +204,7 @@
       },
       "models": [{
           "type": "static",
-          "location": "tetra:items/module/bow/stave/improvements/wrap",
+          "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "5484b4"
       }]
   },
@@ -224,7 +224,7 @@
       },
       "models": [{
           "type": "static",
-          "location": "tetra:items/module/bow/stave/improvements/wrap",
+          "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "5484b4"
       }]
   },
@@ -244,7 +244,7 @@
       },
       "models": [{
           "type": "static",
-          "location": "tetra:items/module/bow/stave/improvements/wrap",
+          "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "5484b4"
       }]
   }
