@@ -8,8 +8,8 @@ import net.minecraft.ChatFormatting;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.FormattedText;
+import net.minecraft.network.chat.TextComponent;
 import net.minecraft.tags.ItemTags;
-import net.minecraft.tags.TagKey;
 import net.minecraft.world.inventory.tooltip.TooltipComponent;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -59,17 +59,17 @@ public class Debugging {
         });
 
         if (likelyCandidate && !isTetraMaterial) {
-            Component newComponent = Component.literal("LIKELY CANDIDATE IS NOT MATERIAL!").withStyle(ChatFormatting.RED);
+            Component newComponent = new TextComponent("LIKELY CANDIDATE IS NOT MATERIAL!").withStyle(ChatFormatting.RED);
             Either<FormattedText, TooltipComponent> eitherComponent = Either.left(newComponent);
             components.add(eitherComponent);
         }
         if (likelyCandidate) {
-            Component newComponent = Component.literal("Item is a likely candidate").withStyle(ChatFormatting.BLUE);
+            Component newComponent = new TextComponent("Item is a likely candidate").withStyle(ChatFormatting.BLUE);
             Either<FormattedText, TooltipComponent> eitherComponent = Either.left(newComponent);
             components.add(eitherComponent);
         }
         if (isTetraMaterial) {
-            Component newComponent = Component.literal("Item is a Tetra material!").withStyle(ChatFormatting.GREEN);
+            Component newComponent = new TextComponent("Item is a Tetra material!").withStyle(ChatFormatting.GREEN);
             Either<FormattedText, TooltipComponent> eitherComponent = Either.left(newComponent);
             components.add(eitherComponent);
         }
@@ -140,7 +140,7 @@ public class Debugging {
         if (!ConfigHandler.development.get()) {
             return;
         }
-        String rawText = event.getRawText();
+        String rawText = event.getMessage();
         if (rawText.contains("tetranomicon missing replacements")) {
             Tetranomicon.LOGGER.debug("Tetranomicon: scanning for missing replacements...");
             DataManager.instance.replacementData.getData().values().forEach(replacementList -> Arrays.stream(replacementList).filter(replacement ->
@@ -167,11 +167,11 @@ public class Debugging {
         if (!ConfigHandler.development.get()) {
             return;
         }
-        String rawText = event.getRawText();
+        String rawText = event.getMessage();
         if (rawText.contains("tetranomicon check replacement candidates")) {
             Tetranomicon.LOGGER.debug("Tetranomicon: scanning for replacement candidates...");
 
-            ArrayList<TagKey<Item>> tagKeys = new ArrayList<>(Arrays.asList(Tags.Items.TOOLS, Tags.Items.TOOLS_AXES, Tags.Items.TOOLS_PICKAXES, Tags.Items.TOOLS_SHOVELS, Tags.Items.TOOLS_HOES, Tags.Items.TOOLS_SWORDS, Tags.Items.TOOLS_BOWS));
+//            ArrayList<TagKey<Item>> tagKeys = new ArrayList<>(Arrays.asList(ItemTags..Items.TOOLS, Tags.Items.TOOLS_AXES, Tags.Items.TOOLS_PICKAXES, Tags.Items.TOOLS_SHOVELS, Tags.Items.TOOLS_HOES, Tags.Items.TOOLS_SWORDS, Tags.Items.TOOLS_BOWS));
             ArrayList<String> tool_names = new ArrayList<>(Arrays.asList("_axe", "_pickaxe", "_shovel", "_pick", "_hoe", "_sword", "_bow"));
 
             ForgeRegistries.ITEMS.getEntries().stream()
@@ -181,11 +181,11 @@ public class Debugging {
                         String item_id = item.toString();
                         String mod_id = item.getCreatorModId(stack);
 
-                        boolean likelyCandidateTags = tagKeys.stream().anyMatch(stack::is);
+//                        boolean likelyCandidateTags = tagKeys.stream().anyMatch(stack::is);
                         boolean likelyCandidateStrings = tool_names.stream().anyMatch(item_id::contains);
                         boolean minecraft = mod_id == null || mod_id.contains("minecraft");
 
-                        return (likelyCandidateStrings || likelyCandidateTags) && !minecraft;
+                        return likelyCandidateStrings && !minecraft;
                     })
                     .filter(x -> DataManager.instance.replacementData.getData().values().stream().noneMatch(replacementList -> {
                         ItemStack stack = x.getValue().getDefaultInstance();
