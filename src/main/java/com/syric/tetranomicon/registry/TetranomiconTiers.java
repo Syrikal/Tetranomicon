@@ -15,9 +15,13 @@ import java.util.List;
 public class TetranomiconTiers {
 
     public static void init() {
+        TagKey<Block> sevenTag = BlockTags.create(new ResourceLocation("tetranomicon:needs_tier_seven_tool"));
+        Tier sevenTier = TierSortingRegistry.registerTier(new ForgeTier(Tiers.NETHERITE.getLevel() + 1, 0, 0, 0, 0,
+                sevenTag, () -> Ingredient.EMPTY), new ResourceLocation("tetranomicon:tier_seven"), List.of(Tiers.NETHERITE), List.of());
+
         TagKey<Block> eightTag = BlockTags.create(new ResourceLocation("tetranomicon:needs_tier_eight_tool"));
         Tier eightTier = TierSortingRegistry.registerTier(new ForgeTier(Tiers.NETHERITE.getLevel() + 2, 0, 0, 0, 0,
-                eightTag, () -> Ingredient.EMPTY), new ResourceLocation("tetranomicon:tier_eight"), List.of(Tiers.NETHERITE), List.of());
+                eightTag, () -> Ingredient.EMPTY), new ResourceLocation("tetranomicon:tier_eight"), List.of(sevenTier), List.of());
 
         TagKey<Block> nineTag = BlockTags.create(new ResourceLocation("tetranomicon:needs_tier_nine_tool"));
         Tier nineTier = TierSortingRegistry.registerTier(new ForgeTier(Tiers.NETHERITE.getLevel() + 3, 0, 0, 0, 0,
