@@ -1,0 +1,35 @@
+{
+    "key": "unearthed_white_granite",
+    "category": "stone",
+    "primary": 4,
+    "secondary": 3.5,
+    "tertiary": 0,
+    "durability": 180,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 4.5,
+    "tints": {
+        "glyph": "D4C4B1",
+        "texture": "D4C4B1"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "unearthed:white_granite"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:wood"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "unearthed"
+        }
+    ]
+}

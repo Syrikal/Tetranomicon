@@ -8,7 +8,7 @@
     "integrityCost": 1,
     "integrityGain": 2,
     "magicCapacity": 102,
-    "toolLevel": "tetra:maxed_forge_hammer",
+    "toolLevel": "tetranomicon:tier_seven",
     "toolEfficiency": 9.5,
     "improvements": {
         "arrested": 0

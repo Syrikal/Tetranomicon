@@ -8,7 +8,7 @@
     "integrityCost": 3,
     "integrityGain": 5,
     "magicCapacity": 222,
-    "toolLevel": "tetra:maxed_forge_hammer",
+    "toolLevel": "tetranomicon:tier_seven",
     "toolEfficiency": 29,
     "improvements": {
         "workable": 1
