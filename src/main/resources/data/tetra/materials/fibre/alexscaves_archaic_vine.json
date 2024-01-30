@@ -24,7 +24,7 @@
         ]
     },
     "requiredTools": {
-        "cut": "minecraft:iron"
+        "cut": "minecraft:stone"
     },
     "conditions": [
         {

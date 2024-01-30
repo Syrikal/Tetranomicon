@@ -544,7 +544,7 @@
     "tetra.material.socket_oresabovediamonds_netherite_opal.prefix": "§5Netherite Opal§r",
 
     "item.tetranomicon.netherite_opal": "Netherite Opal",
-    
+
     
     "tetra.material.organics_endium": "Endium",
     "tetra.material.organics_endium.prefix": "Endium",
@@ -571,6 +571,8 @@
     "tetra.material.phantasm_pream.prefix": "Pream",
     "tetra.material.phantasm_void_crystal": "Void Crystal",
     "tetra.material.phantasm_void_crystal.prefix": "Crystalline",
+    "tetra.material.phantasm_void_crystal_shard": "Void Crystal Shard",
+    "tetra.material.phantasm_void_crystal_shard.prefix": "Void Crystal",
     
     "tetra.material.socket_phantasm_crystal_shard": "Crystal Shard socket",
     "tetra.material.socket_phantasm_crystal_shard.prefix": "§bCrystal Shard§r",

@@ -1,35 +1,33 @@
 {
-    "key": "deeperdarker_sculk_bone",
-    "category": "bone",
-    "primary": 6.4,
-    "secondary": 3.5,
-    "tertiary": 3.5,
+    "key": "phantasm_void_crystal_shard",
+    "category": "gem",
+    "primary": 4,
+    "secondary": 2.4,
+    "tertiary": 0,
     "durability": 5,
     "integrityCost": 8,
     "integrityGain": 1,
-    "magicCapacity": 54,
+    "magicCapacity": 48,
     "toolLevel": "tetranomicon:tier_eight",
     "toolEfficiency": 3,
     "improvements": {
         "arrested": 0
     },
     "effects": {
-        "enderReverb": [
-            2,
-            0.2
-        ]
+        "unstable": 20
     },
     "tints": {
-        "glyph": "CBCEB3",
-        "texture": "CBCEB3"
+        "glyph": "efd3f1",
+        "texture": "efd3f1"
     },
     "textures": [
-        "bone",
-        "crude"
+        "shiny",
+        "crude",
+        "default"
     ],
     "material": {
         "items": [
-            "deeperdarker:sculk_bone"
+            "phantasm:void_crystal_shard"
         ]
     },
     "requiredTools": {
@@ -38,7 +36,7 @@
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "deeperdarker"
+            "modid": "phantasm"
         }
     ]
 }
