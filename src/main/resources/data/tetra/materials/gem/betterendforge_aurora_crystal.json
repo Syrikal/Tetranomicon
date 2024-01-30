@@ -28,7 +28,7 @@
         "item": "betterendforge:crystal_shards"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:netherite"
+        "hammer": 6
     },
     "conditions": [
         {

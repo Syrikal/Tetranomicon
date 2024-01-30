@@ -28,7 +28,7 @@
         "item": "stalwart_dungeons:chorundum"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:diamond"
+        "hammer": 5
     },
     "conditions": [
         {

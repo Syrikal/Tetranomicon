@@ -26,7 +26,7 @@
         "item": "atum:khnumite"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:wood"
+        "hammer": 1
     },
     "conditions": [
         {

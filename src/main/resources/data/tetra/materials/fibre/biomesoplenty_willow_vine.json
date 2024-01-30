@@ -22,7 +22,7 @@
         "item": "biomesoplenty:willow_vine"
     },
     "requiredTools": {
-        "cut": "minecraft:wood"
+        "cut": 1
     },
     "conditions": [
         {

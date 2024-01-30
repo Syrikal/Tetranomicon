@@ -23,7 +23,7 @@
         "item": "betterendforge:sandy_jadestone"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:diamond"
+        "hammer": 5
     },
     "conditions": [
         {

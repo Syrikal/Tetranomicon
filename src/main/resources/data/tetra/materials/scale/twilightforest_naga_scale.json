@@ -22,7 +22,7 @@
         "item": "twilightforest:naga_scale"
     },
     "requiredTools": {
-        "cut": "minecraft:stone"
+        "cut": 2
     },
     "conditions": [
         {

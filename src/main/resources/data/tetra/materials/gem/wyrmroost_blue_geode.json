@@ -25,7 +25,7 @@
         "item": "wyrmroost:blue_geode"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:diamond"
+        "hammer": 5
     },
     "conditions": [
         {

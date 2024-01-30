@@ -23,7 +23,7 @@
         "item": "quark:jasper"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:gold"
+        "hammer": 2
     },
     "conditions": [
         {

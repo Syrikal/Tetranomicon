@@ -22,7 +22,7 @@
         "item": "ms:nature/plank_hellwood"
     },
     "requiredTools": {
-        "axe_dig": "minecraft:iron"
+        "axe": 3
     },
     "conditions": [
         {

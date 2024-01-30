@@ -25,7 +25,7 @@
         "item": "byg:blue_enchanted_planks"
     },
     "requiredTools": {
-        "axe_dig": "minecraft:gold"
+        "axe": 1
     },
     "conditions": [
         {

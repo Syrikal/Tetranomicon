@@ -26,7 +26,7 @@
         "item": "silentgear:blaze_gold_ingot"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:stone"
+        "hammer": 3
     },
     "conditions": [
         {

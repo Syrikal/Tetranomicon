@@ -22,7 +22,7 @@
         "item": "blue_skies:frostbright_vine"
     },
     "requiredTools": {
-        "cut": "minecraft:wood"
+        "cut": 1
     },
     "conditions": [
         {

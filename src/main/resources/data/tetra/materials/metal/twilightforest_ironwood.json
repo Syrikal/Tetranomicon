@@ -28,7 +28,7 @@
         "item": "twilightforest:ironwood_ingot"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:gold"
+        "hammer": 2
     },
     "conditions": [
         {

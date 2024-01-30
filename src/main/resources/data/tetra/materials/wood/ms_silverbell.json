@@ -25,7 +25,7 @@
         "item": "ms:nature/silverbellplank"
     },
     "requiredTools": {
-        "axe_dig": "minecraft:stone"
+        "axe": 2
     },
     "conditions": [
         {

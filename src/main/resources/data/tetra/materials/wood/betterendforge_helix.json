@@ -25,7 +25,7 @@
         "item": "betterendforge:helix_tree_planks"
     },
     "requiredTools": {
-        "axe_dig": "minecraft:netherite"
+        "axe": 5
     },
     "conditions": [
         {

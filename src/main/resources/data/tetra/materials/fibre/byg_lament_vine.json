@@ -22,7 +22,7 @@
         "item": "byg:lament_vine"
     },
     "requiredTools": {
-        "cut": "minecraft:gold"
+        "cut": 1
     },
     "conditions": [
         {

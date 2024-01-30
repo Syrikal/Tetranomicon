@@ -25,7 +25,7 @@
         "item": "create:refined_radiance"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:iron"
+        "hammer": 4
     },
     "conditions": [
         {

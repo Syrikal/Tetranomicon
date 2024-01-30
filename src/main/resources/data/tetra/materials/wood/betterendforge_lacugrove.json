@@ -25,7 +25,7 @@
         "item": "betterendforge:lacugrove_planks"
     },
     "requiredTools": {
-        "axe_dig": "minecraft:netherite"
+        "axe": 5
     },
     "conditions": [
         {

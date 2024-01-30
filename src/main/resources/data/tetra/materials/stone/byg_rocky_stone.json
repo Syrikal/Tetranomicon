@@ -23,7 +23,7 @@
         "item": "byg:rocky_stone"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:wood"
+        "hammer": 1
     },
     "conditions": [
         {

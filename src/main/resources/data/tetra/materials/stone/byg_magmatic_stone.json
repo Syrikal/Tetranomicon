@@ -29,7 +29,7 @@
         "item": "byg:magmatic_stone"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:gold"
+        "hammer": 2
     },
     "conditions": [
         {

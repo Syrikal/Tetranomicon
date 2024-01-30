@@ -22,7 +22,7 @@
         "item": "betterendforge:twisted_vine"
     },
     "requiredTools": {
-        "cut": "minecraft:diamond"
+        "cut": 4
     },
     "conditions": [
         {

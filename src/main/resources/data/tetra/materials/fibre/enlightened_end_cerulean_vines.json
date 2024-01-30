@@ -22,7 +22,7 @@
         "item": "enlightened_end:cerulean_vine"
     },
     "requiredTools": {
-        "cut": "minecraft:diamond"
+        "cut": 4
     },
     "conditions": [
         {

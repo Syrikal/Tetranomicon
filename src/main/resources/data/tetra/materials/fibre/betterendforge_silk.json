@@ -22,7 +22,7 @@
         "item": "betterendforge:silk_fiber"
     },
     "requiredTools": {
-        "cut": "minecraft:diamond"
+        "cut": 4
     },
     "conditions": [
         {

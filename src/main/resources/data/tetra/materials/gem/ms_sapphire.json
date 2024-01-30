@@ -25,7 +25,7 @@
         "item": "ms:gem/sapphire"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:stone"
+        "hammer": 3
     },
     "conditions": [
         {

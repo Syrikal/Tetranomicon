@@ -22,7 +22,7 @@
         "item": "betterendforge:end_lotus_planks"
     },
     "requiredTools": {
-        "axe_dig": "minecraft:diamond"
+        "axe": 4
     },
     "conditions": [
         {

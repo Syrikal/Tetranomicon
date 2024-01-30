@@ -23,7 +23,7 @@
         "item": "ms:gem/chromiteingot"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:stone"
+        "hammer": 3
     },
     "conditions": [
         {

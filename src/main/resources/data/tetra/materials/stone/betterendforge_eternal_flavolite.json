@@ -23,7 +23,7 @@
         "item": "betterendforge:flavolite_runed_eternal"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:netherite"
+        "hammer": 6
     },
     "conditions": [
         {

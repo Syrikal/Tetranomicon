@@ -30,7 +30,7 @@
         "item": "quark:myalite"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:diamond"
+        "hammer": 5
     },
     "conditions": [
         {

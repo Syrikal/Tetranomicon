@@ -29,7 +29,7 @@
         "item": "phantasm:oblivine"
     },
     "requiredTools": {
-        "cut": "minecraft:diamond"
+        "cut": 4
     },
     "conditions": [
         {

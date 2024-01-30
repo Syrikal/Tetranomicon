@@ -27,7 +27,7 @@
         "item": "silentgear:tyrian_steel_ingot"
     },
     "requiredTools": {
-        "hammer_dig": "tetra:maxed_forge_hammer"
+        "hammer": 7
     },
     "conditions": [
         {

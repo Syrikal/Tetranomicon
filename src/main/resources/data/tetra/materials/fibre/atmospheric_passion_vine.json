@@ -22,7 +22,7 @@
         "item": "atmospheric:passion_vine"
     },
     "requiredTools": {
-        "cut": "minecraft:gold"
+        "cut": 1
     },
     "conditions": [
         {

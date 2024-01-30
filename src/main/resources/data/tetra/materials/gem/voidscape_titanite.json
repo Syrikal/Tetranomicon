@@ -23,7 +23,7 @@
         "item": "voidscape:titanite_shard"
     },
     "requiredTools": {
-        "hammer_dig": "tetra:maxed_forge_hammer"
+        "hammer": 7
     },
     "conditions": [
         {

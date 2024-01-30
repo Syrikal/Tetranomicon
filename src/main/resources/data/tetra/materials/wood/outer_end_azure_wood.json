@@ -22,7 +22,7 @@
         "item": "outer_end:azure_planks"
     },
     "requiredTools": {
-        "axe_dig": "minecraft:netherite"
+        "axe": 5
     },
     "conditions": [
         {

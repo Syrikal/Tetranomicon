@@ -22,7 +22,7 @@
         "item": "blue_skies:brumble_vine_top"
     },
     "requiredTools": {
-        "cut": "minecraft:gold"
+        "cut": 1
     },
     "conditions": [
         {

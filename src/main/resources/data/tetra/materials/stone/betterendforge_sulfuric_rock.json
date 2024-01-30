@@ -29,7 +29,7 @@
         "item": "betterendforge:sulphuric_rock"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:iron"
+        "hammer": 4
     },
     "conditions": [
         {

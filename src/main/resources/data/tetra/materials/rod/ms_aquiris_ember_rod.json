@@ -22,7 +22,7 @@
         "item": "ms:materials/aquiris_ember_rod"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:gold"
+        "hammer": 2
     },
     "conditions": [
         {

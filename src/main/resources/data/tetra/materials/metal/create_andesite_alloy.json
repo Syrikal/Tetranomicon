@@ -22,7 +22,7 @@
         "item": "create:andesite_alloy"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:wood"
+        "hammer": 1
     },
     "conditions": [
         {

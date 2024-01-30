@@ -22,7 +22,7 @@
         "item": "blue_skies:diopside_gem"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:diamond"
+        "hammer": 5
     },
     "conditions": [
         {

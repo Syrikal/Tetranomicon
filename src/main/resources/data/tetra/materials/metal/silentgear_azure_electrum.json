@@ -28,7 +28,7 @@
         "item": "silentgear:azure_electrum_ingot"
     },
     "requiredTools": {
-        "hammer_dig": "tetra:maxed_forge_hammer"
+        "hammer": 7
     },
     "conditions": [
         {

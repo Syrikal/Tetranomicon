@@ -28,7 +28,7 @@
         "item": "wyrmroost:red_geode"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:netherite"
+        "hammer": 6
     },
     "conditions": [
         {

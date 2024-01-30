@@ -23,7 +23,7 @@
         "item": "enlightened_end:void_shale"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:diamond"
+        "hammer": 5
     },
     "conditions": [
         {

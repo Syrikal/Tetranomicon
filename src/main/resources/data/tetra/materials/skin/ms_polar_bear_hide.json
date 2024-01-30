@@ -22,7 +22,7 @@
         "item": "ms:entity/polar_bear_hide"
     },
     "requiredTools": {
-        "cut": "minecraft:iron"
+        "cut": 3
     },
     "conditions": [
         {

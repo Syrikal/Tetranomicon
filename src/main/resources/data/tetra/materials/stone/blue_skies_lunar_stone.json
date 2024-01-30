@@ -22,7 +22,7 @@
         "item": "blue_skies:lunar_cobblestone"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:wood"
+        "hammer": 1
     },
     "conditions": [
         {

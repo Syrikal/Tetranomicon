@@ -27,7 +27,7 @@
         "item": "betterendforge:umbralith"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:diamond"
+        "hammer": 5
     },
     "conditions": [
         {

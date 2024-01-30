@@ -22,7 +22,7 @@
         "item": "organics:kuko_gem"
     },
     "requiredTools": {
-        "hammer_dig": "tetra:maxed_forge_hammer"
+        "hammer": 7
     },
     "conditions": [
         {

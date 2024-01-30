@@ -22,7 +22,7 @@
         "item": "blue_skies:dusk_vine"
     },
     "requiredTools": {
-        "cut": "minecraft:gold"
+        "cut": 1
     },
     "conditions": [
         {

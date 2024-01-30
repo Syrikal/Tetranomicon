@@ -25,7 +25,7 @@
         "item": "byg:lament_planks"
     },
     "requiredTools": {
-        "axe_dig": "minecraft:iron"
+        "axe": 3
     },
     "conditions": [
         {

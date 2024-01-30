@@ -25,7 +25,7 @@
         "item": "blue_skies:starlit_vine"
     },
     "requiredTools": {
-        "cut": "minecraft:gold"
+        "cut": 1
     },
     "conditions": [
         {

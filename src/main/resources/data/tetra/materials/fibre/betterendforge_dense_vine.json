@@ -28,7 +28,7 @@
         "item": "betterendforge:dense_vine"
     },
     "requiredTools": {
-        "cut": "minecraft:netherite"
+        "cut": 5
     },
     "conditions": [
         {

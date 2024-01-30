@@ -25,7 +25,7 @@
         "item": "ms:materials/wither_rod"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:stone"
+        "hammer": 3
     },
     "conditions": [
         {

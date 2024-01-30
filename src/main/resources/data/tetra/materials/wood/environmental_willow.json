@@ -22,7 +22,7 @@
         "item": "environmental:willow_planks"
     },
     "requiredTools": {
-        "axe_dig": "minecraft:wood"
+        "axe": 1
     },
     "conditions": [
         {

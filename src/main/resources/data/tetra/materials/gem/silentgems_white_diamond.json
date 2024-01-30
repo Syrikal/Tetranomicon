@@ -25,7 +25,7 @@
         "item": "silentgems:white_diamond"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:iron"
+        "hammer": 4
     },
     "conditions": [
         {

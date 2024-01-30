@@ -29,7 +29,7 @@
         "item": "silentgear:azure_silver_ingot"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:netherite"
+        "hammer": 6
     },
     "conditions": [
         {

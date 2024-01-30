@@ -22,7 +22,7 @@
         "item": "blue_skies:maple_vine"
     },
     "requiredTools": {
-        "cut": "minecraft:wood"
+        "cut": 1
     },
     "conditions": [
         {

@@ -22,7 +22,7 @@
         "item": "ms:nature/bamboo_plank"
     },
     "requiredTools": {
-        "axe_dig": "minecraft:wood"
+        "axe": 1
     },
     "conditions": [
         {

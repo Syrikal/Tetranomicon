@@ -23,7 +23,7 @@
         "item": "unearthed:schist"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:wood"
+        "hammer": 1
     },
     "conditions": [
         {

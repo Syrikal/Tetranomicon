@@ -25,7 +25,7 @@
         "item": "ms:gem/citrine"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:iron"
+        "hammer": 4
     },
     "conditions": [
         {

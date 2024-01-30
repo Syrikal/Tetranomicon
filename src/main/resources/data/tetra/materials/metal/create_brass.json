@@ -22,7 +22,7 @@
         "item": "create:brass_ingot"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:gold"
+        "hammer": 2
     },
     "conditions": [
         {

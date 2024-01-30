@@ -22,7 +22,7 @@
         "item": "byg:shulkren_vine"
     },
     "requiredTools": {
-        "cut": "minecraft:stone"
+        "cut": 2
     },
     "conditions": [
         {

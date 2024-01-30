@@ -23,7 +23,7 @@
         "item": "betterendforge:flavolite"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:diamond"
+        "hammer": 5
     },
     "conditions": [
         {

@@ -26,7 +26,7 @@
         "item": "silentgear:crimson_iron_ingot"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:iron"
+        "hammer": 4
     },
     "conditions": [
         {

@@ -22,7 +22,7 @@
         "item": "silentgear:flax_string"
     },
     "requiredTools": {
-        "cut": "minecraft:wood"
+        "cut": 1
     },
     "conditions": [
         {

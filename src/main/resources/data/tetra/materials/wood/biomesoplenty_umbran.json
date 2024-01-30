@@ -22,7 +22,7 @@
         "item": "biomesoplenty:umbran_planks"
     },
     "requiredTools": {
-        "axe_dig": "minecraft:diamond"
+        "axe": 4
     },
     "conditions": [
         {

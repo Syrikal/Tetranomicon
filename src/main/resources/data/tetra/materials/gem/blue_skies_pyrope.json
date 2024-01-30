@@ -22,7 +22,7 @@
         "item": "blue_skies:pyrope_gem"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:gold"
+        "hammer": 2
     },
     "conditions": [
         {

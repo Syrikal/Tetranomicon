@@ -23,7 +23,7 @@
         "item": "byg:red_rock"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:wood"
+        "hammer": 1
     },
     "conditions": [
         {

@@ -22,7 +22,7 @@
         "item": "silentgear:fine_silk"
     },
     "requiredTools": {
-        "cut": "minecraft:stone"
+        "cut": 2
     },
     "conditions": [
         {

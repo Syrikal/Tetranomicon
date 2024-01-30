@@ -22,7 +22,7 @@
         "item": "ms:nature/willowplank"
     },
     "requiredTools": {
-        "axe_dig": "minecraft:wood"
+        "axe": 1
     },
     "conditions": [
         {

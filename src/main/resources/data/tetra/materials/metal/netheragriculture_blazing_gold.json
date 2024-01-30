@@ -33,7 +33,7 @@
         "item": "netheragriculture:blazing_gold_ingot"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:netherite"
+        "hammer": 6
     },
     "conditions": [
         {

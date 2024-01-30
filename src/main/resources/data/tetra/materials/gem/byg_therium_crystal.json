@@ -29,7 +29,7 @@
         "item": "byg:therium_crystal"
     },
     "requiredTools": {
-        "hammer_dig": "tetra:maxed_forge_hammer"
+        "hammer": 7
     },
     "conditions": [
         {

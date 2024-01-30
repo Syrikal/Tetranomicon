@@ -22,7 +22,7 @@
         "item": "twilightforest:dark_planks"
     },
     "requiredTools": {
-        "axe_dig": "minecraft:gold"
+        "axe": 1
     },
     "conditions": [
         {

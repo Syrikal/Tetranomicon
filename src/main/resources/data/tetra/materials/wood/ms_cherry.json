@@ -22,7 +22,7 @@
         "item": "ms:nature/cherryplank"
     },
     "requiredTools": {
-        "axe_dig": "minecraft:gold"
+        "axe": 1
     },
     "conditions": [
         {

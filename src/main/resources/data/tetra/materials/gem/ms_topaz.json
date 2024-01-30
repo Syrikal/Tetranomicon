@@ -25,7 +25,7 @@
         "item": "ms:gem/topaz"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:netherite"
+        "hammer": 6
     },
     "conditions": [
         {

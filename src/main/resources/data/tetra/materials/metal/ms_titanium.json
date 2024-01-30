@@ -23,7 +23,7 @@
         "item": "ms:gem/titaniumingot"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:iron"
+        "hammer": 4
     },
     "conditions": [
         {

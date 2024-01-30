@@ -28,7 +28,7 @@
         "item": "silentgems:rose_quartz"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:iron"
+        "hammer": 4
     },
     "conditions": [
         {

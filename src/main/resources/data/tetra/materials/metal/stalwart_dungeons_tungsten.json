@@ -23,7 +23,7 @@
         "item": "stalwart_dungeons:tungsten_ingot"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:diamond"
+        "hammer": 5
     },
     "conditions": [
         {

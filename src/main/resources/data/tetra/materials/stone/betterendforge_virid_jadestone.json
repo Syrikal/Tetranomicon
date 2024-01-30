@@ -23,7 +23,7 @@
         "item": "betterendforge:virid_jadestone"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:diamond"
+        "hammer": 5
     },
     "conditions": [
         {

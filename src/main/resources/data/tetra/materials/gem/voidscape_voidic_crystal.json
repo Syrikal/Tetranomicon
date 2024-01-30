@@ -25,7 +25,7 @@
         "item": "voidscape:voidic_crystal"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:netherite"
+        "hammer": 6
     },
     "conditions": [
         {

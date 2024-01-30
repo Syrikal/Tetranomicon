@@ -25,7 +25,7 @@
         "item": "create:shadow_steel"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:iron"
+        "hammer": 4
     },
     "conditions": [
         {

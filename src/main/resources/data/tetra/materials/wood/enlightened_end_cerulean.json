@@ -22,7 +22,7 @@
         "item": "enlightened_end:cerulean_planks"
     },
     "requiredTools": {
-        "axe_dig": "minecraft:netherite"
+        "axe": 5
     },
     "conditions": [
         {

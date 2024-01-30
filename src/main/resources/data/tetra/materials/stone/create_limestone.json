@@ -23,7 +23,7 @@
         "item": "create:limestone"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:wood"
+        "hammer": 1
     },
     "conditions": [
         {

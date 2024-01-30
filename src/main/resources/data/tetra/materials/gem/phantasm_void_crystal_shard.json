@@ -29,7 +29,7 @@
         "item": "phantasm:void_crystal_spike_tip"
     },
     "requiredTools": {
-        "hammer_dig": "tetra:maxed_forge_hammer"
+        "hammer": 7
     },
     "conditions": [
         {

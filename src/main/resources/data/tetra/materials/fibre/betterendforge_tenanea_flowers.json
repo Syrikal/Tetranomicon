@@ -28,7 +28,7 @@
         "item": "betterendforge:tenanea_flowers"
     },
     "requiredTools": {
-        "cut": "minecraft:stone"
+        "cut": 2
     },
     "conditions": [
         {

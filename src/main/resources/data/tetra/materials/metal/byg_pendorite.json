@@ -23,7 +23,7 @@
         "item": "byg:pendorite_ingot"
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:netherite"
+        "hammer": 6
     },
     "conditions": [
         {

@@ -28,7 +28,7 @@
         "item": "betterendforge:tenanea_planks"
     },
     "requiredTools": {
-        "axe_dig": "tetra:maxed_forge_hammer"
+        "axe": 6
     },
     "conditions": [
         {
