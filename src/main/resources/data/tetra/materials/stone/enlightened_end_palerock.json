@@ -1,21 +1,27 @@
 {
     "key": "enlightened_end_palerock",
     "category": "stone",
-    "primary": 4.3,
+    "primary": 3.7,
     "secondary": 5.5,
     "tertiary": 0,
-    "durability": 1561,
-    "integrityCost": 2,
-    "integrityGain": 2,
-    "magicCapacity": 96,
-    "toolLevel": "minecraft:iron",
-    "toolEfficiency": 8,
+    "durability": 5,
+    "integrityCost": 8,
+    "integrityGain": 1,
+    "magicCapacity": 42,
+    "toolLevel": "tetranomicon:tier_eight",
+    "toolEfficiency": 2,
+    "improvements": {
+        "arrested": 0
+    },
+    "effects": {
+        "unstable": 25
+    },
     "tints": {
         "glyph": "919f8c",
         "texture": "919f8c"
     },
     "textures": [
-        "grainy",
+        "shiny",
         "crude",
         "default"
     ],
@@ -25,7 +31,7 @@
         ]
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:diamond"
+        "hammer_dig": "tetra:maxed_forge_hammer"
     },
     "conditions": [
         {

@@ -224,6 +224,8 @@
     "tetra.material.byg_sythian.prefix": "Sythian",
     "tetra.material.byg_therium": "Therium",
     "tetra.material.byg_therium.prefix": "Therium",
+    "tetra.material.byg_therium_crystal": "Therium Crystal",
+    "tetra.material.byg_therium_crystal.prefix": "Therium Crystal",
     "tetra.material.byg_wailing_vine": "Wailing Vine",
     "tetra.material.byg_wailing_vine.prefix": "Wailing Vine",
     "tetra.material.byg_white_mangrove": "White Mangrove",
@@ -661,6 +663,8 @@
     "tetra.material.phantasm_stellium.prefix": "Stellium",
     "tetra.material.phantasm_void_crystal": "Void Crystal",
     "tetra.material.phantasm_void_crystal.prefix": "Crystalline",
+    "tetra.material.phantasm_void_crystal_shard": "Void Crystal Shard",
+    "tetra.material.phantasm_void_crystal_shard.prefix": "Void Crystal",
     
     "tetra.material.socket_phantasm_crystal_shard": "Crystal Shard socket",
     "tetra.material.socket_phantasm_crystal_shard.prefix": "§bCrystal Shard§r",
@@ -881,8 +885,14 @@
     "tetra.material.twilightforest_twilight_oak.prefix": "Twilight Oak",
     
     
+    "tetra.material.unearthed_beige_limestone": "Beige Limestone",
+    "tetra.material.unearthed_beige_limestone.prefix": "Beige Limestone",
+    "tetra.material.unearthed_dolerite": "Dolerite",
+    "tetra.material.unearthed_dolerite.prefix": "Dolerite",
     "tetra.material.unearthed_gabbro": "Gabbro",
     "tetra.material.unearthed_gabbro.prefix": "Gabbro",
+    "tetra.material.unearthed_grey_limestone": "Grey Limestone",
+    "tetra.material.unearthed_grey_limestone.prefix": "Grey Limestone",
     "tetra.material.unearthed_limestone": "Limestone",
     "tetra.material.unearthed_limestone.prefix": "Limestone",
     "tetra.material.unearthed_phyllite": "Phyllite",
@@ -895,6 +905,8 @@
     "tetra.material.unearthed_schist.prefix": "Schist",
     "tetra.material.unearthed_slate": "Slate",
     "tetra.material.unearthed_slate.prefix": "Slate",
+    "tetra.material.unearthed_white_granite": "White Granite",
+    "tetra.material.unearthed_white_granite.prefix": "White Granite",
     
     
     "tetra.material.upgrade_aquatic_driftwood": "Driftwood",

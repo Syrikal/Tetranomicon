@@ -1,0 +1,36 @@
+{
+    "key": "unearthed_beige_limestone",
+    "category": "stone",
+    "primary": 4.2,
+    "secondary": 3.5,
+    "tertiary": 0,
+    "durability": 96,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 4,
+    "tints": {
+        "glyph": "EAD4A9",
+        "texture": "EAD4A9"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "unearthed:beige_limestone"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:wood"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "unearthed"
+        }
+    ]
+}
