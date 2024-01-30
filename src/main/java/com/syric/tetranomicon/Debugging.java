@@ -3,22 +3,19 @@ package com.syric.tetranomicon;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import com.mojang.datafixers.util.Either;
-import net.minecraft.ChatFormatting;
-import net.minecraft.advancements.critereon.ItemPredicate;
-import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.FormattedText;
-import net.minecraft.network.chat.TextComponent;
+import net.minecraft.advancements.criterion.ItemPredicate;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.tags.ItemTags;
-import net.minecraft.world.inventory.tooltip.TooltipComponent;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.client.event.RenderTooltipEvent;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.TextComponent;
+import net.minecraft.util.text.TextFormatting;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.event.ServerChatEvent;
+import net.minecraftforge.event.entity.player.ItemTooltipEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.registries.ForgeRegistries;
-import org.jetbrains.annotations.NotNull;
 import se.mickelus.tetra.ConfigHandler;
 import se.mickelus.tetra.data.DataManager;
 import se.mickelus.tetra.module.data.MaterialData;
@@ -30,24 +27,24 @@ import java.util.List;
 public class Debugging {
 
     @SubscribeEvent
-    void addToTooltip(RenderTooltipEvent.@NotNull GatherComponents event) {
+    void addToTooltip(ItemTooltipEvent event) {
         if (true) {
             return;
         }
         if (!ConfigHandler.development.get()) {
             return;
         }
-        List<Either<FormattedText, TooltipComponent>> components = event.getTooltipElements();
+        List<ITextComponent> components = event.getToolTip();
         String item_id = event.getItemStack().getItem().toString();
         String mod_id = event.getItemStack().getItem().getCreatorModId(event.getItemStack());
         mod_id = mod_id == null ? " " : mod_id;
         ItemStack stack = event.getItemStack();
 
-        boolean likelyCandidateTags = (stack.is(Tags.Items.STONE) || stack.is(ItemTags.PLANKS) || stack.is(Tags.Items.INGOTS) || stack.is(Tags.Items.GEMS));
+        boolean likelyCandidateTags = (stack.getItem().is(Tags.Items.STONE) || stack.getItem().is(ItemTags.PLANKS) || stack.getItem().is(Tags.Items.INGOTS) || stack.getItem().is(Tags.Items.GEMS));
         boolean likelyCandidateID = (item_id.contains("planks") || item_id.contains("ingot"));
         boolean minecraft = mod_id.contains("minecraft");
         boolean likelyCandidate = likelyCandidateID || likelyCandidateTags && !minecraft;
-        boolean isTetraMaterial = DataManager.instance.materialData.getData().values().stream().anyMatch(x -> {
+        boolean isTetraMaterial = DataManager.materialData.getData().values().stream().anyMatch(x -> {
             ItemPredicate predicate = x.material.getPredicate();
             if (predicate != null) {
                 if (x.material.isTagged()) {
@@ -59,19 +56,16 @@ public class Debugging {
         });
 
         if (likelyCandidate && !isTetraMaterial) {
-            Component newComponent = new TextComponent("LIKELY CANDIDATE IS NOT MATERIAL!").withStyle(ChatFormatting.RED);
-            Either<FormattedText, TooltipComponent> eitherComponent = Either.left(newComponent);
-            components.add(eitherComponent);
+            TextComponent newComponent = (TextComponent) new StringTextComponent("LIKELY CANDIDATE IS NOT MATERIAL!").withStyle(TextFormatting.RED);
+            components.add(newComponent);
         }
         if (likelyCandidate) {
-            Component newComponent = new TextComponent("Item is a likely candidate").withStyle(ChatFormatting.BLUE);
-            Either<FormattedText, TooltipComponent> eitherComponent = Either.left(newComponent);
-            components.add(eitherComponent);
+            TextComponent newComponent = (TextComponent) new StringTextComponent("Item is a likely candidate").withStyle(TextFormatting.BLUE);
+            components.add(newComponent);
         }
         if (isTetraMaterial) {
-            Component newComponent = new TextComponent("Item is a Tetra material!").withStyle(ChatFormatting.GREEN);
-            Either<FormattedText, TooltipComponent> eitherComponent = Either.left(newComponent);
-            components.add(eitherComponent);
+            TextComponent newComponent = (TextComponent) new StringTextComponent("Item is a Tetra material!").withStyle(TextFormatting.GREEN);
+            components.add(newComponent);
         }
 
     }
@@ -84,7 +78,7 @@ public class Debugging {
         String rawText = event.getMessage();
         if (rawText.contains("tetranomicon check missing")) {
             Tetranomicon.LOGGER.debug("Tetranomicon: scanning for missing materials...");
-            for (MaterialData materialData : DataManager.instance.materialData.getData().values()) {
+            for (MaterialData materialData : DataManager.materialData.getData().values()) {
 //                Tetranomicon.LOGGER.debug("Checking material " + materialData.key);
                 if (materialData.material.getApplicableItemStacks().length == 0) {
                     Tetranomicon.LOGGER.debug("Material missing item: " + materialData.key);
@@ -108,12 +102,12 @@ public class Debugging {
                         ItemStack stack = x.getValue().getDefaultInstance();
                         String item_id = x.getValue().toString();
                         String mod_id = x.getValue().getCreatorModId(stack);
-                        boolean likelyCandidateTags = (stack.is(Tags.Items.STONE) || stack.is(ItemTags.PLANKS) || stack.is(Tags.Items.INGOTS) || stack.is(Tags.Items.GEMS));
+                        boolean likelyCandidateTags = (stack.getItem().is(Tags.Items.STONE) || stack.getItem().is(ItemTags.PLANKS) || stack.getItem().is(Tags.Items.INGOTS) || stack.getItem().is(Tags.Items.GEMS));
                         boolean likelyCandidateID = (item_id.contains("planks") || item_id.contains("ingot")) || item_id.contains("vine") || item_id.contains("bone");
                         boolean minecraft = mod_id == null || mod_id.contains("minecraft");
                         return likelyCandidateID || likelyCandidateTags && !minecraft;
                     })
-                    .filter(x -> DataManager.instance.materialData.getData().values().stream().noneMatch(y -> {
+                    .filter(x -> DataManager.materialData.getData().values().stream().noneMatch(y -> {
                         ItemPredicate predicate = y.material.getPredicate();
                         if (predicate != null) {
                             if (y.material.isTagged()) {
@@ -143,7 +137,7 @@ public class Debugging {
         String rawText = event.getMessage();
         if (rawText.contains("tetranomicon missing replacements")) {
             Tetranomicon.LOGGER.debug("Tetranomicon: scanning for missing replacements...");
-            DataManager.instance.replacementData.getData().values().forEach(replacementList -> Arrays.stream(replacementList).filter(replacement ->
+            DataManager.replacementData.getData().values().forEach(replacementList -> Arrays.stream(replacementList).filter(replacement ->
                 ForgeRegistries.ITEMS.getEntries().stream().noneMatch(item -> replacement.predicate.matches(item.getValue().getDefaultInstance())))
                     .forEach(replacement -> {
                         JsonObject jsonObject = replacement.predicate.serializeToJson().getAsJsonObject();
@@ -187,7 +181,7 @@ public class Debugging {
 
                         return likelyCandidateStrings && !minecraft;
                     })
-                    .filter(x -> DataManager.instance.replacementData.getData().values().stream().noneMatch(replacementList -> {
+                    .filter(x -> DataManager.replacementData.getData().values().stream().noneMatch(replacementList -> {
                         ItemStack stack = x.getValue().getDefaultInstance();
                         return Arrays.stream(replacementList).anyMatch(replacement -> replacement.predicate.matches(stack));
                     }))

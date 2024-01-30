@@ -103,108 +103,91 @@ dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
     //Tetra: Requires mutil
-    implementation fg.deobf("curse.maven:tetra-289712:4029100")
-    implementation fg.deobf("curse.maven:scroll-of-harvests-571339:3805701")
+    implementation fg.deobf("curse.maven:tetra-289712:3585032")
 
     //PREVIOUSLY SUPPORTED
     //Abnormals: Atmospheric, Autumnity, Environmental, Upgrade Aquatic. Require Blueprint.
-    implementation fg.deobf("curse.maven:atmospheric-362393:4367068")
-    implementation fg.deobf("curse.maven:autumnity-365045:4365141")
-    implementation fg.deobf("curse.maven:environmental-388992:4381294")
-    implementation fg.deobf("curse.maven:upgrade-aquatic-326895:4365140")
+    implementation fg.deobf("curse.maven:atmospheric-362393:3553332")
+    implementation fg.deobf("curse.maven:autumnity-365045:3553317")
+    implementation fg.deobf("curse.maven:environmental-388992:3561534")
+    implementation fg.deobf("curse.maven:upgrade-aquatic-326895:3561148")
 
-    //BOP (requires Terrablender)
-    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:3827434")
+    //BOP
+    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:3913914")
 
-    //BYG (requires Terrablender)
-    implementation fg.deobf("curse.maven:oh-the-biomes-youll-go-247560:4036050")
+    //BYG
+    implementation fg.deobf("curse.maven:oh-the-biomes-youll-go-247560:4024011")
 
     //Create (requires Flywheel)
-    implementation fg.deobf("curse.maven:create-328085:4371807")
+    implementation fg.deobf("curse.maven:create-328085:3536025")
 
     //Enderite
-    implementation fg.deobf("curse.maven:enderite-mod-for-forge-401284:4287555")
+    implementation fg.deobf("curse.maven:enderite-mod-for-forge-401284:3308100")
 
-    //Ice and Fire (requires Citadel)
-    implementation fg.deobf("curse.maven:ice-and-fire-dragons-264231:5037775")
+//    //Ice and Fire (requires Citadel)
+//    implementation fg.deobf("curse.maven:ice-and-fire-dragons-264231:4614457")
 
     //Quark (requires AutoRegLib)
-    implementation fg.deobf("curse.maven:quark-243121:3840125")
+    implementation fg.deobf("curse.maven:quark-243121:3642325")
 
     //Stalwart Dungeons
-    implementation fg.deobf("curse.maven:stalwart-dungeons-474817:4499652")
+    implementation fg.deobf("curse.maven:stalwart-dungeons-474817:3495397")
 
     //Twilight Forest
-    implementation fg.deobf("curse.maven:the-twilight-forest-227639:4337390")
+    implementation fg.deobf("curse.maven:the-twilight-forest-227639:3575220")
 
-    //Unearthed (requires Hyle)
-    implementation fg.deobf("curse.maven:unearthed-406825:3999558")
-
-
-
-    //SET ONE
-    //Blue Skies (requires Structure Gel)
-    implementation fg.deobf("curse.maven:blue-skies-312918:3788736")
-    //Mo' Shiz
-    implementation fg.deobf("curse.maven:mo-shiz-mod-62536:4275792")
-    //Ores Above Diamonds
-    implementation fg.deobf("curse.maven:ores-above-diamonds-351339:3725964")
-    //Regions Unexplored
-    implementation fg.deobf("curse.maven:regions-unexplored-659110:4554212")
+    //Unearthed
+    implementation fg.deobf("curse.maven:unearthed-406825:3636005")
 
 
-    //SET TWO
-    //Endless Biomes
-    implementation fg.deobf("curse.maven:endless-biomes-667688:4479003")
-    //Enlightend
-    implementation fg.deobf("curse.maven:enlightend-502786:4747152")
-    //Galosphere
-    implementation fg.deobf("curse.maven:galosphere-631098:4398234")
-//    //Voidscape
-//    implementation fg.deobf("curse.maven:voidscape-251730:3841775")
-    //Organics
-    implementation fg.deobf("curse.maven:organics-411399:3823247")
-
-
-    //SET THREE
-    //End's Phantasm
-    implementation fg.deobf("curse.maven:phantasm-565254:4397243")
-    //Silent Gear
-    implementation fg.deobf("curse.maven:silent-gear-297039:4361861")
-    //Silent's Gems (requires SilentLib)
-    implementation fg.deobf("curse.maven:silents-gems-220311:3780216")
-    //Aquamirae (requires Obscure API)
-    implementation fg.deobf("curse.maven:ob-aquamirae-536254:4094454")
-
-
-    //SET FOUR
-//    //Epic Samurai (requires GeckoLib)
-////    implementation fg.deobf("curse.maven:epic-samurais-848381:4645523")
-    //Ecologics
-    implementation fg.deobf("curse.maven:ecologics-570463:4171283")
+//    //SET ONE
+//    //Blue Skies (requires Structure Gel)
+//    implementation fg.deobf("curse.maven:blue-skies-312918:3788736")
+//    //Mo' Shiz
+//    implementation fg.deobf("curse.maven:mo-shiz-mod-62536:4275792")
+//    //Ores Above Diamonds
+//    implementation fg.deobf("curse.maven:ores-above-diamonds-351339:3725964")
+//
+//
+//    //SET TWO
+//    //Enlightend
+//    implementation fg.deobf("curse.maven:enlightend-502786:4747152")
+////    //Voidscape
+////    implementation fg.deobf("curse.maven:voidscape-251730:3841775")
+//    //Organics
+//    implementation fg.deobf("curse.maven:organics-411399:3823247")
+//
+//
+//    //SET THREE
+//    //End's Phantasm
+//    implementation fg.deobf("curse.maven:phantasm-565254:4397243")
+//    //Silent Gear
+//    implementation fg.deobf("curse.maven:silent-gear-297039:4361861")
+//    //Silent's Gems (requires SilentLib)
+//    implementation fg.deobf("curse.maven:silents-gems-220311:3780216")
+//    //Aquamirae (requires Obscure API)
+//    implementation fg.deobf("curse.maven:ob-aquamirae-536254:4094454")
 
 
     //Libraries and Dependencies
-    implementation fg.deobf("curse.maven:mutil-351914:3788376") //For Tetra
-    implementation fg.deobf("curse.maven:blueprint-382216:3991478") //For Abnormals
-    implementation fg.deobf("curse.maven:terrablender-563928:3957976") //For BOP, BYG, Nature Arise
-    implementation fg.deobf("curse.maven:flywheel-486392:4341461") // For Create
-    implementation fg.deobf("curse.maven:citadel-331936:3783096") // For Ice & Fire
-    implementation fg.deobf("curse.maven:autoreglib-250363:3642382") //For Quark
-    implementation fg.deobf("curse.maven:hyle-609850:3748968") //For Unearthed
+    implementation fg.deobf("curse.maven:mutil-351914:3456505") //For Tetra
+    implementation fg.deobf("curse.maven:blueprint-382216:3607198") //For Abnormals
+    implementation fg.deobf("curse.maven:flywheel-486392:3535459") // For Create
+    implementation fg.deobf("curse.maven:citadel-331936:3441028") // For Ice & Fire
+    implementation fg.deobf("curse.maven:autoreglib-250363:3326041") //For Quark
 
-    implementation fg.deobf("curse.maven:structure-gel-api-378802:4804138") //For Blue Skies
-
-    implementation fg.deobf("curse.maven:silent-lib-242998:3708359") //For Silent Gear and Silent's Gems
-    implementation fg.deobf("curse.maven:obscure-api-638417:4094396") //For Aquamirae
-
-    implementation fg.deobf("curse.maven:geckolib-388172:4181370") //For Epic Samurai
-
-
-    //JEI etc
-    implementation fg.deobf("curse.maven:jei-238222:4593548")
-    implementation fg.deobf("curse.maven:configured-457570:4462832")
-    implementation fg.deobf("curse.maven:just-enough-resources-jer-240630:3831559")
+//    implementation fg.deobf("curse.maven:structure-gel-api-378802:4804138") //For Blue Skies
+//
+//    implementation fg.deobf("curse.maven:silent-lib-242998:3708359") //For Silent Gear and Silent's Gems
+//    implementation fg.deobf("curse.maven:obscure-api-638417:4094396") //For Aquamirae
+//
+//    implementation fg.deobf("curse.maven:geckolib-388172:4181370") //For Epic Samurai
+//
+//
+//    //JEI etc
+//    implementation fg.deobf("curse.maven:jei-238222:4593548")
+//    implementation fg.deobf("curse.maven:configured-457570:4462832")
+//    implementation fg.deobf("curse.maven:just-enough-resources-jer-240630:3831559")
 
 
 //    //Optimization
