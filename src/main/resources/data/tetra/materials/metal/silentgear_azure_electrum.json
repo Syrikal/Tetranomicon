@@ -30,7 +30,7 @@
         ]
     },
     "requiredTools": {
-        "hammer_dig": "tetra:maxed_forge_hammer"
+        "hammer_dig": "tetranomicon:tier_seven"
     },
     "conditions": [
         {

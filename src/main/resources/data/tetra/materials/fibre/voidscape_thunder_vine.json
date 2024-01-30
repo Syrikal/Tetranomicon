@@ -24,7 +24,7 @@
         ]
     },
     "requiredTools": {
-        "cut": "tetra:maxed_forge_hammer"
+        "cut": "tetranomicon:tier_seven"
     },
     "conditions": [
         {
