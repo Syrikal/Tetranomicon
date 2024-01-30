@@ -1,15 +1,15 @@
 {
     "key": "byg_redwood",
     "category": "wood",
-    "primary": 3.2,
-    "secondary": 1.4,
-    "tertiary": 5,
-    "durability": 131,
-    "integrityCost": 1,
-    "integrityGain": 5,
-    "magicCapacity": 108,
-    "toolLevel": "minecraft:wood",
-    "toolEfficiency": 3,
+    "primary": "3.2",
+    "secondary": "1.4",
+    "tertiary": "5",
+    "durability": "131",
+    "integrityCost": "1",
+    "integrityGain": "5",
+    "magicCapacity": "108",
+    "toolLevel": "1",
+    "toolEfficiency": "3",
     "tints": {
         "glyph": "934931",
         "texture": "934931"
@@ -19,9 +19,7 @@
         "wooden"
     ],
     "material": {
-        "items": [
-            "byg:redwood_planks"
-        ]
+        "item": "byg:redwood_planks"
     },
     "requiredTools": {
         "axe_dig": "minecraft:wood"

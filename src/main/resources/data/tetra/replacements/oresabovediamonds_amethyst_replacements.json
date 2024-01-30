@@ -7,9 +7,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "oresabovediamonds:amethyst_axe"
-            ]
+            "item": "oresabovediamonds:amethyst_axe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -35,9 +33,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "oresabovediamonds:amethyst_hoe"
-            ]
+            "item": "oresabovediamonds:amethyst_hoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -63,9 +59,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "oresabovediamonds:amethyst_pickaxe"
-            ]
+            "item": "oresabovediamonds:amethyst_pickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -91,9 +85,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "oresabovediamonds:amethyst_shovel"
-            ]
+            "item": "oresabovediamonds:amethyst_shovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -115,9 +107,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "oresabovediamonds:amethyst_sword"
-            ]
+            "item": "oresabovediamonds:amethyst_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {

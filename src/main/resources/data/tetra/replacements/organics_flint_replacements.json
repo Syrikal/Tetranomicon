@@ -7,9 +7,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "organics:flint_axe"
-            ]
+            "item": "organics:flint_axe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -35,9 +33,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "organics:flint_hoe"
-            ]
+            "item": "organics:flint_hoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -63,9 +59,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "organics:flint_pickaxe"
-            ]
+            "item": "organics:flint_pickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -91,9 +85,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "organics:flint_shovel"
-            ]
+            "item": "organics:flint_shovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -115,9 +107,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "organics:flint_sword"
-            ]
+            "item": "organics:flint_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {

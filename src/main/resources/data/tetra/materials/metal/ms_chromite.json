@@ -1,15 +1,15 @@
 {
     "key": "ms_chromite",
     "category": "metal",
-    "primary": 5.2,
-    "secondary": 4.3,
-    "tertiary": 3,
-    "durability": 550,
-    "integrityCost": 2,
-    "integrityGain": 5,
-    "magicCapacity": 66,
-    "toolLevel": "minecraft:iron",
-    "toolEfficiency": 6.4,
+    "primary": "5.2",
+    "secondary": "4.3",
+    "tertiary": "3",
+    "durability": "550",
+    "integrityCost": "2",
+    "integrityGain": "5",
+    "magicCapacity": "66",
+    "toolLevel": "3",
+    "toolEfficiency": "6.4",
     "tints": {
         "glyph": "ff4040",
         "texture": "ff4040"
@@ -20,9 +20,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "ms:gem/chromite_ingot"
-        ]
+        "item": "ms:gem/chromiteingot"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:stone"

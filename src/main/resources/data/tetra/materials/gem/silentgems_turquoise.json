@@ -1,15 +1,15 @@
 {
     "key": "silentgems_turquoise",
     "category": "gem",
-    "primary": 6,
-    "secondary": 2.6,
-    "tertiary": 0,
-    "durability": 1536,
-    "integrityCost": 2,
-    "integrityGain": 2,
-    "magicCapacity": 90,
-    "toolLevel": "minecraft:diamond",
-    "toolEfficiency": 8,
+    "primary": "6",
+    "secondary": "2.6",
+    "tertiary": "0",
+    "durability": "1536",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "90",
+    "toolLevel": "4",
+    "toolEfficiency": "8",
     "tints": {
         "glyph": "3df4bd",
         "texture": "3df4bd"
@@ -19,9 +19,7 @@
         "crude"
     ],
     "material": {
-        "items": [
-            "silentgems:turquoise"
-        ]
+        "item": "silentgems:turquoise"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:stone"

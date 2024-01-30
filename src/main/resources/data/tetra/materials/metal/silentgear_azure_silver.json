@@ -1,15 +1,15 @@
 {
     "key": "silentgear_azure_silver",
     "category": "metal",
-    "primary": 8,
-    "secondary": 2.5,
-    "tertiary": 2,
-    "durability": 197,
-    "integrityCost": 3,
-    "integrityGain": 4,
-    "magicCapacity": 174,
-    "toolLevel": "minecraft:diamond",
-    "toolEfficiency": 19,
+    "primary": "8",
+    "secondary": "2.5",
+    "tertiary": "2",
+    "durability": "197",
+    "integrityCost": "3",
+    "integrityGain": "4",
+    "magicCapacity": "174",
+    "toolLevel": "4",
+    "toolEfficiency": "19",
     "improvements": {
         "workable": 1
     },
@@ -26,9 +26,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "silentgear:azure_silver_ingot"
-        ]
+        "item": "silentgear:azure_silver_ingot"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:netherite"

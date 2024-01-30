@@ -1,15 +1,15 @@
 {
     "key": "blue_skies_pyrope",
     "category": "gem",
-    "primary": 4.5,
-    "secondary": 3.2,
-    "tertiary": 0,
-    "durability": 200,
-    "integrityCost": 2,
-    "integrityGain": 2,
-    "magicCapacity": 60,
-    "toolLevel": "minecraft:stone",
-    "toolEfficiency": 11,
+    "primary": "4.5",
+    "secondary": "3.2",
+    "tertiary": "0",
+    "durability": "200",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "60",
+    "toolLevel": "2",
+    "toolEfficiency": "11",
     "tints": {
         "glyph": "d62438",
         "texture": "d62438"
@@ -19,9 +19,7 @@
         "crude"
     ],
     "material": {
-        "items": [
-            "blue_skies:pyrope_gem"
-        ]
+        "item": "blue_skies:pyrope_gem"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:gold"

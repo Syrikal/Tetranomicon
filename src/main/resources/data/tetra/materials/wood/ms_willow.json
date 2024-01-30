@@ -1,15 +1,15 @@
 {
     "key": "ms_willow",
     "category": "wood",
-    "primary": 2,
-    "secondary": 1.2,
-    "tertiary": 7,
-    "durability": 48,
-    "integrityCost": 1,
-    "integrityGain": 2,
-    "magicCapacity": 108,
-    "toolLevel": "minecraft:wood",
-    "toolEfficiency": 3,
+    "primary": "2",
+    "secondary": "1.2",
+    "tertiary": "7",
+    "durability": "48",
+    "integrityCost": "1",
+    "integrityGain": "2",
+    "magicCapacity": "108",
+    "toolLevel": "1",
+    "toolEfficiency": "3",
     "tints": {
         "glyph": "c69b5b",
         "texture": "c69b5b"
@@ -19,9 +19,7 @@
         "wooden"
     ],
     "material": {
-        "items": [
-            "ms:nature/willow_planks"
-        ]
+        "item": "ms:nature/willowplank"
     },
     "requiredTools": {
         "axe_dig": "minecraft:wood"

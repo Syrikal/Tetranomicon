@@ -1,15 +1,15 @@
 {
     "key": "create_scoria",
     "category": "stone",
-    "primary": 3.5,
-    "secondary": 2.4,
-    "tertiary": 0,
-    "durability": 96,
-    "integrityCost": 1,
-    "integrityGain": 4,
-    "magicCapacity": 102,
-    "toolLevel": "minecraft:stone",
-    "toolEfficiency": 4,
+    "primary": "3.5",
+    "secondary": "2.4",
+    "tertiary": "0",
+    "durability": "96",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "102",
+    "toolLevel": "2",
+    "toolEfficiency": "4",
     "tints": {
         "glyph": "712f25",
         "texture": "712f25"
@@ -20,9 +20,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "create:scoria"
-        ]
+        "item": "create:scoria"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:wood"

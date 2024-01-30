@@ -1,15 +1,15 @@
 {
     "key": "voidscape_thunder",
     "category": "wood",
-    "primary": 5.3,
-    "secondary": 1.7,
-    "tertiary": 8,
-    "durability": 2031,
-    "integrityCost": 2,
-    "integrityGain": 9,
-    "magicCapacity": 90,
-    "toolLevel": "minecraft:iron",
-    "toolEfficiency": 6,
+    "primary": "5.3",
+    "secondary": "1.7",
+    "tertiary": "8",
+    "durability": "2031",
+    "integrityCost": "2",
+    "integrityGain": "9",
+    "magicCapacity": "90",
+    "toolLevel": "3",
+    "toolEfficiency": "6",
     "tints": {
         "glyph": "51418f",
         "texture": "51418f"
@@ -19,9 +19,7 @@
         "wooden"
     ],
     "material": {
-        "items": [
-            "voidscape:thunder_planks"
-        ]
+        "item": "voidscape:thunder_planks"
     },
     "requiredTools": {
         "axe_dig": "tetra:maxed_forge_hammer"

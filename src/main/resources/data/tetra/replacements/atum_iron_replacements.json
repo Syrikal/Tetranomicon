@@ -1,0 +1,18 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "atum"
+            }
+        ],
+        "predicate": {
+            "item": "atum:iron_greatsword"
+        },
+        "item": "tetra:modular_sword",
+        "modules": {},
+        "improvements": {
+            "sword/blade:brutal": 0
+        }
+    }
+]

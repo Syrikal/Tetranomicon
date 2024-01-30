@@ -7,9 +7,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "organics:kuko_axe"
-            ]
+            "item": "organics:kuko_axe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -35,9 +33,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "organics:kuko_hoe"
-            ]
+            "item": "organics:kuko_hoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -63,9 +59,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "organics:kuko_pickaxe"
-            ]
+            "item": "organics:kuko_pickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -91,9 +85,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "organics:kuko_shovel"
-            ]
+            "item": "organics:kuko_shovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -115,9 +107,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "organics:kuko_sword"
-            ]
+            "item": "organics:kuko_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {

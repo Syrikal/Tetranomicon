@@ -1,15 +1,15 @@
 {
     "key": "atmospheric_passion_vine",
     "category": "fibre",
-    "primary": 5,
-    "secondary": 2.6,
-    "tertiary": 3,
-    "durability": 320,
-    "integrityCost": 1,
-    "integrityGain": 5,
-    "magicCapacity": 78,
-    "toolLevel": 0,
-    "toolEfficiency": 0,
+    "primary": "5",
+    "secondary": "2.6",
+    "tertiary": "3",
+    "durability": "320",
+    "integrityCost": "1",
+    "integrityGain": "5",
+    "magicCapacity": "78",
+    "toolLevel": "0",
+    "toolEfficiency": "0",
     "tints": {
         "glyph": "56963A",
         "texture": "56963A"
@@ -19,9 +19,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "atmospheric:passion_vine"
-        ]
+        "item": "atmospheric:passion_vine"
     },
     "requiredTools": {
         "cut": "minecraft:gold"

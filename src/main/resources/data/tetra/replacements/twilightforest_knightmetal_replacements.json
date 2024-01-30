@@ -7,9 +7,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "twilightforest:knightmetal_axe"
-            ]
+            "item": "twilightforest:knightmetal_axe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -35,9 +33,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "twilightforest:knightmetal_pickaxe"
-            ]
+            "item": "twilightforest:knightmetal_pickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -63,9 +59,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "twilightforest:knightmetal_sword"
-            ]
+            "item": "twilightforest:knightmetal_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {

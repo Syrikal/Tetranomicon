@@ -111,6 +111,169 @@
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
+                    "modid": "atum"
+                }
+            ],
+            "key": "sword_socket/atum_godshard",
+            "category": "gem",
+            "durability": 1024,
+            "integrity": 2,
+            "attributes": {
+                "**generic.attack_damage": 0.5,
+                "**generic.attack_speed": 0.1,
+                "**generic.movement_speed": 0.2
+            },
+            "tools": {
+                "axe": [
+                    0,
+                    6.0
+                ],
+                "shovel": [
+                    0,
+                    6.0
+                ],
+                "pickaxe": [
+                    0,
+                    6.0
+                ],
+                "hoe": [
+                    0,
+                    6.0
+                ],
+                "cut": [
+                    0,
+                    6.0
+                ]
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "betterendforge"
+                }
+            ],
+            "key": "sword_socket/betterendforge_aurora_crystal",
+            "category": "gem",
+            "integrity": 1,
+            "effects": {
+                "intuit": 2
+            },
+            "tools": {
+                "axe": [
+                    0,
+                    2.0
+                ],
+                "shovel": [
+                    0,
+                    2.0
+                ],
+                "pickaxe": [
+                    0,
+                    2.0
+                ],
+                "hoe": [
+                    0,
+                    2.0
+                ],
+                "cut": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "862ec0",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "862ec0"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "betterendforge"
+                }
+            ],
+            "key": "sword_socket/betterendforge_eternal_crystal",
+            "category": "gem",
+            "durability": 1024,
+            "integrity": 2,
+            "effects": {
+                "intuit": 4
+            },
+            "tools": {
+                "axe": [
+                    1,
+                    4.0
+                ],
+                "shovel": [
+                    1,
+                    4.0
+                ],
+                "pickaxe": [
+                    1,
+                    4.0
+                ],
+                "hoe": [
+                    1,
+                    4.0
+                ],
+                "cut": [
+                    1,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "00fbf8",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "00fbf8"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "betterendforge"
+                }
+            ],
+            "key": "sword_socket/betterendforge_smaragdant",
+            "category": "gem",
+            "durability": 250,
+            "integrity": 1,
+            "effects": {
+                "criticalStrike": [
+                    25,
+                    2.5
+                ]
+            },
+            "glyph": {
+                "tint": "00cca6",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "00cca6"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
                     "modid": "blue_skies"
                 }
             ],
@@ -359,33 +522,6 @@
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
-                    "modid": "endlessbiomes"
-                }
-            ],
-            "key": "sword_socket/endlessbiomes_riftite_shard",
-            "category": "gem",
-            "integrity": 1,
-            "attributes": {
-                "**generic.movement_speed": 0.1,
-                "**generic.attack_speed": 0.1,
-                "**generic.attack_knockback": 1
-            },
-            "glyph": {
-                "tint": "50c9a7",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "50c9a7"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
                     "modid": "enlightened_end"
                 }
             ],
@@ -484,356 +620,6 @@
                 {
                     "location": "tetra:items/module/sword/guard/socket/default",
                     "tint": "57d996"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "epicsamurai"
-                }
-            ],
-            "key": "sword_socket/epicsamurai_aquamarine",
-            "category": "gem",
-            "integrity": 1,
-            "attributes": {
-                "**generic.attack_damage": 0.2
-            },
-            "glyph": {
-                "tint": "5f9fbf",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "5f9fbf"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "epicsamurai"
-                }
-            ],
-            "key": "sword_socket/epicsamurai_jade",
-            "category": "gem",
-            "integrity": 1,
-            "attributes": {
-                "generic.armor": 2
-            },
-            "effects": {
-                "criticalStrike": [
-                    15,
-                    2
-                ]
-            },
-            "glyph": {
-                "tint": "6cd49d",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "6cd49d"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "epicsamurai"
-                }
-            ],
-            "key": "sword_socket/epicsamurai_onyx",
-            "category": "gem",
-            "durability": 512,
-            "integrity": 1,
-            "effects": {
-                "ArmorPenetration": 20
-            },
-            "tools": {
-                "axe": [
-                    0,
-                    2.0
-                ],
-                "shovel": [
-                    0,
-                    2.0
-                ],
-                "pickaxe": [
-                    0,
-                    2.0
-                ],
-                "hoe": [
-                    0,
-                    2.0
-                ],
-                "cut": [
-                    0,
-                    2.0
-                ]
-            },
-            "glyph": {
-                "tint": "eed4bf",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "eed4bf"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "epicsamurai"
-                }
-            ],
-            "key": "sword_socket/epicsamurai_ruby",
-            "category": "gem",
-            "integrity": 1,
-            "attributes": {
-                "**generic.attack_damage": 0.1
-            },
-            "tools": {
-                "axe": [
-                    0,
-                    2.0
-                ],
-                "shovel": [
-                    0,
-                    2.0
-                ],
-                "pickaxe": [
-                    0,
-                    2.0
-                ],
-                "hoe": [
-                    0,
-                    2.0
-                ],
-                "cut": [
-                    0,
-                    2.0
-                ]
-            },
-            "glyph": {
-                "tint": "b71643",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "b71643"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "galosphere"
-                }
-            ],
-            "key": "sword_socket/galosphere_allurite_shard",
-            "category": "gem",
-            "integrity": 1,
-            "attributes": {
-                "generic.armor": 2,
-                "generic.armor_toughness": 2
-            },
-            "glyph": {
-                "tint": "8affff",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "8affff"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "galosphere"
-                }
-            ],
-            "key": "sword_socket/galosphere_glinted_allurite_cluster",
-            "category": "gem",
-            "durability": 512,
-            "integrity": 1,
-            "attributes": {
-                "generic.armor": 4,
-                "generic.armor_toughness": 4
-            },
-            "tools": {
-                "axe": [
-                    0,
-                    2.0
-                ],
-                "shovel": [
-                    0,
-                    2.0
-                ],
-                "pickaxe": [
-                    0,
-                    2.0
-                ],
-                "hoe": [
-                    0,
-                    2.0
-                ],
-                "cut": [
-                    0,
-                    2.0
-                ]
-            },
-            "glyph": {
-                "tint": "24f6d8",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "24f6d8"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "galosphere"
-                }
-            ],
-            "key": "sword_socket/galosphere_glinted_amethyst_cluster",
-            "category": "gem",
-            "integrity": 1,
-            "effects": {
-                "criticalStrike": [
-                    20,
-                    3
-                ]
-            },
-            "glyph": {
-                "tint": "8d6acc",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "8d6acc"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "galosphere"
-                }
-            ],
-            "key": "sword_socket/galosphere_glinted_lumiere_cluster",
-            "category": "gem",
-            "durability": 714,
-            "integrity": 1,
-            "effects": {
-                "stabilizing": 25
-            },
-            "tools": {
-                "axe": [
-                    0,
-                    4.0
-                ],
-                "shovel": [
-                    0,
-                    4.0
-                ],
-                "pickaxe": [
-                    0,
-                    4.0
-                ],
-                "hoe": [
-                    0,
-                    4.0
-                ],
-                "cut": [
-                    0,
-                    4.0
-                ]
-            },
-            "glyph": {
-                "tint": "eba138",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "eba138"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "galosphere"
-                }
-            ],
-            "key": "sword_socket/galosphere_lumiere_shard",
-            "category": "gem",
-            "durability": 512,
-            "integrity": 1,
-            "effects": {
-                "stabilizing": 15
-            },
-            "tools": {
-                "axe": [
-                    0,
-                    2.0
-                ],
-                "shovel": [
-                    0,
-                    2.0
-                ],
-                "pickaxe": [
-                    0,
-                    2.0
-                ],
-                "hoe": [
-                    0,
-                    2.0
-                ],
-                "cut": [
-                    0,
-                    2.0
-                ]
-            },
-            "glyph": {
-                "tint": "ffc559",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "ffc559"
                 }
             ]
         },
@@ -1724,6 +1510,101 @@
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
+                    "modid": "outer_end"
+                }
+            ],
+            "key": "sword_socket/outer_end_cobalt_crystal",
+            "category": "gem",
+            "integrity": 1,
+            "effects": {
+                "intuit": 3
+            },
+            "glyph": {
+                "tint": "768ed0",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "768ed0"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "outer_end"
+                }
+            ],
+            "key": "sword_socket/outer_end_mint_crystal",
+            "category": "gem",
+            "durability": 640,
+            "integrity": 1,
+            "tools": {
+                "axe": [
+                    0,
+                    3.0
+                ],
+                "shovel": [
+                    0,
+                    3.0
+                ],
+                "pickaxe": [
+                    0,
+                    3.0
+                ],
+                "hoe": [
+                    0,
+                    3.0
+                ],
+                "cut": [
+                    0,
+                    3.0
+                ]
+            },
+            "glyph": {
+                "tint": "6fc39c",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "6fc39c"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "outer_end"
+                }
+            ],
+            "key": "sword_socket/outer_end_rose_crystal",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.25
+            },
+            "glyph": {
+                "tint": "c56eb9",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "c56eb9"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
                     "modid": "phantasm"
                 }
             ],
@@ -1794,57 +1675,6 @@
                 {
                     "location": "tetra:items/module/sword/guard/socket/default",
                     "tint": "c99bc4"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "regions_unexplored"
-                }
-            ],
-            "key": "sword_socket/regions_unexplored_prismarite_cluster",
-            "category": "gem",
-            "durability": 256,
-            "integrity": 1,
-            "attributes": {
-                "**generic.movement_speed": 0.05
-            },
-            "effects": {
-                "intuit": 2
-            },
-            "tools": {
-                "axe": [
-                    0,
-                    4.0
-                ],
-                "shovel": [
-                    0,
-                    4.0
-                ],
-                "pickaxe": [
-                    0,
-                    4.0
-                ],
-                "hoe": [
-                    0,
-                    4.0
-                ],
-                "cut": [
-                    0,
-                    4.0
-                ]
-            },
-            "glyph": {
-                "tint": "abff6b",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "abff6b"
                 }
             ]
         },
@@ -2963,6 +2793,150 @@
                 {
                     "location": "tetra:items/module/sword/guard/socket/default",
                     "tint": "b03bd5"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "wyrmroost"
+                }
+            ],
+            "key": "sword_socket/wyrmroost_blue_geode",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.1
+            },
+            "tools": {
+                "axe": [
+                    0,
+                    2.0
+                ],
+                "shovel": [
+                    0,
+                    2.0
+                ],
+                "pickaxe": [
+                    0,
+                    2.0
+                ],
+                "hoe": [
+                    0,
+                    2.0
+                ],
+                "cut": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "225589",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "225589"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "wyrmroost"
+                }
+            ],
+            "key": "sword_socket/wyrmroost_purple_geode",
+            "category": "gem",
+            "durability": 768,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.25
+            },
+            "tools": {
+                "axe": [
+                    0,
+                    6.0
+                ],
+                "shovel": [
+                    0,
+                    6.0
+                ],
+                "pickaxe": [
+                    0,
+                    6.0
+                ],
+                "hoe": [
+                    0,
+                    6.0
+                ],
+                "cut": [
+                    0,
+                    6.0
+                ]
+            },
+            "glyph": {
+                "tint": "9b0dbf",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "9b0dbf"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "wyrmroost"
+                }
+            ],
+            "key": "sword_socket/wyrmroost_red_geode",
+            "category": "gem",
+            "durability": 640,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.15
+            },
+            "tools": {
+                "axe": [
+                    0,
+                    4.0
+                ],
+                "shovel": [
+                    0,
+                    4.0
+                ],
+                "pickaxe": [
+                    0,
+                    4.0
+                ],
+                "hoe": [
+                    0,
+                    4.0
+                ],
+                "cut": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "8d2e2f",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "8d2e2f"
                 }
             ]
         }

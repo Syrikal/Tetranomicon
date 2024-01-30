@@ -1,0 +1,33 @@
+{
+    "key": "endergetic_poise",
+    "category": "wood",
+    "primary": "4.5",
+    "secondary": "1",
+    "tertiary": "5",
+    "durability": "1561",
+    "integrityCost": "1",
+    "integrityGain": "7",
+    "magicCapacity": "102",
+    "toolLevel": "2",
+    "toolEfficiency": "5",
+    "tints": {
+        "glyph": "6e3c6f",
+        "texture": "6e3c6f"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "endergetic:poise_planks"
+    },
+    "requiredTools": {
+        "axe_dig": "tetra:maxed_forge_hammer"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "endergetic"
+        }
+    ]
+}

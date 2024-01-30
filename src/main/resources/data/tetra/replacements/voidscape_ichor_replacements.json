@@ -7,9 +7,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "voidscape:ichor_axe"
-            ]
+            "item": "voidscape:ichor_axe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -35,9 +33,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "voidscape:ichor_pickaxe"
-            ]
+            "item": "voidscape:ichor_pickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -63,9 +59,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "voidscape:ichor_sword"
-            ]
+            "item": "voidscape:ichor_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {

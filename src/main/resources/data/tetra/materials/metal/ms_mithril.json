@@ -1,15 +1,15 @@
 {
     "key": "ms_mithril",
     "category": "metal",
-    "primary": 5,
-    "secondary": 2.6,
-    "tertiary": 3,
-    "durability": 620,
-    "integrityCost": 2,
-    "integrityGain": 6,
-    "magicCapacity": 120,
-    "toolLevel": "minecraft:iron",
-    "toolEfficiency": 7.4,
+    "primary": "5",
+    "secondary": "2.6",
+    "tertiary": "3",
+    "durability": "620",
+    "integrityCost": "2",
+    "integrityGain": "6",
+    "magicCapacity": "120",
+    "toolLevel": "3",
+    "toolEfficiency": "7.4",
     "effects": {
         "stabilizing": 20
     },
@@ -23,9 +23,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "ms:gem/mithril_ingot"
-        ]
+        "item": "ms:gem/mithrilingot"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:gold"

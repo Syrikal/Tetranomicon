@@ -1,15 +1,15 @@
 {
     "key": "enlightened_end_adamantite",
     "category": "metal",
-    "primary": 8,
-    "secondary": 3.6,
-    "tertiary": 3,
-    "durability": 1561,
-    "integrityCost": 2,
-    "integrityGain": 6,
-    "magicCapacity": 90,
-    "toolLevel": "tetranomicon:tier_seven",
-    "toolEfficiency": 14,
+    "primary": "8",
+    "secondary": "3.6",
+    "tertiary": "3",
+    "durability": "1561",
+    "integrityCost": "2",
+    "integrityGain": "6",
+    "magicCapacity": "90",
+    "toolLevel": "6",
+    "toolEfficiency": "14",
     "tints": {
         "glyph": "4c7fff",
         "texture": "4c7fff"
@@ -20,9 +20,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "enlightened_end:adamantite_ingot"
-        ]
+        "item": "enlightened_end:adamantite_ingot"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:diamond"

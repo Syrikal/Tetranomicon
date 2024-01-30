@@ -1,0 +1,12 @@
+[
+    {
+        "enchantment": "minecraft:fire_aspect",
+        "improvement": "blazing_tool",
+        "extract": false
+    },
+    {
+        "enchantment": "minecraft:fire_aspect",
+        "improvement": "blazing_blade",
+        "extract": false
+    }
+]

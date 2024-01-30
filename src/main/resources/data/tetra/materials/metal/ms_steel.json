@@ -1,15 +1,15 @@
 {
     "key": "ms_steel",
     "category": "metal",
-    "primary": 5.6,
-    "secondary": 3.8,
-    "tertiary": 3,
-    "durability": 349,
-    "integrityCost": 2,
-    "integrityGain": 5,
-    "magicCapacity": 78,
-    "toolLevel": "minecraft:iron",
-    "toolEfficiency": 6.24,
+    "primary": "5.6",
+    "secondary": "3.8",
+    "tertiary": "3",
+    "durability": "349",
+    "integrityCost": "2",
+    "integrityGain": "5",
+    "magicCapacity": "78",
+    "toolLevel": "3",
+    "toolEfficiency": "6.24",
     "tints": {
         "glyph": "484848",
         "texture": "484848"
@@ -19,9 +19,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "ms:gem/steel_ingot"
-        ]
+        "item": "ms:gem/steelingot"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:stone"

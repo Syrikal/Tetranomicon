@@ -1,15 +1,15 @@
 {
     "key": "byg_red_rock",
     "category": "stone",
-    "primary": 3.8,
-    "secondary": 3,
-    "tertiary": 0,
-    "durability": 192,
-    "integrityCost": 1,
-    "integrityGain": 4,
-    "magicCapacity": 90,
-    "toolLevel": "minecraft:stone",
-    "toolEfficiency": 4,
+    "primary": "3.8",
+    "secondary": "3",
+    "tertiary": "0",
+    "durability": "192",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "2",
+    "toolEfficiency": "4",
     "tints": {
         "glyph": "914d2d",
         "texture": "914d2d"
@@ -20,9 +20,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "byg:red_rock"
-        ]
+        "item": "byg:red_rock"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:wood"

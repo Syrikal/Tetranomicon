@@ -1,15 +1,15 @@
 {
     "key": "atmospheric_yucca",
     "category": "wood",
-    "primary": 3,
-    "secondary": 1.4,
-    "tertiary": 4,
-    "durability": 48,
-    "integrityCost": 1,
-    "integrityGain": 4,
-    "magicCapacity": 90,
-    "toolLevel": "minecraft:wood",
-    "toolEfficiency": 2,
+    "primary": "3",
+    "secondary": "1.4",
+    "tertiary": "4",
+    "durability": "48",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "1",
+    "toolEfficiency": "2",
     "tints": {
         "glyph": "976253",
         "texture": "976253"
@@ -19,9 +19,7 @@
         "wooden"
     ],
     "material": {
-        "items": [
-            "atmospheric:yucca_planks"
-        ]
+        "item": "atmospheric:yucca_planks"
     },
     "requiredTools": {
         "axe_dig": "minecraft:wood"

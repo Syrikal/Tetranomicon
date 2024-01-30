@@ -1,15 +1,15 @@
 {
     "key": "silentgems_ammolite",
     "category": "gem",
-    "primary": 5,
-    "secondary": 2.5,
-    "tertiary": 0,
-    "durability": 1024,
-    "integrityCost": 2,
-    "integrityGain": 2,
-    "magicCapacity": 72,
-    "toolLevel": "minecraft:diamond",
-    "toolEfficiency": 8,
+    "primary": "5",
+    "secondary": "2.5",
+    "tertiary": "0",
+    "durability": "1024",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "72",
+    "toolLevel": "4",
+    "toolEfficiency": "8",
     "tints": {
         "glyph": "b834f9",
         "texture": "b834f9"
@@ -19,9 +19,7 @@
         "crude"
     ],
     "material": {
-        "items": [
-            "silentgems:ammolite"
-        ]
+        "item": "silentgems:ammolite"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:stone"

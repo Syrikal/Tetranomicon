@@ -1,15 +1,15 @@
 {
     "key": "iceandfire_lightning_dragonsteel",
     "category": "metal",
-    "primary": 24,
-    "secondary": 4.5,
-    "tertiary": 2,
-    "durability": 8000,
-    "integrityCost": 4,
-    "integrityGain": 6,
-    "magicCapacity": 60,
-    "toolLevel": "tetranomicon:tier_seven",
-    "toolEfficiency": 10,
+    "primary": "24",
+    "secondary": "4.5",
+    "tertiary": "2",
+    "durability": "8000",
+    "integrityCost": "4",
+    "integrityGain": "6",
+    "magicCapacity": "60",
+    "toolLevel": "6",
+    "toolEfficiency": "10",
     "tints": {
         "glyph": "856fb5",
         "texture": "856fb5"
@@ -19,9 +19,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "iceandfire:dragonsteel_lightning_ingot"
-        ]
+        "item": "iceandfire:dragonsteel_lightning_ingot"
     },
     "requiredTools": {
         "hammer_dig": "tetra:maxed_forge_hammer"

@@ -1,15 +1,15 @@
 {
     "key": "silentgems_black_diamond",
     "category": "gem",
-    "primary": 7,
-    "secondary": 2.9,
-    "tertiary": 0,
-    "durability": 1792,
-    "integrityCost": 2,
-    "integrityGain": 2,
-    "magicCapacity": 72,
-    "toolLevel": "minecraft:netherite",
-    "toolEfficiency": 9,
+    "primary": "7",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "1792",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "72",
+    "toolLevel": "5",
+    "toolEfficiency": "9",
     "effects": {
         "unbreaking": 1
     },
@@ -22,9 +22,7 @@
         "crude"
     ],
     "material": {
-        "items": [
-            "silentgems:black_diamond"
-        ]
+        "item": "silentgems:black_diamond"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:iron"

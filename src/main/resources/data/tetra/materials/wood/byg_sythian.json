@@ -1,15 +1,15 @@
 {
     "key": "byg_sythian",
     "category": "wood",
-    "primary": 2,
-    "secondary": 1.2,
-    "tertiary": 5,
-    "durability": 59,
-    "integrityCost": 1,
-    "integrityGain": 2,
-    "magicCapacity": 90,
-    "toolLevel": "minecraft:stone",
-    "toolEfficiency": 4,
+    "primary": "2",
+    "secondary": "1.2",
+    "tertiary": "5",
+    "durability": "59",
+    "integrityCost": "1",
+    "integrityGain": "2",
+    "magicCapacity": "90",
+    "toolLevel": "2",
+    "toolEfficiency": "4",
     "tints": {
         "glyph": "938126",
         "texture": "938126"
@@ -19,9 +19,7 @@
         "wooden"
     ],
     "material": {
-        "items": [
-            "byg:sythian_planks"
-        ]
+        "item": "byg:sythian_planks"
     },
     "requiredTools": {
         "axe_dig": "minecraft:iron"

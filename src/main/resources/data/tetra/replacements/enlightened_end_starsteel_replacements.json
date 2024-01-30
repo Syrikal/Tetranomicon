@@ -7,9 +7,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "enlightened_end:starsteel_axe"
-            ]
+            "item": "enlightened_end:starsteel_axe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -35,9 +33,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "enlightened_end:starsteel_hoe"
-            ]
+            "item": "enlightened_end:starsteel_hoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -63,9 +59,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "enlightened_end:starsteel_pickaxe"
-            ]
+            "item": "enlightened_end:starsteel_pickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -91,9 +85,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "enlightened_end:starsteel_shovel"
-            ]
+            "item": "enlightened_end:starsteel_shovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -115,9 +107,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "enlightened_end:starsteel_sword"
-            ]
+            "item": "enlightened_end:starsteel_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {

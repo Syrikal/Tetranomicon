@@ -1,15 +1,15 @@
 {
     "key": "silentgems_sapphire",
     "category": "gem",
-    "primary": 5,
-    "secondary": 2.9,
-    "tertiary": 0,
-    "durability": 512,
-    "integrityCost": 1,
-    "integrityGain": 2,
-    "magicCapacity": 72,
-    "toolLevel": "minecraft:iron",
-    "toolEfficiency": 6,
+    "primary": "5",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "512",
+    "integrityCost": "1",
+    "integrityGain": "2",
+    "magicCapacity": "72",
+    "toolLevel": "3",
+    "toolEfficiency": "6",
     "tints": {
         "glyph": "1849db",
         "texture": "1849db"
@@ -19,9 +19,7 @@
         "crude"
     ],
     "material": {
-        "items": [
-            "silentgems:sapphire"
-        ]
+        "item": "silentgems:sapphire"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:gold"

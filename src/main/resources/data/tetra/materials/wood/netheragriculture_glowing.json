@@ -1,0 +1,33 @@
+{
+    "key": "netheragriculture_glowing",
+    "category": "wood",
+    "primary": "4",
+    "secondary": "2.5",
+    "tertiary": "7.7",
+    "durability": "59",
+    "integrityCost": "2",
+    "integrityGain": "6",
+    "magicCapacity": "90",
+    "toolLevel": "2",
+    "toolEfficiency": "4",
+    "tints": {
+        "glyph": "dda14e",
+        "texture": "dda14e"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "netheragriculture:glowing_planks"
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "netheragriculture"
+        }
+    ]
+}

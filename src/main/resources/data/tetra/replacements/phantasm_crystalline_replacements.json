@@ -7,9 +7,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "phantasm:crystalline_axe"
-            ]
+            "item": "phantasm:crystalline_axe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -35,9 +33,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "phantasm:crystalline_hoe"
-            ]
+            "item": "phantasm:crystalline_hoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -63,9 +59,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "phantasm:crystalline_pickaxe"
-            ]
+            "item": "phantasm:crystalline_pickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -91,9 +85,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "phantasm:crystalline_shovel"
-            ]
+            "item": "phantasm:crystalline_shovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -115,9 +107,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "phantasm:crystalline_sword"
-            ]
+            "item": "phantasm:crystalline_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {

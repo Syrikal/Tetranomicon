@@ -1,15 +1,15 @@
 {
     "key": "ms_cobalt",
     "category": "metal",
-    "primary": 5.45,
-    "secondary": 3.8,
-    "tertiary": 3,
-    "durability": 481,
-    "integrityCost": 2,
-    "integrityGain": 5,
-    "magicCapacity": 60,
-    "toolLevel": "minecraft:iron",
-    "toolEfficiency": 7,
+    "primary": "5.45",
+    "secondary": "3.8",
+    "tertiary": "3",
+    "durability": "481",
+    "integrityCost": "2",
+    "integrityGain": "5",
+    "magicCapacity": "60",
+    "toolLevel": "3",
+    "toolEfficiency": "7",
     "tints": {
         "glyph": "2266a5",
         "texture": "2266a5"
@@ -19,9 +19,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "ms:gem/cobalt_ingot"
-        ]
+        "item": "ms:gem/cobaltingot"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:stone"

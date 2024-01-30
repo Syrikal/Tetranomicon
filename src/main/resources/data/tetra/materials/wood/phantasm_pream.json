@@ -1,15 +1,15 @@
 {
     "key": "phantasm_pream",
     "category": "wood",
-    "primary": 5.5,
-    "secondary": 1.9,
-    "tertiary": 5,
-    "durability": 1561,
-    "integrityCost": 2,
-    "integrityGain": 8,
-    "magicCapacity": 90,
-    "toolLevel": "minecraft:iron",
-    "toolEfficiency": 5,
+    "primary": "5.5",
+    "secondary": "1.9",
+    "tertiary": "5",
+    "durability": "1561",
+    "integrityCost": "2",
+    "integrityGain": "8",
+    "magicCapacity": "90",
+    "toolLevel": "3",
+    "toolEfficiency": "5",
     "tints": {
         "glyph": "dbb254",
         "texture": "dbb254"
@@ -19,9 +19,7 @@
         "wooden"
     ],
     "material": {
-        "items": [
-            "phantasm:pream_planks"
-        ]
+        "item": "phantasm:pream_planks"
     },
     "requiredTools": {
         "axe_dig": "minecraft:netherite"

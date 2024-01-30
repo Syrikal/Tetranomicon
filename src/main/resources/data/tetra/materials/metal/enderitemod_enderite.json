@@ -1,15 +1,18 @@
 {
     "key": "enderitemod_enderite",
     "category": "metal",
-    "primary": 8,
-    "secondary": 2.9,
-    "tertiary": 4,
-    "durability": 4096,
-    "integrityCost": 2,
-    "integrityGain": 6,
-    "magicCapacity": 102,
-    "toolLevel": "minecraft:netherite",
-    "toolEfficiency": 15,
+    "primary": "8",
+    "secondary": "2.9",
+    "tertiary": "4",
+    "durability": "4096",
+    "integrityCost": "2",
+    "integrityGain": "6",
+    "magicCapacity": "102",
+    "toolLevel": "5",
+    "toolEfficiency": "15",
+    "improvements": {
+        "enderite_void_floating_innate": 3
+    },
     "tints": {
         "glyph": "144038",
         "texture": "144038"
@@ -20,9 +23,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "enderitemod:enderite_ingot"
-        ]
+        "item": "enderitemod:enderite_ingot"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:netherite"

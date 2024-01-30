@@ -1,0 +1,10 @@
+[
+    {
+        "key": "blazing_blade",
+        "level": 4,
+        "enchantment": false,
+        "attributes": {
+            "generic.attack_speed": 0.4
+        }
+    }
+]

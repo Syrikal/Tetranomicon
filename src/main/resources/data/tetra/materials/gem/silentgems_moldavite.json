@@ -1,15 +1,15 @@
 {
     "key": "silentgems_moldavite",
     "category": "gem",
-    "primary": 7,
-    "secondary": 3.4,
-    "tertiary": 0,
-    "durability": 512,
-    "integrityCost": 2,
-    "integrityGain": 2,
-    "magicCapacity": 60,
-    "toolLevel": "minecraft:iron",
-    "toolEfficiency": 6,
+    "primary": "7",
+    "secondary": "3.4",
+    "tertiary": "0",
+    "durability": "512",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "60",
+    "toolLevel": "3",
+    "toolEfficiency": "6",
     "tints": {
         "glyph": "6f9a1e",
         "texture": "6f9a1e"
@@ -19,9 +19,7 @@
         "crude"
     ],
     "material": {
-        "items": [
-            "silentgems:moldavite"
-        ]
+        "item": "silentgems:moldavite"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:stone"

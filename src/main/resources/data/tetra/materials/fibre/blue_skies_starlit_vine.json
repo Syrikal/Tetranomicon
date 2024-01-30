@@ -1,15 +1,15 @@
 {
     "key": "blue_skies_starlit_vine",
     "category": "fibre",
-    "primary": 5,
-    "secondary": 1.6,
-    "tertiary": 3,
-    "durability": 320,
-    "integrityCost": 1,
-    "integrityGain": 4,
-    "magicCapacity": 108,
-    "toolLevel": 0,
-    "toolEfficiency": 0,
+    "primary": "5",
+    "secondary": "1.6",
+    "tertiary": "3",
+    "durability": "320",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "108",
+    "toolLevel": "0",
+    "toolEfficiency": "0",
     "effects": {
         "stabilizing": 15
     },
@@ -22,9 +22,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "blue_skies:starlit_vine"
-        ]
+        "item": "blue_skies:starlit_vine"
     },
     "requiredTools": {
         "cut": "minecraft:gold"

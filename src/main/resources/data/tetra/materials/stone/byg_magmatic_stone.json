@@ -1,15 +1,15 @@
 {
     "key": "byg_magmatic_stone",
     "category": "stone",
-    "primary": 4.3,
-    "secondary": 4.3,
-    "tertiary": 0,
-    "durability": 448,
-    "integrityCost": 1,
-    "integrityGain": 4,
-    "magicCapacity": 90,
-    "toolLevel": "minecraft:iron",
-    "toolEfficiency": 5,
+    "primary": "4.3",
+    "secondary": "4.3",
+    "tertiary": "0",
+    "durability": "448",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "3",
+    "toolEfficiency": "5",
     "effects": {
         "fierySelf": [
             1,
@@ -26,9 +26,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "byg:magmatic_stone"
-        ]
+        "item": "byg:magmatic_stone"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:gold"

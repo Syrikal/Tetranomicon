@@ -1,15 +1,15 @@
 {
     "key": "ms_tanzanite",
     "category": "gem",
-    "primary": 10,
-    "secondary": 2.9,
-    "tertiary": 0,
-    "durability": 850,
-    "integrityCost": 3,
-    "integrityGain": 2,
-    "magicCapacity": 60,
-    "toolLevel": "minecraft:diamond",
-    "toolEfficiency": 6,
+    "primary": "10",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "850",
+    "integrityCost": "3",
+    "integrityGain": "2",
+    "magicCapacity": "60",
+    "toolLevel": "4",
+    "toolEfficiency": "6",
     "tints": {
         "glyph": "9064ee",
         "texture": "9064ee"
@@ -19,9 +19,7 @@
         "crude"
     ],
     "material": {
-        "items": [
-            "ms:gem/tanzanite"
-        ]
+        "item": "ms:gem/tanzanite"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:netherite"

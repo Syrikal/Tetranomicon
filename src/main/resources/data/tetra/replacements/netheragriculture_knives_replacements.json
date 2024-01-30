@@ -1,0 +1,98 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "netheragriculture"
+            }
+        ],
+        "predicate": {
+            "item": "netheragriculture:diamond_knife"
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/short_blade",
+                "short_blade/diamond"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/stick"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/diamond"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/diamond"
+            ]
+        },
+        "improvements": {
+            "sword/blade:arrested": 0
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "netheragriculture"
+            }
+        ],
+        "predicate": {
+            "item": "netheragriculture:knife"
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/short_blade",
+                "short_blade/iron"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/stick"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/iron"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/iron"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "netheragriculture"
+            }
+        ],
+        "predicate": {
+            "item": "netheragriculture:netherite_knife"
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/short_blade",
+                "short_blade/netherite"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/stick"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/netherite"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/netherite"
+            ]
+        },
+        "improvements": {
+            "sword/hilt:basic_hilt/soot": 0
+        }
+    }
+]

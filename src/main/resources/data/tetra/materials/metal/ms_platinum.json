@@ -1,15 +1,15 @@
 {
     "key": "ms_platinum",
     "category": "metal",
-    "primary": 11.5,
-    "secondary": 4.4,
-    "tertiary": 2.5,
-    "durability": 1125,
-    "integrityCost": 3,
-    "integrityGain": 6,
-    "magicCapacity": 48,
-    "toolLevel": "minecraft:iron",
-    "toolEfficiency": 11.05,
+    "primary": "11.5",
+    "secondary": "4.4",
+    "tertiary": "2.5",
+    "durability": "1125",
+    "integrityCost": "3",
+    "integrityGain": "6",
+    "magicCapacity": "48",
+    "toolLevel": "3",
+    "toolEfficiency": "11.05",
     "tints": {
         "glyph": "c0c0c0",
         "texture": "c0c0c0"
@@ -20,9 +20,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "ms:gem/platinum_ingot"
-        ]
+        "item": "ms:gem/platinumingot"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:netherite"

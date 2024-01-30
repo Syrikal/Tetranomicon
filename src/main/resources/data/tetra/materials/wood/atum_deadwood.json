@@ -1,0 +1,33 @@
+{
+    "key": "atum_deadwood",
+    "category": "wood",
+    "primary": "4",
+    "secondary": "1.8",
+    "tertiary": "4.5",
+    "durability": "250",
+    "integrityCost": "1",
+    "integrityGain": "6",
+    "magicCapacity": "102",
+    "toolLevel": "2",
+    "toolEfficiency": "5",
+    "tints": {
+        "glyph": "8d8460",
+        "texture": "8d8460"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "atum:deadwood_planks"
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "atum"
+        }
+    ]
+}

@@ -1,15 +1,15 @@
 {
     "key": "biomesoplenty_willow_vine",
     "category": "fibre",
-    "primary": 3,
-    "secondary": 0.7,
-    "tertiary": 2.8,
-    "durability": 131,
-    "integrityCost": 1,
-    "integrityGain": 2,
-    "magicCapacity": 90,
-    "toolLevel": 0,
-    "toolEfficiency": 0,
+    "primary": "3",
+    "secondary": "0.7",
+    "tertiary": "2.8",
+    "durability": "131",
+    "integrityCost": "1",
+    "integrityGain": "2",
+    "magicCapacity": "90",
+    "toolLevel": "0",
+    "toolEfficiency": "0",
     "tints": {
         "glyph": "1e4b0a",
         "texture": "1e4b0a"
@@ -19,9 +19,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "biomesoplenty:willow_vine"
-        ]
+        "item": "biomesoplenty:willow_vine"
     },
     "requiredTools": {
         "cut": "minecraft:wood"

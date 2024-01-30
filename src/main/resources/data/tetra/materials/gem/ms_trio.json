@@ -1,15 +1,15 @@
 {
     "key": "ms_trio",
     "category": "gem",
-    "primary": 5.9,
-    "secondary": 2.9,
-    "tertiary": 0,
-    "durability": 1800,
-    "integrityCost": 2,
-    "integrityGain": 2,
-    "magicCapacity": 48,
-    "toolLevel": "minecraft:iron",
-    "toolEfficiency": 10,
+    "primary": "5.9",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "1800",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "48",
+    "toolLevel": "3",
+    "toolEfficiency": "10",
     "tints": {
         "glyph": "62ff62",
         "texture": "62ff62"
@@ -19,9 +19,7 @@
         "crude"
     ],
     "material": {
-        "items": [
-            "ms:gem/trio"
-        ]
+        "item": "ms:gem/trio"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:netherite"

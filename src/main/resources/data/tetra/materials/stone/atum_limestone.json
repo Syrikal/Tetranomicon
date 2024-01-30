@@ -1,0 +1,34 @@
+{
+    "key": "atum_limestone",
+    "category": "stone",
+    "primary": "4",
+    "secondary": "3.5",
+    "tertiary": "0",
+    "durability": "131",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "36",
+    "toolLevel": "2",
+    "toolEfficiency": "4",
+    "tints": {
+        "glyph": "c6a886",
+        "texture": "c6a886"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "atum:limestone"
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:wood"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "atum"
+        }
+    ]
+}

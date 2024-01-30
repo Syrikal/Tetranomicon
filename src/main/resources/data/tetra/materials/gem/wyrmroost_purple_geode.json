@@ -1,0 +1,43 @@
+{
+    "key": "wyrmroost_purple_geode",
+    "category": "gem",
+    "primary": "8",
+    "secondary": "4",
+    "tertiary": "0",
+    "durability": "4214",
+    "integrityCost": "3",
+    "integrityGain": "4",
+    "magicCapacity": "168",
+    "toolLevel": "7",
+    "toolEfficiency": "15",
+    "improvements": {
+        "arrested": 0
+    },
+    "effects": {
+        "unstable": 30,
+        "enderReverb": [
+            4,
+            0.1
+        ]
+    },
+    "tints": {
+        "glyph": "9b0dbf",
+        "texture": "9b0dbf"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "wyrmroost:purple_geode"
+    },
+    "requiredTools": {
+        "hammer_dig": "tetra:maxed_forge_hammer"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "wyrmroost"
+        }
+    ]
+}

@@ -1,15 +1,15 @@
 {
     "key": "blue_skies_lunar_vine",
     "category": "fibre",
-    "primary": 5,
-    "secondary": 1.6,
-    "tertiary": 4,
-    "durability": 200,
-    "integrityCost": 1,
-    "integrityGain": 5,
-    "magicCapacity": 102,
-    "toolLevel": 0,
-    "toolEfficiency": 0,
+    "primary": "5",
+    "secondary": "1.6",
+    "tertiary": "4",
+    "durability": "200",
+    "integrityCost": "1",
+    "integrityGain": "5",
+    "magicCapacity": "102",
+    "toolLevel": "0",
+    "toolEfficiency": "0",
     "effects": {
         "stabilizing": 15
     },
@@ -22,9 +22,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "blue_skies:lunar_vine"
-        ]
+        "item": "blue_skies:lunar_vine"
     },
     "requiredTools": {
         "cut": "minecraft:gold"

@@ -7,9 +7,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "byg:pendorite_axe"
-            ]
+            "item": "byg:pendorite_axe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -35,9 +33,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "byg:pendorite_battleaxe"
-            ]
+            "item": "byg:pendorite_battleaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -63,9 +59,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "byg:pendorite_hoe"
-            ]
+            "item": "byg:pendorite_hoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -91,9 +85,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "byg:pendorite_pickaxe"
-            ]
+            "item": "byg:pendorite_pickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -119,9 +111,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "byg:pendorite_shovel"
-            ]
+            "item": "byg:pendorite_shovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -143,9 +133,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "byg:pendorite_sword"
-            ]
+            "item": "byg:pendorite_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {

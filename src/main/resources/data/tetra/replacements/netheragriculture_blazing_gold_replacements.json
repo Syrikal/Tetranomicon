@@ -1,0 +1,150 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "netheragriculture"
+            }
+        ],
+        "predicate": {
+            "item": "netheragriculture:blazing_gold_axe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_axe_left",
+                "basic_axe/netheragriculture_blazing_gold"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/netheragriculture_blazing_gold"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        },
+        "improvements": {
+            "double/head_left:blazing_tool": 2,
+            "double/head_right:blazing_tool": 2
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "netheragriculture"
+            }
+        ],
+        "predicate": {
+            "item": "netheragriculture:blazing_gold_hoe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/hoe_left",
+                "hoe/netheragriculture_blazing_gold"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/netheragriculture_blazing_gold"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        },
+        "improvements": {
+            "double/head_left:blazing_tool": 2,
+            "double/head_right:blazing_tool": 2
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "netheragriculture"
+            }
+        ],
+        "predicate": {
+            "item": "netheragriculture:blazing_gold_pickaxe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_pickaxe_left",
+                "basic_pickaxe/netheragriculture_blazing_gold"
+            ],
+            "double/head_right": [
+                "double/basic_pickaxe_right",
+                "basic_pickaxe/netheragriculture_blazing_gold"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        },
+        "improvements": {
+            "double/head_left:blazing_tool": 2,
+            "double/head_right:blazing_tool": 2
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "netheragriculture"
+            }
+        ],
+        "predicate": {
+            "item": "netheragriculture:blazing_gold_shovel"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [
+                "single/basic_shovel",
+                "basic_shovel/netheragriculture_blazing_gold"
+            ],
+            "single/handle": [
+                "single/basic_handle",
+                "basic_handle/stick"
+            ]
+        },
+        "improvements": {
+            "single/head:blazing_tool": 2
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "netheragriculture"
+            }
+        ],
+        "predicate": {
+            "item": "netheragriculture:blazing_gold_sword"
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/netheragriculture_blazing_gold"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/stick"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/netheragriculture_blazing_gold"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/netheragriculture_blazing_gold"
+            ]
+        },
+        "improvements": {
+            "sword/blade:blazing_blade": 4
+        }
+    }
+]

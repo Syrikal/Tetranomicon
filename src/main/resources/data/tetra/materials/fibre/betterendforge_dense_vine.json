@@ -1,0 +1,39 @@
+{
+    "key": "betterendforge_dense_vine",
+    "category": "fibre",
+    "primary": "4",
+    "secondary": "3.6",
+    "tertiary": "3",
+    "durability": "1561",
+    "integrityCost": "2",
+    "integrityGain": "9",
+    "magicCapacity": "66",
+    "toolLevel": "0",
+    "toolEfficiency": "0",
+    "effects": {
+        "enderReverb": [
+            -3,
+            0.2
+        ]
+    },
+    "tints": {
+        "glyph": "29bfb5",
+        "texture": "29bfb5"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "betterendforge:dense_vine"
+    },
+    "requiredTools": {
+        "cut": "minecraft:netherite"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betterendforge"
+        }
+    ]
+}

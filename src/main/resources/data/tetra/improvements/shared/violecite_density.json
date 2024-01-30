@@ -1,0 +1,10 @@
+[
+    {
+        "key": "violecite_density",
+        "level": 0,
+        "attributes": {
+            "generic.knockback_resistance": 0.2,
+            "generic.movement_speed": -0.02
+        }
+    }
+]

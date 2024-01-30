@@ -1,0 +1,33 @@
+{
+    "key": "betterendforge_lucernia",
+    "category": "wood",
+    "primary": "4.7",
+    "secondary": "2",
+    "tertiary": "8.2",
+    "durability": "768",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "102",
+    "toolLevel": "2",
+    "toolEfficiency": "7",
+    "tints": {
+        "glyph": "d46c64",
+        "texture": "d46c64"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "betterendforge:lucernia_planks"
+    },
+    "requiredTools": {
+        "axe_dig": "tetra:maxed_forge_hammer"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betterendforge"
+        }
+    ]
+}

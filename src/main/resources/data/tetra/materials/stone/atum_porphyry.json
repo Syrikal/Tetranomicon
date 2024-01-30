@@ -1,0 +1,43 @@
+{
+    "key": "atum_porphyry",
+    "category": "stone",
+    "primary": "6",
+    "secondary": "5",
+    "tertiary": "0",
+    "durability": "1024",
+    "integrityCost": "2",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "4",
+    "toolEfficiency": "8",
+    "improvements": {
+        "arrested": 0
+    },
+    "effects": {
+        "sweeping": [
+            3,
+            1
+        ]
+    },
+    "tints": {
+        "glyph": "232024",
+        "texture": "232024"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "atum:porphyry"
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:diamond"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "atum"
+        }
+    ]
+}

@@ -1,15 +1,15 @@
 {
     "key": "ms_turquoise",
     "category": "metal",
-    "primary": 7,
-    "secondary": 3.8,
-    "tertiary": 2.3,
-    "durability": 198,
-    "integrityCost": 2,
-    "integrityGain": 4,
-    "magicCapacity": 60,
-    "toolLevel": "minecraft:iron",
-    "toolEfficiency": 6,
+    "primary": "7",
+    "secondary": "3.8",
+    "tertiary": "2.3",
+    "durability": "198",
+    "integrityCost": "2",
+    "integrityGain": "4",
+    "magicCapacity": "60",
+    "toolLevel": "3",
+    "toolEfficiency": "6",
     "tints": {
         "glyph": "48e6bb",
         "texture": "48e6bb"
@@ -20,9 +20,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "ms:gem/turquoise_ingot"
-        ]
+        "item": "ms:gem/turquoiseingot"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:iron"

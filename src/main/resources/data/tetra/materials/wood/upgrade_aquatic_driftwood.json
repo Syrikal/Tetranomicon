@@ -1,15 +1,15 @@
 {
     "key": "upgrade_aquatic_driftwood",
     "category": "wood",
-    "primary": 3,
-    "secondary": 1.4,
-    "tertiary": 4,
-    "durability": 48,
-    "integrityCost": 1,
-    "integrityGain": 4,
-    "magicCapacity": 96,
-    "toolLevel": "minecraft:wood",
-    "toolEfficiency": 2,
+    "primary": "3",
+    "secondary": "1.4",
+    "tertiary": "4",
+    "durability": "48",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "96",
+    "toolLevel": "1",
+    "toolEfficiency": "2",
     "tints": {
         "glyph": "625c53",
         "texture": "625c53"
@@ -19,9 +19,7 @@
         "wooden"
     ],
     "material": {
-        "items": [
-            "upgrade_aquatic:driftwood_planks"
-        ]
+        "item": "upgrade_aquatic:driftwood_planks"
     },
     "requiredTools": {
         "axe_dig": "minecraft:wood"

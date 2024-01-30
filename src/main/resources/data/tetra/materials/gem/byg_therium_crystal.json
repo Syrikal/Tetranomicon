@@ -1,15 +1,15 @@
 {
     "key": "byg_therium_crystal",
     "category": "gem",
-    "primary": 5.9,
-    "secondary": 2,
-    "tertiary": 0,
-    "durability": 5,
-    "integrityCost": 8,
-    "integrityGain": 1,
-    "magicCapacity": 48,
-    "toolLevel": "tetranomicon:tier_eight",
-    "toolEfficiency": 4,
+    "primary": "5.9",
+    "secondary": "2",
+    "tertiary": "0",
+    "durability": "5",
+    "integrityCost": "8",
+    "integrityGain": "1",
+    "magicCapacity": "48",
+    "toolLevel": "7",
+    "toolEfficiency": "4",
     "improvements": {
         "arrested": 0
     },
@@ -26,9 +26,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "byg:therium_crystal"
-        ]
+        "item": "byg:therium_crystal"
     },
     "requiredTools": {
         "hammer_dig": "tetra:maxed_forge_hammer"

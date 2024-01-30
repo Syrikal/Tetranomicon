@@ -1,15 +1,15 @@
 {
     "key": "organics_iridite",
     "category": "gem",
-    "primary": 7,
-    "secondary": 2.6,
-    "tertiary": 0,
-    "durability": 2045,
-    "integrityCost": 2,
-    "integrityGain": 2,
-    "magicCapacity": 12,
-    "toolLevel": "tetranomicon:tier_eight",
-    "toolEfficiency": 14,
+    "primary": "7",
+    "secondary": "2.6",
+    "tertiary": "0",
+    "durability": "2045",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "12",
+    "toolLevel": "7",
+    "toolEfficiency": "14",
     "tints": {
         "glyph": "e5ad06",
         "texture": "e5ad06"
@@ -19,9 +19,7 @@
         "crude"
     ],
     "material": {
-        "items": [
-            "organics:iridite_gem"
-        ]
+        "item": "organics:iridite_gem"
     },
     "requiredTools": {
         "hammer_dig": "tetra:maxed_forge_hammer"

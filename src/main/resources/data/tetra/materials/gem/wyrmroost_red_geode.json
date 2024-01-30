@@ -1,0 +1,39 @@
+{
+    "key": "wyrmroost_red_geode",
+    "category": "gem",
+    "primary": "6.5",
+    "secondary": "3.5",
+    "tertiary": "0",
+    "durability": "3264",
+    "integrityCost": "3",
+    "integrityGain": "3",
+    "magicCapacity": "144",
+    "toolLevel": "6",
+    "toolEfficiency": "10",
+    "improvements": {
+        "arrested": 0
+    },
+    "effects": {
+        "unstable": 30
+    },
+    "tints": {
+        "glyph": "8d2e2f",
+        "texture": "8d2e2f"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "wyrmroost:red_geode"
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:netherite"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "wyrmroost"
+        }
+    ]
+}

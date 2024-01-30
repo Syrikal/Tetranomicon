@@ -1,15 +1,15 @@
 {
     "key": "silentgems_citrine",
     "category": "gem",
-    "primary": 6,
-    "secondary": 2.9,
-    "tertiary": 0,
-    "durability": 768,
-    "integrityCost": 1,
-    "integrityGain": 2,
-    "magicCapacity": 60,
-    "toolLevel": "minecraft:iron",
-    "toolEfficiency": 10,
+    "primary": "6",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "768",
+    "integrityCost": "1",
+    "integrityGain": "2",
+    "magicCapacity": "60",
+    "toolLevel": "3",
+    "toolEfficiency": "10",
     "tints": {
         "glyph": "c48f17",
         "texture": "c48f17"
@@ -19,9 +19,7 @@
         "crude"
     ],
     "material": {
-        "items": [
-            "silentgems:citrine"
-        ]
+        "item": "silentgems:citrine"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:gold"

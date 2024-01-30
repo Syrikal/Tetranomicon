@@ -1,15 +1,15 @@
 {
     "key": "ms_maple",
     "category": "wood",
-    "primary": 4,
-    "secondary": 2,
-    "tertiary": 7,
-    "durability": 512,
-    "integrityCost": 2,
-    "integrityGain": 5,
-    "magicCapacity": 96,
-    "toolLevel": "minecraft:wood",
-    "toolEfficiency": 4,
+    "primary": "4",
+    "secondary": "2",
+    "tertiary": "7",
+    "durability": "512",
+    "integrityCost": "2",
+    "integrityGain": "5",
+    "magicCapacity": "96",
+    "toolLevel": "1",
+    "toolEfficiency": "4",
     "tints": {
         "glyph": "b6853d",
         "texture": "b6853d"
@@ -19,9 +19,7 @@
         "wooden"
     ],
     "material": {
-        "items": [
-            "ms:nature/maple_planks"
-        ]
+        "item": "ms:nature/mapleplank"
     },
     "requiredTools": {
         "axe_dig": "minecraft:iron"

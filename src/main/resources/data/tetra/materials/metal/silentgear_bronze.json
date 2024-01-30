@@ -1,0 +1,33 @@
+{
+    "key": "silentgear_bronze",
+    "category": "metal",
+    "primary": "5.5",
+    "secondary": "3.8",
+    "tertiary": "3",
+    "durability": "300",
+    "integrityCost": "1",
+    "integrityGain": "5",
+    "magicCapacity": "72",
+    "toolLevel": "3",
+    "toolEfficiency": "6",
+    "tints": {
+        "glyph": "d6903b",
+        "texture": "d6903b"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "item": "silentgear:bronze_ingot"
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgear"
+        }
+    ]
+}

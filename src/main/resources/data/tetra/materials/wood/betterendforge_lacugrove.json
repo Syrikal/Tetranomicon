@@ -1,0 +1,36 @@
+{
+    "key": "betterendforge_lacugrove",
+    "category": "wood",
+    "primary": "2.8",
+    "secondary": "1.4",
+    "tertiary": "6",
+    "durability": "768",
+    "integrityCost": "2",
+    "integrityGain": "4",
+    "magicCapacity": "138",
+    "toolLevel": "2",
+    "toolEfficiency": "8",
+    "effects": {
+        "stabilizing": 15
+    },
+    "tints": {
+        "glyph": "dae1a7",
+        "texture": "dae1a7"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "betterendforge:lacugrove_planks"
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:netherite"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betterendforge"
+        }
+    ]
+}

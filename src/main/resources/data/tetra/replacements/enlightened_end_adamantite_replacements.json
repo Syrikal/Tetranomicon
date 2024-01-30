@@ -7,9 +7,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "enlightened_end:adamantite_axe"
-            ]
+            "item": "enlightened_end:adamantite_axe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -35,9 +33,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "enlightened_end:adamantite_hoe"
-            ]
+            "item": "enlightened_end:adamantite_hoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -63,9 +59,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "enlightened_end:adamantite_knife"
-            ]
+            "item": "enlightened_end:adamantite_knife"
         },
         "item": "tetra:modular_sword",
         "modules": {
@@ -95,9 +89,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "enlightened_end:adamantite_pickaxe"
-            ]
+            "item": "enlightened_end:adamantite_pickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -123,9 +115,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "enlightened_end:adamantite_shovel"
-            ]
+            "item": "enlightened_end:adamantite_shovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -147,9 +137,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "enlightened_end:adamantite_sword"
-            ]
+            "item": "enlightened_end:adamantite_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {

@@ -7,9 +7,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "phantasm:stellium_axe"
-            ]
+            "item": "phantasm:stellium_axe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -35,9 +33,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "phantasm:stellium_hoe"
-            ]
+            "item": "phantasm:stellium_hoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -63,9 +59,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "phantasm:stellium_pickaxe"
-            ]
+            "item": "phantasm:stellium_pickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -91,9 +85,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "phantasm:stellium_shovel"
-            ]
+            "item": "phantasm:stellium_shovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -115,9 +107,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "phantasm:stellium_sword"
-            ]
+            "item": "phantasm:stellium_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {

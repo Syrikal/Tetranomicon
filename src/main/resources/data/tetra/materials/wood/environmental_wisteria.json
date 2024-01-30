@@ -1,15 +1,15 @@
 {
     "key": "environmental_wisteria",
     "category": "wood",
-    "primary": 2.8,
-    "secondary": 2,
-    "tertiary": 5.7,
-    "durability": 96,
-    "integrityCost": 1,
-    "integrityGain": 4,
-    "magicCapacity": 102,
-    "toolLevel": "minecraft:wood",
-    "toolEfficiency": 2,
+    "primary": "2.8",
+    "secondary": "2",
+    "tertiary": "5.7",
+    "durability": "96",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "102",
+    "toolLevel": "1",
+    "toolEfficiency": "2",
     "tints": {
         "glyph": "e0d4b0",
         "texture": "e0d4b0"
@@ -19,9 +19,7 @@
         "wooden"
     ],
     "material": {
-        "items": [
-            "environmental:wisteria_planks"
-        ]
+        "item": "environmental:wisteria_planks"
     },
     "requiredTools": {
         "axe_dig": "minecraft:wood"

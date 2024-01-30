@@ -1,15 +1,15 @@
 {
     "key": "phantasm_void_crystal",
     "category": "gem",
-    "primary": 5,
-    "secondary": 2.9,
-    "tertiary": 0,
-    "durability": 312,
-    "integrityCost": 2,
-    "integrityGain": 2,
-    "magicCapacity": 102,
-    "toolLevel": "minecraft:iron",
-    "toolEfficiency": 8,
+    "primary": "5",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "312",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "102",
+    "toolLevel": "3",
+    "toolEfficiency": "8",
     "improvements": {
         "arrested": 0
     },
@@ -23,9 +23,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "phantasm:void_crystal_block"
-        ]
+        "item": "phantasm:void_crystal_block"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:stone"

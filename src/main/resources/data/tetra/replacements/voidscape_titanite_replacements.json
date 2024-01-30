@@ -7,9 +7,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "voidscape:titanite_axe"
-            ]
+            "item": "voidscape:titanite_axe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -35,9 +33,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "voidscape:titanite_hoe"
-            ]
+            "item": "voidscape:titanite_hoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -63,9 +59,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "voidscape:titanite_pickaxe"
-            ]
+            "item": "voidscape:titanite_pickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -91,9 +85,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "voidscape:titanite_sword"
-            ]
+            "item": "voidscape:titanite_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {

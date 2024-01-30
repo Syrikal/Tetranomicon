@@ -1,15 +1,15 @@
 {
     "key": "quark_myalite",
     "category": "stone",
-    "primary": 6,
-    "secondary": 5,
-    "tertiary": 0,
-    "durability": 1024,
-    "integrityCost": 2,
-    "integrityGain": 2,
-    "magicCapacity": 132,
-    "toolLevel": "minecraft:iron",
-    "toolEfficiency": 10,
+    "primary": "6",
+    "secondary": "5",
+    "tertiary": "0",
+    "durability": "1024",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "132",
+    "toolLevel": "3",
+    "toolEfficiency": "10",
     "effects": {
         "stabilizing": 15,
         "enderReverb": [
@@ -27,9 +27,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "quark:myalite"
-        ]
+        "item": "quark:myalite"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:diamond"

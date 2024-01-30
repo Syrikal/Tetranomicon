@@ -7,9 +7,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "blue_skies:pyrope_axe"
-            ]
+            "item": "blue_skies:pyrope_axe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -35,9 +33,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "blue_skies:pyrope_hoe"
-            ]
+            "item": "blue_skies:pyrope_hoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -63,9 +59,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "blue_skies:pyrope_pickaxe"
-            ]
+            "item": "blue_skies:pyrope_pickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -91,9 +85,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "blue_skies:pyrope_shovel"
-            ]
+            "item": "blue_skies:pyrope_shovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -115,9 +107,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "blue_skies:pyrope_sword"
-            ]
+            "item": "blue_skies:pyrope_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {

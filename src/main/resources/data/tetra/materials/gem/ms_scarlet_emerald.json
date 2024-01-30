@@ -1,15 +1,15 @@
 {
     "key": "ms_scarlet_emerald",
     "category": "gem",
-    "primary": 8.5,
-    "secondary": 2.9,
-    "tertiary": 0,
-    "durability": 1254,
-    "integrityCost": 2,
-    "integrityGain": 2,
-    "magicCapacity": 60,
-    "toolLevel": "minecraft:diamond",
-    "toolEfficiency": 7.26,
+    "primary": "8.5",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "1254",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "60",
+    "toolLevel": "4",
+    "toolEfficiency": "7.26",
     "improvements": {
         "arrested": 0
     },
@@ -22,9 +22,7 @@
         "crude"
     ],
     "material": {
-        "items": [
-            "ms:gem/scarlet_emerald"
-        ]
+        "item": "ms:gem/scarletemerald"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:diamond"

@@ -1,15 +1,15 @@
 {
     "key": "ms_obsidian",
     "category": "stone",
-    "primary": 7,
-    "secondary": 5.8,
-    "tertiary": 0,
-    "durability": 1250,
-    "integrityCost": 3,
-    "integrityGain": 1,
-    "magicCapacity": 30,
-    "toolLevel": "minecraft:diamond",
-    "toolEfficiency": 9,
+    "primary": "7",
+    "secondary": "5.8",
+    "tertiary": "0",
+    "durability": "1250",
+    "integrityCost": "3",
+    "integrityGain": "1",
+    "magicCapacity": "30",
+    "toolLevel": "4",
+    "toolEfficiency": "9",
     "tints": {
         "glyph": "271e3d",
         "texture": "271e3d"
@@ -20,9 +20,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "ms:gem/obsidian_ingot"
-        ]
+        "item": "ms:gem/obsidianingot"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:netherite"

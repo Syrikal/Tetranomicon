@@ -1,15 +1,15 @@
 {
     "key": "byg_pine",
     "category": "wood",
-    "primary": 2.6,
-    "secondary": 1.5,
-    "tertiary": 6,
-    "durability": 48,
-    "integrityCost": 1,
-    "integrityGain": 3,
-    "magicCapacity": 108,
-    "toolLevel": "minecraft:wood",
-    "toolEfficiency": 3,
+    "primary": "2.6",
+    "secondary": "1.5",
+    "tertiary": "6",
+    "durability": "48",
+    "integrityCost": "1",
+    "integrityGain": "3",
+    "magicCapacity": "108",
+    "toolLevel": "1",
+    "toolEfficiency": "3",
     "tints": {
         "glyph": "968b70",
         "texture": "968b70"
@@ -19,9 +19,7 @@
         "wooden"
     ],
     "material": {
-        "items": [
-            "byg:pine_planks"
-        ]
+        "item": "byg:pine_planks"
     },
     "requiredTools": {
         "axe_dig": "minecraft:wood"

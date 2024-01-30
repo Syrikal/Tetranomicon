@@ -1,15 +1,15 @@
 {
     "key": "voidscape_thunder_vine",
     "category": "fibre",
-    "primary": 4,
-    "secondary": 3.4,
-    "tertiary": 3,
-    "durability": 1561,
-    "integrityCost": 2,
-    "integrityGain": 10,
-    "magicCapacity": 66,
-    "toolLevel": 0,
-    "toolEfficiency": 0,
+    "primary": "4",
+    "secondary": "3.4",
+    "tertiary": "3",
+    "durability": "1561",
+    "integrityCost": "2",
+    "integrityGain": "10",
+    "magicCapacity": "66",
+    "toolLevel": "0",
+    "toolEfficiency": "0",
     "tints": {
         "glyph": "61167b",
         "texture": "61167b"
@@ -19,9 +19,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "voidscape:thunder_vines"
-        ]
+        "item": "voidscape:thunder_vines"
     },
     "requiredTools": {
         "cut": "tetra:maxed_forge_hammer"

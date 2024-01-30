@@ -1,0 +1,37 @@
+{
+    "key": "atum_nebu",
+    "category": "metal",
+    "primary": "7",
+    "secondary": "3.5",
+    "tertiary": "4.5",
+    "durability": "2250",
+    "integrityCost": "2",
+    "integrityGain": "7",
+    "magicCapacity": "132",
+    "toolLevel": "5",
+    "toolEfficiency": "9",
+    "effects": {
+        "stabilizing": 15
+    },
+    "tints": {
+        "glyph": "d19607",
+        "texture": "d19607"
+    },
+    "textures": [
+        "shiny",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "item": "atum:nebu_ingot"
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:netherite"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "atum"
+        }
+    ]
+}

@@ -7,9 +7,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "voidscape:astral_axe"
-            ]
+            "item": "voidscape:astral_axe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -35,9 +33,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "voidscape:astral_pickaxe"
-            ]
+            "item": "voidscape:astral_pickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -63,9 +59,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "voidscape:astral_shovel"
-            ]
+            "item": "voidscape:astral_shovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -87,9 +81,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "voidscape:astral_sword"
-            ]
+            "item": "voidscape:astral_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {

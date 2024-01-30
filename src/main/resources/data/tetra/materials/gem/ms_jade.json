@@ -1,15 +1,15 @@
 {
     "key": "ms_jade",
     "category": "gem",
-    "primary": 2.8,
-    "secondary": 2.9,
-    "tertiary": 0,
-    "durability": 467,
-    "integrityCost": 2,
-    "integrityGain": 2,
-    "magicCapacity": 60,
-    "toolLevel": "minecraft:iron",
-    "toolEfficiency": 6.1,
+    "primary": "2.8",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "467",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "60",
+    "toolLevel": "3",
+    "toolEfficiency": "6.1",
     "tints": {
         "glyph": "38851d",
         "texture": "38851d"
@@ -19,9 +19,7 @@
         "crude"
     ],
     "material": {
-        "items": [
-            "ms:gem/jade"
-        ]
+        "item": "ms:gem/jade"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:stone"

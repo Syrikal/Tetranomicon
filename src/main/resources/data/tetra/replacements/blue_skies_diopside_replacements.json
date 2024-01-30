@@ -7,9 +7,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "blue_skies:diopside_axe"
-            ]
+            "item": "blue_skies:diopside_axe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -35,9 +33,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "blue_skies:diopside_hoe"
-            ]
+            "item": "blue_skies:diopside_hoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -63,9 +59,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "blue_skies:diopside_pickaxe"
-            ]
+            "item": "blue_skies:diopside_pickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -91,9 +85,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "blue_skies:diopside_shovel"
-            ]
+            "item": "blue_skies:diopside_shovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -115,9 +107,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "blue_skies:diopside_sword"
-            ]
+            "item": "blue_skies:diopside_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {

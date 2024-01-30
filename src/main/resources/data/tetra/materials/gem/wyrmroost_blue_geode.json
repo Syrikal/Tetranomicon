@@ -1,0 +1,36 @@
+{
+    "key": "wyrmroost_blue_geode",
+    "category": "gem",
+    "primary": "5.5",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "2164",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "120",
+    "toolLevel": "5",
+    "toolEfficiency": "9.3",
+    "improvements": {
+        "arrested": 0
+    },
+    "tints": {
+        "glyph": "225589",
+        "texture": "225589"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "wyrmroost:blue_geode"
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:diamond"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "wyrmroost"
+        }
+    ]
+}

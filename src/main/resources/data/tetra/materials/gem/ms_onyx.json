@@ -1,15 +1,15 @@
 {
     "key": "ms_onyx",
     "category": "gem",
-    "primary": 5.24,
-    "secondary": 2.9,
-    "tertiary": 0,
-    "durability": 311,
-    "integrityCost": 2,
-    "integrityGain": 2,
-    "magicCapacity": 66,
-    "toolLevel": "minecraft:iron",
-    "toolEfficiency": 5.75,
+    "primary": "5.24",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "311",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "66",
+    "toolLevel": "3",
+    "toolEfficiency": "5.75",
     "tints": {
         "glyph": "212121",
         "texture": "212121"
@@ -19,9 +19,7 @@
         "crude"
     ],
     "material": {
-        "items": [
-            "ms:gem/onyx"
-        ]
+        "item": "ms:gem/onyx"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:stone"

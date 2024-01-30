@@ -7,9 +7,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "twilightforest:ironwood_axe"
-            ]
+            "item": "twilightforest:ironwood_axe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -35,9 +33,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "twilightforest:ironwood_hoe"
-            ]
+            "item": "twilightforest:ironwood_hoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -63,9 +59,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "twilightforest:ironwood_pickaxe"
-            ]
+            "item": "twilightforest:ironwood_pickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -91,9 +85,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "twilightforest:ironwood_shovel"
-            ]
+            "item": "twilightforest:ironwood_shovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -115,9 +107,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "twilightforest:ironwood_sword"
-            ]
+            "item": "twilightforest:ironwood_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {

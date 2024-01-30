@@ -1,0 +1,34 @@
+{
+    "key": "wyrmroost_platinum",
+    "category": "metal",
+    "primary": "5",
+    "secondary": "4.8",
+    "tertiary": "1",
+    "durability": "645",
+    "integrityCost": "2",
+    "integrityGain": "1",
+    "magicCapacity": "114",
+    "toolLevel": "4",
+    "toolEfficiency": "5.5",
+    "tints": {
+        "glyph": "dedede",
+        "texture": "dedede"
+    },
+    "textures": [
+        "shiny",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "item": "wyrmroost:platinum_ingot"
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "wyrmroost"
+        }
+    ]
+}

@@ -1,15 +1,15 @@
 {
     "key": "silentgems_rose_quartz",
     "category": "gem",
-    "primary": 9,
-    "secondary": 2.8,
-    "tertiary": 0,
-    "durability": 1024,
-    "integrityCost": 2,
-    "integrityGain": 2,
-    "magicCapacity": 72,
-    "toolLevel": "minecraft:netherite",
-    "toolEfficiency": 14,
+    "primary": "9",
+    "secondary": "2.8",
+    "tertiary": "0",
+    "durability": "1024",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "72",
+    "toolLevel": "5",
+    "toolEfficiency": "14",
     "effects": {
         "criticalStrike": [
             10,
@@ -25,9 +25,7 @@
         "crude"
     ],
     "material": {
-        "items": [
-            "silentgems:rose_quartz"
-        ]
+        "item": "silentgems:rose_quartz"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:iron"

@@ -1,15 +1,15 @@
 {
     "key": "biomesoplenty_jacaranda",
     "category": "wood",
-    "primary": 2.6,
-    "secondary": 1.5,
-    "tertiary": 6,
-    "durability": 48,
-    "integrityCost": 1,
-    "integrityGain": 3,
-    "magicCapacity": 108,
-    "toolLevel": "minecraft:wood",
-    "toolEfficiency": 3,
+    "primary": "2.6",
+    "secondary": "1.5",
+    "tertiary": "6",
+    "durability": "48",
+    "integrityCost": "1",
+    "integrityGain": "3",
+    "magicCapacity": "108",
+    "toolLevel": "1",
+    "toolEfficiency": "3",
     "tints": {
         "glyph": "baa39a",
         "texture": "baa39a"
@@ -19,9 +19,7 @@
         "wooden"
     ],
     "material": {
-        "items": [
-            "biomesoplenty:jacaranda_planks"
-        ]
+        "item": "biomesoplenty:jacaranda_planks"
     },
     "requiredTools": {
         "axe_dig": "minecraft:wood"

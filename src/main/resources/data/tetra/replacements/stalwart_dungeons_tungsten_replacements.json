@@ -7,9 +7,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "stalwart_dungeons:tungsten_axe"
-            ]
+            "item": "stalwart_dungeons:tungsten_axe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -35,9 +33,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "stalwart_dungeons:tungsten_hoe"
-            ]
+            "item": "stalwart_dungeons:tungsten_hoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -63,9 +59,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "stalwart_dungeons:tungsten_pickaxe"
-            ]
+            "item": "stalwart_dungeons:tungsten_pickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -91,9 +85,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "stalwart_dungeons:tungsten_shovel"
-            ]
+            "item": "stalwart_dungeons:tungsten_shovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -115,9 +107,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "stalwart_dungeons:tungsten_sword"
-            ]
+            "item": "stalwart_dungeons:tungsten_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {

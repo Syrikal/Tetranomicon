@@ -7,9 +7,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "blue_skies:starlit_axe"
-            ]
+            "item": "blue_skies:starlit_axe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -35,9 +33,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "blue_skies:starlit_hoe"
-            ]
+            "item": "blue_skies:starlit_hoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -63,9 +59,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "blue_skies:starlit_pickaxe"
-            ]
+            "item": "blue_skies:starlit_pickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -91,9 +85,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "blue_skies:starlit_shovel"
-            ]
+            "item": "blue_skies:starlit_shovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -115,9 +107,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "blue_skies:starlit_spear"
-            ]
+            "item": "blue_skies:starlit_spear"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -139,9 +129,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "blue_skies:starlit_sword"
-            ]
+            "item": "blue_skies:starlit_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {

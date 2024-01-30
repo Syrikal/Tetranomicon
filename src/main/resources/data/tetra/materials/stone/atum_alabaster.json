@@ -1,0 +1,33 @@
+{
+    "key": "atum_alabaster",
+    "category": "stone",
+    "primary": "3",
+    "secondary": "3.5",
+    "tertiary": "0",
+    "durability": "192",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "2",
+    "toolEfficiency": "4",
+    "tints": {
+        "glyph": "efe3d1",
+        "texture": "efe3d1"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "atum:alabaster"
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "atum"
+        }
+    ]
+}

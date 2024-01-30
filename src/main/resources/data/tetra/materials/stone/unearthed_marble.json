@@ -1,0 +1,33 @@
+{
+    "key": "unearthed_marble",
+    "category": "stone",
+    "primary": "3",
+    "secondary": "3.5",
+    "tertiary": "0",
+    "durability": "192",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "2",
+    "toolEfficiency": "4",
+    "tints": {
+        "glyph": "305f4e",
+        "texture": "305f4e"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "unearthed:marble"
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "unearthed"
+        }
+    ]
+}

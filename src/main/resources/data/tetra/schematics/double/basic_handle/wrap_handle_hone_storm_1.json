@@ -7,14 +7,15 @@
     "materialSlotCount": 1,
     "hone": true,
     "rarity": "hone",
-    "displayType": "improvement",
     "glyph": {
         "textureX": 16
     },
+    "displayType": "improvement",
     "requirement": {
-        "type": "tetra:improvement",
-        "improvement": "basic_handle/wrap_stormscale",
-        "level": 1
+        "type": "tetra:modular_item",
+        "improvements": {
+            "basic_handle/wrap_stormscale": 1
+        }
     },
     "outcomes": [
         {
@@ -23,7 +24,7 @@
                 "count": 6
             },
             "requiredTools": {
-                "cut": "minecraft:stone"
+                "cut": 3
             },
             "improvements": {
                 "basic_handle/wrap_stormscale": 2

@@ -1,15 +1,15 @@
 {
     "key": "byg_witch_hazel",
     "category": "wood",
-    "primary": 3.5,
-    "secondary": 1.7,
-    "tertiary": 6,
-    "durability": 131,
-    "integrityCost": 1,
-    "integrityGain": 4,
-    "magicCapacity": 90,
-    "toolLevel": "minecraft:wood",
-    "toolEfficiency": 2.5,
+    "primary": "3.5",
+    "secondary": "1.7",
+    "tertiary": "6",
+    "durability": "131",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "1",
+    "toolEfficiency": "2.5",
     "tints": {
         "glyph": "276041",
         "texture": "276041"
@@ -19,9 +19,7 @@
         "wooden"
     ],
     "material": {
-        "items": [
-            "byg:witch_hazel_planks"
-        ]
+        "item": "byg:witch_hazel_planks"
     },
     "requiredTools": {
         "axe_dig": "minecraft:wood"

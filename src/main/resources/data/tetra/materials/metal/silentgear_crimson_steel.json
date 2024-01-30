@@ -1,15 +1,15 @@
 {
     "key": "silentgear_crimson_steel",
     "category": "metal",
-    "primary": 9,
-    "secondary": 4.2,
-    "tertiary": 3.5,
-    "durability": 2400,
-    "integrityCost": 2,
-    "integrityGain": 7,
-    "magicCapacity": 114,
-    "toolLevel": "minecraft:netherite",
-    "toolEfficiency": 15,
+    "primary": "9",
+    "secondary": "4.2",
+    "tertiary": "3.5",
+    "durability": "2400",
+    "integrityCost": "2",
+    "integrityGain": "7",
+    "magicCapacity": "114",
+    "toolLevel": "5",
+    "toolEfficiency": "15",
     "improvements": {
         "workable": 1
     },
@@ -22,9 +22,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "silentgear:crimson_steel_ingot"
-        ]
+        "item": "silentgear:crimson_steel_ingot"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:netherite"

@@ -7,9 +7,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "voidscape:voidic_crystal_axe"
-            ]
+            "item": "voidscape:voidic_crystal_axe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -35,9 +33,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "voidscape:voidic_crystal_pickaxe"
-            ]
+            "item": "voidscape:voidic_crystal_pickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -63,9 +59,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "voidscape:voidic_crystal_sword"
-            ]
+            "item": "voidscape:voidic_crystal_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {

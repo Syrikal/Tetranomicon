@@ -1,15 +1,15 @@
 {
     "key": "silentgems_kyanite",
     "category": "gem",
-    "primary": 7,
-    "secondary": 3.2,
-    "tertiary": 0,
-    "durability": 1280,
-    "integrityCost": 2,
-    "integrityGain": 2,
-    "magicCapacity": 102,
-    "toolLevel": "minecraft:netherite",
-    "toolEfficiency": 12,
+    "primary": "7",
+    "secondary": "3.2",
+    "tertiary": "0",
+    "durability": "1280",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "102",
+    "toolLevel": "5",
+    "toolEfficiency": "12",
     "tints": {
         "glyph": "17a9dd",
         "texture": "17a9dd"
@@ -19,9 +19,7 @@
         "crude"
     ],
     "material": {
-        "items": [
-            "silentgems:kyanite"
-        ]
+        "item": "silentgems:kyanite"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:iron"

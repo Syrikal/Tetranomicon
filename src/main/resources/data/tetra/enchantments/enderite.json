@@ -1,0 +1,12 @@
+[
+    {
+        "enchantment": "enderitemod:void_floating",
+        "improvement": "enderite_void_floating_innate",
+        "extract": false
+    },
+    {
+        "enchantment": "enderitemod:void_floating",
+        "improvement": "enderite_void_floating",
+        "extract": false
+    }
+]

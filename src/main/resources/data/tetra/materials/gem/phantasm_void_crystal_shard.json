@@ -1,15 +1,15 @@
 {
     "key": "phantasm_void_crystal_shard",
     "category": "gem",
-    "primary": 4,
-    "secondary": 2.4,
-    "tertiary": 0,
-    "durability": 5,
-    "integrityCost": 8,
-    "integrityGain": 1,
-    "magicCapacity": 48,
-    "toolLevel": "tetranomicon:tier_eight",
-    "toolEfficiency": 3,
+    "primary": "4",
+    "secondary": "2.4",
+    "tertiary": "0",
+    "durability": "5",
+    "integrityCost": "8",
+    "integrityGain": "1",
+    "magicCapacity": "48",
+    "toolLevel": "7",
+    "toolEfficiency": "3",
     "improvements": {
         "arrested": 0
     },
@@ -26,9 +26,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "phantasm:void_crystal_spike_tip"
-        ]
+        "item": "phantasm:void_crystal_spike_tip"
     },
     "requiredTools": {
         "hammer_dig": "tetra:maxed_forge_hammer"

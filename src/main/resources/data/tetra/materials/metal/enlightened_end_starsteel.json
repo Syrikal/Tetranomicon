@@ -1,15 +1,15 @@
 {
     "key": "enlightened_end_starsteel",
     "category": "metal",
-    "primary": 6.5,
-    "secondary": 2.4,
-    "tertiary": 3.8,
-    "durability": 1756,
-    "integrityCost": 2,
-    "integrityGain": 6,
-    "magicCapacity": 72,
-    "toolLevel": "minecraft:diamond",
-    "toolEfficiency": 8,
+    "primary": "6.5",
+    "secondary": "2.4",
+    "tertiary": "3.8",
+    "durability": "1756",
+    "integrityCost": "2",
+    "integrityGain": "6",
+    "magicCapacity": "72",
+    "toolLevel": "4",
+    "toolEfficiency": "8",
     "tints": {
         "glyph": "B65FFD",
         "texture": "B65FFD"
@@ -19,9 +19,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "enlightened_end:starsteel_ingot"
-        ]
+        "item": "enlightened_end:starsteel_ingot"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:iron"

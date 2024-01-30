@@ -1,15 +1,15 @@
 {
     "key": "voidscape_voidic_crystal",
     "category": "gem",
-    "primary": 8,
-    "secondary": 3.4,
-    "tertiary": 0,
-    "durability": 2538,
-    "integrityCost": 1,
-    "integrityGain": 2,
-    "magicCapacity": 102,
-    "toolLevel": "tetranomicon:tier_seven",
-    "toolEfficiency": 9.5,
+    "primary": "8",
+    "secondary": "3.4",
+    "tertiary": "0",
+    "durability": "2538",
+    "integrityCost": "1",
+    "integrityGain": "2",
+    "magicCapacity": "102",
+    "toolLevel": "6",
+    "toolEfficiency": "9.5",
     "improvements": {
         "arrested": 0
     },
@@ -22,9 +22,7 @@
         "crude"
     ],
     "material": {
-        "items": [
-            "voidscape:voidic_crystal"
-        ]
+        "item": "voidscape:voidic_crystal"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:netherite"

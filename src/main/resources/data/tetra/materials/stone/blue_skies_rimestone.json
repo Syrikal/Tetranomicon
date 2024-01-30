@@ -1,15 +1,15 @@
 {
     "key": "blue_skies_rimestone",
     "category": "stone",
-    "primary": 4.5,
-    "secondary": 4.5,
-    "tertiary": 0,
-    "durability": 500,
-    "integrityCost": 1,
-    "integrityGain": 4,
-    "magicCapacity": 90,
-    "toolLevel": "minecraft:iron",
-    "toolEfficiency": 5,
+    "primary": "4.5",
+    "secondary": "4.5",
+    "tertiary": "0",
+    "durability": "500",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "3",
+    "toolEfficiency": "5",
     "tints": {
         "glyph": "88abdc",
         "texture": "88abdc"
@@ -20,9 +20,7 @@
         "default"
     ],
     "material": {
-        "items": [
-            "blue_skies:rimestone"
-        ]
+        "item": "blue_skies:rimestone"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:stone"

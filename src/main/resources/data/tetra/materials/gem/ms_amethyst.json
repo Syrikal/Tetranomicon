@@ -1,15 +1,15 @@
 {
     "key": "ms_amethyst",
     "category": "gem",
-    "primary": 3.95,
-    "secondary": 2.9,
-    "tertiary": 0,
-    "durability": 331,
-    "integrityCost": 2,
-    "integrityGain": 2,
-    "magicCapacity": 72,
-    "toolLevel": "minecraft:iron",
-    "toolEfficiency": 7.3,
+    "primary": "3.95",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "331",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "72",
+    "toolLevel": "3",
+    "toolEfficiency": "7.3",
     "tints": {
         "glyph": "8d6acc",
         "texture": "8d6acc"
@@ -19,9 +19,7 @@
         "crude"
     ],
     "material": {
-        "items": [
-            "ms:gem/refined_amethyst_ingot"
-        ]
+        "item": "ms:gem/amethyst"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:stone"

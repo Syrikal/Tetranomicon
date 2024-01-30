@@ -1,15 +1,15 @@
 {
     "key": "byg_aspen",
     "category": "wood",
-    "primary": 2.8,
-    "secondary": 1.6,
-    "tertiary": 6,
-    "durability": 48,
-    "integrityCost": 1,
-    "integrityGain": 4,
-    "magicCapacity": 96,
-    "toolLevel": "minecraft:wood",
-    "toolEfficiency": 2,
+    "primary": "2.8",
+    "secondary": "1.6",
+    "tertiary": "6",
+    "durability": "48",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "96",
+    "toolLevel": "1",
+    "toolEfficiency": "2",
     "tints": {
         "glyph": "bf8c6d",
         "texture": "bf8c6d"
@@ -19,9 +19,7 @@
         "wooden"
     ],
     "material": {
-        "items": [
-            "byg:aspen_planks"
-        ]
+        "item": "byg:aspen_planks"
     },
     "requiredTools": {
         "axe_dig": "minecraft:wood"

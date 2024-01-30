@@ -7,9 +7,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "oresabovediamonds:netherite_opal_axe"
-            ]
+            "item": "oresabovediamonds:netherite_opal_axe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -38,9 +36,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "oresabovediamonds:netherite_opal_hoe"
-            ]
+            "item": "oresabovediamonds:netherite_opal_hoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -69,9 +65,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "oresabovediamonds:netherite_opal_pickaxe"
-            ]
+            "item": "oresabovediamonds:netherite_opal_pickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -100,9 +94,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "oresabovediamonds:netherite_opal_shovel"
-            ]
+            "item": "oresabovediamonds:netherite_opal_shovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -127,9 +119,7 @@
             }
         ],
         "predicate": {
-            "items": [
-                "oresabovediamonds:netherite_opal_sword"
-            ]
+            "item": "oresabovediamonds:netherite_opal_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {

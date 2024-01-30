@@ -1,0 +1,33 @@
+{
+    "key": "wyrmroost_drake_backplate",
+    "category": "scale",
+    "primary": "6",
+    "secondary": "3.2",
+    "tertiary": "2",
+    "durability": "384",
+    "integrityCost": "2",
+    "integrityGain": "5",
+    "magicCapacity": "54",
+    "toolLevel": "0",
+    "toolEfficiency": "0",
+    "tints": {
+        "glyph": "3c5d45",
+        "texture": "3c5d45"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "wyrmroost:drake_backplate"
+    },
+    "requiredTools": {
+        "cut": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "wyrmroost"
+        }
+    ]
+}

@@ -1,15 +1,15 @@
 {
     "key": "stalwart_dungeons_chorundum",
     "category": "gem",
-    "primary": 7,
-    "secondary": 3.3,
-    "tertiary": 0,
-    "durability": 2021,
-    "integrityCost": 2,
-    "integrityGain": 5,
-    "magicCapacity": 168,
-    "toolLevel": "minecraft:netherite",
-    "toolEfficiency": 10,
+    "primary": "7",
+    "secondary": "3.3",
+    "tertiary": "0",
+    "durability": "2021",
+    "integrityCost": "2",
+    "integrityGain": "5",
+    "magicCapacity": "168",
+    "toolLevel": "5",
+    "toolEfficiency": "10",
     "improvements": {
         "arrested": 0
     },
@@ -25,9 +25,7 @@
         "crude"
     ],
     "material": {
-        "items": [
-            "stalwart_dungeons:chorundum"
-        ]
+        "item": "stalwart_dungeons:chorundum"
     },
     "requiredTools": {
         "hammer_dig": "minecraft:diamond"

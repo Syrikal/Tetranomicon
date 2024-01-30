@@ -1,15 +1,15 @@
 {
     "key": "blue_skies_frostbright",
     "category": "wood",
-    "primary": 3,
-    "secondary": 1.7,
-    "tertiary": 6,
-    "durability": 59,
-    "integrityCost": 1,
-    "integrityGain": 4,
-    "magicCapacity": 60,
-    "toolLevel": "minecraft:wood",
-    "toolEfficiency": 2,
+    "primary": "3",
+    "secondary": "1.7",
+    "tertiary": "6",
+    "durability": "59",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "60",
+    "toolLevel": "1",
+    "toolEfficiency": "2",
     "tints": {
         "glyph": "5d4339",
         "texture": "5d4339"
@@ -19,9 +19,7 @@
         "wooden"
     ],
     "material": {
-        "items": [
-            "blue_skies:frostbright_planks"
-        ]
+        "item": "blue_skies:frostbright_planks"
     },
     "requiredTools": {
         "axe_dig": "minecraft:wood"
