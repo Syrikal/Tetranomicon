@@ -22,7 +22,7 @@
         "wooden"
     ],
     "material": {
-        "item": "ms:nature/silverbellplank"
+        "item": "ms:nature/silverbell_plank"
     },
     "requiredTools": {
         "axe": 2

@@ -1,0 +1,33 @@
+{
+    "key": "silentgems_cat's_eye",
+    "category": "gem",
+    "primary": "7",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "1280",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "48",
+    "toolLevel": "3",
+    "toolEfficiency": "10",
+    "tints": {
+        "glyph": "FFB249",
+        "texture": "FFB249"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "silentgems:cats_eye"
+    },
+    "requiredTools": {
+        "hammer": 3
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

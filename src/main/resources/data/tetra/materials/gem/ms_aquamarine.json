@@ -22,7 +22,7 @@
         "item": "ms:gem/aquamarine"
     },
     "requiredTools": {
-        "hammer": 5
+        "hammer": 4
     },
     "conditions": [
         {

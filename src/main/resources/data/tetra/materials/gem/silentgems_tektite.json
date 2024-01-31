@@ -1,0 +1,33 @@
+{
+    "key": "silentgems_tektite",
+    "category": "gem",
+    "primary": "8",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "768",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "78",
+    "toolLevel": "3",
+    "toolEfficiency": "9",
+    "tints": {
+        "glyph": "B3A496",
+        "texture": "B3A496"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "silentgems:tektite"
+    },
+    "requiredTools": {
+        "hammer": 4
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

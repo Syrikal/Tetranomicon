@@ -19,7 +19,7 @@
         "metal"
     ],
     "material": {
-        "item": "ms:gem/neridiumingot"
+        "item": "ms:nether/neridiumingot"
     },
     "requiredTools": {
         "hammer": 2

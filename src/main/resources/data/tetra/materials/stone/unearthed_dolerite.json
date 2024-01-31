@@ -1,0 +1,34 @@
+{
+    "key": "unearthed_dolerite",
+    "category": "stone",
+    "primary": "4.2",
+    "secondary": "3.8",
+    "tertiary": "0",
+    "durability": "192",
+    "integrityCost": "2",
+    "integrityGain": "3",
+    "magicCapacity": "90",
+    "toolLevel": "2",
+    "toolEfficiency": "4.5",
+    "tints": {
+        "glyph": "6C6965",
+        "texture": "6C6965"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "unearthed:dolerite"
+    },
+    "requiredTools": {
+        "hammer": 1
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "unearthed"
+        }
+    ]
+}

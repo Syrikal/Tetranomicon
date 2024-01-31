@@ -1,0 +1,132 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "item": "ms:tool/linium_axe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_axe_left",
+                "basic_axe/ms_linium"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/ms_linium"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/ms_wither_rod"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "item": "ms:tool/linium_hoe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/hoe_left",
+                "hoe/ms_linium"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/ms_linium"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/ms_wither_rod"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "item": "ms:tool/linium_pickaxe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_pickaxe_left",
+                "basic_pickaxe/ms_linium"
+            ],
+            "double/head_right": [
+                "double/basic_pickaxe_right",
+                "basic_pickaxe/ms_linium"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/ms_wither_rod"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "item": "ms:tool/linium_shovel"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [
+                "single/basic_shovel",
+                "basic_shovel/ms_linium"
+            ],
+            "single/handle": [
+                "single/basic_handle",
+                "basic_handle/ms_wither_rod"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "item": "ms:tool/linium_sword"
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/ms_linium"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/ms_wither_rod"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/ms_linium"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/ms_linium"
+            ]
+        }
+    }
+]

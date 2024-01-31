@@ -4,15 +4,15 @@
     "primary": "6",
     "secondary": "2.6",
     "tertiary": "0",
-    "durability": "1536",
+    "durability": "512",
     "integrityCost": "2",
     "integrityGain": "2",
     "magicCapacity": "90",
-    "toolLevel": "4",
-    "toolEfficiency": "8",
+    "toolLevel": "3",
+    "toolEfficiency": "9",
     "tints": {
-        "glyph": "3df4bd",
-        "texture": "3df4bd"
+        "glyph": "22D9A2",
+        "texture": "22D9A2"
     },
     "textures": [
         "shiny",

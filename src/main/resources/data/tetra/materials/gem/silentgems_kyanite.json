@@ -1,18 +1,18 @@
 {
     "key": "silentgems_kyanite",
     "category": "gem",
-    "primary": "7",
+    "primary": "8",
     "secondary": "3.2",
     "tertiary": "0",
-    "durability": "1280",
+    "durability": "1536",
     "integrityCost": "2",
     "integrityGain": "2",
-    "magicCapacity": "102",
-    "toolLevel": "5",
-    "toolEfficiency": "12",
+    "magicCapacity": "84",
+    "toolLevel": "4",
+    "toolEfficiency": "14",
     "tints": {
-        "glyph": "17a9dd",
-        "texture": "17a9dd"
+        "glyph": "416DFF",
+        "texture": "416DFF"
     },
     "textures": [
         "shiny",

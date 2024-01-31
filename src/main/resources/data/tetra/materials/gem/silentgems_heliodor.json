@@ -1,18 +1,18 @@
 {
     "key": "silentgems_heliodor",
     "category": "gem",
-    "primary": "5",
+    "primary": "7",
     "secondary": "2.9",
     "tertiary": "0",
-    "durability": "1024",
+    "durability": "384",
     "integrityCost": "2",
     "integrityGain": "2",
     "magicCapacity": "60",
-    "toolLevel": "4",
-    "toolEfficiency": "14",
+    "toolLevel": "3",
+    "toolEfficiency": "12",
     "tints": {
-        "glyph": "ddcf17",
-        "texture": "ddcf17"
+        "glyph": "DDCF17",
+        "texture": "DDCF17"
     },
     "textures": [
         "shiny",
@@ -22,7 +22,7 @@
         "item": "silentgems:heliodor"
     },
     "requiredTools": {
-        "hammer": 3
+        "hammer": 4
     },
     "conditions": [
         {

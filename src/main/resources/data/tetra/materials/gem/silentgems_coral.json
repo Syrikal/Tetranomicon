@@ -1,0 +1,33 @@
+{
+    "key": "silentgems_coral",
+    "category": "gem",
+    "primary": "7",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "512",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "60",
+    "toolLevel": "3",
+    "toolEfficiency": "10",
+    "tints": {
+        "glyph": "F3203F",
+        "texture": "F3203F"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "silentgems:coral"
+    },
+    "requiredTools": {
+        "hammer": 4
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

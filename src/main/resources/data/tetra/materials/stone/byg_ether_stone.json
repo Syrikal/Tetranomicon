@@ -1,18 +1,18 @@
 {
-    "key": "enlightened_end_void_shale",
+    "key": "byg_ether_stone",
     "category": "stone",
-    "primary": "7.2",
-    "secondary": "8",
+    "primary": "4",
+    "secondary": "4",
     "tertiary": "0",
     "durability": "1561",
-    "integrityCost": "3",
+    "integrityCost": "1",
     "integrityGain": "2",
-    "magicCapacity": "102",
+    "magicCapacity": "90",
     "toolLevel": "2",
-    "toolEfficiency": "7",
+    "toolEfficiency": "6",
     "tints": {
-        "glyph": "2d3e49",
-        "texture": "2d3e49"
+        "glyph": "859898",
+        "texture": "859898"
     },
     "textures": [
         "grainy",
@@ -20,7 +20,7 @@
         "default"
     ],
     "material": {
-        "item": "enlightened_end:void_shale"
+        "item": "byg:ether_stone"
     },
     "requiredTools": {
         "hammer": 5
@@ -28,7 +28,7 @@
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "enlightened_end"
+            "modid": "byg"
         }
     ]
 }

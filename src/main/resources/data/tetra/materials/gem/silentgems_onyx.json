@@ -1,0 +1,33 @@
+{
+    "key": "silentgems_onyx",
+    "category": "gem",
+    "primary": "9",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "256",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "48",
+    "toolLevel": "3",
+    "toolEfficiency": "8",
+    "tints": {
+        "glyph": "232323",
+        "texture": "232323"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "silentgems:onyx"
+    },
+    "requiredTools": {
+        "hammer": 4
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

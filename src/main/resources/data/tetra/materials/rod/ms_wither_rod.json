@@ -22,7 +22,7 @@
         "default"
     ],
     "material": {
-        "item": "ms:materials/wither_rod"
+        "item": "ms:nether/wither_rod"
     },
     "requiredTools": {
         "hammer": 3

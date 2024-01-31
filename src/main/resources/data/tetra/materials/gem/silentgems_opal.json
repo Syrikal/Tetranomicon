@@ -1,0 +1,33 @@
+{
+    "key": "silentgems_opal",
+    "category": "gem",
+    "primary": "6",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "384",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "78",
+    "toolLevel": "3",
+    "toolEfficiency": "8",
+    "tints": {
+        "glyph": "9A9A9A",
+        "texture": "9A9A9A"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "silentgems:opal"
+    },
+    "requiredTools": {
+        "hammer": 3
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

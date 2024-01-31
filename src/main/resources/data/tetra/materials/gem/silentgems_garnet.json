@@ -1,31 +1,28 @@
 {
-    "key": "silentgems_white_diamond",
+    "key": "silentgems_garnet",
     "category": "gem",
-    "primary": "8",
+    "primary": "7",
     "secondary": "2.9",
     "tertiary": "0",
-    "durability": "2048",
+    "durability": "512",
     "integrityCost": "2",
     "integrityGain": "2",
-    "magicCapacity": "84",
-    "toolLevel": "5",
-    "toolEfficiency": "12",
-    "effects": {
-        "unbreaking": 1
-    },
+    "magicCapacity": "72",
+    "toolLevel": "3",
+    "toolEfficiency": "7",
     "tints": {
-        "glyph": "f6f1f5",
-        "texture": "f6f1f5"
+        "glyph": "DD3B17",
+        "texture": "DD3B17"
     },
     "textures": [
         "shiny",
         "crude"
     ],
     "material": {
-        "item": "silentgems:white_diamond"
+        "item": "silentgems:garnet"
     },
     "requiredTools": {
-        "hammer": 4
+        "hammer": 3
     },
     "conditions": [
         {

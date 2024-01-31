@@ -26,7 +26,7 @@
         "default"
     ],
     "material": {
-        "item": "quark:voidstone"
+        "item": "quark:basalt"
     },
     "requiredTools": {
         "hammer": 5

@@ -1,0 +1,33 @@
+{
+    "key": "silentgems_green_sapphire",
+    "category": "gem",
+    "primary": "5",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "1024",
+    "integrityCost": "1",
+    "integrityGain": "2",
+    "magicCapacity": "96",
+    "toolLevel": "3",
+    "toolEfficiency": "10",
+    "tints": {
+        "glyph": "15C624",
+        "texture": "15C624"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "silentgems:green_sapphire"
+    },
+    "requiredTools": {
+        "hammer": 3
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

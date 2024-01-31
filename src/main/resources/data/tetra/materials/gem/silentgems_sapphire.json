@@ -1,18 +1,18 @@
 {
     "key": "silentgems_sapphire",
     "category": "gem",
-    "primary": "5",
+    "primary": "7",
     "secondary": "2.9",
     "tertiary": "0",
-    "durability": "512",
-    "integrityCost": "1",
+    "durability": "1024",
+    "integrityCost": "2",
     "integrityGain": "2",
-    "magicCapacity": "72",
+    "magicCapacity": "60",
     "toolLevel": "3",
-    "toolEfficiency": "6",
+    "toolEfficiency": "8",
     "tints": {
-        "glyph": "1849db",
-        "texture": "1849db"
+        "glyph": "2415C6",
+        "texture": "2415C6"
     },
     "textures": [
         "shiny",
@@ -22,7 +22,7 @@
         "item": "silentgems:sapphire"
     },
     "requiredTools": {
-        "hammer": 2
+        "hammer": 3
     },
     "conditions": [
         {

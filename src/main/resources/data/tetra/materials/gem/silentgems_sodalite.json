@@ -1,0 +1,33 @@
+{
+    "key": "silentgems_sodalite",
+    "category": "gem",
+    "primary": "7",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "768",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "84",
+    "toolLevel": "3",
+    "toolEfficiency": "9",
+    "tints": {
+        "glyph": "8588FF",
+        "texture": "8588FF"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "silentgems:sodalite"
+    },
+    "requiredTools": {
+        "hammer": 4
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

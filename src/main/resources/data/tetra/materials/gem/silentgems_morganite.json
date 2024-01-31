@@ -1,0 +1,33 @@
+{
+    "key": "silentgems_morganite",
+    "category": "gem",
+    "primary": "7",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "512",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "72",
+    "toolLevel": "3",
+    "toolEfficiency": "9",
+    "tints": {
+        "glyph": "FF91A4",
+        "texture": "FF91A4"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "silentgems:morganite"
+    },
+    "requiredTools": {
+        "hammer": 4
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

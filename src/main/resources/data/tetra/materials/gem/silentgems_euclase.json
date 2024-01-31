@@ -1,0 +1,33 @@
+{
+    "key": "silentgems_euclase",
+    "category": "gem",
+    "primary": "6",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "1024",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "90",
+    "toolLevel": "4",
+    "toolEfficiency": "10",
+    "tints": {
+        "glyph": "003550",
+        "texture": "003550"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "silentgems:euclase"
+    },
+    "requiredTools": {
+        "hammer": 3
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

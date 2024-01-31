@@ -1,0 +1,33 @@
+{
+    "key": "silentgems_benitoite",
+    "category": "gem",
+    "primary": "8",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "768",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "102",
+    "toolLevel": "4",
+    "toolEfficiency": "9",
+    "tints": {
+        "glyph": "001BB6",
+        "texture": "001BB6"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "silentgems:benitoite"
+    },
+    "requiredTools": {
+        "hammer": 4
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

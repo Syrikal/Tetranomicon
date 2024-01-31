@@ -1,0 +1,33 @@
+{
+    "key": "silentgems_jasper",
+    "category": "gem",
+    "primary": "6",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "512",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "96",
+    "toolLevel": "3",
+    "toolEfficiency": "7",
+    "tints": {
+        "glyph": "877100",
+        "texture": "877100"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "silentgems:jasper"
+    },
+    "requiredTools": {
+        "hammer": 3
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

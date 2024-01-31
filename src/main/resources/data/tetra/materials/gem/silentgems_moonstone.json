@@ -1,0 +1,33 @@
+{
+    "key": "silentgems_moonstone",
+    "category": "gem",
+    "primary": "6",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "768",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "120",
+    "toolLevel": "3",
+    "toolEfficiency": "8",
+    "tints": {
+        "glyph": "CFCFCF",
+        "texture": "CFCFCF"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "silentgems:moonstone"
+    },
+    "requiredTools": {
+        "hammer": 4
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

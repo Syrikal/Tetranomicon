@@ -1,15 +1,15 @@
 {
     "key": "silentgems_rose_quartz",
     "category": "gem",
-    "primary": "9",
+    "primary": "8",
     "secondary": "2.8",
     "tertiary": "0",
     "durability": "1024",
     "integrityCost": "2",
     "integrityGain": "2",
-    "magicCapacity": "72",
-    "toolLevel": "5",
-    "toolEfficiency": "14",
+    "magicCapacity": "120",
+    "toolLevel": "3",
+    "toolEfficiency": "10",
     "effects": {
         "criticalStrike": [
             10,
@@ -17,8 +17,8 @@
         ]
     },
     "tints": {
-        "glyph": "ff6bbd",
-        "texture": "ff6bbd"
+        "glyph": "FF4EAB",
+        "texture": "FF4EAB"
     },
     "textures": [
         "shiny",

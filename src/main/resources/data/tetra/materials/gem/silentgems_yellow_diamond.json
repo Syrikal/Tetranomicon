@@ -1,0 +1,33 @@
+{
+    "key": "silentgems_yellow_diamond",
+    "category": "gem",
+    "primary": "8",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "1792",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "108",
+    "toolLevel": "5",
+    "toolEfficiency": "9",
+    "tints": {
+        "glyph": "EDD94A",
+        "texture": "EDD94A"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "silentgems:yellow_diamond"
+    },
+    "requiredTools": {
+        "hammer": 4
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

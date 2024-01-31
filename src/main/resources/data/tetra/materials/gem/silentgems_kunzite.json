@@ -1,0 +1,33 @@
+{
+    "key": "silentgems_kunzite",
+    "category": "gem",
+    "primary": "9",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "768",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "60",
+    "toolLevel": "3",
+    "toolEfficiency": "8",
+    "tints": {
+        "glyph": "CE29D3",
+        "texture": "CE29D3"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "silentgems:kunzite"
+    },
+    "requiredTools": {
+        "hammer": 5
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

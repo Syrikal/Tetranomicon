@@ -22,7 +22,7 @@
         "crude"
     ],
     "material": {
-        "item": "blue_skies:aquite"
+        "item": "blue_skies:aquite_gem"
     },
     "requiredTools": {
         "hammer": 3

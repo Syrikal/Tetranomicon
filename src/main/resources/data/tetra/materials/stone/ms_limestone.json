@@ -20,7 +20,7 @@
         "default"
     ],
     "material": {
-        "item": "ms:stone/limecobble"
+        "item": "ms:limecobble"
     },
     "requiredTools": {
         "hammer": 1

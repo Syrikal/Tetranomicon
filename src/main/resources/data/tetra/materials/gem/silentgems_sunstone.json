@@ -1,0 +1,33 @@
+{
+    "key": "silentgems_sunstone",
+    "category": "gem",
+    "primary": "9",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "768",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "96",
+    "toolLevel": "4",
+    "toolEfficiency": "8",
+    "tints": {
+        "glyph": "FF5F4A",
+        "texture": "FF5F4A"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "silentgems:sunstone"
+    },
+    "requiredTools": {
+        "hammer": 4
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

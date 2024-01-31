@@ -1,26 +1,25 @@
 {
-    "key": "enlightened_end_adamantite",
+    "key": "nourished_end_voidsteel",
     "category": "metal",
     "primary": "8",
-    "secondary": "3.6",
-    "tertiary": "3",
-    "durability": "1561",
+    "secondary": "3.4",
+    "tertiary": "3.2",
+    "durability": "2561",
     "integrityCost": "2",
     "integrityGain": "6",
-    "magicCapacity": "90",
+    "magicCapacity": "54",
     "toolLevel": "6",
-    "toolEfficiency": "14",
+    "toolEfficiency": "10",
     "tints": {
-        "glyph": "4c7fff",
-        "texture": "4c7fff"
+        "glyph": "6358C5",
+        "texture": "6358C5"
     },
     "textures": [
-        "heavy",
         "metal",
         "default"
     ],
     "material": {
-        "item": "enlightened_end:adamantite_ingot"
+        "item": "nourished_end:voidsteel_ingot"
     },
     "requiredTools": {
         "hammer": 5
@@ -28,7 +27,7 @@
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "enlightened_end"
+            "modid": "nourished_end"
         }
     ]
 }

@@ -1,21 +1,18 @@
 {
     "key": "silentgems_black_diamond",
     "category": "gem",
-    "primary": "7",
+    "primary": "6",
     "secondary": "2.9",
     "tertiary": "0",
     "durability": "1792",
     "integrityCost": "2",
     "integrityGain": "2",
     "magicCapacity": "72",
-    "toolLevel": "5",
-    "toolEfficiency": "9",
-    "effects": {
-        "unbreaking": 1
-    },
+    "toolLevel": "4",
+    "toolEfficiency": "10",
     "tints": {
-        "glyph": "5f524c",
-        "texture": "5f524c"
+        "glyph": "2D2D2D",
+        "texture": "2D2D2D"
     },
     "textures": [
         "shiny",
@@ -25,7 +22,7 @@
         "item": "silentgems:black_diamond"
     },
     "requiredTools": {
-        "hammer": 4
+        "hammer": 3
     },
     "conditions": [
         {

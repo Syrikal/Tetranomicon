@@ -1,0 +1,33 @@
+{
+    "key": "silentgems_pearl",
+    "category": "gem",
+    "primary": "7",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "512",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "102",
+    "toolLevel": "3",
+    "toolEfficiency": "8",
+    "tints": {
+        "glyph": "A4B6D2",
+        "texture": "A4B6D2"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "silentgems:pearl"
+    },
+    "requiredTools": {
+        "hammer": 3
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

@@ -1,18 +1,18 @@
 {
     "key": "silentgems_iolite",
     "category": "gem",
-    "primary": "6",
+    "primary": "5",
     "secondary": "2.7",
     "tertiary": "0",
     "durability": "768",
     "integrityCost": "1",
     "integrityGain": "2",
-    "magicCapacity": "60",
+    "magicCapacity": "66",
     "toolLevel": "3",
-    "toolEfficiency": "7",
+    "toolEfficiency": "6",
     "tints": {
-        "glyph": "4f1edb",
-        "texture": "4f1edb"
+        "glyph": "7000BD",
+        "texture": "7000BD"
     },
     "textures": [
         "shiny",
@@ -22,7 +22,7 @@
         "item": "silentgems:iolite"
     },
     "requiredTools": {
-        "hammer": 2
+        "hammer": 3
     },
     "conditions": [
         {

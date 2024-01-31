@@ -19,7 +19,7 @@
         "wooden"
     ],
     "material": {
-        "item": "ms:nature/plank_hellwood"
+        "item": "ms:nature_hellwood_plank"
     },
     "requiredTools": {
         "axe": 3

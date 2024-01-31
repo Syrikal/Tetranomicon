@@ -1,25 +1,25 @@
 {
-    "key": "enlightened_end_cerulean",
+    "key": "nourished_end_stalk_wood",
     "category": "wood",
     "primary": "5",
     "secondary": "1.4",
-    "tertiary": "5",
-    "durability": "1561",
+    "tertiary": "6",
+    "durability": "1280",
     "integrityCost": "2",
-    "integrityGain": "9",
+    "integrityGain": "8",
     "magicCapacity": "90",
     "toolLevel": "2",
     "toolEfficiency": "4",
     "tints": {
-        "glyph": "5c97b8",
-        "texture": "5c97b8"
+        "glyph": "C3B4DA",
+        "texture": "C3B4DA"
     },
     "textures": [
         "crude",
         "wooden"
     ],
     "material": {
-        "item": "enlightened_end:cerulean_planks"
+        "item": "nourished_end:stalk_planks"
     },
     "requiredTools": {
         "axe": 5
@@ -27,7 +27,7 @@
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "enlightened_end"
+            "modid": "nourished_end"
         }
     ]
 }

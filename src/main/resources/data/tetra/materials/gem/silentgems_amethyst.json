@@ -1,0 +1,33 @@
+{
+    "key": "silentgems_amethyst",
+    "category": "gem",
+    "primary": "6",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "512",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "72",
+    "toolLevel": "3",
+    "toolEfficiency": "9",
+    "tints": {
+        "glyph": "6A03C7",
+        "texture": "6A03C7"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "silentgems:amethyst"
+    },
+    "requiredTools": {
+        "hammer": 3
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

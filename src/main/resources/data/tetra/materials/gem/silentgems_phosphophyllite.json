@@ -1,0 +1,33 @@
+{
+    "key": "silentgems_phosphophyllite",
+    "category": "gem",
+    "primary": "5",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "384",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "120",
+    "toolLevel": "3",
+    "toolEfficiency": "11",
+    "tints": {
+        "glyph": "18DB8A",
+        "texture": "18DB8A"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "silentgems:phosphophyllite"
+    },
+    "requiredTools": {
+        "hammer": 3
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

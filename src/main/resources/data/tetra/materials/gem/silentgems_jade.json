@@ -1,0 +1,33 @@
+{
+    "key": "silentgems_jade",
+    "category": "gem",
+    "primary": "8",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "512",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "84",
+    "toolLevel": "3",
+    "toolEfficiency": "7",
+    "tints": {
+        "glyph": "B2E25D",
+        "texture": "B2E25D"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "silentgems:jade"
+    },
+    "requiredTools": {
+        "hammer": 4
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

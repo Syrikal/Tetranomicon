@@ -20,7 +20,7 @@
         "default"
     ],
     "material": {
-        "item": "ms:gem/liniumingot"
+        "item": "ms:nether/liniumingot"
     },
     "requiredTools": {
         "hammer": 5

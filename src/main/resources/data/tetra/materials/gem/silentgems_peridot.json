@@ -1,18 +1,18 @@
 {
     "key": "silentgems_peridot",
     "category": "gem",
-    "primary": "6",
+    "primary": "7",
     "secondary": "2.9",
     "tertiary": "0",
     "durability": "512",
-    "integrityCost": "1",
+    "integrityCost": "2",
     "integrityGain": "2",
-    "magicCapacity": "72",
+    "magicCapacity": "84",
     "toolLevel": "3",
     "toolEfficiency": "6",
     "tints": {
-        "glyph": "4ef341",
-        "texture": "4ef341"
+        "glyph": "83CC16",
+        "texture": "83CC16"
     },
     "textures": [
         "shiny",
@@ -22,7 +22,7 @@
         "item": "silentgems:peridot"
     },
     "requiredTools": {
-        "hammer": 2
+        "hammer": 3
     },
     "conditions": [
         {

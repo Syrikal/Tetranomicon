@@ -1,18 +1,18 @@
 {
     "key": "silentgems_topaz",
     "category": "gem",
-    "primary": "5",
+    "primary": "7",
     "secondary": "2.9",
     "tertiary": "0",
-    "durability": "512",
-    "integrityCost": "1",
+    "durability": "768",
+    "integrityCost": "2",
     "integrityGain": "2",
-    "magicCapacity": "72",
+    "magicCapacity": "60",
     "toolLevel": "3",
-    "toolEfficiency": "8",
+    "toolEfficiency": "9",
     "tints": {
-        "glyph": "dd7d17",
-        "texture": "dd7d17"
+        "glyph": "DD7D17",
+        "texture": "DD7D17"
     },
     "textures": [
         "shiny",
@@ -22,7 +22,7 @@
         "item": "silentgems:topaz"
     },
     "requiredTools": {
-        "hammer": 2
+        "hammer": 4
     },
     "conditions": [
         {

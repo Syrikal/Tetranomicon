@@ -1,18 +1,18 @@
 {
     "key": "silentgems_carnelian",
     "category": "gem",
-    "primary": "6",
+    "primary": "5",
     "secondary": "2.9",
     "tertiary": "0",
-    "durability": "1280",
+    "durability": "512",
     "integrityCost": "1",
     "integrityGain": "2",
-    "magicCapacity": "60",
+    "magicCapacity": "72",
     "toolLevel": "3",
-    "toolEfficiency": "7",
+    "toolEfficiency": "9",
     "tints": {
-        "glyph": "e6351f",
-        "texture": "e6351f"
+        "glyph": "930C00",
+        "texture": "930C00"
     },
     "textures": [
         "shiny",

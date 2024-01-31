@@ -1,0 +1,132 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "item": "ms:tool/citrine_axe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_axe_left",
+                "basic_axe/ms_citrine"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/ms_citrine"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "item": "ms:tool/citrine_hoe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/hoe_left",
+                "hoe/ms_citrine"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/ms_citrine"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "item": "ms:tool/citrine_pickaxe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_pickaxe_left",
+                "basic_pickaxe/ms_citrine"
+            ],
+            "double/head_right": [
+                "double/basic_pickaxe_right",
+                "basic_pickaxe/ms_citrine"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "item": "ms:tool/citrine_shovel"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [
+                "single/basic_shovel",
+                "basic_shovel/ms_citrine"
+            ],
+            "single/handle": [
+                "single/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "item": "ms:tool/citrine_sword"
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/ms_citrine"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/stick"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/ms_citrine"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/ms_citrine"
+            ]
+        }
+    }
+]

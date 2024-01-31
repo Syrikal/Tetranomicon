@@ -1,0 +1,33 @@
+{
+    "key": "silentgems_zircon",
+    "category": "gem",
+    "primary": "6",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "768",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "78",
+    "toolLevel": "3",
+    "toolEfficiency": "9",
+    "tints": {
+        "glyph": "B3B600",
+        "texture": "B3B600"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "silentgems:zircon"
+    },
+    "requiredTools": {
+        "hammer": 3
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

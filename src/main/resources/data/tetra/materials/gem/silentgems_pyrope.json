@@ -1,0 +1,33 @@
+{
+    "key": "silentgems_pyrope",
+    "category": "gem",
+    "primary": "10",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "1024",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "72",
+    "toolLevel": "3",
+    "toolEfficiency": "9",
+    "tints": {
+        "glyph": "FF415E",
+        "texture": "FF415E"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "silentgems:pyrope"
+    },
+    "requiredTools": {
+        "hammer": 5
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "silentgems"
+        }
+    ]
+}

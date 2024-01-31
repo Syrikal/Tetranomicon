@@ -22,7 +22,7 @@
         "item": "ms:gem/olivine"
     },
     "requiredTools": {
-        "hammer": 3
+        "hammer": 2
     },
     "conditions": [
         {

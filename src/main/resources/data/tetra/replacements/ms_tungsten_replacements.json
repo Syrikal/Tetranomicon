@@ -1,0 +1,132 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "item": "ms:tool/tungsten_axe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_axe_left",
+                "basic_axe/ms_tungsten"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/ms_tungsten"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "item": "ms:tool/tungsten_hoe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/hoe_left",
+                "hoe/ms_tungsten"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/ms_tungsten"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "item": "ms:tool/tungsten_pickaxe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_pickaxe_left",
+                "basic_pickaxe/ms_tungsten"
+            ],
+            "double/head_right": [
+                "double/basic_pickaxe_right",
+                "basic_pickaxe/ms_tungsten"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "item": "ms:tool/tungsten_shovel"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [
+                "single/basic_shovel",
+                "basic_shovel/ms_tungsten"
+            ],
+            "single/handle": [
+                "single/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "ms"
+            }
+        ],
+        "predicate": {
+            "item": "ms:tool/tungsten_sword"
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/ms_tungsten"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/stick"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/ms_tungsten"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/ms_tungsten"
+            ]
+        }
+    }
+]

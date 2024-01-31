@@ -7,12 +7,12 @@
     "durability": "512",
     "integrityCost": "2",
     "integrityGain": "2",
-    "magicCapacity": "60",
+    "magicCapacity": "84",
     "toolLevel": "3",
-    "toolEfficiency": "6",
+    "toolEfficiency": "8",
     "tints": {
-        "glyph": "6f9a1e",
-        "texture": "6f9a1e"
+        "glyph": "A3AB00",
+        "texture": "A3AB00"
     },
     "textures": [
         "shiny",

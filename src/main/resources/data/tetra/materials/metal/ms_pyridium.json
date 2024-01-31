@@ -19,7 +19,7 @@
         "default"
     ],
     "material": {
-        "item": "ms:gem/pyridiumingot"
+        "item": "ms:nether/pyridiumingot"
     },
     "requiredTools": {
         "hammer": 4

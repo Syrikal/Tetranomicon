@@ -1,18 +1,18 @@
 {
     "key": "silentgems_alexandrite",
     "category": "gem",
-    "primary": "6",
+    "primary": "7",
     "secondary": "2.7",
     "tertiary": "0",
     "durability": "1024",
     "integrityCost": "2",
     "integrityGain": "2",
-    "magicCapacity": "90",
-    "toolLevel": "4",
-    "toolEfficiency": "9",
+    "magicCapacity": "108",
+    "toolLevel": "3",
+    "toolEfficiency": "8",
     "tints": {
-        "glyph": "9e17dd",
-        "texture": "9e17dd"
+        "glyph": "74007F",
+        "texture": "74007F"
     },
     "textures": [
         "shiny",
@@ -22,7 +22,7 @@
         "item": "silentgems:alexandrite"
     },
     "requiredTools": {
-        "hammer": 3
+        "hammer": 4
     },
     "conditions": [
         {

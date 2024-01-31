@@ -22,7 +22,7 @@
         "item": "ms:gem/trio"
     },
     "requiredTools": {
-        "hammer": 6
+        "hammer": 5
     },
     "conditions": [
         {

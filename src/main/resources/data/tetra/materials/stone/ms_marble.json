@@ -19,7 +19,7 @@
         "default"
     ],
     "material": {
-        "item": "ms:stone/marblecobble"
+        "item": "ms:marblecobble"
     },
     "requiredTools": {
         "hammer": 2
