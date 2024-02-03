@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/sapphire_axe"
+            "item": "ms:tool/sapphireaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/sapphire_hoe"
+            "item": "ms:tool/sapphirehoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/sapphire_pickaxe"
+            "item": "ms:tool/sapphirepickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/sapphire_shovel"
+            "item": "ms:tool/sapphireshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/sapphire_sword"
+            "item": "ms:tool/sapphiresword"
         },
         "item": "tetra:modular_sword",
         "modules": {

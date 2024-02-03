@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/tungsten_axe"
+            "item": "ms:tool/tungstenaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/tungsten_hoe"
+            "item": "ms:tool/tungstenhoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/tungsten_pickaxe"
+            "item": "ms:tool/tungstenpickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/tungsten_shovel"
+            "item": "ms:tool/tungstenshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/tungsten_sword"
+            "item": "ms:tool/tungstensword"
         },
         "item": "tetra:modular_sword",
         "modules": {

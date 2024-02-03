@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/redstone_axe"
+            "item": "ms:tool/redstoneaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/redstone_hoe"
+            "item": "ms:tool/redstonehoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/redstone_pickaxe"
+            "item": "ms:tool/redstonepickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/redstone_shovel"
+            "item": "ms:tool/redstoneshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/redstone_sword"
+            "item": "ms:tool/redstonesword"
         },
         "item": "tetra:modular_sword",
         "modules": {

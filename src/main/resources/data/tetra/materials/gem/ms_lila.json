@@ -1,0 +1,36 @@
+{
+    "key": "ms_lila",
+    "category": "gem",
+    "primary": "4.5",
+    "secondary": "2.7",
+    "tertiary": "0",
+    "durability": "127",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "156",
+    "toolLevel": "3",
+    "toolEfficiency": "6.5",
+    "effects": {
+        "stabilizing": 20
+    },
+    "tints": {
+        "glyph": "CA00CA",
+        "texture": "CA00CA"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "ms:gem/lila"
+    },
+    "requiredTools": {
+        "hammer": 3
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ms"
+        }
+    ]
+}

@@ -348,8 +348,8 @@
     
     "tetra.material.endergetic_poise": "Poise",
     "tetra.material.endergetic_poise.prefix": "Poise",
-
-
+    
+    
     "tetra.material.enderitemod_enderite": "Enderite",
     "tetra.material.enderitemod_enderite.prefix": "Enderite",
 
@@ -463,6 +463,8 @@
     "tetra.material.ms_hellwood.prefix": "Hellwood",
     "tetra.material.ms_jade": "Jade",
     "tetra.material.ms_jade.prefix": "Jade",
+    "tetra.material.ms_lila": "Lila",
+    "tetra.material.ms_lila.prefix": "Lila",
     "tetra.material.ms_limestone": "Limestone",
     "tetra.material.ms_limestone.prefix": "Limestone",
     "tetra.material.ms_linium": "Linium",
@@ -584,11 +586,12 @@
     "tetra.material.netheragriculture_blazing_gold.prefix": "Blazing Gold",
     "tetra.material.netheragriculture_glowing": "Glowing",
     "tetra.material.netheragriculture_glowing.prefix": "Glowing",
+
     "tetra.improvement.blazing_tool.name": "Fire Aspect",
     "tetra.improvement.blazing_tool.description": "Blazing Gold Innate Enchantment",
     "tetra.improvement.blazing_blade.name": "Fire Aspect",
     "tetra.improvement.blazing_blade.description": "Blazing Gold Innate Enchantment",
-    
+
     
     "tetra.material.nourished_end_stalk_wood": "Stalk Wood",
     "tetra.material.nourished_end_stalk_wood.prefix": "Stalk",
@@ -688,10 +691,6 @@
     "tetra.material.quark_slate.prefix": "Slate",
     "tetra.material.quark_voidstone": "Voidstone",
     "tetra.material.quark_voidstone.prefix": "Voidstone",
-    
-    
-    "tetra.material.regions_unexplored_cherry": "Cherry",
-    "tetra.material.regions_unexplored_cherry.prefix": "Cherry",
     
     
     "tetra.material.silentgear_azure_electrum": "Azure Electrum",
@@ -955,7 +954,7 @@
     "tetra.material.unearthed_slate.prefix": "Slate",
     "tetra.material.unearthed_white_granite": "White Granite",
     "tetra.material.unearthed_white_granite.prefix": "White Granite",
-
+    
     
     "tetra.material.upgrade_aquatic_driftwood": "Driftwood",
     "tetra.material.upgrade_aquatic_driftwood.prefix": "Driftwood",

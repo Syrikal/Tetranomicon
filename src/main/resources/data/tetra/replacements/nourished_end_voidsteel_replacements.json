@@ -3,25 +3,25 @@
         "conditions": [
             {
                 "type": "forge:mod_loaded",
-                "modid": "ms"
+                "modid": "nourished_end"
             }
         ],
         "predicate": {
-            "item": "ms:tool/violium_axe"
+            "item": "nourished_end:voidsteel_axe"
         },
         "item": "tetra:modular_double",
         "modules": {
             "double/head_left": [
                 "double/basic_axe_left",
-                "basic_axe/ms_violium"
+                "basic_axe/nourished_end_voidsteel"
             ],
             "double/head_right": [
                 "double/butt_right",
-                "butt/ms_violium"
+                "butt/nourished_end_voidsteel"
             ],
             "double/handle": [
                 "double/basic_handle",
-                "basic_handle/ms_aquiris_ember_rod"
+                "basic_handle/stick"
             ]
         }
     },
@@ -29,25 +29,25 @@
         "conditions": [
             {
                 "type": "forge:mod_loaded",
-                "modid": "ms"
+                "modid": "nourished_end"
             }
         ],
         "predicate": {
-            "item": "ms:tool/violium_hoe"
+            "item": "nourished_end:voidsteel_hoe"
         },
         "item": "tetra:modular_double",
         "modules": {
             "double/head_left": [
                 "double/hoe_left",
-                "hoe/ms_violium"
+                "hoe/nourished_end_voidsteel"
             ],
             "double/head_right": [
                 "double/butt_right",
-                "butt/ms_violium"
+                "butt/nourished_end_voidsteel"
             ],
             "double/handle": [
                 "double/basic_handle",
-                "basic_handle/ms_aquiris_ember_rod"
+                "basic_handle/stick"
             ]
         }
     },
@@ -55,25 +55,25 @@
         "conditions": [
             {
                 "type": "forge:mod_loaded",
-                "modid": "ms"
+                "modid": "nourished_end"
             }
         ],
         "predicate": {
-            "item": "ms:tool/violium_pickaxe"
+            "item": "nourished_end:voidsteel_pickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
             "double/head_left": [
                 "double/basic_pickaxe_left",
-                "basic_pickaxe/ms_violium"
+                "basic_pickaxe/nourished_end_voidsteel"
             ],
             "double/head_right": [
                 "double/basic_pickaxe_right",
-                "basic_pickaxe/ms_violium"
+                "basic_pickaxe/nourished_end_voidsteel"
             ],
             "double/handle": [
                 "double/basic_handle",
-                "basic_handle/ms_aquiris_ember_rod"
+                "basic_handle/stick"
             ]
         }
     },
@@ -81,21 +81,21 @@
         "conditions": [
             {
                 "type": "forge:mod_loaded",
-                "modid": "ms"
+                "modid": "nourished_end"
             }
         ],
         "predicate": {
-            "item": "ms:tool/violium_shovel"
+            "item": "nourished_end:voidsteel_shovel"
         },
         "item": "tetra:modular_single",
         "modules": {
             "single/head": [
                 "single/basic_shovel",
-                "basic_shovel/ms_violium"
+                "basic_shovel/nourished_end_voidsteel"
             ],
             "single/handle": [
                 "single/basic_handle",
-                "basic_handle/ms_aquiris_ember_rod"
+                "basic_handle/stick"
             ]
         }
     },
@@ -103,29 +103,29 @@
         "conditions": [
             {
                 "type": "forge:mod_loaded",
-                "modid": "ms"
+                "modid": "nourished_end"
             }
         ],
         "predicate": {
-            "item": "ms:tool/violium_sword"
+            "item": "nourished_end:voidsteel_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {
             "sword/blade": [
                 "sword/basic_blade",
-                "basic_blade/ms_violium"
+                "basic_blade/nourished_end_voidsteel"
             ],
             "sword/hilt": [
                 "sword/basic_hilt",
-                "basic_hilt/ms_aquiris_ember_rod"
+                "basic_hilt/stick"
             ],
             "sword/pommel": [
                 "sword/decorative_pommel",
-                "decorative_pommel/ms_violium"
+                "decorative_pommel/nourished_end_voidsteel"
             ],
             "sword/guard": [
                 "sword/makeshift_guard",
-                "makeshift_guard/ms_violium"
+                "makeshift_guard/nourished_end_voidsteel"
             ]
         }
     }

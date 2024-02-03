@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/jade_axe"
+            "item": "ms:tool/jadeaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/jade_hoe"
+            "item": "ms:tool/jadehoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/jade_pickaxe"
+            "item": "ms:tool/jadepickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/jade_shovel"
+            "item": "ms:tool/jadeshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/jade_sword"
+            "item": "ms:tool/jadesword"
         },
         "item": "tetra:modular_sword",
         "modules": {

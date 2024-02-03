@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/chromite_axe"
+            "item": "ms:tool/chromiteaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/chromite_hoe"
+            "item": "ms:tool/chromitehoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/chromite_pickaxe"
+            "item": "ms:tool/chromitepickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/chromite_shovel"
+            "item": "ms:tool/chromiteshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/chromite_sword"
+            "item": "ms:tool/chromitesword"
         },
         "item": "tetra:modular_sword",
         "modules": {

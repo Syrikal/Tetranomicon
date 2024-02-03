@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/tin_axe"
+            "item": "ms:tool/tinaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/tin_hoe"
+            "item": "ms:tool/tinhoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/tin_pickaxe"
+            "item": "ms:tool/tinpickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/tin_shovel"
+            "item": "ms:tool/tinshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/tin_sword"
+            "item": "ms:tool/tinsword"
         },
         "item": "tetra:modular_sword",
         "modules": {

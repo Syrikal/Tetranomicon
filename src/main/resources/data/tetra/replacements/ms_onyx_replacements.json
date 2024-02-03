@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/onyx_axe"
+            "item": "ms:tool/onyxaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/onyx_hoe"
+            "item": "ms:tool/onyxhoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/onyx_pickaxe"
+            "item": "ms:tool/onyxpickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/onyx_shovel"
+            "item": "ms:tool/onyxshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/onyx_sword"
+            "item": "ms:tool/onyxsword"
         },
         "item": "tetra:modular_sword",
         "modules": {

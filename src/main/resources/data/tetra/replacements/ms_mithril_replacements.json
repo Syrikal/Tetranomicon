@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/mithril_axe"
+            "item": "ms:tool/mithrilaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/mithril_hoe"
+            "item": "ms:tool/mithrilhoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/mithril_pickaxe"
+            "item": "ms:tool/mithrilpickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/mithril_shovel"
+            "item": "ms:tool/mithrilshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/mithril_sword"
+            "item": "ms:tool/mithrilsword"
         },
         "item": "tetra:modular_sword",
         "modules": {

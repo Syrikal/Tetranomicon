@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/citrine_axe"
+            "item": "ms:tool/citrineaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/citrine_hoe"
+            "item": "ms:tool/citrinehoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/citrine_pickaxe"
+            "item": "ms:tool/citrinepickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/citrine_shovel"
+            "item": "ms:tool/citrineshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/citrine_sword"
+            "item": "ms:tool/citrinesword"
         },
         "item": "tetra:modular_sword",
         "modules": {

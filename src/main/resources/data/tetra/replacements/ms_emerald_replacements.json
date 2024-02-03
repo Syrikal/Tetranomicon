@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/emerald_axe"
+            "item": "ms:tool/emeraldaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/emerald_hoe"
+            "item": "ms:tool/emeraldhoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/emerald_pickaxe"
+            "item": "ms:tool/emeraldpickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/emerald_shovel"
+            "item": "ms:tool/emeraldshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/emerald_sword"
+            "item": "ms:tool/emeraldsword"
         },
         "item": "tetra:modular_sword",
         "modules": {

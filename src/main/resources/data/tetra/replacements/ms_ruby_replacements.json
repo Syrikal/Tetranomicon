@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/ruby_axe"
+            "item": "ms:tool/rubyaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/ruby_hoe"
+            "item": "ms:tool/rubyhoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/ruby_pickaxe"
+            "item": "ms:tool/rubypickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/ruby_shovel"
+            "item": "ms:tool/rubyshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/ruby_sword"
+            "item": "ms:tool/rubysword"
         },
         "item": "tetra:modular_sword",
         "modules": {

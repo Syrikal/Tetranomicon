@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/obsidian_axe"
+            "item": "ms:tool/obsidianaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/obsidian_hoe"
+            "item": "ms:tool/obsidianhoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/obsidian_pickaxe"
+            "item": "ms:tool/obsidianpickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/obsidian_shovel"
+            "item": "ms:tool/obsidianshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/obsidian_sword"
+            "item": "ms:tool/obsidiansword"
         },
         "item": "tetra:modular_sword",
         "modules": {

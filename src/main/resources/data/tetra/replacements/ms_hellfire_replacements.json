@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/hellfire_axe"
+            "item": "ms:tool/hellfireaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/hellfire_hoe"
+            "item": "ms:tool/hellfirehoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/hellfire_pickaxe"
+            "item": "ms:tool/hellfirepickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/hellfire_shovel"
+            "item": "ms:tool/hellfireshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/hellfire_sword"
+            "item": "ms:tool/hellfiresword"
         },
         "item": "tetra:modular_sword",
         "modules": {

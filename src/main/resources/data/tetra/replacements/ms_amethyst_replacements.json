@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/amethyst_axe"
+            "item": "ms:tool/amethystaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/amethyst_hoe"
+            "item": "ms:tool/amethysthoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/amethyst_pickaxe"
+            "item": "ms:tool/amethystpickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/amethyst_shovel"
+            "item": "ms:tool/amethystshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/amethyst_sword"
+            "item": "ms:tool/amethystsword"
         },
         "item": "tetra:modular_sword",
         "modules": {

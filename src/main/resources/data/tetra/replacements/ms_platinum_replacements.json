@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/platinum_axe"
+            "item": "ms:tool/platinumaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/platinum_hoe"
+            "item": "ms:tool/platinumhoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/platinum_pickaxe"
+            "item": "ms:tool/platinumpickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/platinum_shovel"
+            "item": "ms:tool/platinumshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/platinum_sword"
+            "item": "ms:tool/platinumsword"
         },
         "item": "tetra:modular_sword",
         "modules": {

@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/blaze_axe"
+            "item": "ms:tool/blazeaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/blaze_hoe"
+            "item": "ms:tool/blazehoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/blaze_pickaxe"
+            "item": "ms:tool/blazepickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/blaze_shovel"
+            "item": "ms:tool/blazeshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/blaze_sword"
+            "item": "ms:tool/blazesword"
         },
         "item": "tetra:modular_sword",
         "modules": {

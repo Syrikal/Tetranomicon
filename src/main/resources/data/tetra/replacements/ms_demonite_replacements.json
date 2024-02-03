@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/demonite_axe"
+            "item": "ms:tool/demoniteaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/demonite_hoe"
+            "item": "ms:tool/demonitehoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/demonite_pickaxe"
+            "item": "ms:tool/demonitepickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/demonite_shovel"
+            "item": "ms:tool/demoniteshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/demonite_sword"
+            "item": "ms:tool/demonitesword"
         },
         "item": "tetra:modular_sword",
         "modules": {

@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/copper_axe"
+            "item": "ms:tool/copperaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/copper_hoe"
+            "item": "ms:tool/copperhoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/copper_pickaxe"
+            "item": "ms:tool/copperpickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/copper_shovel"
+            "item": "ms:tool/coppershovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/copper_sword"
+            "item": "ms:tool/coppersword"
         },
         "item": "tetra:modular_sword",
         "modules": {

@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/glowood_axe"
+            "item": "ms:tool/glowoodaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/glowood_hoe"
+            "item": "ms:tool/glowoodhoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/glowood_pickaxe"
+            "item": "ms:tool/glowoodpickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/glowood_shovel"
+            "item": "ms:tool/glowoodshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/glowood_sword"
+            "item": "ms:tool/glowoodsword"
         },
         "item": "tetra:modular_sword",
         "modules": {

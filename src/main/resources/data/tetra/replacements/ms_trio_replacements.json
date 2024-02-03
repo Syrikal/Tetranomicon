@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/trio_axe"
+            "item": "ms:tool/trioaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/trio_hoe"
+            "item": "ms:tool/triohoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/trio_pickaxe"
+            "item": "ms:tool/triopickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/trio_shovel"
+            "item": "ms:tool/trioshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/trio_sword"
+            "item": "ms:tool/triosword"
         },
         "item": "tetra:modular_sword",
         "modules": {

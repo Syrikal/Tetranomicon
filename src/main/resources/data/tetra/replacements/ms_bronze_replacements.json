@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/bronze_axe"
+            "item": "ms:tool/bronzeaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/bronze_hoe"
+            "item": "ms:tool/bronzehoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/bronze_pickaxe"
+            "item": "ms:tool/bronzepickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/bronze_shovel"
+            "item": "ms:tool/bronzeshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/bronze_sword"
+            "item": "ms:tool/bronzesword"
         },
         "item": "tetra:modular_sword",
         "modules": {

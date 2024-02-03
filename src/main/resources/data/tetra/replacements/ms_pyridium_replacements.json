@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/pyridium_axe"
+            "item": "ms:tool/pyridiumaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/pyridium_hoe"
+            "item": "ms:tool/pyridiumhoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/pyridium_pickaxe"
+            "item": "ms:tool/pyridiumpickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/pyridium_shovel"
+            "item": "ms:tool/pyridiumshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/pyridium_sword"
+            "item": "ms:tool/pyridiumsword"
         },
         "item": "tetra:modular_sword",
         "modules": {

@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/uranium_axe"
+            "item": "ms:tool/uraniumaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/uranium_hoe"
+            "item": "ms:tool/uraniumhoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/uranium_pickaxe"
+            "item": "ms:tool/uraniumpickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/uranium_shovel"
+            "item": "ms:tool/uraniumshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/uranium_sword"
+            "item": "ms:tool/uraniumsword"
         },
         "item": "tetra:modular_sword",
         "modules": {

@@ -3,21 +3,21 @@
         "conditions": [
             {
                 "type": "forge:mod_loaded",
-                "modid": "enlightened_end"
+                "modid": "ms"
             }
         ],
         "predicate": {
-            "item": "enlightened_end:starsteel_axe"
+            "item": "ms:tool/lilaaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
             "double/head_left": [
                 "double/basic_axe_left",
-                "basic_axe/enlightened_end_starsteel"
+                "basic_axe/ms_lila"
             ],
             "double/head_right": [
                 "double/butt_right",
-                "butt/enlightened_end_starsteel"
+                "butt/ms_lila"
             ],
             "double/handle": [
                 "double/basic_handle",
@@ -29,21 +29,21 @@
         "conditions": [
             {
                 "type": "forge:mod_loaded",
-                "modid": "enlightened_end"
+                "modid": "ms"
             }
         ],
         "predicate": {
-            "item": "enlightened_end:starsteel_hoe"
+            "item": "ms:tool/lilahoe"
         },
         "item": "tetra:modular_double",
         "modules": {
             "double/head_left": [
                 "double/hoe_left",
-                "hoe/enlightened_end_starsteel"
+                "hoe/ms_lila"
             ],
             "double/head_right": [
                 "double/butt_right",
-                "butt/enlightened_end_starsteel"
+                "butt/ms_lila"
             ],
             "double/handle": [
                 "double/basic_handle",
@@ -55,21 +55,21 @@
         "conditions": [
             {
                 "type": "forge:mod_loaded",
-                "modid": "enlightened_end"
+                "modid": "ms"
             }
         ],
         "predicate": {
-            "item": "enlightened_end:starsteel_pickaxe"
+            "item": "ms:tool/lilapickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
             "double/head_left": [
                 "double/basic_pickaxe_left",
-                "basic_pickaxe/enlightened_end_starsteel"
+                "basic_pickaxe/ms_lila"
             ],
             "double/head_right": [
                 "double/basic_pickaxe_right",
-                "basic_pickaxe/enlightened_end_starsteel"
+                "basic_pickaxe/ms_lila"
             ],
             "double/handle": [
                 "double/basic_handle",
@@ -81,17 +81,17 @@
         "conditions": [
             {
                 "type": "forge:mod_loaded",
-                "modid": "enlightened_end"
+                "modid": "ms"
             }
         ],
         "predicate": {
-            "item": "enlightened_end:starsteel_shovel"
+            "item": "ms:tool/lilashovel"
         },
         "item": "tetra:modular_single",
         "modules": {
             "single/head": [
                 "single/basic_shovel",
-                "basic_shovel/enlightened_end_starsteel"
+                "basic_shovel/ms_lila"
             ],
             "single/handle": [
                 "single/basic_handle",
@@ -103,17 +103,17 @@
         "conditions": [
             {
                 "type": "forge:mod_loaded",
-                "modid": "enlightened_end"
+                "modid": "ms"
             }
         ],
         "predicate": {
-            "item": "enlightened_end:starsteel_sword"
+            "item": "ms:tool/lilasword"
         },
         "item": "tetra:modular_sword",
         "modules": {
             "sword/blade": [
                 "sword/basic_blade",
-                "basic_blade/enlightened_end_starsteel"
+                "basic_blade/ms_lila"
             ],
             "sword/hilt": [
                 "sword/basic_hilt",
@@ -121,11 +121,11 @@
             ],
             "sword/pommel": [
                 "sword/decorative_pommel",
-                "decorative_pommel/enlightened_end_starsteel"
+                "decorative_pommel/ms_lila"
             ],
             "sword/guard": [
                 "sword/makeshift_guard",
-                "makeshift_guard/enlightened_end_starsteel"
+                "makeshift_guard/ms_lila"
             ]
         }
     }

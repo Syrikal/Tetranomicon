@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/silver_axe"
+            "item": "ms:tool/silveraxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/silver_hoe"
+            "item": "ms:tool/silverhoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/silver_pickaxe"
+            "item": "ms:tool/silverpickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/silver_shovel"
+            "item": "ms:tool/silvershovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/silver_sword"
+            "item": "ms:tool/silversword"
         },
         "item": "tetra:modular_sword",
         "modules": {

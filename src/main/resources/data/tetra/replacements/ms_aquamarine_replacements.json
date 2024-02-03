@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/aquamarine_axe"
+            "item": "ms:tool/aquamarineaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/aquamarine_hoe"
+            "item": "ms:tool/aquamarinehoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/aquamarine_pickaxe"
+            "item": "ms:tool/aquamarinepickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/aquamarine_shovel"
+            "item": "ms:tool/aquamarineshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/aquamarine_sword"
+            "item": "ms:tool/aquamarinesword"
         },
         "item": "tetra:modular_sword",
         "modules": {

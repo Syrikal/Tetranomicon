@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/black_diamond_axe"
+            "item": "ms:tool/blackdiamondaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/black_diamond_hoe"
+            "item": "ms:tool/blackdiamondhoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/black_diamond_pickaxe"
+            "item": "ms:tool/blackdiamondpickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/black_diamond_shovel"
+            "item": "ms:tool/blackdiamondshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/black_diamond_sword"
+            "item": "ms:tool/blackdiamondsword"
         },
         "item": "tetra:modular_sword",
         "modules": {

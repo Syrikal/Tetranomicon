@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/topaz_axe"
+            "item": "ms:tool/topazaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/topaz_hoe"
+            "item": "ms:tool/topazhoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/topaz_pickaxe"
+            "item": "ms:tool/topazpickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/topaz_shovel"
+            "item": "ms:tool/topazshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/topaz_sword"
+            "item": "ms:tool/topazsword"
         },
         "item": "tetra:modular_sword",
         "modules": {

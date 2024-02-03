@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/white_opal_axe"
+            "item": "ms:tool/whiteopalaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/white_opal_hoe"
+            "item": "ms:tool/whiteopalhoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/white_opal_pickaxe"
+            "item": "ms:tool/whiteopalpickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/white_opal_shovel"
+            "item": "ms:tool/whiteopalshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/white_opal_sword"
+            "item": "ms:tool/whiteopalsword"
         },
         "item": "tetra:modular_sword",
         "modules": {

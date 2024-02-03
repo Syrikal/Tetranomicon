@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/flint_axe"
+            "item": "ms:tool/flintaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/flint_hoe"
+            "item": "ms:tool/flinthoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/flint_pickaxe"
+            "item": "ms:tool/flintpickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/flint_shovel"
+            "item": "ms:tool/flintshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/flint_sword"
+            "item": "ms:tool/flintsword"
         },
         "item": "tetra:modular_sword",
         "modules": {

@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/tanzanite_axe"
+            "item": "ms:tool/tanzaniteaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/tanzanite_hoe"
+            "item": "ms:tool/tanzanitehoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/tanzanite_pickaxe"
+            "item": "ms:tool/tanzanitepickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/tanzanite_shovel"
+            "item": "ms:tool/tanzaniteshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/tanzanite_sword"
+            "item": "ms:tool/tanzanitesword"
         },
         "item": "tetra:modular_sword",
         "modules": {

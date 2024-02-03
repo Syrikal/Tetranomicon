@@ -7,7 +7,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/olivine_axe"
+            "item": "ms:tool/olivineaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -33,7 +33,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/olivine_hoe"
+            "item": "ms:tool/olivinehoe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -59,7 +59,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/olivine_pickaxe"
+            "item": "ms:tool/olivinepickaxe"
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -85,7 +85,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/olivine_shovel"
+            "item": "ms:tool/olivineshovel"
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -107,7 +107,7 @@
             }
         ],
         "predicate": {
-            "item": "ms:tool/olivine_sword"
+            "item": "ms:tool/olivinesword"
         },
         "item": "tetra:modular_sword",
         "modules": {
