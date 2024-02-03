@@ -644,8 +644,12 @@
     "tetra.variant.sword_socket/organics_kuko": "Socket [§dKuko§r]",
     
     
+    "tetra.material.outer_end_azure_vines": "Azure Vines",
+    "tetra.material.outer_end_azure_vines.prefix": "Azure Vine",
     "tetra.material.outer_end_azure_wood": "Azure Wood",
     "tetra.material.outer_end_azure_wood.prefix": "Azure",
+    "tetra.material.outer_end_violite": "Violite",
+    "tetra.material.outer_end_violite.prefix": "Violite",
     
     "tetra.variant.double_socket/outer_end_cobalt_crystal": "Socket [§3Cobalt Crystal§r]",
     "tetra.variant.single_socket/outer_end_cobalt_crystal": "Socket [§3Cobalt Crystal§r]",

@@ -1,0 +1,33 @@
+{
+    "key": "outer_end_azure_vines",
+    "category": "fibre",
+    "primary": "4",
+    "secondary": "3.2",
+    "tertiary": "3",
+    "durability": "1280",
+    "integrityCost": "2",
+    "integrityGain": "8",
+    "magicCapacity": "90",
+    "toolLevel": "0",
+    "toolEfficiency": "0",
+    "tints": {
+        "glyph": "3a6e9d",
+        "texture": "3a6e9d"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "outer_end:azure_vines"
+    },
+    "requiredTools": {
+        "cut": 3
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "outer_end"
+        }
+    ]
+}
