@@ -116,6 +116,9 @@ dependencies {
     //Ice and Fire (requires Citadel)
     implementation fg.deobf("curse.maven:ice-and-fire-dragons-264231:5037783")
 
+    //Outer End (Requires Blueprint)
+    implementation fg.deobf("curse.maven:the-outer-end-430404:5043937")
+
     //Stalwart Dungeons
     implementation fg.deobf("curse.maven:stalwart-dungeons-474817:4703671")
 
@@ -219,6 +222,7 @@ dependencies {
 
     //Libraries and Dependencies
     implementation fg.deobf("curse.maven:mutil-351914:4824501")
+    implementation fg.deobf("curse.maven:blueprint-382216:4594238")
     implementation fg.deobf("curse.maven:terrablender-563928:4647094")
     implementation fg.deobf("curse.maven:architectury-api-419699:4663010")
     implementation fg.deobf("curse.maven:cloth-config-348521:4633444")

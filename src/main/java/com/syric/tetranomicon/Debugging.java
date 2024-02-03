@@ -171,7 +171,7 @@ public class Debugging {
         if (rawText.contains("tetranomicon check replacement candidates")) {
             Tetranomicon.LOGGER.debug("Tetranomicon: scanning for replacement candidates...");
 
-            ArrayList<TagKey<Item>> tagKeys = new ArrayList<>(Arrays.asList(Tags.Items.TOOLS, Tags.Items.TOOLS_AXES, Tags.Items.TOOLS_PICKAXES, Tags.Items.TOOLS_SHOVELS, Tags.Items.TOOLS_HOES, Tags.Items.TOOLS_SWORDS, Tags.Items.TOOLS_BOWS));
+            ArrayList<TagKey<Item>> tagKeys = new ArrayList<>(Arrays.asList(Tags.Items.TOOLS, ItemTags.AXES, ItemTags.PICKAXES, ItemTags.SHOVELS, ItemTags.HOES, ItemTags.SWORDS, Tags.Items.TOOLS_BOWS));
             ArrayList<String> tool_names = new ArrayList<>(Arrays.asList("_axe", "_pickaxe", "_shovel", "_pick", "_hoe", "_sword", "_bow"));
 
             ForgeRegistries.ITEMS.getEntries().stream()
