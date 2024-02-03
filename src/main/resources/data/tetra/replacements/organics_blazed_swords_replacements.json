@@ -97,7 +97,7 @@
             }
         ],
         "predicate": {
-            "item": "organics:blazed_gold_sword"
+            "item": "organics:blazed_golden_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {
