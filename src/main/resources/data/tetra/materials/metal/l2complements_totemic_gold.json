@@ -14,8 +14,8 @@
         "stabilizing": 20
     },
     "tints": {
-        "glyph": "bf9140",
-        "texture": "bf9140"
+        "glyph": "BF9140",
+        "texture": "BF9140"
     },
     "textures": [
         "shiny",

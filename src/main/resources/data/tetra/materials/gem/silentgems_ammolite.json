@@ -5,7 +5,7 @@
     "secondary": 2.5,
     "tertiary": 0,
     "durability": 1024,
-    "integrityCost": 1,
+    "integrityCost": 2,
     "integrityGain": 2,
     "magicCapacity": 72,
     "toolLevel": "minecraft:diamond",
