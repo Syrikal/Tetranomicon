@@ -11,8 +11,8 @@
     "toolLevel": "minecraft:diamond",
     "toolEfficiency": 8,
     "tints": {
-        "glyph": "B65FFD",
-        "texture": "B65FFD"
+        "glyph": "b65ffd",
+        "texture": "b65ffd"
     },
     "textures": [
         "metal",

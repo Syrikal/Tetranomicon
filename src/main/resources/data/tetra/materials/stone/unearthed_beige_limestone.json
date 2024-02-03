@@ -11,8 +11,8 @@
     "toolLevel": "minecraft:stone",
     "toolEfficiency": 4,
     "tints": {
-        "glyph": "EAD4A9",
-        "texture": "EAD4A9"
+        "glyph": "ead4a9",
+        "texture": "ead4a9"
     },
     "textures": [
         "grainy",
