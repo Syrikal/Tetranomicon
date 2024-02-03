@@ -37,6 +37,31 @@
             }
         ],
         "predicate": {
+            "item": "enderitemod:enderite_bow"
+        },
+        "item": "tetra:modular_bow",
+        "modules": {
+            "bow/stave": [
+                "bow/straight_stave",
+                "straight_stave/enderitemod_enderite"
+            ],
+            "bow/string": [
+                "bow/basic_string",
+                "basic_string/string"
+            ]
+        },
+        "improvements": {
+            "bow/stave:enderite_void_floating_innate": 3
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "enderitemod"
+            }
+        ],
+        "predicate": {
             "item": "enderitemod:enderite_hoe"
         },
         "item": "tetra:modular_double",
