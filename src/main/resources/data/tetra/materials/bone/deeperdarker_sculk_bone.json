@@ -20,8 +20,8 @@
         ]
     },
     "tints": {
-        "glyph": "CBCEB3",
-        "texture": "CBCEB3"
+        "glyph": "cbceb3",
+        "texture": "cbceb3"
     },
     "textures": [
         "bone",

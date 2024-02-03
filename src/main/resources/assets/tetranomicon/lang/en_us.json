@@ -146,6 +146,8 @@
     "tetra.material.socket_blue_skies_sunstone_crystal.prefix": "§6Sunstone Crystal§r",
     
     
+    "tetra.material.byg_ametrine_gems": "Ametrine Gems",
+    "tetra.material.byg_ametrine_gems.prefix": "Ametrine",
     "tetra.material.byg_aspen": "Aspen",
     "tetra.material.byg_aspen.prefix": "Aspen",
     "tetra.material.byg_baobab": "Baobab",
@@ -224,8 +226,6 @@
     "tetra.material.byg_sythian.prefix": "Sythian",
     "tetra.material.byg_therium": "Therium",
     "tetra.material.byg_therium.prefix": "Therium",
-    "tetra.material.byg_therium_crystal": "Therium Crystal",
-    "tetra.material.byg_therium_crystal.prefix": "Therium Crystal",
     "tetra.material.byg_wailing_vine": "Wailing Vine",
     "tetra.material.byg_wailing_vine.prefix": "Wailing Vine",
     "tetra.material.byg_white_mangrove": "White Mangrove",

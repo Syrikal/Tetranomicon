@@ -13,7 +13,7 @@
     "toolEfficiency": 0,
     "attributes": {
         "forge:reach_distance": 1.5,
-        "forge:attack_distance": 1.5
+        "forge:attack_range": 1.5
     },
     "effects": {
         "reaching": [
