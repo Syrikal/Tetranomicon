@@ -24,7 +24,7 @@
         ]
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:diamond"
+        "hammer_dig": "minecraft:iron"
     },
     "conditions": [
         {
