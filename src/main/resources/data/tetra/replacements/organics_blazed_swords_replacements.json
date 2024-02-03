@@ -104,7 +104,7 @@
         ],
         "predicate": {
             "items": [
-                "organics:blazed_gold_sword"
+                "organics:blazed_golden_sword"
             ]
         },
         "item": "tetra:modular_sword",
