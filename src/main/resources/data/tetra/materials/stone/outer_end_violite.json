@@ -1,0 +1,40 @@
+{
+    "key": "outer_end_violite",
+    "category": "stone",
+    "primary": 6.7,
+    "secondary": 7,
+    "tertiary": 0,
+    "durability": 1256,
+    "integrityCost": 3,
+    "integrityGain": 2,
+    "magicCapacity": 114,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 5,
+    "effects": {
+        "crushing": 2
+    },
+    "tints": {
+        "glyph": "4b3651",
+        "texture": "4b3651"
+    },
+    "textures": [
+        "heavy",
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "outer_end:violite"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:diamond"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "outer_end"
+        }
+    ]
+}

@@ -13,16 +13,16 @@
     "toolEfficiency": 4.0,
     "attributes": {
         "**generic.attack_damage": 0.25,
-        "generic.max_health": -4
+        "generic.max_health": -10
     },
     "effects": {
         "fierySelf": [
             1,
             0.02
         ],
-        "bleeding": 4,
+        "bleeding": 2,
         "severing": [
-            20,
+            25,
             5
         ]
     },

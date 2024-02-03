@@ -567,6 +567,14 @@
     "tetra.material.socket_organics_kuko.prefix": "§dKuko§r",
     
     
+    "tetra.material.outer_end_azure_vines": "Azure Vines",
+    "tetra.material.outer_end_azure_vines.prefix": "Azure Vine",
+    "tetra.material.outer_end_azure_wood": "Azure Wood",
+    "tetra.material.outer_end_azure_wood.prefix": "Azure",
+    "tetra.material.outer_end_violite": "Violite",
+    "tetra.material.outer_end_violite.prefix": "Violite",
+    
+    
     "tetra.material.phantasm_pream": "Pream",
     "tetra.material.phantasm_pream.prefix": "Pream",
     "tetra.material.phantasm_void_crystal": "Void Crystal",
