@@ -11,8 +11,8 @@
     "toolLevel": "3",
     "toolEfficiency": "9",
     "tints": {
-        "glyph": "8588FF",
-        "texture": "8588FF"
+        "glyph": "8588ff",
+        "texture": "8588ff"
     },
     "textures": [
         "shiny",

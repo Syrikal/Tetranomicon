@@ -11,8 +11,8 @@
     "toolLevel": "3",
     "toolEfficiency": "9",
     "tints": {
-        "glyph": "930C00",
-        "texture": "930C00"
+        "glyph": "930c00",
+        "texture": "930c00"
     },
     "textures": [
         "shiny",

@@ -11,8 +11,8 @@
     "toolLevel": "3",
     "toolEfficiency": "8",
     "tints": {
-        "glyph": "C25500",
-        "texture": "C25500"
+        "glyph": "c25500",
+        "texture": "c25500"
     },
     "textures": [
         "shiny",

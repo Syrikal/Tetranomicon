@@ -11,8 +11,8 @@
     "toolLevel": "6",
     "toolEfficiency": "10",
     "tints": {
-        "glyph": "6358C5",
-        "texture": "6358C5"
+        "glyph": "6358c5",
+        "texture": "6358c5"
     },
     "textures": [
         "metal",

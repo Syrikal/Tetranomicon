@@ -11,8 +11,8 @@
     "toolLevel": "3",
     "toolEfficiency": "4",
     "tints": {
-        "glyph": "C710B2",
-        "texture": "C710B2"
+        "glyph": "c710b2",
+        "texture": "c710b2"
     },
     "textures": [
         "shiny",

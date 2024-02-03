@@ -17,8 +17,8 @@
         ]
     },
     "tints": {
-        "glyph": "FF4EAB",
-        "texture": "FF4EAB"
+        "glyph": "ff4eab",
+        "texture": "ff4eab"
     },
     "textures": [
         "shiny",

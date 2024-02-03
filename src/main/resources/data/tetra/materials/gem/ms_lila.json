@@ -14,8 +14,8 @@
         "stabilizing": 20
     },
     "tints": {
-        "glyph": "CA00CA",
-        "texture": "CA00CA"
+        "glyph": "ca00ca",
+        "texture": "ca00ca"
     },
     "textures": [
         "shiny",
