@@ -24,7 +24,7 @@
         ]
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:netherite"
+        "hammer_dig": "minecraft:diamond"
     },
     "conditions": [
         {

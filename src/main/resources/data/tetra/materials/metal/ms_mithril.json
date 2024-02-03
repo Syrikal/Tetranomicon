@@ -28,7 +28,7 @@
         ]
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:gold"
+        "hammer_dig": "minecraft:stone"
     },
     "conditions": [
         {
