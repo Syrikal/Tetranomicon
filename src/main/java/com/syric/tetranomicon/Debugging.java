@@ -131,6 +131,7 @@ public class Debugging {
                     .filter(x -> !x.getValue().toString().contains("painted"))
                     .filter(x -> !x.getValue().toString().contains("mossy"))
                     .filter(x -> !x.getValue().toString().contains("olivine"))
+                    .filter(x -> !x.getValue().toString().contains("stained"))
                     .forEach(x -> Tetranomicon.LOGGER.debug("Candidate that is not a material: " + x.getValue().getCreatorModId(x.getValue().getDefaultInstance()) + ":" + x.getValue()));
         }
     }
@@ -143,22 +144,28 @@ public class Debugging {
         String rawText = event.getMessage();
         if (rawText.contains("tetranomicon missing replacements")) {
             Tetranomicon.LOGGER.debug("Tetranomicon: scanning for missing replacements...");
-            DataManager.instance.replacementData.getData().values().forEach(replacementList -> Arrays.stream(replacementList).filter(replacement ->
-                ForgeRegistries.ITEMS.getEntries().stream().noneMatch(item -> replacement.predicate.matches(item.getValue().getDefaultInstance())))
-                    .forEach(replacement -> {
-                        JsonObject jsonObject = replacement.predicate.serializeToJson().getAsJsonObject();
-                        JsonElement items = jsonObject.get("items");
-                        StringBuilder itemsList = new StringBuilder();
-                        if (items instanceof JsonArray jsonArray) {
-                            for (JsonElement item : jsonArray) {
-                                itemsList.append(item.getAsString());
-                                itemsList.append(", ");
-                            }
+            DataManager.instance.replacementData.getData().values().forEach(replacementList -> Arrays.stream(replacementList)
+                .filter(replacement -> replacement.predicate != null)
+                .filter(replacement -> ForgeRegistries.ITEMS.getEntries().stream().noneMatch(item -> replacement.predicate.matches(item.getValue().getDefaultInstance())))
+                .forEach(replacement -> {
+                    JsonObject jsonObject = replacement.predicate.serializeToJson().getAsJsonObject();
+                    JsonElement items = jsonObject.get("items");
+                    StringBuilder itemsList = new StringBuilder();
+                    if (items instanceof JsonArray jsonArray) {
+                        for (JsonElement item : jsonArray) {
+                            itemsList.append(item.getAsString());
+                            itemsList.append(", ");
                         }
-                        if (items != null) {
-                            Tetranomicon.LOGGER.debug("Replacement missing item: " + replacement.itemStack.toString() + " / " + itemsList);
-                        }
-                    }));
+                    }
+                    if (items != null) {
+                        Tetranomicon.LOGGER.debug("Replacement missing item: " + replacement.itemStack.toString() + " / " + itemsList);
+                    }
+                })
+            );
+            DataManager.instance.replacementData.getData().values().forEach(replacementList -> Arrays.stream(replacementList)
+                .filter(replacement -> replacement.predicate == null)
+                .forEach(replacement -> Tetranomicon.LOGGER.debug("Replacement missing item: " + replacement))
+            );
         }
     }
 
@@ -189,7 +196,7 @@ public class Debugging {
                     })
                     .filter(x -> DataManager.instance.replacementData.getData().values().stream().noneMatch(replacementList -> {
                         ItemStack stack = x.getValue().getDefaultInstance();
-                        return Arrays.stream(replacementList).anyMatch(replacement -> replacement.predicate.matches(stack));
+                        return Arrays.stream(replacementList).filter(replacement -> replacement.predicate != null).anyMatch(replacement -> replacement.predicate.matches(stack));
                     }))
                     .forEach(x -> Tetranomicon.LOGGER.debug("Candidate tool not replaced: " + x.getValue().getCreatorModId(x.getValue().getDefaultInstance()) + ":" + x.getValue()));
         }
