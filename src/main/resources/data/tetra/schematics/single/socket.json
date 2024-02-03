@@ -93,7 +93,7 @@
                 }
             ],
             "material": {
-                "item": "blue_skies:aquite"
+                "item": "blue_skies:aquite_gem"
             },
             "experienceCost": 5,
             "moduleKey": "single/socket",
@@ -187,34 +187,6 @@
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
-                    "modid": "enlightened_end"
-                }
-            ],
-            "material": {
-                "item": "enlightened_end:glacium"
-            },
-            "experienceCost": 20,
-            "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/enlightened_end_glacium"
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "enlightened_end"
-                }
-            ],
-            "material": {
-                "item": "enlightened_end:malachite"
-            },
-            "experienceCost": 20,
-            "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/enlightened_end_malachite"
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
                     "modid": "ms"
                 }
             ],
@@ -275,7 +247,7 @@
                 }
             ],
             "material": {
-                "item": "ms:gem/hellfirecrystal"
+                "item": "ms:gem/hellfire"
             },
             "experienceCost": 10,
             "moduleKey": "single/socket",
@@ -896,20 +868,6 @@
             "experienceCost": 6,
             "moduleKey": "single/socket",
             "moduleVariant": "single_socket/silentgems_turquoise"
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "silentgems"
-                }
-            ],
-            "material": {
-                "item": "silentgems:white_diamond"
-            },
-            "experienceCost": 10,
-            "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/silentgems_white_diamond"
         },
         {
             "conditions": [

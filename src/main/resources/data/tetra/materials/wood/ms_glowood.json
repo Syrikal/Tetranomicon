@@ -19,7 +19,7 @@
         "wooden"
     ],
     "material": {
-        "item": "ms:nether/glowood"
+        "item": "ms:nature/glowood"
     },
     "requiredTools": {
         "axe": 1
