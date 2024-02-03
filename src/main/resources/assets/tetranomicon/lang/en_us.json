@@ -227,7 +227,9 @@
     "tetra.variant.single_socket/blue_skies_sunstone_crystal": "Socket [§6Sunstone Crystal§r]",
     "tetra.variant.sword_socket/blue_skies_sunstone_crystal": "Socket [§6Sunstone Crystal§r]",
     
-    
+
+    "tetra.material.byg_ametrine_gems": "Ametrine Gems",
+    "tetra.material.byg_ametrine_gems.prefix": "Ametrine",
     "tetra.material.byg_aspen": "Aspen",
     "tetra.material.byg_aspen.prefix": "Aspen",
     "tetra.material.byg_baobab": "Baobab",
@@ -308,8 +310,6 @@
     "tetra.material.byg_sythian.prefix": "Sythian",
     "tetra.material.byg_therium": "Therium",
     "tetra.material.byg_therium.prefix": "Therium",
-    "tetra.material.byg_therium_crystal": "Therium Crystal",
-    "tetra.material.byg_therium_crystal.prefix": "Therium Crystal",
     "tetra.material.byg_wailing_vine": "Wailing Vine",
     "tetra.material.byg_wailing_vine.prefix": "Wailing Vine",
     "tetra.material.byg_willow": "Willow",
@@ -356,14 +356,6 @@
     "tetra.improvement.enderite_void_floating_innate.name": "Void Floating",
     "tetra.improvement.enderite_void_floating_innate.description": "Causes the item to float above the Void instead of falling in.",
 
-
-    "tetra.variant.double_socket/enlightened_end_glacium": "Socket [§bGlacium§r]",
-    "tetra.variant.single_socket/enlightened_end_glacium": "Socket [§bGlacium§r]",
-    "tetra.variant.sword_socket/enlightened_end_glacium": "Socket [§bGlacium§r]",
-    "tetra.variant.double_socket/enlightened_end_malachite": "Socket [§aMalachite§r]",
-    "tetra.variant.single_socket/enlightened_end_malachite": "Socket [§aMalachite§r]",
-    "tetra.variant.sword_socket/enlightened_end_malachite": "Socket [§aMalachite§r]",
-    
     
     "tetra.material.environmental_cherry": "Cherry",
     "tetra.material.environmental_cherry.prefix": "Cherry",
@@ -882,9 +874,6 @@
     "tetra.variant.double_socket/silentgems_turquoise": "Socket [§sTurquoise§r]",
     "tetra.variant.single_socket/silentgems_turquoise": "Socket [§sTurquoise§r]",
     "tetra.variant.sword_socket/silentgems_turquoise": "Socket [§sTurquoise§r]",
-    "tetra.variant.double_socket/silentgems_white_diamond": "Socket [§fWhite Diamond§r]",
-    "tetra.variant.single_socket/silentgems_white_diamond": "Socket [§fWhite Diamond§r]",
-    "tetra.variant.sword_socket/silentgems_white_diamond": "Socket [§fWhite Diamond§r]",
     
     
     "tetra.material.stalwart_dungeons_chorundum": "Chorundum",

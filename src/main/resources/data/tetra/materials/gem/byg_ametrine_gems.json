@@ -1,13 +1,13 @@
 {
-    "key": "byg_therium_crystal",
+    "key": "byg_ametrine_gems",
     "category": "gem",
-    "primary": "5.9",
+    "primary": "5.2",
     "secondary": "2",
     "tertiary": "0",
     "durability": "5",
     "integrityCost": "8",
     "integrityGain": "1",
-    "magicCapacity": "48",
+    "magicCapacity": "42",
     "toolLevel": "7",
     "toolEfficiency": "4",
     "improvements": {
@@ -17,8 +17,8 @@
         "unstable": 25
     },
     "tints": {
-        "glyph": "b5e3df",
-        "texture": "b5e3df"
+        "glyph": "d399d1",
+        "texture": "d399d1"
     },
     "textures": [
         "grainy",
@@ -26,7 +26,7 @@
         "default"
     ],
     "material": {
-        "item": "byg:therium_crystal"
+        "item": "byg:ametrine_gems"
     },
     "requiredTools": {
         "hammer": 7
