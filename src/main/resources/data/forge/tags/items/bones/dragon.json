@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "iceandfire:dragonbone"
+    {
+      "id": "iceandfire:dragonbone",
+      "required": false
+    }
   ]
 }
