@@ -145,7 +145,8 @@ public class Debugging {
                     JsonObject jsonObject = replacement.predicate.serializeToJson().getAsJsonObject();
                     JsonElement items = jsonObject.get("items");
                     StringBuilder itemsList = new StringBuilder();
-                    if (items instanceof JsonArray jsonArray) {
+                    if (items instanceof JsonArray) {
+                        JsonArray jsonArray = (JsonArray) items;
                         for (JsonElement item : jsonArray) {
                             itemsList.append(item.getAsString());
                             itemsList.append(", ");
