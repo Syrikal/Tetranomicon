@@ -211,10 +211,15 @@ dependencies {
     implementation fg.deobf("curse.maven:ecologics-570463:4857272")
 
 
+    //SET 5
+    //Embers Rekindled
+    implementation fg.deobf("curse.maven:embers-rekindled-300777:5031242")
+
+
     //JEI
     implementation fg.deobf("curse.maven:jei-238222:4712868")
 //    implementation fg.deobf("curse.maven:configured-457570:NOTREADYYET")
-//    implementation fg.deobf("curse.maven:just-enough-resources-jer-240630:NOTREADYYET")
+    implementation fg.deobf("curse.maven:just-enough-resources-jer-240630:5057220")
 
     //Optimization
 //    implementation fg.deobf("curse.maven:rubidium-574856:4767529")
