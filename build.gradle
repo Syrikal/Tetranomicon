@@ -104,7 +104,7 @@ dependencies {
 
     //Tetra (requires mutil)
     implementation fg.deobf("curse.maven:tetra-289712:4857842")
-    implementation fg.deobf("curse.maven:scroll-of-harvests-571339:4706191")
+//    implementation fg.deobf("curse.maven:scroll-of-harvests-571339:4706191")
 
     //PREVIOUSLY SUPPORTED
     //BOP (requires terrablender)
