@@ -104,7 +104,7 @@ dependencies {
 
     //Tetra: Requires mutil
     implementation fg.deobf("curse.maven:tetra-289712:4448541")
-    implementation fg.deobf("curse.maven:scroll-of-harvests-571339:4379788")
+//    implementation fg.deobf("curse.maven:scroll-of-harvests-571339:4379788")
 
     //PREVIOUSLY SUPPORTED
     //Abnormals: Atmospheric, Autumnity, Environmental, Upgrade Aquatic. Require Blueprint.
@@ -224,8 +224,8 @@ dependencies {
 
 
     //Optimization
-    implementation fg.deobf("curse.maven:rubidium-574856:4763255")
-    implementation fg.deobf("curse.maven:oculus-581495:4763262")
+//    implementation fg.deobf("curse.maven:rubidium-574856:4763255")
+//    implementation fg.deobf("curse.maven:oculus-581495:4763262")
 
 
     //Mixins

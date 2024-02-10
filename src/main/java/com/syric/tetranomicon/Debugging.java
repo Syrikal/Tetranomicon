@@ -13,6 +13,8 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.inventory.tooltip.TooltipComponent;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.client.event.RenderTooltipEvent;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.event.ServerChatEvent;
@@ -27,6 +29,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+@OnlyIn(Dist.CLIENT)
 public class Debugging {
 
     @SubscribeEvent
