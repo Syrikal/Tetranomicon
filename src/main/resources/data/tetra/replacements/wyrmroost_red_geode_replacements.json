@@ -13,11 +13,11 @@
         "modules": {
             "double/head_left": [
                 "double/basic_axe_left",
-                "basic_axe/wyrmroost_red_geode"
+                "basic_axe/red_geode"
             ],
             "double/head_right": [
                 "double/basic_axe_right",
-                "basic_axe/wyrmroost_red_geode"
+                "basic_axe/red_geode"
             ],
             "double/handle": [
                 "double/basic_handle",
@@ -39,11 +39,11 @@
         "modules": {
             "double/head_left": [
                 "double/hoe_left",
-                "hoe/wyrmroost_red_geode"
+                "hoe/red_geode"
             ],
             "double/head_right": [
                 "double/butt_right",
-                "butt/wyrmroost_red_geode"
+                "butt/red_geode"
             ],
             "double/handle": [
                 "double/basic_handle",
@@ -65,11 +65,11 @@
         "modules": {
             "double/head_left": [
                 "double/basic_pickaxe_left",
-                "basic_pickaxe/wyrmroost_red_geode"
+                "basic_pickaxe/red_geode"
             ],
             "double/head_right": [
                 "double/basic_pickaxe_right",
-                "basic_pickaxe/wyrmroost_red_geode"
+                "basic_pickaxe/red_geode"
             ],
             "double/handle": [
                 "double/basic_handle",
@@ -91,7 +91,7 @@
         "modules": {
             "single/head": [
                 "single/basic_shovel",
-                "basic_shovel/wyrmroost_red_geode"
+                "basic_shovel/red_geode"
             ],
             "single/handle": [
                 "single/basic_handle",
@@ -113,7 +113,7 @@
         "modules": {
             "sword/blade": [
                 "sword/basic_blade",
-                "basic_blade/wyrmroost_red_geode"
+                "basic_blade/red_geode"
             ],
             "sword/hilt": [
                 "sword/basic_hilt",
@@ -121,11 +121,11 @@
             ],
             "sword/pommel": [
                 "sword/decorative_pommel",
-                "decorative_pommel/wyrmroost_red_geode"
+                "decorative_pommel/red_geode"
             ],
             "sword/guard": [
                 "sword/makeshift_guard",
-                "makeshift_guard/wyrmroost_red_geode"
+                "makeshift_guard/red_geode"
             ]
         }
     }

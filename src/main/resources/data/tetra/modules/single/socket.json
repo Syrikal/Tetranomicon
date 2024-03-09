@@ -2743,7 +2743,7 @@
                     "modid": "wyrmroost"
                 }
             ],
-            "key": "single_socket/wyrmroost_red_geode",
+            "key": "single_socket/red_geode",
             "category": "gem",
             "durability": 640,
             "integrity": 1,

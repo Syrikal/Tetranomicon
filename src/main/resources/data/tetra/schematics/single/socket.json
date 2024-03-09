@@ -965,7 +965,7 @@
             },
             "experienceCost": 10,
             "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/wyrmroost_red_geode"
+            "moduleVariant": "single_socket/red_geode"
         }
     ]
 }
