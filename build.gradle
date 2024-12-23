@@ -109,24 +109,22 @@ dependencies {
     //PREVIOUSLY SUPPORTED
     //BOP (requires terrablender)
     implementation fg.deobf("curse.maven:biomes-o-plenty-220318:4617259")
-
     //Enderite (requires architectury api and cloth config)
     implementation fg.deobf("curse.maven:enderite-mod-for-forge-401284:4630504")
-
     //Ice and Fire (requires Citadel)
     implementation fg.deobf("curse.maven:ice-and-fire-dragons-264231:5037783")
-
     //Outer End (Requires Blueprint)
     implementation fg.deobf("curse.maven:the-outer-end-430404:5043937")
-
     //Stalwart Dungeons
     implementation fg.deobf("curse.maven:stalwart-dungeons-474817:4703671")
-
     //Twilight Forest
     implementation fg.deobf("curse.maven:the-twilight-forest-227639:4865711")
-
     //Create
     implementation fg.deobf("curse.maven:create-328085:4835191")
+    //Quark (requires Zeta)
+    implementation fg.deobf("curse.maven:quark-243121:5594847")
+    //Autumnity
+//    implementation fg.deobf("curse.maven:autumnity-365045:5292346")
 
 
     //SET ONE
@@ -214,6 +212,22 @@ dependencies {
     //SET 5
     //Embers Rekindled
     implementation fg.deobf("curse.maven:embers-rekindled-300777:5031242")
+    //Tropicraft
+    implementation fg.deobf("curse.maven:tropicraft-254794:4811116")
+    //Ore and More
+    implementation fg.deobf("curse.maven:oam-by-choupiclou2007-421326:5851162")
+    //Unusual Prehistory
+    implementation fg.deobf("curse.maven:unusual-prehistory-forge-696283:4884372")
+    //Forbidden Arcanus (Requires Valhelsia Core)
+    implementation fg.deobf("curse.maven:forbidden-arcanus-309858:5198323")
+
+
+    //FABRIC
+    //BetterEnd (requires Fabric API and BCLIB)
+    implementation fg.deobf("curse.maven:betterend-413596:4971487")
+    //Mythic Metals (requires OWO-Lib and Alloy Forgery)
+//    implementation fg.deobf("curse.maven:mythicmetals-410127:5418365")
+
 
 
     //JEI
@@ -246,6 +260,11 @@ dependencies {
 //    implementation fg.deobf("curse.maven:aeroblender-879879:4789008")
     implementation fg.deobf("curse.maven:patchouli-306770:4892162")
     implementation fg.deobf("curse.maven:l2library-620203:4846530")
+    implementation fg.deobf("curse.maven:valhelsia-core-416935:5189548")
+    implementation fg.deobf("curse.maven:bclib-495191:4971470")
+//    implementation fg.deobf("curse.maven:owo-lib-532610:4749199")
+//    implementation fg.deobf("curse.maven:alloy-forgery-438718:4944647")
+    implementation fg.deobf("curse.maven:zeta-968868:5597406")
 
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'

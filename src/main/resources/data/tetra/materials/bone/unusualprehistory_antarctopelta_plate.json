@@ -1,0 +1,38 @@
+{
+    "key": "unusualprehistory_antarctopelta_plate",
+    "category": "bone",
+    "primary": 6,
+    "secondary": 7,
+    "tertiary": 2.4,
+    "durability": 1024,
+    "integrityCost": 2,
+    "integrityGain": 7,
+    "magicCapacity": 60,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 6,
+    "effects": {
+        "crushing": 2
+    },
+    "tints": {
+        "glyph": "BFBAAA",
+        "texture": "BFBAAA"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "unusualprehistory:antarcto_plate"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "unusualprehistory"
+        }
+    ]
+}

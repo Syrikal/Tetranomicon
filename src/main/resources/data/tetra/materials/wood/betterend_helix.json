@@ -1,0 +1,38 @@
+{
+    "key": "betterend_helix",
+    "category": "wood",
+    "primary": 5,
+    "secondary": 1.6,
+    "tertiary": 7,
+    "durability": 768,
+    "integrityCost": 2,
+    "integrityGain": 5,
+    "magicCapacity": 108,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 7.5,
+    "effects": {
+        "stabilizing": 15
+    },
+    "tints": {
+        "glyph": "c87d20",
+        "texture": "c87d20"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "betterend:helix_tree_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:netherite"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betterend"
+        }
+    ]
+}

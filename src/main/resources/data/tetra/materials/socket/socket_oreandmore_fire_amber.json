@@ -1,48 +1,42 @@
 {
-    "key": "socket_alexscaves_uranium",
+    "key": "socket_oreandmore_fire_amber",
     "hidden": true,
     "category": "socket",
     "primary": 0,
     "secondary": 0,
     "tertiary": 0,
-    "durability": 512.0,
+    "durability": 0.0,
     "integrityCost": 1,
     "integrityGain": 0,
     "magicCapacity": 0,
     "toolLevel": 0,
-    "toolEfficiency": 4.0,
+    "toolEfficiency": 0,
     "attributes": {
-        "**generic.attack_damage": 0.25,
-        "generic.max_health": -8
+        "**generic.attack_damage": 0.2
     },
     "effects": {
         "fierySelf": [
             1,
-            0.02
-        ],
-        "bleeding": 2,
-        "severing": [
-            25,
-            5
+            0.04
         ]
     },
     "tints": {
-        "glyph": "00ff00",
-        "texture": "00ff00"
+        "glyph": "D8991C",
+        "texture": "D8991C"
     },
     "textures": [
         "default"
     ],
-    "experienceCost": 20,
+    "experienceCost": 2,
     "material": {
         "items": [
-            "alexscaves:uranium"
+            "oreandmore:fire_amber"
         ]
     },
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "alexscaves"
+            "modid": "oreandmore"
         }
     ]
 }

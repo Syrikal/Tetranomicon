@@ -1,0 +1,36 @@
+{
+    "key": "betterend_eternal_flavolite",
+    "category": "stone",
+    "primary": 4,
+    "secondary": 4,
+    "tertiary": 0,
+    "durability": 24576,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 4,
+    "tints": {
+        "glyph": "bfa175",
+        "texture": "bfa175"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "betterend:flavolite_runed_eternal"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:netherite"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betterend"
+        }
+    ]
+}

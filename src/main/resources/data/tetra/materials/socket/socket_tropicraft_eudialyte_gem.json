@@ -1,48 +1,39 @@
 {
-    "key": "socket_alexscaves_uranium",
+    "key": "socket_tropicraft_eudialyte_gem",
     "hidden": true,
     "category": "socket",
     "primary": 0,
     "secondary": 0,
     "tertiary": 0,
-    "durability": 512.0,
+    "durability": 0.0,
     "integrityCost": 1,
     "integrityGain": 0,
     "magicCapacity": 0,
     "toolLevel": 0,
     "toolEfficiency": 4.0,
-    "attributes": {
-        "**generic.attack_damage": 0.25,
-        "generic.max_health": -8
-    },
     "effects": {
-        "fierySelf": [
-            1,
-            0.02
-        ],
-        "bleeding": 2,
-        "severing": [
-            25,
-            5
+        "criticalStrike": [
+            20,
+            2
         ]
     },
     "tints": {
-        "glyph": "00ff00",
-        "texture": "00ff00"
+        "glyph": "AC6175",
+        "texture": "AC6175"
     },
     "textures": [
         "default"
     ],
-    "experienceCost": 20,
+    "experienceCost": 4,
     "material": {
         "items": [
-            "alexscaves:uranium"
+            "tropicraft:eudialyte_gem"
         ]
     },
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "alexscaves"
+            "modid": "tropicraft"
         }
     ]
 }

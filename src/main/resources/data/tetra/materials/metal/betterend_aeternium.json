@@ -1,0 +1,36 @@
+{
+    "key": "betterend_aeternium",
+    "category": "metal",
+    "primary": 7.5,
+    "secondary": 3.7,
+    "tertiary": 4.5,
+    "durability": 2196,
+    "integrityCost": 2,
+    "integrityGain": 7,
+    "magicCapacity": 108,
+    "toolLevel": "tetra:maxed_forge_hammer",
+    "toolEfficiency": 10,
+    "tints": {
+        "glyph": "6c8c84",
+        "texture": "6c8c84"
+    },
+    "textures": [
+        "heavy",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "betterend:aeternium_ingot"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:netherite"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betterend"
+        }
+    ]
+}

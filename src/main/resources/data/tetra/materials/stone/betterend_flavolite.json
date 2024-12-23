@@ -1,0 +1,36 @@
+{
+    "key": "betterend_flavolite",
+    "category": "stone",
+    "primary": 4,
+    "secondary": 4,
+    "tertiary": 0,
+    "durability": 1561,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 4,
+    "tints": {
+        "glyph": "d4c098",
+        "texture": "d4c098"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "betterend:flavolite"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:diamond"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betterend"
+        }
+    ]
+}

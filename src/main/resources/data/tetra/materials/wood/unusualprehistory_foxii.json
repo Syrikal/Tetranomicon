@@ -1,0 +1,35 @@
+{
+    "key": "unusualprehistory_foxii",
+    "category": "wood",
+    "primary": 4.5,
+    "secondary": 1.5,
+    "tertiary": 5.5,
+    "durability": 1024,
+    "integrityCost": 2,
+    "integrityGain": 7,
+    "magicCapacity": 132,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 4,
+    "tints": {
+        "glyph": "401E15",
+        "texture": "401E15"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "unusualprehistory:foxxi_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:diamond"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "unusualprehistory"
+        }
+    ]
+}

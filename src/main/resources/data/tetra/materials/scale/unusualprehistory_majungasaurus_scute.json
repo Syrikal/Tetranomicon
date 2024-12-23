@@ -1,0 +1,35 @@
+{
+    "key": "unusualprehistory_majungasaurus_scute",
+    "category": "scale",
+    "primary": 5,
+    "secondary": 3.2,
+    "tertiary": 2,
+    "durability": 384,
+    "integrityCost": 2,
+    "integrityGain": 5,
+    "magicCapacity": 54,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "6A9935",
+        "texture": "6A9935"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "unusualprehistory:majunga_scute"
+        ]
+    },
+    "requiredTools": {
+        "cut": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "unusualprehistory"
+        }
+    ]
+}

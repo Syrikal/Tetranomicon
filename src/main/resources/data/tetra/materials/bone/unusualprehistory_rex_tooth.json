@@ -1,0 +1,35 @@
+{
+    "key": "unusualprehistory_rex_tooth",
+    "category": "bone",
+    "primary": 6.5,
+    "secondary": 2.4,
+    "tertiary": 3.2,
+    "durability": 512,
+    "integrityCost": 2,
+    "integrityGain": 4,
+    "magicCapacity": 120,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 5,
+    "tints": {
+        "glyph": "CDBEAF",
+        "texture": "CDBEAF"
+    },
+    "textures": [
+        "bone",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "unusualprehistory:rex_tooth"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "unusualprehistory"
+        }
+    ]
+}

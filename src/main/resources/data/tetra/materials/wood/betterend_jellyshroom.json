@@ -1,0 +1,35 @@
+{
+    "key": "betterend_jellyshroom",
+    "category": "wood",
+    "primary": 4,
+    "secondary": 3,
+    "tertiary": 7,
+    "durability": 192,
+    "integrityCost": 2,
+    "integrityGain": 6,
+    "magicCapacity": 120,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 8,
+    "tints": {
+        "glyph": "7ea0a8",
+        "texture": "7ea0a8"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "betterend:jellyshroom_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:diamond"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betterend"
+        }
+    ]
+}

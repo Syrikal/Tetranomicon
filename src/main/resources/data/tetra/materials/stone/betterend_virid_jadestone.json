@@ -1,0 +1,36 @@
+{
+    "key": "betterend_virid_jadestone",
+    "category": "stone",
+    "primary": 4,
+    "secondary": 3.8,
+    "tertiary": 0,
+    "durability": 2031,
+    "integrityCost": 2,
+    "integrityGain": 4,
+    "magicCapacity": 102,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 4,
+    "tints": {
+        "glyph": "305f4e",
+        "texture": "305f4e"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "betterend:virid_jadestone"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:diamond"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betterend"
+        }
+    ]
+}

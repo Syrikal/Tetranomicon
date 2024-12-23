@@ -1,0 +1,157 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "betterend"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "betterend:aeternium_axe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_axe_left",
+                "basic_axe/betterend_aeternium"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/betterend_aeternium"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        },
+        "improvements": {
+            "double/handle:basic_handle/wrap_leather": 1
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "betterend"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "betterend:aeternium_hoe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/hoe_left",
+                "hoe/betterend_aeternium"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/betterend_aeternium"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        },
+        "improvements": {
+            "double/handle:basic_handle/wrap_leather": 1
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "betterend"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "betterend:aeternium_pickaxe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_pickaxe_left",
+                "basic_pickaxe/betterend_aeternium"
+            ],
+            "double/head_right": [
+                "double/basic_pickaxe_right",
+                "basic_pickaxe/betterend_aeternium"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        },
+        "improvements": {
+            "double/handle:basic_handle/wrap_leather": 1
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "betterend"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "betterend:aeternium_shovel"
+            ]
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [
+                "single/basic_shovel",
+                "basic_shovel/betterend_aeternium"
+            ],
+            "single/handle": [
+                "single/basic_handle",
+                "basic_handle/stick"
+            ]
+        },
+        "improvements": {
+            "single/handle:basic_handle/wrap_leather": 1
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "betterend"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "betterend:aeternium_sword"
+            ]
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/betterend_aeternium"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/stick"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/betterend_aeternium"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/betterend_aeternium"
+            ]
+        },
+        "improvements": {
+            "sword/hilt:basic_hilt/wrap_leather": 1
+        }
+    }
+]

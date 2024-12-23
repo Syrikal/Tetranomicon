@@ -1,0 +1,35 @@
+{
+    "key": "oreandmore_chlorophyte",
+    "category": "metal",
+    "primary": 11,
+    "secondary": 3,
+    "tertiary": 4,
+    "durability": 5421,
+    "integrityCost": 2,
+    "integrityGain": 6,
+    "magicCapacity": 168,
+    "toolLevel": "minecraft:netherite",
+    "toolEfficiency": 18,
+    "tints": {
+        "glyph": "245633",
+        "texture": "245633"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "oreandmore:chlorophyte_ingot"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:netherite"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "oreandmore"
+        }
+    ]
+}

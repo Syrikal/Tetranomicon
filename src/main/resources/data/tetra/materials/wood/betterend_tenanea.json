@@ -1,0 +1,41 @@
+{
+    "key": "betterend_tenanea",
+    "category": "wood",
+    "primary": 5.4,
+    "secondary": 2,
+    "tertiary": 8.8,
+    "durability": 1024,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 96,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 6.5,
+    "effects": {
+        "enderReverb": [
+            6,
+            0.6
+        ]
+    },
+    "tints": {
+        "glyph": "944f86",
+        "texture": "944f86"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "betterend:tenanea_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "tetra:maxed_forge_hammer"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betterend"
+        }
+    ]
+}
