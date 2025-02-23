@@ -106,10 +106,20 @@ dependencies {
 //    implementation fg.deobf("curse.maven:scroll-of-harvests-571339:4706191")
 
     //PREVIOUSLY SUPPORTED
+    //Atmospheric (requires Blueprint)
+    implementation fg.deobf("curse.maven:atmospheric-362393:6057624")
+    //Autumnity (Requires Blueprint)
+    implementation fg.deobf("curse.maven:autumnity-365045:5292346")
 //    //BOP (requires terrablender and glitchcore)
 //    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:6028852")
+//    //Create
+//    implementation fg.deobf("curse.maven:create-328085:5838779")
 //    //Enderite (requires architectury api and cloth config)
 //    implementation fg.deobf("curse.maven:enderite-mod-for-forge-401284:5017690")
+//    //Endergetic Expansion (requires Blueprint)
+//    implementation fg.deobf("curse.maven:endergetic-291509:6157658")
+    //Environmental (requires Blueprint)
+    implementation fg.deobf("curse.maven:environmental-388992:6060255")
 //    //Ice and Fire (requires Citadel)
 //    implementation fg.deobf("curse.maven:ice-and-fire-dragons-264231:5633453")
 //    //Outer End (Requires Blueprint)
@@ -118,12 +128,10 @@ dependencies {
 //    implementation fg.deobf("curse.maven:stalwart-dungeons-474817:4703671")
 //    //Twilight Forest
 //    implementation fg.deobf("curse.maven:the-twilight-forest-227639:5468648")
-//    //Create
-//    implementation fg.deobf("curse.maven:create-328085:5838779")
-    //Quark (requires Zeta)
-//    implementation fg.deobf("curse.maven:quark-243121:5594847")
-    //Autumnity (Requires Blueprint)
-    implementation fg.deobf("curse.maven:autumnity-365045:5292346")
+    //Upgrade Aquatic
+    implementation fg.deobf("curse.maven:upgrade-aquatic-326895:6157694")
+//    Quark (requires Zeta)
+    implementation fg.deobf("curse.maven:quark-243121:5594847")
 
 
     //SET ONE
@@ -197,8 +205,8 @@ dependencies {
     //FABRIC
     //BetterEnd (requires Fabric API and BCLib)
     implementation fg.deobf("curse.maven:betterend-413596:4971487")
-    //BetterNether (requires Fabric API and BCLib) (incompatible with Quark)
-    implementation fg.deobf("curse.maven:betternether-311377:4971478")
+//    //BetterNether (requires Fabric API and BCLib) (incompatible with Quark)
+//    implementation fg.deobf("curse.maven:betternether-311377:4971478")
 
 
     //REMOVED
