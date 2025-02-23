@@ -1,0 +1,35 @@
+{
+    "key": "betternether_nether_ruby",
+    "category": "gem",
+    "primary": 6.1,
+    "secondary": 2.9,
+    "tertiary": 0,
+    "durability": 2561,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 108,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 7.1,
+    "tints": {
+        "glyph": "CE1425",
+        "texture": "CE1425"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "betternether:nether_ruby"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betternether"
+        }
+    ]
+}

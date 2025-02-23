@@ -1,0 +1,39 @@
+{
+    "key": "embers_dawnstone",
+    "category": "metal",
+    "primary": 5.5,
+    "secondary": 3.4,
+    "tertiary": 2,
+    "durability": 644,
+    "integrityCost": 2,
+    "integrityGain": 6,
+    "magicCapacity": 108,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 7.5,
+    "effects": {
+        "stabilizing": 10
+    },
+    "tints": {
+        "glyph": "FFB648",
+        "texture": "FFB648"
+    },
+    "textures": [
+        "shiny",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "embers:dawnstone_ingot"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "embers"
+        }
+    ]
+}

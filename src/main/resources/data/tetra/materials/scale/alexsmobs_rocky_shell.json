@@ -1,0 +1,35 @@
+{
+    "key": "alexsmobs_rocky_shell",
+    "category": "scale",
+    "primary": 5.5,
+    "secondary": 4.5,
+    "tertiary": 1.5,
+    "durability": 448,
+    "integrityCost": 2,
+    "integrityGain": 4,
+    "magicCapacity": 90,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "89827C",
+        "texture": "89827C"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "alexsmobs:rocky_shell"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alexsmobs"
+        }
+    ]
+}

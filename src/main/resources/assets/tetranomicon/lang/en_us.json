@@ -1,4 +1,59 @@
 ﻿{
+    "item.tetranomicon.netherite_opal": "Netherite Opal",
+    "item.tetranomicon.cincinnasite_diamond": "Cincinnasite-Diamond Blend",
+    "item.tetranomicon.flaming_ruby": "Fireruby",
+
+
+    "tetra.improvement.basic_handle/wrap_flamescale.name": "Flamescale Wrap",
+    "tetra.improvement.basic_handle/wrap_flamescale.description": "Increases damage, speed, and durability, reduces negative handle effects.",
+    "tetra.improvement.basic_handle/wrap_frostscale.name": "Frostscale Wrap",
+    "tetra.improvement.basic_handle/wrap_frostscale.description": "Increases damage, speed, and durability, reduces negative handle effects.",
+    "tetra.improvement.basic_handle/wrap_stormscale.name": "Stormscale Wrap",
+    "tetra.improvement.basic_handle/wrap_stormscale.description": "Increases damage, speed, and durability, reduces negative handle effects.",
+    "tetra.improvement.basic_handle/wrap_tidescale.name": "Tidescale Wrap",
+    "tetra.improvement.basic_handle/wrap_tidescale.description": "Increases damage, speed, and durability, reduces negative handle effects.",
+    "tetra.improvement.basic_hilt/wrap_flamescale.name": "Flamescale Wrap",
+    "tetra.improvement.basic_hilt/wrap_flamescale.description": "Increases damage, speed, and durability, reduces negative hilt effects.",
+    "tetra.improvement.basic_hilt/wrap_frostscale.name": "Frostscale Wrap",
+    "tetra.improvement.basic_hilt/wrap_frostscale.description": "Increases damage, speed, and durability, reduces negative hilt effects.",
+    "tetra.improvement.basic_hilt/wrap_stormscale.name": "Stormscale Wrap",
+    "tetra.improvement.basic_hilt/wrap_stormscale.description": "Increases damage, speed, and durability, reduces negative hilt effects.",
+    "tetra.improvement.basic_hilt/wrap_tidescale.name": "Tidescale Wrap",
+    "tetra.improvement.basic_hilt/wrap_tidescale.description": "Increases damage, speed, and durability, reduces negative hilt effects.",
+    "tetra.improvement.stave_grip/wrap_flamescale.name": "Flamescale Wrap",
+    "tetra.improvement.stave_grip/wrap_flamescale.description": "Increases power, draw speed, and durability.",
+    "tetra.improvement.stave_grip/wrap_frostscale.name": "Frostscale Wrap",
+    "tetra.improvement.stave_grip/wrap_frostscale.description": "Increases power, draw speed, and durability.",
+    "tetra.improvement.stave_grip/wrap_stormscale.name": "Stormscale Wrap",
+    "tetra.improvement.stave_grip/wrap_stormscale.description": "Increases power, draw speed, and durability.",
+    "tetra.improvement.stave_grip/wrap_tidescale.name": "Tidescale Wrap",
+    "tetra.improvement.stave_grip/wrap_tidescale.description": "Increases power, draw speed, and durability.",
+    "tetra/schematic/double/basic_handle/wrap_handle_hone_1.name": "Hone: Wrap II",
+    "tetra/schematic/double/basic_handle/wrap_handle_hone_1.slot1": "Material",
+    "tetra/schematic/double/basic_handle/wrap_handle_hone_1.description": "Improve the handle wrap, further increasing damage and speed, and reducing negative effects.",
+    "tetra/schematic/double/basic_handle/wrap_handle_hone_2.name": "Hone: Wrap III",
+    "tetra/schematic/double/basic_handle/wrap_handle_hone_2.slot1": "Material",
+    "tetra/schematic/double/basic_handle/wrap_handle_hone_2.description": "Further improve the handle wrap, further increasing damage and speed, and reducing negative effects.",
+    "tetra/schematic/single/basic_handle/wrap_handle_hone_1.name": "Hone: Wrap II",
+    "tetra/schematic/single/basic_handle/wrap_handle_hone_1.slot1": "Material",
+    "tetra/schematic/single/basic_handle/wrap_handle_hone_1.description": "Improve the handle wrap, further increasing damage and speed, and reducing negative effects.",
+    "tetra/schematic/single/basic_handle/wrap_handle_hone_2.name": "Hone: Wrap III",
+    "tetra/schematic/single/basic_handle/wrap_handle_hone_2.slot1": "Material",
+    "tetra/schematic/single/basic_handle/wrap_handle_hone_2.description": "Further improve the handle wrap, further increasing damage and speed, and reducing negative effects.",
+    "tetra/schematic/bow/stave/wrap_grip_hone_1.name": "Hone: Wrap II",
+    "tetra/schematic/bow/stave/wrap_grip_hone_1.slot1": "Material",
+    "tetra/schematic/bow/stave/wrap_grip_hone_1.description": "Improve the grip wrap, further increasing damage and drawspeed, and reducing negative effects.",
+    "tetra/schematic/bow/stave/wrap_grip_hone_2.name": "Hone: Wrap III",
+    "tetra/schematic/bow/stave/wrap_grip_hone_2.slot1": "Material",
+    "tetra/schematic/bow/stave/wrap_grip_hone_2.description": "Further improve the grip wrap, further increasing damage and drawspeed, and reducing negative effects.",
+    "tetra/schematic/sword/basic_hilt/wrap_hilt_hone_1.name": "Hone: Wrap II",
+    "tetra/schematic/sword/basic_hilt/wrap_hilt_hone_1.slot1": "Material",
+    "tetra/schematic/sword/basic_hilt/wrap_hilt_hone_1.description": "Improve the hilt wrap, further increasing damage and speed, and reducing negative effects.",
+    "tetra/schematic/sword/basic_hilt/wrap_hilt_hone_2.name": "Hone: Wrap III",
+    "tetra/schematic/sword/basic_hilt/wrap_hilt_hone_2.slot1": "Material",
+    "tetra/schematic/sword/basic_hilt/wrap_hilt_hone_2.description": "Further improve the hilt wrap, further increasing damage and speed, and reducing negative effects.",
+
+
     "tetra.material.ad_astra_aeronos": "Aeronos",
     "tetra.material.ad_astra_aeronos.prefix": "Aeronos",
     "tetra.material.ad_astra_calorite": "Calorite",
@@ -62,10 +117,42 @@
     "tetra.material.socket_alexscaves_uranium.prefix": "§aUranium§r",
     
     
+    "tetra.material.alexsmobs_cave_chitin": "Cave Chitin",
+    "tetra.material.alexsmobs_cave_chitin.prefix": "Cave Chitin",
+    "tetra.material.alexsmobs_crocodile_scute": "Crocodile Scute",
+    "tetra.material.alexsmobs_crocodile_scute.prefix": "Crocodile Scute",
+    "tetra.material.alexsmobs_elastic_tendon": "Elastic Tendon",
+    "tetra.material.alexsmobs_elastic_tendon.prefix": "Tendon",
+    "tetra.material.alexsmobs_froststalker_horn": "Froststalker Horn",
+    "tetra.material.alexsmobs_froststalker_horn.prefix": "Froststalker Horn",
+    "tetra.material.alexsmobs_gazelle_horn": "Gazelle Horn",
+    "tetra.material.alexsmobs_gazelle_horn.prefix": "Gazelle Horn",
+    "tetra.material.alexsmobs_kangaroo_hide": "Kangaroo Hide",
+    "tetra.material.alexsmobs_kangaroo_hide.prefix": "Kangaroo Hide",
+    "tetra.material.alexsmobs_rocky_shell": "Rocky Shell",
+    "tetra.material.alexsmobs_rocky_shell.prefix": "Rocky",
+    "tetra.material.alexsmobs_serpentbone": "Serpentbone",
+    "tetra.material.alexsmobs_serpentbone.prefix": "Serpentbone",
+    "tetra.material.alexsmobs_snakeskin": "Snakeskin",
+    "tetra.material.alexsmobs_snakeskin.prefix": "Snakeskin",
+    "tetra.material.alexsmobs_spiked_scute": "Spiked Scute",
+    "tetra.material.alexsmobs_spiked_scute.prefix": "Spiky",
+    "tetra.material.alexsmobs_straddlite": "Straddlite",
+    "tetra.material.alexsmobs_straddlite.prefix": "Straddlite",
+    "tetra.material.alexsmobs_void_chitin": "Void Chitin",
+    "tetra.material.alexsmobs_void_chitin.prefix": "Void Chitin",
+    "tetra.material.alexsmobs_whalebone": "Whalebone",
+    "tetra.material.alexsmobs_whalebone.prefix": "Whalebone",
+    
+    
     "tetra.material.socket_aquamirae_abyssal_amethyst": "Abyssal Amethyst socket",
     "tetra.material.socket_aquamirae_abyssal_amethyst.prefix": "§dAbyssal Amethyst§r",
     "tetra.material.socket_aquamirae_echo_of_the_ship_graveyard": "Echo of the Ship Graveyard socket",
     "tetra.material.socket_aquamirae_echo_of_the_ship_graveyard.prefix": "§bEcho of the Ship Graveyard§r",
+    
+    
+    "tetra.material.autumnity_maple": "Maple",
+    "tetra.material.autumnity_maple.prefix": "Maple",
     
     
     "tetra.material.betterend_aeternium": "Aeternium",
@@ -124,6 +211,51 @@
     "tetra.material.betterend_violecite.prefix": "Violecite",
     "tetra.material.betterend_virid_jadestone": "Virid Jadestone",
     "tetra.material.betterend_virid_jadestone.prefix": "Virid Jadestone",
+    
+    "tetra.material.socket_betterend_aurora_crystal": "Aurora Crystal socket",
+    "tetra.material.socket_betterend_aurora_crystal.prefix": "§dAurora Crystal§f",
+    "tetra.material.socket_betterend_eternal_crystal": "Eternal Crystal socket",
+    "tetra.material.socket_betterend_eternal_crystal.prefix": "§dEternal Crystal§f",
+    "tetra.material.socket_betterend_smaragdant": "Smaragdant socket",
+    "tetra.material.socket_betterend_smaragdant.prefix": "§3Smaragdant§r",
+    
+    
+    "tetra.material.betternether_anchor_wood": "Anchor Wood",
+    "tetra.material.betternether_anchor_wood.prefix": "Anchor",
+    "tetra.material.betternether_black_vine": "Black Vine",
+    "tetra.material.betternether_black_vine.prefix": "Black Vine",
+    "tetra.material.betternether_blooming_vine": "Blooming Vine",
+    "tetra.material.betternether_blooming_vine.prefix": "Blooming",
+    "tetra.material.betternether_blue_obsidian": "Blue Obsidian",
+    "tetra.material.betternether_blue_obsidian.prefix": "Blue Obsidian",
+    "tetra.material.betternether_cincinnasite": "Cincinnasite",
+    "tetra.material.betternether_cincinnasite.prefix": "Cincinnasite",
+    "tetra.material.betternether_cincinnasite_diamond": "Cincinnasite Diamond",
+    "tetra.material.betternether_cincinnasite_diamond.prefix": "Cincinnasite Diamond",
+    "tetra.material.betternether_fireruby": "Fireruby",
+    "tetra.material.betternether_fireruby.prefix": "Fireruby",
+    "tetra.material.betternether_golden_vine": "Golden Vine",
+    "tetra.material.betternether_golden_vine.prefix": "Golden Vine",
+    "tetra.material.betternether_mushroom_fir": "Mushroom Fir",
+    "tetra.material.betternether_mushroom_fir.prefix": "Mushroom Fir",
+    "tetra.material.betternether_neon_equisetum": "Neon Equisetum",
+    "tetra.material.betternether_neon_equisetum.prefix": "Neon",
+    "tetra.material.betternether_nether_mushroom": "Nether Mushroom",
+    "tetra.material.betternether_nether_mushroom.prefix": "Nether Mushroom",
+    "tetra.material.betternether_nether_reed": "Nether Reed",
+    "tetra.material.betternether_nether_reed.prefix": "Nether Reed",
+    "tetra.material.betternether_nether_ruby": "Nether Ruby",
+    "tetra.material.betternether_nether_ruby.prefix": "Nether Ruby",
+    "tetra.material.betternether_nether_sakura": "Nether Sakura",
+    "tetra.material.betternether_nether_sakura.prefix": "Nether Sakura",
+    "tetra.material.betternether_rubeus": "Rubeus",
+    "tetra.material.betternether_rubeus.prefix": "Rubeus",
+    "tetra.material.betternether_stalagnate": "Stalagnate",
+    "tetra.material.betternether_stalagnate.prefix": "Stalagnate",
+    "tetra.material.betternether_wartwood": "Wartwood",
+    "tetra.material.betternether_wartwood.prefix": "Wartwood",
+    "tetra.material.betternether_willow": "Willow",
+    "tetra.material.betternether_willow.prefix": "Willow",
     
     
     "tetra.material.biomesoplenty_deadwood": "Deadwood",
@@ -289,6 +421,17 @@
     "tetra.material.eldritch_end_spire_stone.prefix": "Spire Stone",
     
     
+    "tetra.material.embers_dawnstone": "Dawnstone",
+    "tetra.material.embers_dawnstone.prefix": "Dawnstone",
+    "tetra.material.embers_lead": "Lead",
+    "tetra.material.embers_lead.prefix": "Lead",
+    "tetra.material.embers_silver": "Silver",
+    "tetra.material.embers_silver.prefix": "Silver",
+    
+    "tetra.material.socket_embers_ember_crystal_cluster": "Ember Crystal Cluster socket",
+    "tetra.material.socket_embers_ember_crystal_cluster.prefix": "§6Ember Crystal Cluster§r",
+    
+    
     "tetra.material.enderitemod_enderite": "Enderite",
     "tetra.material.enderitemod_enderite.prefix": "Enderite",
     
@@ -387,8 +530,8 @@
     "tetra.material.iceandfire_ice_dragonsteel.prefix": "Ice Dragonsteel",
     "tetra.material.iceandfire_lightning_dragonsteel": "Lightning Dragonsteel",
     "tetra.material.iceandfire_lightning_dragonsteel.prefix": "Lightning Dragonsteel",
-    
-    
+
+
     "tetra.material.l2complements_eternium": "Eternium",
     "tetra.material.l2complements_eternium.prefix": "Eternium",
     "tetra.material.l2complements_poseidite": "Poseidite",
@@ -410,6 +553,10 @@
     "tetra.material.socket_l2complements_shulkerate_nugget.prefix": "§uShulkerate Nugget§r",
     "tetra.material.socket_l2complements_totemic_gold_nugget": "Totemic Gold Nugget socket",
     "tetra.material.socket_l2complements_totemic_gold_nugget.prefix": "§eTotemic Gold Nugget§r",
+    
+    
+    "tetra.material.majruszdifficulty_enderium": "Enderium",
+    "tetra.material.majruszdifficulty_enderium.prefix": "Enderium",
     
     
     "tetra.material.ms_amethyst": "Amethyst",
@@ -602,8 +749,8 @@
     "tetra.material.socket_oresabovediamonds_black_opal.prefix": "§5Black Opal§r",
     "tetra.material.socket_oresabovediamonds_netherite_opal": "Netherite Opal socket",
     "tetra.material.socket_oresabovediamonds_netherite_opal.prefix": "§5Netherite Opal§r",
-    
-    
+
+
     "tetra.material.organics_endium": "Endium",
     "tetra.material.organics_endium.prefix": "Endium",
     "tetra.material.organics_hoaky": "Hoaky",
@@ -644,6 +791,22 @@
     "tetra.material.socket_phantasm_crystal_shard.prefix": "§bCrystal Shard§r",
     "tetra.material.socket_phantasm_void_crystal_shard": "Void Crystal Shard socket",
     "tetra.material.socket_phantasm_void_crystal_shard.prefix": "§uVoid Crystal Shard§r",
+    
+    
+    "tetra.material.quark_ashen_wood": "Ashen Wood",
+    "tetra.material.quark_ashen_wood.prefix": "Ashen",
+    "tetra.material.quark_azalea": "Azalea",
+    "tetra.material.quark_azalea.prefix": "Azalea",
+    "tetra.material.quark_jasper": "Jasper",
+    "tetra.material.quark_jasper.prefix": "Jasper",
+    "tetra.material.quark_limestone": "Limestone",
+    "tetra.material.quark_limestone.prefix": "Limestone",
+    "tetra.material.quark_myalite": "Myalite",
+    "tetra.material.quark_myalite.prefix": "Myalite",
+    "tetra.material.quark_shale": "Shale",
+    "tetra.material.quark_shale.prefix": "Shale",
+    "tetra.material.quark_trumpet_wood": "Trumpet Wood",
+    "tetra.material.quark_trumpet_wood.prefix": "Trumpet",
     
     
     "tetra.material.regions_unexplored_alpha_oak": "Alpha Oak",
@@ -707,6 +870,14 @@
     
     "tetra.material.socket_regions_unexplored_prismarite_cluster": "Prismarite Cluster socket",
     "tetra.material.socket_regions_unexplored_prismarite_cluster.prefix": "§cPr§6ism§ear§aite §9Cl§1ust§5er§r",
+    
+    
+    "tetra.material.samurai_dynasty_amethyst_steel": "Amethyst Steel",
+    "tetra.material.samurai_dynasty_amethyst_steel.prefix": "Amethyst Steel",
+    "tetra.material.samurai_dynasty_quartz_steel": "Quartz Steel",
+    "tetra.material.samurai_dynasty_quartz_steel.prefix": "Quartz Steel",
+    "tetra.material.samurai_dynasty_samurai_steel": "Samurai Steel",
+    "tetra.material.samurai_dynasty_samurai_steel.prefix": "Samurai Steel",
     
     
     "tetra.material.silentgear_azure_electrum": "Azure Electrum",

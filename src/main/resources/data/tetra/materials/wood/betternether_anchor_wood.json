@@ -1,0 +1,38 @@
+{
+    "key": "betternether_anchor_wood",
+    "category": "wood",
+    "primary": 3,
+    "secondary": 2.5,
+    "tertiary": 5,
+    "durability": 512,
+    "integrityCost": 2,
+    "integrityGain": 6,
+    "magicCapacity": 102,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 3,
+    "improvements": {
+        "workable": 1
+    },
+    "tints": {
+        "glyph": "3C7438",
+        "texture": "3C7438"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "betternether:anchor_tree_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betternether"
+        }
+    ]
+}

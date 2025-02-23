@@ -1,0 +1,35 @@
+{
+    "key": "betternether_wartwood",
+    "category": "wood",
+    "primary": 2.5,
+    "secondary": 1.9,
+    "tertiary": 5,
+    "durability": 59,
+    "integrityCost": 1,
+    "integrityGain": 3,
+    "magicCapacity": 120,
+    "toolLevel": "minecraft:wood",
+    "toolEfficiency": 2,
+    "tints": {
+        "glyph": "740503",
+        "texture": "740503"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "betternether:wart_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betternether"
+        }
+    ]
+}

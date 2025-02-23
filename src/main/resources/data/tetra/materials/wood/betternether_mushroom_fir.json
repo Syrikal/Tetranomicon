@@ -1,0 +1,35 @@
+{
+    "key": "betternether_mushroom_fir",
+    "category": "wood",
+    "primary": 2.5,
+    "secondary": 2.1,
+    "tertiary": 5,
+    "durability": 150,
+    "integrityCost": 1,
+    "integrityGain": 6,
+    "magicCapacity": 78,
+    "toolLevel": "minecraft:wood",
+    "toolEfficiency": 2,
+    "tints": {
+        "glyph": "134AB2",
+        "texture": "134AB2"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "betternether:mushroom_fir_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betternether"
+        }
+    ]
+}

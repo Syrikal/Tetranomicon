@@ -67,7 +67,6 @@ minecraft {
 
         server {
             property 'forge.enabledGameTestNamespaces', mod_id
-            args '--nogui'
         }
 
         // This run config launches GameTestServer and runs all registered gametests, then exits.
@@ -103,136 +102,114 @@ dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
     //Tetra (requires mutil)
-    implementation fg.deobf("curse.maven:tetra-289712:4857842")
+    implementation fg.deobf("curse.maven:tetra-289712:6096160")
 //    implementation fg.deobf("curse.maven:scroll-of-harvests-571339:4706191")
 
     //PREVIOUSLY SUPPORTED
-    //BOP (requires terrablender)
-    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:4617259")
-    //Enderite (requires architectury api and cloth config)
-    implementation fg.deobf("curse.maven:enderite-mod-for-forge-401284:4630504")
-    //Ice and Fire (requires Citadel)
-    implementation fg.deobf("curse.maven:ice-and-fire-dragons-264231:5037783")
-    //Outer End (Requires Blueprint)
-    implementation fg.deobf("curse.maven:the-outer-end-430404:5043937")
-    //Stalwart Dungeons
-    implementation fg.deobf("curse.maven:stalwart-dungeons-474817:4703671")
-    //Twilight Forest
-    implementation fg.deobf("curse.maven:the-twilight-forest-227639:4865711")
-    //Create
-    implementation fg.deobf("curse.maven:create-328085:4835191")
+//    //BOP (requires terrablender and glitchcore)
+//    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:6028852")
+//    //Enderite (requires architectury api and cloth config)
+//    implementation fg.deobf("curse.maven:enderite-mod-for-forge-401284:5017690")
+//    //Ice and Fire (requires Citadel)
+//    implementation fg.deobf("curse.maven:ice-and-fire-dragons-264231:5633453")
+//    //Outer End (Requires Blueprint)
+//    implementation fg.deobf("curse.maven:the-outer-end-430404:5812948")
+//    //Stalwart Dungeons
+//    implementation fg.deobf("curse.maven:stalwart-dungeons-474817:4703671")
+//    //Twilight Forest
+//    implementation fg.deobf("curse.maven:the-twilight-forest-227639:5468648")
+//    //Create
+//    implementation fg.deobf("curse.maven:create-328085:5838779")
     //Quark (requires Zeta)
-    implementation fg.deobf("curse.maven:quark-243121:5594847")
-    //Autumnity
-//    implementation fg.deobf("curse.maven:autumnity-365045:5292346")
+//    implementation fg.deobf("curse.maven:quark-243121:5594847")
+    //Autumnity (Requires Blueprint)
+    implementation fg.deobf("curse.maven:autumnity-365045:5292346")
 
 
     //SET ONE
-//    //Aether
-//    implementation fg.deobf("curse.maven:aether-255308:4926220")
-//
-//    //Deep Aether (requires Aether, geckolib, terrablender, and aeroblender)
-//    implementation fg.deobf("curse.maven:deep-aether-852465:4861346")
-
-    //Alex's Caves (requires citadel)
-    implementation fg.deobf("curse.maven:alexs-caves-924854:4852042")
-
-    //Blue Skies (requires structure gel)
-    implementation fg.deobf("curse.maven:blue-skies-312918:4765673")
-
-    //Deeper and Darker
-    implementation fg.deobf("curse.maven:deeperdarker-659011:4807511")
-
-    //Mo' Shiz
-    implementation fg.deobf("curse.maven:mo-shiz-mod-62536:4838746")
+//    //Alex's Caves (requires citadel)
+//    implementation fg.deobf("curse.maven:alexs-caves-924854:5848216")
+//    //Blue Skies (requires structure gel)
+//    implementation fg.deobf("curse.maven:blue-skies-312918:5010316")
+//    //Deeper and Darker
+//    implementation fg.deobf("curse.maven:deeperdarker-659011:5906086")
+//    //Mo' Shiz
+//    implementation fg.deobf("curse.maven:mo-shiz-mod-62536:5587177")
+//    //Regions Unexplored
+//    implementation fg.deobf("curse.maven:regions-unexplored-659110:5558225")
 
     //Ores Above Diamond
-    implementation fg.deobf("curse.maven:ores-above-diamonds-351339:4682592")
-
-    //Regions Unexplored
-    implementation fg.deobf("curse.maven:regions-unexplored-659110:4779426")
-
+    implementation fg.deobf("curse.maven:ores-above-diamonds-351339:4682592") //Required always!
 
     //SET 2
-    //Endless Biomes
-    implementation fg.deobf("curse.maven:endless-biomes-667688:4715137")
-
-    //Enlightend
-    implementation fg.deobf("curse.maven:enlightend-502786:4880586")
-
-    //Galosphere
-    implementation fg.deobf("curse.maven:galosphere-631098:4671779")
-
-    //Voidscape
-    implementation fg.deobf("curse.maven:voidscape-251730:4874360")
-
-    //Organics
-    implementation fg.deobf("curse.maven:organics-411399:4703550")
+//    //Endless Biomes
+//    implementation fg.deobf("curse.maven:endless-biomes-667688:5679839")
+//    //Enlightend
+//    implementation fg.deobf("curse.maven:enlightend-502786:4880586")
+//    //Galosphere
+//    implementation fg.deobf("curse.maven:galosphere-631098:4983871")
+//    //Voidscape
+//    implementation fg.deobf("curse.maven:voidscape-251730:5179872")
+//    //Organics
+//    implementation fg.deobf("curse.maven:organics-411399:4703550")
 
 
     //SET 3
-    //End's Phantasm (requires sinytra connector and forgified fabric api)
-    implementation fg.deobf("curse.maven:phantasm-565254:4828693")
-
-//    //Eldritch End (requires necronomicon and azurelib)
-//    implementation fg.deobf("curse.maven:eldritch-end-877553:4932435")
-
-    //Deep Dark Regrowth (requires geckolib)
-    implementation fg.deobf("curse.maven:deep-dark-regrowth-827619:4941721")
-
-    //Silent's Gems (requires silent-lib)
-    implementation fg.deobf("curse.maven:silents-gems-220311:4606142")
-    //Silent Gear
-    implementation fg.deobf("curse.maven:silent-gear-297039:4868212")
-
-    //Nature Arise (requires terrablender)
-    implementation fg.deobf("curse.maven:nature-arise-639540:4715089")
-
-    //Ad Astra (requires resourceful-lib, resourceful-config, and botarium)
-    implementation fg.deobf("curse.maven:ad-astra-635042:4894852")
-
-    //Aquamirae (requires obscure api)
-    implementation fg.deobf("curse.maven:ob-aquamirae-536254:4616373")
+//    //Deep Dark Regrowth (requires geckolib)
+//    implementation fg.deobf("curse.maven:deep-dark-regrowth-827619:5308579")
+//    //Silent's Gems (requires silent-lib)
+//    implementation fg.deobf("curse.maven:silents-gems-220311:5193708")
+//    //Silent Gear
+//    implementation fg.deobf("curse.maven:silent-gear-297039:5640724")
+//    //Nature Arise (requires terrablender)
+//    implementation fg.deobf("curse.maven:nature-arise-639540:5668413")
+//    //Ad Astra (requires resourceful-lib, resourceful-config, and botarium)
+//    implementation fg.deobf("curse.maven:ad-astra-635042:5914893")
+//    //Aquamirae (requires obscure api)
+//    implementation fg.deobf("curse.maven:ob-aquamirae-536254:4616373")
 
 
     //SET 4
-    //L2 Complements (Requires L2 Library)
-    implementation fg.deobf("curse.maven:l2-complements-758349:4905064")
-
-    //Epic Samurai (Requires AzureLib)
-    implementation fg.deobf("curse.maven:epic-samurais-848381:4924677")
-
-//    //Liroth Revamped (Requires GeckoLib and Cloth Config)
-//    implementation fg.deobf("curse.maven:liroth-revamped-forge-682860:4778705")
-
-    //Ecologics
-    implementation fg.deobf("curse.maven:ecologics-570463:4857272")
+//    //L2 Complements (Requires L2 Library)
+//    implementation fg.deobf("curse.maven:l2-complements-758349:6040201")
+//    //Samurai Dynasty (Requires AzureLib and Curios)
+//    implementation fg.deobf("curse.maven:samurai-dynasty-848381:5672395")
+//    //Ecologics
+//    implementation fg.deobf("curse.maven:ecologics-570463:4857272")
 
 
     //SET 5
     //Embers Rekindled
-    implementation fg.deobf("curse.maven:embers-rekindled-300777:5031242")
+    implementation fg.deobf("curse.maven:embers-rekindled-300777:6103508")
     //Tropicraft
     implementation fg.deobf("curse.maven:tropicraft-254794:4811116")
     //Ore and More
-    implementation fg.deobf("curse.maven:oam-by-choupiclou2007-421326:5851162")
-    //Unusual Prehistory
+    implementation fg.deobf("curse.maven:oam-by-choupiclou2007-421326:6014464")
+    //Unusual Prehistory (requires GeckoLib)
     implementation fg.deobf("curse.maven:unusual-prehistory-forge-696283:4884372")
-    //Forbidden Arcanus (Requires Valhelsia Core)
-    implementation fg.deobf("curse.maven:forbidden-arcanus-309858:5198323")
+//    //Forbidden Arcanus (Requires Valhelsia Core) (thereby incompatible with Quark)
+//   implementation fg.deobf("curse.maven:forbidden-arcanus-309858:5198323")
+    //Alex's Mobs (requires Citadel)
+    implementation fg.deobf("curse.maven:alexs-mobs-426558:5698791")
+
 
 
     //FABRIC
-    //BetterEnd (requires Fabric API and BCLIB)
+    //BetterEnd (requires Fabric API and BCLib)
     implementation fg.deobf("curse.maven:betterend-413596:4971487")
-    //Mythic Metals (requires OWO-Lib and Alloy Forgery)
-//    implementation fg.deobf("curse.maven:mythicmetals-410127:5418365")
+    //BetterNether (requires Fabric API and BCLib) (incompatible with Quark)
+    implementation fg.deobf("curse.maven:betternether-311377:4971478")
 
 
+    //REMOVED
+//    //Majrusz's Progressive Difficulty (requires Majrusz library) (broken)
+//    implementation fg.deobf("curse.maven:majruszs-progressive-difficulty-430642:5293465")
+//    //End's Phantasm (requires sinytra connector and forgified fabric api)
+//    implementation fg.deobf("curse.maven:phantasm-565254:6140585") //(causing crashes)
 
     //JEI
-    implementation fg.deobf("curse.maven:jei-238222:4712868")
-//    implementation fg.deobf("curse.maven:configured-457570:NOTREADYYET")
+    implementation fg.deobf("curse.maven:jei-238222:6075247")
+//    implementation fg.deobf("curse.maven:configured-457570:5180900")
     implementation fg.deobf("curse.maven:just-enough-resources-jer-240630:5057220")
 
     //Optimization
@@ -241,31 +218,32 @@ dependencies {
 
     //Libraries and Dependencies
     implementation fg.deobf("curse.maven:mutil-351914:4824501")
-    implementation fg.deobf("curse.maven:blueprint-382216:4594238")
-    implementation fg.deobf("curse.maven:terrablender-563928:4647094")
-    implementation fg.deobf("curse.maven:architectury-api-419699:4663010")
-    implementation fg.deobf("curse.maven:cloth-config-348521:4633444")
-    implementation fg.deobf("curse.maven:citadel-331936:4848887")
-    implementation fg.deobf("curse.maven:structure-gel-api-378802:4900814")
-    implementation fg.deobf("curse.maven:sinytra-connector-890127:4932457")
-    implementation fg.deobf("curse.maven:forgified-fabric-api-889079:4917788")
-    implementation fg.deobf("curse.maven:necronomicon-586157:4857971")
-    implementation fg.deobf("curse.maven:azurelib-817423:4931005")
-    implementation fg.deobf("curse.maven:geckolib-388172:4933987")
-    implementation fg.deobf("curse.maven:silent-lib-242998:4585754")
-    implementation fg.deobf("curse.maven:resourceful-lib-570073:4927082")
-    implementation fg.deobf("curse.maven:resourceful-config-714059:4683093")
-    implementation fg.deobf("curse.maven:botarium-704113:4831434")
-    implementation fg.deobf("curse.maven:obscure-api-638417:4616364")
-//    implementation fg.deobf("curse.maven:aeroblender-879879:4789008")
-    implementation fg.deobf("curse.maven:patchouli-306770:4892162")
-    implementation fg.deobf("curse.maven:l2library-620203:4846530")
-    implementation fg.deobf("curse.maven:valhelsia-core-416935:5189548")
-    implementation fg.deobf("curse.maven:bclib-495191:4971470")
-//    implementation fg.deobf("curse.maven:owo-lib-532610:4749199")
-//    implementation fg.deobf("curse.maven:alloy-forgery-438718:4944647")
+//    implementation fg.deobf("curse.maven:terrablender-563928:5378180")
+//    implementation fg.deobf("curse.maven:glitchcore-955399:5787839")
+//    implementation fg.deobf("curse.maven:architectury-api-419699:5137938")
+//    implementation fg.deobf("curse.maven:cloth-config-348521:5729105")
+    implementation fg.deobf("curse.maven:citadel-331936:6002521")
+    implementation fg.deobf("curse.maven:blueprint-382216:6143229")
     implementation fg.deobf("curse.maven:zeta-968868:5597406")
+//    implementation fg.deobf("curse.maven:structure-gel-api-378802:5278429")
+    implementation fg.deobf("curse.maven:sinytra-connector-890127:5761411")
+    implementation fg.deobf("curse.maven:forgified-fabric-api-889079:6136695")
+    implementation fg.deobf("curse.maven:connector-extras-913445:5490637")
+    implementation fg.deobf("curse.maven:geckolib-388172:6027567")
+//    implementation fg.deobf("curse.maven:silent-lib-242998:4585754")
+//    implementation fg.deobf("curse.maven:resourceful-lib-570073:5659871")
+//    implementation fg.deobf("curse.maven:resourceful-config-714059:5020441")
+//    implementation fg.deobf("curse.maven:botarium-704113:5486070")
+//    implementation fg.deobf("curse.maven:obscure-api-638417:4616364")
+//    implementation fg.deobf("curse.maven:l2library-620203:5921890")
+//    implementation fg.deobf("curse.maven:azurelib-817423:6004977")
+//    implementation fg.deobf("curse.maven:curios-309927:6058834")
+//    implementation fg.deobf("curse.maven:valhelsia-core-416935:5189548") //apparently incompatible with Quark??
+//    implementation fg.deobf("curse.maven:patchouli-306770:4966125")
+    implementation fg.deobf("curse.maven:bclib-495191:4971470")
 
+
+//    implementation fg.deobf("curse.maven:majrusz-library-437409:5302100") //broken
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 

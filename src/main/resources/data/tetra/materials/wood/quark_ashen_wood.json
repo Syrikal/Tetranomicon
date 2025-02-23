@@ -1,0 +1,35 @@
+{
+    "key": "quark_ashen_wood",
+    "category": "wood",
+    "primary": 4.5,
+    "secondary": 1.6,
+    "tertiary": 5.5,
+    "durability": 250,
+    "integrityCost": 2,
+    "integrityGain": 6,
+    "magicCapacity": 84,
+    "toolLevel": "minecraft:wood",
+    "toolEfficiency": 4,
+    "tints": {
+        "glyph": "e3ede9",
+        "texture": "e3ede9"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "quark:ancient_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "quark"
+        }
+    ]
+}

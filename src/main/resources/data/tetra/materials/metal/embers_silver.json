@@ -1,0 +1,38 @@
+{
+    "key": "embers_silver",
+    "category": "metal",
+    "primary": 5,
+    "secondary": 4.2,
+    "tertiary": 1,
+    "durability": 202,
+    "integrityCost": 2,
+    "integrityGain": 1,
+    "magicCapacity": 120,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 7.6,
+    "effects": {
+        "stabilizing": 30
+    },
+    "tints": {
+        "glyph": "B1C6CC",
+        "texture": "B1C6CC"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "embers:silver_ingot"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "embers"
+        }
+    ]
+}

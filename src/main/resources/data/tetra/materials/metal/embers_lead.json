@@ -1,0 +1,36 @@
+{
+    "key": "embers_lead",
+    "category": "metal",
+    "primary": 5,
+    "secondary": 4.2,
+    "tertiary": 2,
+    "durability": 168,
+    "integrityCost": 2,
+    "integrityGain": 1,
+    "magicCapacity": 24,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 6,
+    "tints": {
+        "glyph": "7A6F87",
+        "texture": "7A6F87"
+    },
+    "textures": [
+        "heavy",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "embers:lead_ingot"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "embers"
+        }
+    ]
+}

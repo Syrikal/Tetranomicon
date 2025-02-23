@@ -1,18 +1,18 @@
 {
-    "key": "alexscaves_tough_hide",
-    "category": "skin",
-    "primary": 4.5,
-    "secondary": 3,
-    "tertiary": 1,
-    "durability": 400,
+    "key": "alexsmobs_spiked_scute",
+    "category": "scale",
+    "primary": 5,
+    "secondary": 3.2,
+    "tertiary": 2,
+    "durability": 256,
     "integrityCost": 1,
-    "integrityGain": 5,
+    "integrityGain": 4,
     "magicCapacity": 90,
     "toolLevel": 0,
     "toolEfficiency": 0,
     "tints": {
-        "glyph": "993811",
-        "texture": "993811"
+        "glyph": "664C3E",
+        "texture": "664C3E"
     },
     "textures": [
         "crude",
@@ -20,16 +20,16 @@
     ],
     "material": {
         "items": [
-            "alexscaves:tough_hide"
+            "alexsmobs:spiked_scute"
         ]
     },
     "requiredTools": {
-        "cut": "minecraft:iron"
+        "cut": "minecraft:stone"
     },
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "alexscaves"
+            "modid": "alexsmobs"
         }
     ]
 }

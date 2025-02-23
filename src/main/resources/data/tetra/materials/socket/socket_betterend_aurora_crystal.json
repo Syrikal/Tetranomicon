@@ -1,0 +1,36 @@
+{
+    "key": "socket_betterend_aurora_crystal",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 0.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 2.0,
+    "effects": {
+        "intuit": 2
+    },
+    "tints": {
+        "glyph": "862ec0",
+        "texture": "862ec0"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 10,
+    "material": {
+        "items": [
+            "betterend:crystal_shards"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betterend"
+        }
+    ]
+}

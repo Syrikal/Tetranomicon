@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "betternether:nether_ruby"
+  },
+  "addition": {
+    "item": "minecraft:sculk_catalyst"
+  },
+  "result": {
+    "item": "tetranomicon:flaming_ruby"
+  },
+  "template": {
+    "item": "betternether:flaming_ruby_upgrade_smithing_template"
+  }
+}

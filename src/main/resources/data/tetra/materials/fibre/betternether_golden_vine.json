@@ -1,0 +1,38 @@
+{
+    "key": "betternether_golden_vine",
+    "category": "fibre",
+    "primary": 3,
+    "secondary": 1.5,
+    "tertiary": 3.5,
+    "durability": 1024,
+    "integrityCost": 1,
+    "integrityGain": 6,
+    "magicCapacity": 60,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "effects": {
+        "stabilizing": 10
+    },
+    "tints": {
+        "glyph": "CCB639",
+        "texture": "CCB639"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "betternether:golden_vine"
+        ]
+    },
+    "requiredTools": {
+        "cut": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betternether"
+        }
+    ]
+}

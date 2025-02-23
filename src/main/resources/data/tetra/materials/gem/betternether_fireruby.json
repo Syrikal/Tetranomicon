@@ -1,0 +1,35 @@
+{
+    "key": "betternether_fireruby",
+    "category": "gem",
+    "primary": 9,
+    "secondary": 2.9,
+    "tertiary": 0,
+    "durability": 2861,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 192,
+    "toolLevel": "minecraft:netherite",
+    "toolEfficiency": 10.4,
+    "tints": {
+        "glyph": "046C75",
+        "texture": "046C75"
+    },
+    "textures": [
+        "heavy",
+        "metal"
+    ],
+    "material": {
+        "items": [
+            "tetranomicon:flaming_ruby"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:diamond"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betternether"
+        }
+    ]
+}

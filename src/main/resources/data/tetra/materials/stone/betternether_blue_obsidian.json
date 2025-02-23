@@ -1,0 +1,36 @@
+{
+    "key": "betternether_blue_obsidian",
+    "category": "stone",
+    "primary": 6.5,
+    "secondary": 4.8,
+    "tertiary": 0,
+    "durability": 50,
+    "integrityCost": 5,
+    "integrityGain": 1,
+    "magicCapacity": 114,
+    "toolLevel": "tetra:maxed_forge_hammer",
+    "toolEfficiency": 8,
+    "tints": {
+        "glyph": "091528",
+        "texture": "091528"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "betternether:blue_obsidian"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:netherite"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betternether"
+        }
+    ]
+}

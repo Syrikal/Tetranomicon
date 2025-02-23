@@ -1,0 +1,35 @@
+{
+    "key": "alexsmobs_elastic_tendon",
+    "category": "fibre",
+    "primary": 2,
+    "secondary": 2,
+    "tertiary": 5,
+    "durability": 768,
+    "integrityCost": 2,
+    "integrityGain": 6,
+    "magicCapacity": 90,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "C4BFA5",
+        "texture": "C4BFA5"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "alexsmobs:elastic_tendon"
+        ]
+    },
+    "requiredTools": {
+        "cut": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alexsmobs"
+        }
+    ]
+}

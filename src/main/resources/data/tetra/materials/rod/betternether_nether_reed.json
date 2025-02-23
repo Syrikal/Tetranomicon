@@ -1,0 +1,35 @@
+{
+    "key": "betternether_nether_reed",
+    "category": "rod",
+    "primary": 2,
+    "secondary": 0.4,
+    "tertiary": 6,
+    "durability": 111,
+    "integrityCost": 2,
+    "integrityGain": 4,
+    "magicCapacity": 102,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "2B3683",
+        "texture": "2B3683"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "betternether:nether_reed_stem"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:wood"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betternether"
+        }
+    ]
+}

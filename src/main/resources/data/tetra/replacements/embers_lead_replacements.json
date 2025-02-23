@@ -1,0 +1,142 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "embers"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "embers:lead_axe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_axe_left",
+                "basic_axe/embers_lead"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/embers_lead"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "embers"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "embers:lead_hoe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/hoe_left",
+                "hoe/embers_lead"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/embers_lead"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "embers"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "embers:lead_pickaxe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_pickaxe_left",
+                "basic_pickaxe/embers_lead"
+            ],
+            "double/head_right": [
+                "double/basic_pickaxe_right",
+                "basic_pickaxe/embers_lead"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "embers"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "embers:lead_shovel"
+            ]
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [
+                "single/basic_shovel",
+                "basic_shovel/embers_lead"
+            ],
+            "single/handle": [
+                "single/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "embers"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "embers:lead_sword"
+            ]
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/embers_lead"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/stick"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/embers_lead"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/embers_lead"
+            ]
+        }
+    }
+]

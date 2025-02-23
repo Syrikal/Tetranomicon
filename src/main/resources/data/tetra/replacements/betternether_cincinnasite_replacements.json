@@ -1,0 +1,142 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "betternether"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "betternether:cincinnasite_axe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_axe_left",
+                "basic_axe/betternether_cincinnasite"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/betternether_cincinnasite"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/betternether_nether_reed"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "betternether"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "betternether:cincinnasite_hoe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/hoe_left",
+                "hoe/betternether_cincinnasite"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/betternether_cincinnasite"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/betternether_nether_reed"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "betternether"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "betternether:cincinnasite_pickaxe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_pickaxe_left",
+                "basic_pickaxe/betternether_cincinnasite"
+            ],
+            "double/head_right": [
+                "double/basic_pickaxe_right",
+                "basic_pickaxe/betternether_cincinnasite"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/betternether_nether_reed"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "betternether"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "betternether:cincinnasite_shovel"
+            ]
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [
+                "single/basic_shovel",
+                "basic_shovel/betternether_cincinnasite"
+            ],
+            "single/handle": [
+                "single/basic_handle",
+                "basic_handle/betternether_nether_reed"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "betternether"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "betternether:cincinnasite_sword"
+            ]
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/betternether_cincinnasite"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/betternether_nether_reed"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/betternether_cincinnasite"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/betternether_cincinnasite"
+            ]
+        }
+    }
+]

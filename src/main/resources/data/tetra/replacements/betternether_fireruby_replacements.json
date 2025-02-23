@@ -1,0 +1,142 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "betternether"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "betternether:flaming_ruby_axe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_axe_left",
+                "basic_axe/betternether_fireruby"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/betternether_fireruby"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/betternether_nether_reed"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "betternether"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "betternether:flaming_ruby_hoe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/hoe_left",
+                "hoe/betternether_fireruby"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/betternether_fireruby"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/betternether_nether_reed"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "betternether"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "betternether:flaming_ruby_pickaxe"
+            ]
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_pickaxe_left",
+                "basic_pickaxe/betternether_fireruby"
+            ],
+            "double/head_right": [
+                "double/basic_pickaxe_right",
+                "basic_pickaxe/betternether_fireruby"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/betternether_nether_reed"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "betternether"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "betternether:flaming_ruby_shovel"
+            ]
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [
+                "single/basic_shovel",
+                "basic_shovel/betternether_fireruby"
+            ],
+            "single/handle": [
+                "single/basic_handle",
+                "basic_handle/betternether_nether_reed"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "betternether"
+            }
+        ],
+        "predicate": {
+            "items": [
+                "betternether:flaming_ruby_sword"
+            ]
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/betternether_fireruby"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/betternether_nether_reed"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/betternether_fireruby"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/betternether_fireruby"
+            ]
+        }
+    }
+]

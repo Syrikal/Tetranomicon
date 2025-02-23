@@ -1,0 +1,35 @@
+{
+    "key": "betternether_nether_sakura",
+    "category": "wood",
+    "primary": 4,
+    "secondary": 1.5,
+    "tertiary": 7.8,
+    "durability": 150,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 120,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 4,
+    "tints": {
+        "glyph": "753926",
+        "texture": "753926"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "betternether:nether_sakura_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betternether"
+        }
+    ]
+}

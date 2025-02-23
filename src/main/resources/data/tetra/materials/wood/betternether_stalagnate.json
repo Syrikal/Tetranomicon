@@ -1,0 +1,35 @@
+{
+    "key": "betternether_stalagnate",
+    "category": "wood",
+    "primary": 2.4,
+    "secondary": 1.6,
+    "tertiary": 6.5,
+    "durability": 131,
+    "integrityCost": 1,
+    "integrityGain": 2,
+    "magicCapacity": 96,
+    "toolLevel": "minecraft:wood",
+    "toolEfficiency": 2,
+    "tints": {
+        "glyph": "4C8D64",
+        "texture": "4C8D64"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "betternether:stalagnate_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betternether"
+        }
+    ]
+}
