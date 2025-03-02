@@ -1,0 +1,33 @@
+{
+    "key": "socket_forbidden_arcanus_dragon_scale",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 512.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 2.0,
+    "tints": {
+        "glyph": "382542",
+        "texture": "382542"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 2,
+    "material": {
+        "items": [
+            "forbidden_arcanus:dragon_scale"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "forbidden_arcanus"
+        }
+    ]
+}

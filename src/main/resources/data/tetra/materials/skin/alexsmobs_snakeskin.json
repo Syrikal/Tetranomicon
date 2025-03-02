@@ -1,18 +1,18 @@
 {
-    "key": "ms_polar_bear_hide",
+    "key": "alexsmobs_snakeskin",
     "category": "skin",
-    "primary": 6,
-    "secondary": 3,
-    "tertiary": 1,
-    "durability": 200,
+    "primary": 5,
+    "secondary": 1.4,
+    "tertiary": 0.9,
+    "durability": 100,
     "integrityCost": 1,
     "integrityGain": 5,
-    "magicCapacity": 120,
+    "magicCapacity": 114,
     "toolLevel": 0,
     "toolEfficiency": 0,
     "tints": {
-        "glyph": "f2f2f2",
-        "texture": "f2f2f2"
+        "glyph": "D1DCE0",
+        "texture": "D1DCE0"
     },
     "textures": [
         "crude",
@@ -20,16 +20,16 @@
     ],
     "material": {
         "items": [
-            "ms:entity/polar_bear_hide"
+            "alexsmobs:shed_snake_skin"
         ]
     },
     "requiredTools": {
-        "cut": "minecraft:stone"
+        "cut": "minecraft:gold"
     },
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "ms"
+            "modid": "alexsmobs"
         }
     ]
 }

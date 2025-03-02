@@ -1,18 +1,18 @@
 {
-    "key": "ms_polar_bear_hide",
-    "category": "skin",
-    "primary": 6,
-    "secondary": 3,
-    "tertiary": 1,
-    "durability": 200,
+    "key": "alexsmobs_spiked_scute",
+    "category": "scale",
+    "primary": 5,
+    "secondary": 3.2,
+    "tertiary": 2,
+    "durability": 256,
     "integrityCost": 1,
-    "integrityGain": 5,
-    "magicCapacity": 120,
+    "integrityGain": 4,
+    "magicCapacity": 90,
     "toolLevel": 0,
     "toolEfficiency": 0,
     "tints": {
-        "glyph": "f2f2f2",
-        "texture": "f2f2f2"
+        "glyph": "664C3E",
+        "texture": "664C3E"
     },
     "textures": [
         "crude",
@@ -20,7 +20,7 @@
     ],
     "material": {
         "items": [
-            "ms:entity/polar_bear_hide"
+            "alexsmobs:spiked_scute"
         ]
     },
     "requiredTools": {
@@ -29,7 +29,7 @@
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "ms"
+            "modid": "alexsmobs"
         }
     ]
 }

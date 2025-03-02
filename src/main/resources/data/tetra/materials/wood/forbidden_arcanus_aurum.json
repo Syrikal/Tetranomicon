@@ -1,0 +1,38 @@
+{
+    "key": "forbidden_arcanus_aurum",
+    "category": "wood",
+    "primary": 4,
+    "secondary": 2.7,
+    "tertiary": 8,
+    "durability": 768,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 102,
+    "toolLevel": "minecraft:gold",
+    "toolEfficiency": 4,
+    "effects": {
+        "stabilizing": 10
+    },
+    "tints": {
+        "glyph": "A75F17",
+        "texture": "A75F17"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "forbidden_arcanus:aurum_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "forbidden_arcanus"
+        }
+    ]
+}

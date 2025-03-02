@@ -1,0 +1,40 @@
+{
+    "key": "forbidden_arcanus_darkstone",
+    "category": "stone",
+    "primary": 6,
+    "secondary": 7,
+    "tertiary": 0,
+    "durability": 1024,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 102,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 5,
+    "effects": {
+        "crushing": 2
+    },
+    "tints": {
+        "glyph": "2C333B",
+        "texture": "2C333B"
+    },
+    "textures": [
+        "heavy",
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "forbidden_arcanus:darkstone"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "forbidden_arcanus"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "key": "oreandmore_rose_quartz",
+    "category": "gem",
+    "primary": 5,
+    "secondary": 2.9,
+    "tertiary": 0,
+    "durability": 300,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 84,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 6,
+    "tints": {
+        "glyph": "ed657c",
+        "texture": "ed657c"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "oreandmore:rose_quartz"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "oreandmore"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "key": "tropicraft_bamboo_stick",
+    "category": "rod",
+    "primary": 2.2,
+    "secondary": 1.4,
+    "tertiary": 7.2,
+    "durability": 48,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 90,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "C6C986",
+        "texture": "C6C986"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "tropicraft:bamboo_stick"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:wood"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "tropicraft"
+        }
+    ]
+}
