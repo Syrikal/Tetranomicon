@@ -130,7 +130,9 @@ dependencies {
 //    implementation fg.deobf("curse.maven:the-twilight-forest-227639:5468648")
     //Upgrade Aquatic
     implementation fg.deobf("curse.maven:upgrade-aquatic-326895:6157694")
-//    Quark (requires Zeta)
+    //Unearthed (requires Hyle)
+    implementation fg.deobf("curse.maven:unearthed-406825:6223916")
+    //Quark (requires Zeta)
     implementation fg.deobf("curse.maven:quark-243121:5594847")
 
 
@@ -232,6 +234,7 @@ dependencies {
 //    implementation fg.deobf("curse.maven:cloth-config-348521:5729105")
     implementation fg.deobf("curse.maven:citadel-331936:6002521")
     implementation fg.deobf("curse.maven:blueprint-382216:6143229")
+    implementation fg.deobf("curse.maven:hyle-609850:6223810")
     implementation fg.deobf("curse.maven:zeta-968868:5597406")
 //    implementation fg.deobf("curse.maven:structure-gel-api-378802:5278429")
     implementation fg.deobf("curse.maven:sinytra-connector-890127:5761411")
