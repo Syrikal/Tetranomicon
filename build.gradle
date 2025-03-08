@@ -186,6 +186,16 @@ dependencies {
     //Aquamirae (requires Obscure API)
     implementation fg.deobf("curse.maven:ob-aquamirae-536254:4420334")
 
+    //SET FIVE
+    //Tropicraft
+    implementation fg.deobf("curse.maven:tropicraft-254794:3606854")
+    //Forbidden and Arcanus (requires Valhelsia Core)
+    implementation fg.deobf("curse.maven:forbidden-arcanus-309858:3646126")
+    //Ore and More
+    implementation fg.deobf("curse.maven:oam-by-choupiclou2007-421326:3615000")
+//    //Majrusz Progressive Difficulty (Requires Majrusz Library)
+//    implementation fg.deobf("curse.maven:majruszs-progressive-difficulty-430642:3374144")
+
 
     //Libraries and Dependencies
     implementation fg.deobf("curse.maven:mutil-351914:3456505") //For Tetra
@@ -199,6 +209,8 @@ dependencies {
 
     implementation fg.deobf("curse.maven:silent-lib-242998:3385768") //For Silent Gear and Silent's Gems
     implementation fg.deobf("curse.maven:obscure-api-638417:4420298") //For Aquamirae
+    implementation fg.deobf("curse.maven:valhelsia-core-416935:3592369") //For Forbidden and Arcanus
+//    implementation fg.deobf("curse.maven:majrusz-library-437409:3365411") //For Majrusz Difficulty
 
 
 
