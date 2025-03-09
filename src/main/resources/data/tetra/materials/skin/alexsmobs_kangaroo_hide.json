@@ -1,33 +1,33 @@
 {
-    "key": "ms_brown_bear_hide",
+    "key": "alexsmobs_kangaroo_hide",
     "category": "skin",
-    "primary": "6",
-    "secondary": "3",
+    "primary": "5",
+    "secondary": "1.5",
     "tertiary": "1",
-    "durability": "200",
+    "durability": "250",
     "integrityCost": "1",
     "integrityGain": "5",
-    "magicCapacity": "105",
+    "magicCapacity": "90",
     "toolLevel": "0",
     "toolEfficiency": "0",
     "tints": {
-        "glyph": "493e27",
-        "texture": "493e27"
+        "glyph": "CE9D65",
+        "texture": "CE9D65"
     },
     "textures": [
         "crude",
         "default"
     ],
     "material": {
-        "item": "ms:entity/brown_bear_hide"
+        "item": "alexsmobs:kangaroo_hide"
     },
     "requiredTools": {
-        "cut": 2
+        "cut": 1
     },
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "ms"
+            "modid": "alexsmobs"
         }
     ]
 }

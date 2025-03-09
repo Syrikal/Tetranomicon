@@ -1,0 +1,33 @@
+{
+    "key": "forbidden_arcanus_draco_arcanus",
+    "category": "metal",
+    "primary": "10",
+    "secondary": "3.8",
+    "tertiary": "3.5",
+    "durability": "2661",
+    "integrityCost": "2",
+    "integrityGain": "6",
+    "magicCapacity": "120",
+    "toolLevel": "5",
+    "toolEfficiency": "12",
+    "tints": {
+        "glyph": "3D1460",
+        "texture": "3D1460"
+    },
+    "textures": [
+        "heavy",
+        "metal"
+    ],
+    "material": {
+        "item": "forbidden_arcanus:dragon_scale"
+    },
+    "requiredTools": {
+        "hammer": 6
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "forbidden_arcanus"
+        }
+    ]
+}

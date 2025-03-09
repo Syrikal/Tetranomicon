@@ -1,0 +1,33 @@
+{
+    "key": "alexsmobs_serpentbone",
+    "category": "bone",
+    "primary": "5.5",
+    "secondary": "3.6",
+    "tertiary": "3.2",
+    "durability": "1561",
+    "integrityCost": "2",
+    "integrityGain": "6",
+    "magicCapacity": "138",
+    "toolLevel": "3",
+    "toolEfficiency": "8",
+    "tints": {
+        "glyph": "9C9488",
+        "texture": "9C9488"
+    },
+    "textures": [
+        "bone",
+        "crude"
+    ],
+    "material": {
+        "item": "alexsmobs:bone_serpent_tooth"
+    },
+    "requiredTools": {
+        "hammer": 3
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alexsmobs"
+        }
+    ]
+}

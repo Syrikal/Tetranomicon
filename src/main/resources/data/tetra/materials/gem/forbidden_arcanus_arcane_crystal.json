@@ -1,0 +1,33 @@
+{
+    "key": "forbidden_arcanus_arcane_crystal",
+    "category": "gem",
+    "primary": "4.6",
+    "secondary": "3.5",
+    "tertiary": "0",
+    "durability": "5",
+    "integrityCost": "5",
+    "integrityGain": "1",
+    "magicCapacity": "150",
+    "toolLevel": "6",
+    "toolEfficiency": "4",
+    "tints": {
+        "glyph": "A7BBFA",
+        "texture": "A7BBFA"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "forbidden_arcanus:arcane_crystal"
+    },
+    "requiredTools": {
+        "hammer": 5
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "forbidden_arcanus"
+        }
+    ]
+}

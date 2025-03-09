@@ -1,0 +1,33 @@
+{
+    "key": "tropicraft_zircon",
+    "category": "gem",
+    "primary": "4",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "200",
+    "integrityCost": "1",
+    "integrityGain": "2",
+    "magicCapacity": "84",
+    "toolLevel": "3",
+    "toolEfficiency": "4.5",
+    "tints": {
+        "glyph": "651E23",
+        "texture": "651E23"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "tropicraft:zircon_gem"
+    },
+    "requiredTools": {
+        "hammer": 1
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "tropicraft"
+        }
+    ]
+}

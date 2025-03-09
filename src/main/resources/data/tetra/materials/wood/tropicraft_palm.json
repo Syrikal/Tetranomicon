@@ -1,0 +1,33 @@
+{
+    "key": "tropicraft_palm",
+    "category": "wood",
+    "primary": "2.2",
+    "secondary": "1.4",
+    "tertiary": "6",
+    "durability": "59",
+    "integrityCost": "1",
+    "integrityGain": "3",
+    "magicCapacity": "108",
+    "toolLevel": "1",
+    "toolEfficiency": "3",
+    "tints": {
+        "glyph": "533C36",
+        "texture": "533C36"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "tropicraft:palm_planks"
+    },
+    "requiredTools": {
+        "axe": 1
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "tropicraft"
+        }
+    ]
+}

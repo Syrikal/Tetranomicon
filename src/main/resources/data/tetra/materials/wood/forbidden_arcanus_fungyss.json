@@ -1,0 +1,33 @@
+{
+    "key": "forbidden_arcanus_fungyss",
+    "category": "wood",
+    "primary": "2.4",
+    "secondary": "1.8",
+    "tertiary": "6.5",
+    "durability": "96",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "138",
+    "toolLevel": "1",
+    "toolEfficiency": "4",
+    "tints": {
+        "glyph": "BEBFC1",
+        "texture": "BEBFC1"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "forbidden_arcanus:fungyss_planks"
+    },
+    "requiredTools": {
+        "axe": 1
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "forbidden_arcanus"
+        }
+    ]
+}

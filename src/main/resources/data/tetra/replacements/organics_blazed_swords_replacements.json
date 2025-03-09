@@ -7,13 +7,13 @@
             }
         ],
         "predicate": {
-            "item": "organics:blazed_wooden_sword"
+            "item": "organics:blazed_diamond_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {
             "sword/blade": [
                 "sword/basic_blade",
-                "basic_blade/wood"
+                "basic_blade/diamond"
             ],
             "sword/hilt": [
                 "sword/basic_hilt",
@@ -21,71 +21,11 @@
             ],
             "sword/pommel": [
                 "sword/decorative_pommel",
-                "decorative_pommel/wood"
+                "decorative_pommel/diamond"
             ],
             "sword/guard": [
                 "sword/makeshift_guard",
-                "makeshift_guard/wood"
-            ]
-        }
-    },
-    {
-        "conditions": [
-            {
-                "type": "forge:mod_loaded",
-                "modid": "organics"
-            }
-        ],
-        "predicate": {
-            "item": "organics:blazed_stone_sword"
-        },
-        "item": "tetra:modular_sword",
-        "modules": {
-            "sword/blade": [
-                "sword/basic_blade",
-                "basic_blade/stone"
-            ],
-            "sword/hilt": [
-                "sword/basic_hilt",
-                "basic_hilt/blaze_rod"
-            ],
-            "sword/pommel": [
-                "sword/decorative_pommel",
-                "decorative_pommel/stone"
-            ],
-            "sword/guard": [
-                "sword/makeshift_guard",
-                "makeshift_guard/stone"
-            ]
-        }
-    },
-    {
-        "conditions": [
-            {
-                "type": "forge:mod_loaded",
-                "modid": "organics"
-            }
-        ],
-        "predicate": {
-            "item": "organics:blazed_iron_sword"
-        },
-        "item": "tetra:modular_sword",
-        "modules": {
-            "sword/blade": [
-                "sword/basic_blade",
-                "basic_blade/iron"
-            ],
-            "sword/hilt": [
-                "sword/basic_hilt",
-                "basic_hilt/blaze_rod"
-            ],
-            "sword/pommel": [
-                "sword/decorative_pommel",
-                "decorative_pommel/iron"
-            ],
-            "sword/guard": [
-                "sword/makeshift_guard",
-                "makeshift_guard/iron"
+                "makeshift_guard/diamond"
             ]
         }
     },
@@ -127,13 +67,13 @@
             }
         ],
         "predicate": {
-            "item": "organics:blazed_diamond_sword"
+            "item": "organics:blazed_iron_sword"
         },
         "item": "tetra:modular_sword",
         "modules": {
             "sword/blade": [
                 "sword/basic_blade",
-                "basic_blade/diamond"
+                "basic_blade/iron"
             ],
             "sword/hilt": [
                 "sword/basic_hilt",
@@ -141,11 +81,11 @@
             ],
             "sword/pommel": [
                 "sword/decorative_pommel",
-                "decorative_pommel/diamond"
+                "decorative_pommel/iron"
             ],
             "sword/guard": [
                 "sword/makeshift_guard",
-                "makeshift_guard/diamond"
+                "makeshift_guard/iron"
             ]
         }
     },
@@ -176,6 +116,66 @@
             "sword/guard": [
                 "sword/makeshift_guard",
                 "makeshift_guard/netherite"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "organics"
+            }
+        ],
+        "predicate": {
+            "item": "organics:blazed_stone_sword"
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/stone"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/blaze_rod"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/stone"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/stone"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "organics"
+            }
+        ],
+        "predicate": {
+            "item": "organics:blazed_wooden_sword"
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/wood"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/blaze_rod"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/wood"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/wood"
             ]
         }
     }

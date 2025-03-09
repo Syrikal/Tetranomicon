@@ -1,0 +1,33 @@
+{
+    "key": "tropicraft_zirconium",
+    "category": "gem",
+    "primary": "6",
+    "secondary": "3.2",
+    "tertiary": "0",
+    "durability": "1800",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "60",
+    "toolLevel": "4",
+    "toolEfficiency": "8.5",
+    "tints": {
+        "glyph": "EFB3C8",
+        "texture": "EFB3C8"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "tropicraft:zirconium_gem"
+    },
+    "requiredTools": {
+        "hammer": 4
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "tropicraft"
+        }
+    ]
+}

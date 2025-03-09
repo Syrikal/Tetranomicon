@@ -1,0 +1,33 @@
+{
+    "key": "tropicraft_mangrove",
+    "category": "wood",
+    "primary": "3.5",
+    "secondary": "1.7",
+    "tertiary": "6",
+    "durability": "131",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "1",
+    "toolEfficiency": "2.5",
+    "tints": {
+        "glyph": "8C4D40",
+        "texture": "8C4D40"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "tropicraft:mangrove_planks"
+    },
+    "requiredTools": {
+        "axe": 1
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "tropicraft"
+        }
+    ]
+}

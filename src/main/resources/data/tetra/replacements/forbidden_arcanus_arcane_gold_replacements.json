@@ -1,0 +1,132 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "forbidden_arcanus"
+            }
+        ],
+        "predicate": {
+            "item": "forbidden_arcanus:arcane_golden_axe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_axe_left",
+                "basic_axe/forbidden_arcanus_arcane_gold"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/forbidden_arcanus_arcane_gold"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "forbidden_arcanus"
+            }
+        ],
+        "predicate": {
+            "item": "forbidden_arcanus:arcane_golden_hoe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/hoe_left",
+                "hoe/forbidden_arcanus_arcane_gold"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/forbidden_arcanus_arcane_gold"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "forbidden_arcanus"
+            }
+        ],
+        "predicate": {
+            "item": "forbidden_arcanus:arcane_golden_pickaxe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_pickaxe_left",
+                "basic_pickaxe/forbidden_arcanus_arcane_gold"
+            ],
+            "double/head_right": [
+                "double/basic_pickaxe_right",
+                "basic_pickaxe/forbidden_arcanus_arcane_gold"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "forbidden_arcanus"
+            }
+        ],
+        "predicate": {
+            "item": "forbidden_arcanus:arcane_golden_shovel"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [
+                "single/basic_shovel",
+                "basic_shovel/forbidden_arcanus_arcane_gold"
+            ],
+            "single/handle": [
+                "single/basic_handle",
+                "basic_handle/stick"
+            ]
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "forbidden_arcanus"
+            }
+        ],
+        "predicate": {
+            "item": "forbidden_arcanus:arcane_golden_sword"
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/forbidden_arcanus_arcane_gold"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/stick"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/forbidden_arcanus_arcane_gold"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/forbidden_arcanus_arcane_gold"
+            ]
+        }
+    }
+]

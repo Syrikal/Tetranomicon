@@ -1,0 +1,33 @@
+{
+    "key": "alexsmobs_cave_chitin",
+    "category": "scale",
+    "primary": "4",
+    "secondary": "2.4",
+    "tertiary": "2",
+    "durability": "180",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "78",
+    "toolLevel": "0",
+    "toolEfficiency": "0",
+    "tints": {
+        "glyph": "BB3F34",
+        "texture": "BB3F34"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "alexsmobs:centipede_leg"
+    },
+    "requiredTools": {
+        "cut": 1
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alexsmobs"
+        }
+    ]
+}

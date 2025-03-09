@@ -12,7 +12,7 @@
     "toolEfficiency": "10",
     "effects": {
         "criticalStrike": [
-            10,
+            5,
             2
         ]
     },

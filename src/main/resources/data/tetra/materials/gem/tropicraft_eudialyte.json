@@ -1,0 +1,33 @@
+{
+    "key": "tropicraft_eudialyte",
+    "category": "gem",
+    "primary": "5",
+    "secondary": "2.9",
+    "tertiary": "0",
+    "durability": "750",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "84",
+    "toolLevel": "3",
+    "toolEfficiency": "6.5",
+    "tints": {
+        "glyph": "8D4C5C",
+        "texture": "8D4C5C"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "tropicraft:eudialyte_gem"
+    },
+    "requiredTools": {
+        "hammer": 2
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "tropicraft"
+        }
+    ]
+}

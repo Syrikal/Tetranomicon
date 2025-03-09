@@ -1,0 +1,33 @@
+{
+    "key": "alexsmobs_gazelle_horn",
+    "category": "bone",
+    "primary": "5.5",
+    "secondary": "1.6",
+    "tertiary": "4.8",
+    "durability": "64",
+    "integrityCost": "1",
+    "integrityGain": "5",
+    "magicCapacity": "114",
+    "toolLevel": "2",
+    "toolEfficiency": "5",
+    "tints": {
+        "glyph": "3B3131",
+        "texture": "3B3131"
+    },
+    "textures": [
+        "bone",
+        "crude"
+    ],
+    "material": {
+        "item": "alexsmobs:gazelle_horn"
+    },
+    "requiredTools": {
+        "hammer": 1
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alexsmobs"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "key": "oreandmore_demonite",
+    "category": "metal",
+    "primary": "19",
+    "secondary": "3.4",
+    "tertiary": "3.8",
+    "durability": "15000",
+    "integrityCost": "2",
+    "integrityGain": "6",
+    "magicCapacity": "180",
+    "toolLevel": "5",
+    "toolEfficiency": "40",
+    "tints": {
+        "glyph": "d90303",
+        "texture": "d90303"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "item": "oreandmore:demonite_ingot"
+    },
+    "requiredTools": {
+        "hammer": 7
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "oreandmore"
+        }
+    ]
+}

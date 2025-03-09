@@ -22,7 +22,7 @@
         "item": "ms:entity/polar_bear_hide"
     },
     "requiredTools": {
-        "cut": 3
+        "cut": 2
     },
     "conditions": [
         {
