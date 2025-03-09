@@ -1,0 +1,41 @@
+{
+    "key": "samurai_dynasty_amethyst_steel",
+    "category": "metal",
+    "primary": 8,
+    "secondary": 3.5,
+    "tertiary": 2,
+    "durability": 2031,
+    "integrityCost": 2,
+    "integrityGain": 6,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 12,
+    "effects": {
+        "criticalStrike": [
+            5,
+            2
+        ]
+    },
+    "tints": {
+        "glyph": "d4b5e9",
+        "texture": "d4b5e9"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "samurai_dynasty:amethyst_ingot"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "samurai_dynasty"
+        }
+    ]
+}
