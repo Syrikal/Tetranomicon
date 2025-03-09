@@ -1,0 +1,36 @@
+{
+    "key": "socket_samurai_dynasty_onyx",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 512.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 2.0,
+    "effects": {
+        "ArmorPenetration": 20
+    },
+    "tints": {
+        "glyph": "eed4bf",
+        "texture": "eed4bf"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 10,
+    "material": {
+        "items": [
+            "samurai_dynasty:onyx"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "samurai_dynasty"
+        }
+    ]
+}

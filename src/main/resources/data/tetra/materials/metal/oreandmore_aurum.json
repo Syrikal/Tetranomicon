@@ -1,0 +1,36 @@
+{
+    "key": "oreandmore_aurum",
+    "category": "metal",
+    "primary": 11,
+    "secondary": 2.4,
+    "tertiary": 4.2,
+    "durability": 4862,
+    "integrityCost": 2,
+    "integrityGain": 6,
+    "magicCapacity": 150,
+    "toolLevel": "minecraft:netherite",
+    "toolEfficiency": 15,
+    "tints": {
+        "glyph": "dc9247",
+        "texture": "dc9247"
+    },
+    "textures": [
+        "shiny",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "oreandmore:auric_bar"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:diamond"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "oreandmore"
+        }
+    ]
+}
