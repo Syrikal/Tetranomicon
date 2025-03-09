@@ -1,0 +1,36 @@
+{
+    "key": "unearthed_grey_limestone",
+    "category": "stone",
+    "primary": 4.2,
+    "secondary": 3.5,
+    "tertiary": 0,
+    "durability": 96,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 4,
+    "tints": {
+        "glyph": "7d7f87",
+        "texture": "7d7f87"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "unearthed:grey_limestone"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:wood"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "unearthed"
+        }
+    ]
+}

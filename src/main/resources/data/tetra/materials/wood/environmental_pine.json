@@ -1,0 +1,35 @@
+{
+    "key": "environmental_pine",
+    "category": "wood",
+    "primary": 2.6,
+    "secondary": 1.5,
+    "tertiary": 6,
+    "durability": 48,
+    "integrityCost": 1,
+    "integrityGain": 3,
+    "magicCapacity": 108,
+    "toolLevel": "minecraft:wood",
+    "toolEfficiency": 3,
+    "tints": {
+        "glyph": "B4956C",
+        "texture": "B4956C"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "environmental:pine_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:wood"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "environmental"
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 {
-    "key": "socket_embers_ember_crystal_cluster",
+    "key": "socket_betternether_nether_ruby",
     "hidden": true,
     "category": "socket",
     "primary": 0,
@@ -10,19 +10,19 @@
     "integrityGain": 0,
     "magicCapacity": 0,
     "toolLevel": 0,
-    "toolEfficiency": 4.0,
+    "toolEfficiency": 0,
     "attributes": {
         "**generic.attack_damage": 0.1
     },
     "effects": {
-        "fierySelf": [
-            1,
-            0.01
+        "criticalStrike": [
+            20,
+            2
         ]
     },
     "tints": {
-        "glyph": "DB4600",
-        "texture": "DB4600"
+        "glyph": "930015",
+        "texture": "930015"
     },
     "textures": [
         "default"
@@ -30,13 +30,13 @@
     "experienceCost": 4,
     "material": {
         "items": [
-            "embers:ember_crystal_cluster"
+            "betternether:nether_ruby"
         ]
     },
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "embers"
+            "modid": "betternether"
         }
     ]
 }

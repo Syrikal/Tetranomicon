@@ -1,0 +1,35 @@
+{
+    "key": "atmospheric_rosewood",
+    "category": "wood",
+    "primary": 4,
+    "secondary": 2,
+    "tertiary": 7,
+    "durability": 512,
+    "integrityCost": 2,
+    "integrityGain": 5,
+    "magicCapacity": 102,
+    "toolLevel": "minecraft:wood",
+    "toolEfficiency": 5,
+    "tints": {
+        "glyph": "735a5b",
+        "texture": "735a5b"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "atmospheric:rosewood_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "atmospheric"
+        }
+    ]
+}
