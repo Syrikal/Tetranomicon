@@ -1,0 +1,35 @@
+{
+    "key": "oreandmore_ruby",
+    "category": "gem",
+    "primary": 6,
+    "secondary": 2.9,
+    "tertiary": 0,
+    "durability": 1561,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 60,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 8,
+    "tints": {
+        "glyph": "bd272c",
+        "texture": "bd272c"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "oreandmore:ruby"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "oreandmore"
+        }
+    ]
+}

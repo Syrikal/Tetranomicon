@@ -1,0 +1,35 @@
+{
+    "key": "unusualprehistory_trike_horn",
+    "category": "bone",
+    "primary": 5.5,
+    "secondary": 2.4,
+    "tertiary": 3.6,
+    "durability": 768,
+    "integrityCost": 2,
+    "integrityGain": 4,
+    "magicCapacity": 138,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 7,
+    "tints": {
+        "glyph": "AFB17D",
+        "texture": "AFB17D"
+    },
+    "textures": [
+        "bone",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "unusualprehistory:trike_horn"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "unusualprehistory"
+        }
+    ]
+}

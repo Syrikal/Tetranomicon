@@ -8,58 +8,6 @@
                     "modid": "aquamirae"
                 }
             ],
-            "key": "sword_socket/aquamirae_abyssal_amethyst",
-            "category": "gem",
-            "durability": 512,
-            "integrity": 1,
-            "effects": {
-                "criticalStrike": [
-                    20,
-                    2
-                ],
-                "backstab": 2
-            },
-            "tools": {
-                "axe": [
-                    0,
-                    2.0
-                ],
-                "shovel": [
-                    0,
-                    2.0
-                ],
-                "pickaxe": [
-                    0,
-                    2.0
-                ],
-                "hoe": [
-                    0,
-                    2.0
-                ],
-                "cut": [
-                    0,
-                    2.0
-                ]
-            },
-            "glyph": {
-                "tint": "ff7bff",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "ff7bff"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "aquamirae"
-                }
-            ],
             "key": "sword_socket/aquamirae_echo_of_the_ship_graveyard",
             "category": "gem",
             "durability": 714,
@@ -111,24 +59,51 @@
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
-                    "modid": "blue_skies"
+                    "modid": "aquamirae"
                 }
             ],
-            "key": "sword_socket/blue_skies_aquite",
+            "key": "sword_socket/aquamirae_abyssal_amethyst",
             "category": "gem",
+            "durability": 512,
             "integrity": 1,
             "effects": {
-                "intuit": 1
+                "criticalStrike": [
+                    20,
+                    2
+                ],
+                "backstab": 2
+            },
+            "tools": {
+                "axe": [
+                    0,
+                    2.0
+                ],
+                "shovel": [
+                    0,
+                    2.0
+                ],
+                "pickaxe": [
+                    0,
+                    2.0
+                ],
+                "hoe": [
+                    0,
+                    2.0
+                ],
+                "cut": [
+                    0,
+                    2.0
+                ]
             },
             "glyph": {
-                "tint": "62bee3",
+                "tint": "ff7bff",
                 "textureX": 80,
                 "textureY": 16
             },
             "models": [
                 {
                     "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "62bee3"
+                    "tint": "ff7bff"
                 }
             ]
         },
@@ -235,21 +210,23 @@
                     "modid": "blue_skies"
                 }
             ],
-            "key": "sword_socket/blue_skies_moonstone",
+            "key": "sword_socket/blue_skies_sunstone_crystal",
             "category": "gem",
+            "durability": 512,
             "integrity": 1,
-            "effects": {
-                "stabilizing": 20
+            "attributes": {
+                "**generic.attack_damage": 0.2,
+                "generic.max_health": 2
             },
             "glyph": {
-                "tint": "c4e3f1",
+                "tint": "ef9a7e",
                 "textureX": 80,
                 "textureY": 16
             },
             "models": [
                 {
                     "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "c4e3f1"
+                    "tint": "ef9a7e"
                 }
             ]
         },
@@ -308,23 +285,46 @@
                     "modid": "blue_skies"
                 }
             ],
-            "key": "sword_socket/blue_skies_sunstone_crystal",
+            "key": "sword_socket/blue_skies_aquite",
             "category": "gem",
-            "durability": 512,
             "integrity": 1,
-            "attributes": {
-                "**generic.attack_damage": 0.2,
-                "generic.max_health": 2
+            "effects": {
+                "intuit": 1
             },
             "glyph": {
-                "tint": "ef9a7e",
+                "tint": "62bee3",
                 "textureX": 80,
                 "textureY": 16
             },
             "models": [
                 {
                     "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "ef9a7e"
+                    "tint": "62bee3"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "blue_skies"
+                }
+            ],
+            "key": "sword_socket/blue_skies_moonstone",
+            "category": "gem",
+            "integrity": 1,
+            "effects": {
+                "stabilizing": 20
+            },
+            "glyph": {
+                "tint": "c4e3f1",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "c4e3f1"
                 }
             ]
         },
@@ -494,6 +494,53 @@
                     "modid": "epicsamurai"
                 }
             ],
+            "key": "sword_socket/epicsamurai_ruby",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.1
+            },
+            "tools": {
+                "axe": [
+                    0,
+                    2.0
+                ],
+                "shovel": [
+                    0,
+                    2.0
+                ],
+                "pickaxe": [
+                    0,
+                    2.0
+                ],
+                "hoe": [
+                    0,
+                    2.0
+                ],
+                "cut": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "b71643",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "b71643"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "epicsamurai"
+                }
+            ],
             "key": "sword_socket/epicsamurai_aquamarine",
             "category": "gem",
             "integrity": 1,
@@ -595,11 +642,82 @@
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
-                    "modid": "epicsamurai"
+                    "modid": "forbidden_arcanus"
                 }
             ],
-            "key": "sword_socket/epicsamurai_ruby",
+            "key": "sword_socket/forbidden_arcanus_arcane_crystal",
             "category": "gem",
+            "integrity": 1,
+            "effects": {
+                "stabilizing": 25
+            },
+            "glyph": {
+                "tint": "A7BBFA",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "A7BBFA"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "forbidden_arcanus"
+                }
+            ],
+            "key": "sword_socket/forbidden_arcanus_dragon_scale",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "tools": {
+                "axe": [
+                    0,
+                    2.0
+                ],
+                "shovel": [
+                    0,
+                    2.0
+                ],
+                "pickaxe": [
+                    0,
+                    2.0
+                ],
+                "hoe": [
+                    0,
+                    2.0
+                ],
+                "cut": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "382542",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "382542"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "forbidden_arcanus"
+                }
+            ],
+            "key": "sword_socket/forbidden_arcanus_golden_dragon_scale",
+            "category": "gem",
+            "durability": 1024,
             "integrity": 1,
             "attributes": {
                 "**generic.attack_damage": 0.1
@@ -627,14 +745,111 @@
                 ]
             },
             "glyph": {
-                "tint": "b71643",
+                "tint": "EBB02F",
                 "textureX": 80,
                 "textureY": 16
             },
             "models": [
                 {
                     "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "b71643"
+                    "tint": "EBB02F"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "forbidden_arcanus"
+                }
+            ],
+            "key": "sword_socket/forbidden_arcanus_silver_dragon_scale",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "effects": {
+                "stabilizing": 10
+            },
+            "tools": {
+                "axe": [
+                    0,
+                    2.0
+                ],
+                "shovel": [
+                    0,
+                    2.0
+                ],
+                "pickaxe": [
+                    0,
+                    2.0
+                ],
+                "hoe": [
+                    0,
+                    2.0
+                ],
+                "cut": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "C2D1D1",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "C2D1D1"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "forbidden_arcanus"
+                }
+            ],
+            "key": "sword_socket/forbidden_arcanus_aquatic_dragon_scale",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_speed": 0.1,
+                "**generic.movement_speed": 0.1
+            },
+            "tools": {
+                "axe": [
+                    0,
+                    4.0
+                ],
+                "shovel": [
+                    0,
+                    4.0
+                ],
+                "pickaxe": [
+                    0,
+                    4.0
+                ],
+                "hoe": [
+                    0,
+                    4.0
+                ],
+                "cut": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "314FDD",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "314FDD"
                 }
             ]
         },
@@ -844,34 +1059,6 @@
                     "modid": "ms"
                 }
             ],
-            "key": "sword_socket/ms_amethyst",
-            "category": "gem",
-            "integrity": 1,
-            "effects": {
-                "criticalStrike": [
-                    15,
-                    2
-                ]
-            },
-            "glyph": {
-                "tint": "8d6acc",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "8d6acc"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "ms"
-                }
-            ],
             "key": "sword_socket/ms_aquamarine",
             "category": "gem",
             "integrity": 1,
@@ -973,6 +1160,82 @@
                     "modid": "ms"
                 }
             ],
+            "key": "sword_socket/ms_trio",
+            "category": "gem",
+            "durability": 714,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.1
+            },
+            "tools": {
+                "axe": [
+                    0,
+                    6.0
+                ],
+                "shovel": [
+                    0,
+                    6.0
+                ],
+                "pickaxe": [
+                    0,
+                    6.0
+                ],
+                "hoe": [
+                    0,
+                    6.0
+                ],
+                "cut": [
+                    0,
+                    6.0
+                ]
+            },
+            "glyph": {
+                "tint": "62ff62",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "62ff62"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "key": "sword_socket/ms_white_opal",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.1
+            },
+            "effects": {
+                "intuit": 2
+            },
+            "glyph": {
+                "tint": "d3edfe",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "d3edfe"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
             "key": "sword_socket/ms_hellfire",
             "category": "gem",
             "durability": 448,
@@ -1027,6 +1290,136 @@
                     "modid": "ms"
                 }
             ],
+            "key": "sword_socket/ms_scarlet_emerald",
+            "category": "gem",
+            "durability": 448,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.2
+            },
+            "glyph": {
+                "tint": "a00025",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "a00025"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "key": "sword_socket/ms_tanzanite",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.2
+            },
+            "effects": {
+                "criticalStrike": [
+                    25,
+                    2
+                ]
+            },
+            "glyph": {
+                "tint": "9064ee",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "9064ee"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "key": "sword_socket/ms_topaz",
+            "category": "gem",
+            "durability": 714,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.2
+            },
+            "tools": {
+                "axe": [
+                    0,
+                    4.0
+                ],
+                "shovel": [
+                    0,
+                    4.0
+                ],
+                "pickaxe": [
+                    0,
+                    4.0
+                ],
+                "hoe": [
+                    0,
+                    4.0
+                ],
+                "cut": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "ffd350",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "ffd350"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "key": "sword_socket/ms_olivine",
+            "category": "gem",
+            "integrity": 1,
+            "attributes": {
+                "**generic.movement_speed": 0.1
+            },
+            "glyph": {
+                "tint": "5aff4f",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "5aff4f"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
             "key": "sword_socket/ms_jade",
             "category": "gem",
             "integrity": 1,
@@ -1058,21 +1451,24 @@
                     "modid": "ms"
                 }
             ],
-            "key": "sword_socket/ms_olivine",
+            "key": "sword_socket/ms_amethyst",
             "category": "gem",
             "integrity": 1,
-            "attributes": {
-                "**generic.movement_speed": 0.1
+            "effects": {
+                "criticalStrike": [
+                    15,
+                    2
+                ]
             },
             "glyph": {
-                "tint": "5aff4f",
+                "tint": "8d6acc",
                 "textureX": 80,
                 "textureY": 16
             },
             "models": [
                 {
                     "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "5aff4f"
+                    "tint": "8d6acc"
                 }
             ]
         },
@@ -1225,56 +1621,30 @@
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
-                    "modid": "ms"
+                    "modid": "oreandmore"
                 }
             ],
-            "key": "sword_socket/ms_scarlet_emerald",
-            "category": "gem",
-            "durability": 448,
-            "integrity": 1,
-            "attributes": {
-                "**generic.attack_damage": 0.2
-            },
-            "glyph": {
-                "tint": "a00025",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "a00025"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "ms"
-                }
-            ],
-            "key": "sword_socket/ms_tanzanite",
+            "key": "sword_socket/oreandmore_ruby",
             "category": "gem",
             "integrity": 1,
             "attributes": {
-                "**generic.attack_damage": 0.2
+                "**generic.attack_damage": 0.05
             },
             "effects": {
                 "criticalStrike": [
-                    25,
+                    20,
                     2
                 ]
             },
             "glyph": {
-                "tint": "9064ee",
+                "tint": "8E1F23",
                 "textureX": 80,
                 "textureY": 16
             },
             "models": [
                 {
                     "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "9064ee"
+                    "tint": "8E1F23"
                 }
             ]
         },
@@ -1282,47 +1652,30 @@
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
-                    "modid": "ms"
+                    "modid": "oreandmore"
                 }
             ],
-            "key": "sword_socket/ms_topaz",
+            "key": "sword_socket/oreandmore_fire_amber",
             "category": "gem",
-            "durability": 714,
             "integrity": 1,
             "attributes": {
                 "**generic.attack_damage": 0.2
             },
-            "tools": {
-                "axe": [
-                    0,
-                    4.0
-                ],
-                "shovel": [
-                    0,
-                    4.0
-                ],
-                "pickaxe": [
-                    0,
-                    4.0
-                ],
-                "hoe": [
-                    0,
-                    4.0
-                ],
-                "cut": [
-                    0,
-                    4.0
+            "effects": {
+                "fierySelf": [
+                    1,
+                    0.04
                 ]
             },
             "glyph": {
-                "tint": "ffd350",
+                "tint": "D8991C",
                 "textureX": 80,
                 "textureY": 16
             },
             "models": [
                 {
                     "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "ffd350"
+                    "tint": "D8991C"
                 }
             ]
         },
@@ -1330,75 +1683,30 @@
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
-                    "modid": "ms"
+                    "modid": "oreandmore"
                 }
             ],
-            "key": "sword_socket/ms_trio",
-            "category": "gem",
-            "durability": 714,
-            "integrity": 1,
-            "attributes": {
-                "**generic.attack_damage": 0.1
-            },
-            "tools": {
-                "axe": [
-                    0,
-                    6.0
-                ],
-                "shovel": [
-                    0,
-                    6.0
-                ],
-                "pickaxe": [
-                    0,
-                    6.0
-                ],
-                "hoe": [
-                    0,
-                    6.0
-                ],
-                "cut": [
-                    0,
-                    6.0
-                ]
-            },
-            "glyph": {
-                "tint": "62ff62",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "62ff62"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "ms"
-                }
-            ],
-            "key": "sword_socket/ms_white_opal",
+            "key": "sword_socket/oreandmore_rose_quartz",
             "category": "gem",
             "integrity": 1,
             "attributes": {
                 "**generic.attack_damage": 0.1
             },
             "effects": {
-                "intuit": 2
+                "criticalStrike": [
+                    20,
+                    2
+                ]
             },
             "glyph": {
-                "tint": "d3edfe",
+                "tint": "EA677D",
                 "textureX": 80,
                 "textureY": 16
             },
             "models": [
                 {
                     "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "d3edfe"
+                    "tint": "EA677D"
                 }
             ]
         },
@@ -1553,84 +1861,6 @@
                     "modid": "organics"
                 }
             ],
-            "key": "sword_socket/organics_endium",
-            "category": "gem",
-            "durability": 1024,
-            "integrity": 2,
-            "attributes": {
-                "**generic.attack_damage": 0.3,
-                "**generic.attack_speed": 0.1
-            },
-            "tools": {
-                "axe": [
-                    1,
-                    5.0
-                ],
-                "shovel": [
-                    1,
-                    5.0
-                ],
-                "pickaxe": [
-                    1,
-                    5.0
-                ],
-                "hoe": [
-                    1,
-                    5.0
-                ],
-                "cut": [
-                    1,
-                    5.0
-                ]
-            },
-            "glyph": {
-                "tint": "c35ad1",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "c35ad1"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "organics"
-                }
-            ],
-            "key": "sword_socket/organics_frozen_quartz",
-            "category": "gem",
-            "durability": 512,
-            "integrity": 1,
-            "attributes": {
-                "generic.armor": 2
-            },
-            "effects": {
-                "earthbind": 4
-            },
-            "glyph": {
-                "tint": "abc6f8",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "abc6f8"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "organics"
-                }
-            ],
             "key": "sword_socket/organics_iridite",
             "category": "gem",
             "durability": 714,
@@ -1724,6 +1954,113 @@
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
+                    "modid": "organics"
+                }
+            ],
+            "key": "sword_socket/organics_endium",
+            "category": "gem",
+            "durability": 1024,
+            "integrity": 2,
+            "attributes": {
+                "**generic.attack_damage": 0.3,
+                "**generic.attack_speed": 0.1
+            },
+            "tools": {
+                "axe": [
+                    1,
+                    5.0
+                ],
+                "shovel": [
+                    1,
+                    5.0
+                ],
+                "pickaxe": [
+                    1,
+                    5.0
+                ],
+                "hoe": [
+                    1,
+                    5.0
+                ],
+                "cut": [
+                    1,
+                    5.0
+                ]
+            },
+            "glyph": {
+                "tint": "c35ad1",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "c35ad1"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "organics"
+                }
+            ],
+            "key": "sword_socket/organics_frozen_quartz",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "attributes": {
+                "generic.armor": 2
+            },
+            "effects": {
+                "earthbind": 4
+            },
+            "glyph": {
+                "tint": "abc6f8",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "abc6f8"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "phantasm"
+                }
+            ],
+            "key": "sword_socket/phantasm_void_crystal_shard",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.25
+            },
+            "effects": {
+                "armorPenetration": 20
+            },
+            "glyph": {
+                "tint": "c99bc4",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "c99bc4"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
                     "modid": "phantasm"
                 }
             ],
@@ -1765,35 +2102,6 @@
                 {
                     "location": "tetra:items/module/sword/guard/socket/default",
                     "tint": "b7c6e2"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "phantasm"
-                }
-            ],
-            "key": "sword_socket/phantasm_void_crystal_shard",
-            "category": "gem",
-            "durability": 512,
-            "integrity": 1,
-            "attributes": {
-                "**generic.attack_damage": 0.25
-            },
-            "effects": {
-                "armorPenetration": 20
-            },
-            "glyph": {
-                "tint": "c99bc4",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "c99bc4"
                 }
             ]
         },
@@ -1845,6 +2153,59 @@
                 {
                     "location": "tetra:items/module/sword/guard/socket/default",
                     "tint": "abff6b"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgear"
+                }
+            ],
+            "key": "sword_socket/silentgear_tyrian_steel_nugget",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.3,
+                "generic.armor": 2
+            },
+            "effects": {
+                "unbreaking": 2,
+                "armorPenetration": 30
+            },
+            "tools": {
+                "axe": [
+                    0,
+                    4.0
+                ],
+                "shovel": [
+                    0,
+                    4.0
+                ],
+                "pickaxe": [
+                    0,
+                    4.0
+                ],
+                "hoe": [
+                    0,
+                    4.0
+                ],
+                "cut": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "b01080",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "b01080"
                 }
             ]
         },
@@ -2067,59 +2428,6 @@
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
-                    "modid": "silentgear"
-                }
-            ],
-            "key": "sword_socket/silentgear_tyrian_steel_nugget",
-            "category": "gem",
-            "durability": 512,
-            "integrity": 1,
-            "attributes": {
-                "**generic.attack_damage": 0.3,
-                "generic.armor": 2
-            },
-            "effects": {
-                "unbreaking": 2,
-                "armorPenetration": 30
-            },
-            "tools": {
-                "axe": [
-                    0,
-                    4.0
-                ],
-                "shovel": [
-                    0,
-                    4.0
-                ],
-                "pickaxe": [
-                    0,
-                    4.0
-                ],
-                "hoe": [
-                    0,
-                    4.0
-                ],
-                "cut": [
-                    0,
-                    4.0
-                ]
-            },
-            "glyph": {
-                "tint": "b01080",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "b01080"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
                     "modid": "silentgems"
                 }
             ],
@@ -2160,104 +2468,6 @@
                 {
                     "location": "tetra:items/module/sword/guard/socket/default",
                     "tint": "9e17dd"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "silentgems"
-                }
-            ],
-            "key": "sword_socket/silentgems_ammolite",
-            "category": "gem",
-            "integrity": 1,
-            "attributes": {
-                "generic.armor": 2
-            },
-            "tools": {
-                "axe": [
-                    0,
-                    2.0
-                ],
-                "shovel": [
-                    0,
-                    2.0
-                ],
-                "pickaxe": [
-                    0,
-                    2.0
-                ],
-                "hoe": [
-                    0,
-                    2.0
-                ],
-                "cut": [
-                    0,
-                    2.0
-                ]
-            },
-            "glyph": {
-                "tint": "b834f9",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "b834f9"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "silentgems"
-                }
-            ],
-            "key": "sword_socket/silentgems_black_diamond",
-            "category": "gem",
-            "durability": 512,
-            "integrity": 1,
-            "attributes": {
-                "**generic.attack_damage": 0.15
-            },
-            "effects": {
-                "unbreaking": 1
-            },
-            "tools": {
-                "axe": [
-                    0,
-                    2.0
-                ],
-                "shovel": [
-                    0,
-                    2.0
-                ],
-                "pickaxe": [
-                    0,
-                    2.0
-                ],
-                "hoe": [
-                    0,
-                    2.0
-                ],
-                "cut": [
-                    0,
-                    2.0
-                ]
-            },
-            "glyph": {
-                "tint": "5f524c",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "5f524c"
                 }
             ]
         },
@@ -2322,50 +2532,6 @@
                     "modid": "silentgems"
                 }
             ],
-            "key": "sword_socket/silentgems_heliodor",
-            "category": "gem",
-            "integrity": 1,
-            "tools": {
-                "axe": [
-                    0,
-                    5.0
-                ],
-                "shovel": [
-                    0,
-                    5.0
-                ],
-                "pickaxe": [
-                    0,
-                    5.0
-                ],
-                "hoe": [
-                    0,
-                    5.0
-                ],
-                "cut": [
-                    0,
-                    5.0
-                ]
-            },
-            "glyph": {
-                "tint": "ddcf17",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "ddcf17"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "silentgems"
-                }
-            ],
             "key": "sword_socket/silentgems_iolite",
             "category": "gem",
             "integrity": 1,
@@ -2384,6 +2550,105 @@
                 {
                     "location": "tetra:items/module/sword/guard/socket/default",
                     "tint": "4f1edb"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "key": "sword_socket/silentgems_turquoise",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.1
+            },
+            "tools": {
+                "axe": [
+                    0,
+                    2.0
+                ],
+                "shovel": [
+                    0,
+                    2.0
+                ],
+                "pickaxe": [
+                    0,
+                    2.0
+                ],
+                "hoe": [
+                    0,
+                    2.0
+                ],
+                "cut": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "3df4bd",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "3df4bd"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "key": "sword_socket/silentgems_black_diamond",
+            "category": "gem",
+            "durability": 512,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.15
+            },
+            "effects": {
+                "unbreaking": 1
+            },
+            "tools": {
+                "axe": [
+                    0,
+                    2.0
+                ],
+                "shovel": [
+                    0,
+                    2.0
+                ],
+                "pickaxe": [
+                    0,
+                    2.0
+                ],
+                "hoe": [
+                    0,
+                    2.0
+                ],
+                "cut": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "5f524c",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "5f524c"
                 }
             ]
         },
@@ -2432,53 +2697,6 @@
                 {
                     "location": "tetra:items/module/sword/guard/socket/default",
                     "tint": "17a9dd"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "silentgems"
-                }
-            ],
-            "key": "sword_socket/silentgems_moldavite",
-            "category": "gem",
-            "integrity": 1,
-            "attributes": {
-                "**generic.attack_damage": 0.2
-            },
-            "tools": {
-                "axe": [
-                    0,
-                    4.0
-                ],
-                "shovel": [
-                    0,
-                    4.0
-                ],
-                "pickaxe": [
-                    0,
-                    4.0
-                ],
-                "hoe": [
-                    0,
-                    4.0
-                ],
-                "cut": [
-                    0,
-                    4.0
-                ]
-            },
-            "glyph": {
-                "tint": "6f9a1e",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "6f9a1e"
                 }
             ]
         },
@@ -2567,24 +2785,47 @@
                     "modid": "silentgems"
                 }
             ],
-            "key": "sword_socket/silentgems_ruby",
+            "key": "sword_socket/silentgems_white_diamond",
             "category": "gem",
+            "durability": 714,
             "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.15
+            },
             "effects": {
-                "criticalStrike": [
-                    20,
-                    2
+                "unbreaking": 1
+            },
+            "tools": {
+                "axe": [
+                    0,
+                    4.0
+                ],
+                "shovel": [
+                    0,
+                    4.0
+                ],
+                "pickaxe": [
+                    0,
+                    4.0
+                ],
+                "hoe": [
+                    0,
+                    4.0
+                ],
+                "cut": [
+                    0,
+                    4.0
                 ]
             },
             "glyph": {
-                "tint": "aa0004",
+                "tint": "f6f1f5",
                 "textureX": 80,
                 "textureY": 16
             },
             "models": [
                 {
                     "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "aa0004"
+                    "tint": "f6f1f5"
                 }
             ]
         },
@@ -2595,21 +2836,43 @@
                     "modid": "silentgems"
                 }
             ],
-            "key": "sword_socket/silentgems_sapphire",
+            "key": "sword_socket/silentgems_moldavite",
             "category": "gem",
             "integrity": 1,
-            "effects": {
-                "intuit": 1
+            "attributes": {
+                "**generic.attack_damage": 0.2
+            },
+            "tools": {
+                "axe": [
+                    0,
+                    4.0
+                ],
+                "shovel": [
+                    0,
+                    4.0
+                ],
+                "pickaxe": [
+                    0,
+                    4.0
+                ],
+                "hoe": [
+                    0,
+                    4.0
+                ],
+                "cut": [
+                    0,
+                    4.0
+                ]
             },
             "glyph": {
-                "tint": "1849db",
+                "tint": "6f9a1e",
                 "textureX": 80,
                 "textureY": 16
             },
             "models": [
                 {
                     "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "1849db"
+                    "tint": "6f9a1e"
                 }
             ]
         },
@@ -2667,9 +2930,153 @@
                     "modid": "silentgems"
                 }
             ],
-            "key": "sword_socket/silentgems_turquoise",
+            "key": "sword_socket/silentgems_ammolite",
             "category": "gem",
-            "durability": 512,
+            "integrity": 1,
+            "attributes": {
+                "generic.armor": 2
+            },
+            "tools": {
+                "axe": [
+                    0,
+                    2.0
+                ],
+                "shovel": [
+                    0,
+                    2.0
+                ],
+                "pickaxe": [
+                    0,
+                    2.0
+                ],
+                "hoe": [
+                    0,
+                    2.0
+                ],
+                "cut": [
+                    0,
+                    2.0
+                ]
+            },
+            "glyph": {
+                "tint": "b834f9",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "b834f9"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "key": "sword_socket/silentgems_heliodor",
+            "category": "gem",
+            "integrity": 1,
+            "tools": {
+                "axe": [
+                    0,
+                    5.0
+                ],
+                "shovel": [
+                    0,
+                    5.0
+                ],
+                "pickaxe": [
+                    0,
+                    5.0
+                ],
+                "hoe": [
+                    0,
+                    5.0
+                ],
+                "cut": [
+                    0,
+                    5.0
+                ]
+            },
+            "glyph": {
+                "tint": "ddcf17",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "ddcf17"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "key": "sword_socket/silentgems_ruby",
+            "category": "gem",
+            "integrity": 1,
+            "effects": {
+                "criticalStrike": [
+                    20,
+                    2
+                ]
+            },
+            "glyph": {
+                "tint": "aa0004",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "aa0004"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "key": "sword_socket/silentgems_sapphire",
+            "category": "gem",
+            "integrity": 1,
+            "effects": {
+                "intuit": 1
+            },
+            "glyph": {
+                "tint": "1849db",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "1849db"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "tropicraft"
+                }
+            ],
+            "key": "sword_socket/tropicraft_zircon_gem",
+            "category": "gem",
+            "durability": 256,
             "integrity": 1,
             "attributes": {
                 "**generic.attack_damage": 0.1
@@ -2697,14 +3104,14 @@
                 ]
             },
             "glyph": {
-                "tint": "3df4bd",
+                "tint": "590D16",
                 "textureX": 80,
                 "textureY": 16
             },
             "models": [
                 {
                     "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "3df4bd"
+                    "tint": "590D16"
                 }
             ]
         },
@@ -2712,18 +3119,17 @@
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
-                    "modid": "silentgems"
+                    "modid": "tropicraft"
                 }
             ],
-            "key": "sword_socket/silentgems_white_diamond",
+            "key": "sword_socket/tropicraft_eudialyte_gem",
             "category": "gem",
-            "durability": 714,
             "integrity": 1,
-            "attributes": {
-                "**generic.attack_damage": 0.15
-            },
             "effects": {
-                "unbreaking": 1
+                "criticalStrike": [
+                    20,
+                    2
+                ]
             },
             "tools": {
                 "axe": [
@@ -2748,14 +3154,112 @@
                 ]
             },
             "glyph": {
-                "tint": "f6f1f5",
+                "tint": "AC6175",
                 "textureX": 80,
                 "textureY": 16
             },
             "models": [
                 {
                     "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "f6f1f5"
+                    "tint": "AC6175"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "tropicraft"
+                }
+            ],
+            "key": "sword_socket/tropicraft_azurite_gem",
+            "category": "gem",
+            "integrity": 1,
+            "effects": {
+                "intuit": 2
+            },
+            "glyph": {
+                "tint": "4F69E8",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "4F69E8"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "tropicraft"
+                }
+            ],
+            "key": "sword_socket/tropicraft_zirconium_gem",
+            "category": "gem",
+            "durability": 714,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.2
+            },
+            "tools": {
+                "axe": [
+                    0,
+                    4.0
+                ],
+                "shovel": [
+                    0,
+                    4.0
+                ],
+                "pickaxe": [
+                    0,
+                    4.0
+                ],
+                "hoe": [
+                    0,
+                    4.0
+                ],
+                "cut": [
+                    0,
+                    4.0
+                ]
+            },
+            "glyph": {
+                "tint": "F09CB9",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "F09CB9"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "unusualprehistory"
+                }
+            ],
+            "key": "sword_socket/unusualprehistory_amber_chunk",
+            "category": "gem",
+            "integrity": 1,
+            "effects": {
+                "earthbind": 8
+            },
+            "glyph": {
+                "tint": "ED6D07",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "ED6D07"
                 }
             ]
         },
@@ -2766,52 +3270,92 @@
                     "modid": "voidscape"
                 }
             ],
-            "key": "sword_socket/voidscape_astral_crystal",
+            "key": "sword_socket/voidscape_voidic_crystal",
             "category": "gem",
-            "durability": 1561,
+            "durability": 512,
             "integrity": 1,
             "attributes": {
-                "**generic.attack_damage": 0.3,
-                "**generic.movement_speed": 0.15,
-                "**generic.attack_speed": 0.1
-            },
-            "effects": {
-                "skewering": [
-                    2,
-                    10
-                ]
+                "**generic.attack_damage": 0.2
             },
             "tools": {
                 "axe": [
-                    1,
-                    6.0
+                    0,
+                    4.0
                 ],
                 "shovel": [
-                    1,
-                    6.0
+                    0,
+                    4.0
                 ],
                 "pickaxe": [
-                    1,
-                    6.0
+                    0,
+                    4.0
                 ],
                 "hoe": [
-                    1,
-                    6.0
+                    0,
+                    4.0
                 ],
                 "cut": [
-                    1,
-                    6.0
+                    0,
+                    4.0
                 ]
             },
             "glyph": {
-                "tint": "c24cab",
+                "tint": "b03bd5",
                 "textureX": 80,
                 "textureY": 16
             },
             "models": [
                 {
                     "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "c24cab"
+                    "tint": "b03bd5"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "voidscape"
+                }
+            ],
+            "key": "sword_socket/voidscape_purified_titanite_shard",
+            "category": "gem",
+            "durability": 714,
+            "integrity": 1,
+            "attributes": {
+                "**generic.attack_damage": 0.3
+            },
+            "tools": {
+                "axe": [
+                    0,
+                    5.0
+                ],
+                "shovel": [
+                    0,
+                    5.0
+                ],
+                "pickaxe": [
+                    0,
+                    5.0
+                ],
+                "hoe": [
+                    0,
+                    5.0
+                ],
+                "cut": [
+                    0,
+                    5.0
+                ]
+            },
+            "glyph": {
+                "tint": "00c2a5",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/socket/default",
+                    "tint": "00c2a5"
                 }
             ]
         },
@@ -2877,92 +3421,52 @@
                     "modid": "voidscape"
                 }
             ],
-            "key": "sword_socket/voidscape_purified_titanite_shard",
+            "key": "sword_socket/voidscape_astral_crystal",
             "category": "gem",
-            "durability": 714,
+            "durability": 1561,
             "integrity": 1,
             "attributes": {
-                "**generic.attack_damage": 0.3
+                "**generic.attack_damage": 0.3,
+                "**generic.movement_speed": 0.15,
+                "**generic.attack_speed": 0.1
+            },
+            "effects": {
+                "skewering": [
+                    2,
+                    10
+                ]
             },
             "tools": {
                 "axe": [
-                    0,
-                    5.0
+                    1,
+                    6.0
                 ],
                 "shovel": [
-                    0,
-                    5.0
+                    1,
+                    6.0
                 ],
                 "pickaxe": [
-                    0,
-                    5.0
+                    1,
+                    6.0
                 ],
                 "hoe": [
-                    0,
-                    5.0
+                    1,
+                    6.0
                 ],
                 "cut": [
-                    0,
-                    5.0
+                    1,
+                    6.0
                 ]
             },
             "glyph": {
-                "tint": "00c2a5",
+                "tint": "c24cab",
                 "textureX": 80,
                 "textureY": 16
             },
             "models": [
                 {
                     "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "00c2a5"
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "voidscape"
-                }
-            ],
-            "key": "sword_socket/voidscape_voidic_crystal",
-            "category": "gem",
-            "durability": 512,
-            "integrity": 1,
-            "attributes": {
-                "**generic.attack_damage": 0.2
-            },
-            "tools": {
-                "axe": [
-                    0,
-                    4.0
-                ],
-                "shovel": [
-                    0,
-                    4.0
-                ],
-                "pickaxe": [
-                    0,
-                    4.0
-                ],
-                "hoe": [
-                    0,
-                    4.0
-                ],
-                "cut": [
-                    0,
-                    4.0
-                ]
-            },
-            "glyph": {
-                "tint": "b03bd5",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/sword/guard/socket/default",
-                    "tint": "b03bd5"
+                    "tint": "c24cab"
                 }
             ]
         }

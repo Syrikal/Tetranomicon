@@ -1,18 +1,18 @@
 {
-    "key": "quark_blossom",
+    "key": "tropicraft_palm",
     "category": "wood",
-    "primary": 3,
-    "secondary": 1.5,
+    "primary": 2.2,
+    "secondary": 1.4,
     "tertiary": 6,
-    "durability": 131,
+    "durability": 59,
     "integrityCost": 1,
-    "integrityGain": 5,
+    "integrityGain": 3,
     "magicCapacity": 108,
     "toolLevel": "minecraft:wood",
-    "toolEfficiency": 2,
+    "toolEfficiency": 3,
     "tints": {
-        "glyph": "5c3420",
-        "texture": "5c3420"
+        "glyph": "533C36",
+        "texture": "533C36"
     },
     "textures": [
         "crude",
@@ -20,7 +20,7 @@
     ],
     "material": {
         "items": [
-            "quark:blossom_planks"
+            "tropicraft:palm_planks"
         ]
     },
     "requiredTools": {
@@ -29,7 +29,7 @@
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "quark"
+            "modid": "tropicraft"
         }
     ]
 }

@@ -10,22 +10,6 @@
             ],
             "material": {
                 "items": [
-                    "aquamirae:abyssal_amethyst"
-                ]
-            },
-            "experienceCost": 15,
-            "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/aquamirae_abyssal_amethyst"
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "aquamirae"
-                }
-            ],
-            "material": {
-                "items": [
                     "aquamirae:ship_graveyard_echo"
                 ]
             },
@@ -37,17 +21,17 @@
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
-                    "modid": "blue_skies"
+                    "modid": "aquamirae"
                 }
             ],
             "material": {
                 "items": [
-                    "blue_skies:aquite"
+                    "aquamirae:abyssal_amethyst"
                 ]
             },
-            "experienceCost": 5,
+            "experienceCost": 15,
             "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/blue_skies_aquite"
+            "moduleVariant": "single_socket/aquamirae_abyssal_amethyst"
         },
         {
             "conditions": [
@@ -90,12 +74,12 @@
             ],
             "material": {
                 "items": [
-                    "blue_skies:moonstone"
+                    "blue_skies:sunstone_crystal"
                 ]
             },
             "experienceCost": 10,
             "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/blue_skies_moonstone"
+            "moduleVariant": "single_socket/blue_skies_sunstone_crystal"
         },
         {
             "conditions": [
@@ -122,12 +106,28 @@
             ],
             "material": {
                 "items": [
-                    "blue_skies:sunstone_crystal"
+                    "blue_skies:aquite"
+                ]
+            },
+            "experienceCost": 5,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/blue_skies_aquite"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "blue_skies"
+                }
+            ],
+            "material": {
+                "items": [
+                    "blue_skies:moonstone"
                 ]
             },
             "experienceCost": 10,
             "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/blue_skies_sunstone_crystal"
+            "moduleVariant": "single_socket/blue_skies_moonstone"
         },
         {
             "conditions": [
@@ -202,6 +202,22 @@
             ],
             "material": {
                 "items": [
+                    "epicsamurai:ruby"
+                ]
+            },
+            "experienceCost": 4,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/epicsamurai_ruby"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "epicsamurai"
+                }
+            ],
+            "material": {
+                "items": [
                     "epicsamurai:aquamarine"
                 ]
             },
@@ -245,17 +261,81 @@
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
-                    "modid": "epicsamurai"
+                    "modid": "forbidden_arcanus"
                 }
             ],
             "material": {
                 "items": [
-                    "epicsamurai:ruby"
+                    "forbidden_arcanus:arcane_crystal"
                 ]
             },
             "experienceCost": 4,
             "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/epicsamurai_ruby"
+            "moduleVariant": "single_socket/forbidden_arcanus_arcane_crystal"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "forbidden_arcanus"
+                }
+            ],
+            "material": {
+                "items": [
+                    "forbidden_arcanus:dragon_scale"
+                ]
+            },
+            "experienceCost": 2,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/forbidden_arcanus_dragon_scale"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "forbidden_arcanus"
+                }
+            ],
+            "material": {
+                "items": [
+                    "forbidden_arcanus:golden_dragon_scale"
+                ]
+            },
+            "experienceCost": 4,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/forbidden_arcanus_golden_dragon_scale"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "forbidden_arcanus"
+                }
+            ],
+            "material": {
+                "items": [
+                    "forbidden_arcanus:silver_dragon_scale"
+                ]
+            },
+            "experienceCost": 4,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/forbidden_arcanus_silver_dragon_scale"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "forbidden_arcanus"
+                }
+            ],
+            "material": {
+                "items": [
+                    "forbidden_arcanus:aquatic_dragon_scale"
+                ]
+            },
+            "experienceCost": 4,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/forbidden_arcanus_aquatic_dragon_scale"
         },
         {
             "conditions": [
@@ -346,22 +426,6 @@
             ],
             "material": {
                 "items": [
-                    "ms:gem/refined_amethyst_ingot"
-                ]
-            },
-            "experienceCost": 4,
-            "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/ms_amethyst"
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "ms"
-                }
-            ],
-            "material": {
-                "items": [
                     "ms:gem/aquamarine"
                 ]
             },
@@ -410,12 +474,108 @@
             ],
             "material": {
                 "items": [
+                    "ms:gem/trio"
+                ]
+            },
+            "experienceCost": 20,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/ms_trio"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "material": {
+                "items": [
+                    "ms:gem/white_opal"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/ms_white_opal"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "material": {
+                "items": [
                     "ms:gem/hellfire_crystal"
                 ]
             },
             "experienceCost": 10,
             "moduleKey": "single/socket",
             "moduleVariant": "single_socket/ms_hellfire"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "material": {
+                "items": [
+                    "ms:gem/scarlet_emerald"
+                ]
+            },
+            "experienceCost": 20,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/ms_scarlet_emerald"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "material": {
+                "items": [
+                    "ms:gem/tanzanite"
+                ]
+            },
+            "experienceCost": 20,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/ms_tanzanite"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "material": {
+                "items": [
+                    "ms:gem/topaz"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/ms_topaz"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "ms"
+                }
+            ],
+            "material": {
+                "items": [
+                    "ms:gem/olivine"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/ms_olivine"
         },
         {
             "conditions": [
@@ -442,12 +602,12 @@
             ],
             "material": {
                 "items": [
-                    "ms:gem/olivine"
+                    "ms:gem/refined_amethyst_ingot"
                 ]
             },
-            "experienceCost": 10,
+            "experienceCost": 4,
             "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/ms_olivine"
+            "moduleVariant": "single_socket/ms_amethyst"
         },
         {
             "conditions": [
@@ -517,81 +677,49 @@
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
-                    "modid": "ms"
+                    "modid": "oreandmore"
                 }
             ],
             "material": {
                 "items": [
-                    "ms:gem/scarlet_emerald"
+                    "oreandmore:ruby"
                 ]
             },
-            "experienceCost": 20,
+            "experienceCost": 2,
             "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/ms_scarlet_emerald"
+            "moduleVariant": "single_socket/oreandmore_ruby"
         },
         {
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
-                    "modid": "ms"
+                    "modid": "oreandmore"
                 }
             ],
             "material": {
                 "items": [
-                    "ms:gem/tanzanite"
+                    "oreandmore:fire_amber"
                 ]
             },
-            "experienceCost": 20,
+            "experienceCost": 2,
             "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/ms_tanzanite"
+            "moduleVariant": "single_socket/oreandmore_fire_amber"
         },
         {
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
-                    "modid": "ms"
+                    "modid": "oreandmore"
                 }
             ],
             "material": {
                 "items": [
-                    "ms:gem/topaz"
+                    "oreandmore:rose_quartz"
                 ]
             },
-            "experienceCost": 10,
+            "experienceCost": 2,
             "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/ms_topaz"
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "ms"
-                }
-            ],
-            "material": {
-                "items": [
-                    "ms:gem/trio"
-                ]
-            },
-            "experienceCost": 20,
-            "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/ms_trio"
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "ms"
-                }
-            ],
-            "material": {
-                "items": [
-                    "ms:gem/white_opal"
-                ]
-            },
-            "experienceCost": 10,
-            "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/ms_white_opal"
+            "moduleVariant": "single_socket/oreandmore_rose_quartz"
         },
         {
             "conditions": [
@@ -650,38 +778,6 @@
             ],
             "material": {
                 "items": [
-                    "organics:endium_gem"
-                ]
-            },
-            "experienceCost": 30,
-            "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/organics_endium"
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "organics"
-                }
-            ],
-            "material": {
-                "items": [
-                    "organics:frozen_quartz"
-                ]
-            },
-            "experienceCost": 5,
-            "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/organics_frozen_quartz"
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "organics"
-                }
-            ],
-            "material": {
-                "items": [
                     "organics:iridite_gem"
                 ]
             },
@@ -709,17 +805,33 @@
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
-                    "modid": "phantasm"
+                    "modid": "organics"
                 }
             ],
             "material": {
                 "items": [
-                    "phantasm:crystal_spike_tip"
+                    "organics:endium_gem"
                 ]
             },
-            "experienceCost": 20,
+            "experienceCost": 30,
             "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/phantasm_crystal_shard"
+            "moduleVariant": "single_socket/organics_endium"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "organics"
+                }
+            ],
+            "material": {
+                "items": [
+                    "organics:frozen_quartz"
+                ]
+            },
+            "experienceCost": 5,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/organics_frozen_quartz"
         },
         {
             "conditions": [
@@ -741,6 +853,22 @@
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
+                    "modid": "phantasm"
+                }
+            ],
+            "material": {
+                "items": [
+                    "phantasm:crystal_spike_tip"
+                ]
+            },
+            "experienceCost": 20,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/phantasm_crystal_shard"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
                     "modid": "regions_unexplored"
                 }
             ],
@@ -752,6 +880,22 @@
             "experienceCost": 15,
             "moduleKey": "single/socket",
             "moduleVariant": "single_socket/regions_unexplored_prismarite_cluster"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgear"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgear:tyrian_steel_nugget"
+                ]
+            },
+            "experienceCost": 30,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/silentgear_tyrian_steel_nugget"
         },
         {
             "conditions": [
@@ -837,22 +981,6 @@
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
-                    "modid": "silentgear"
-                }
-            ],
-            "material": {
-                "items": [
-                    "silentgear:tyrian_steel_nugget"
-                ]
-            },
-            "experienceCost": 30,
-            "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/silentgear_tyrian_steel_nugget"
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
                     "modid": "silentgems"
                 }
             ],
@@ -864,38 +992,6 @@
             "experienceCost": 6,
             "moduleKey": "single/socket",
             "moduleVariant": "single_socket/silentgems_alexandrite"
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "silentgems"
-                }
-            ],
-            "material": {
-                "items": [
-                    "silentgems:ammolite"
-                ]
-            },
-            "experienceCost": 6,
-            "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/silentgems_ammolite"
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "silentgems"
-                }
-            ],
-            "material": {
-                "items": [
-                    "silentgems:black_diamond"
-                ]
-            },
-            "experienceCost": 10,
-            "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/silentgems_black_diamond"
         },
         {
             "conditions": [
@@ -938,22 +1034,6 @@
             ],
             "material": {
                 "items": [
-                    "silentgems:heliodor"
-                ]
-            },
-            "experienceCost": 10,
-            "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/silentgems_heliodor"
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "silentgems"
-                }
-            ],
-            "material": {
-                "items": [
                     "silentgems:iolite"
                 ]
             },
@@ -970,12 +1050,12 @@
             ],
             "material": {
                 "items": [
-                    "silentgems:kyanite"
+                    "silentgems:turquoise"
                 ]
             },
-            "experienceCost": 10,
+            "experienceCost": 6,
             "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/silentgems_kyanite"
+            "moduleVariant": "single_socket/silentgems_turquoise"
         },
         {
             "conditions": [
@@ -986,12 +1066,28 @@
             ],
             "material": {
                 "items": [
-                    "silentgems:moldavite"
+                    "silentgems:black_diamond"
                 ]
             },
-            "experienceCost": 8,
+            "experienceCost": 10,
             "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/silentgems_moldavite"
+            "moduleVariant": "single_socket/silentgems_black_diamond"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgems:kyanite"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/silentgems_kyanite"
         },
         {
             "conditions": [
@@ -1034,6 +1130,86 @@
             ],
             "material": {
                 "items": [
+                    "silentgems:white_diamond"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/silentgems_white_diamond"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgems:moldavite"
+                ]
+            },
+            "experienceCost": 8,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/silentgems_moldavite"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgems:topaz"
+                ]
+            },
+            "experienceCost": 2,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/silentgems_topaz"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgems:ammolite"
+                ]
+            },
+            "experienceCost": 6,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/silentgems_ammolite"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "material": {
+                "items": [
+                    "silentgems:heliodor"
+                ]
+            },
+            "experienceCost": 10,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/silentgems_heliodor"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "silentgems"
+                }
+            ],
+            "material": {
+                "items": [
                     "silentgems:ruby"
                 ]
             },
@@ -1061,49 +1237,81 @@
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
-                    "modid": "silentgems"
+                    "modid": "tropicraft"
                 }
             ],
             "material": {
                 "items": [
-                    "silentgems:topaz"
+                    "tropicraft:zircon_gem"
                 ]
             },
             "experienceCost": 2,
             "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/silentgems_topaz"
+            "moduleVariant": "single_socket/tropicraft_zircon_gem"
         },
         {
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
-                    "modid": "silentgems"
+                    "modid": "tropicraft"
                 }
             ],
             "material": {
                 "items": [
-                    "silentgems:turquoise"
+                    "tropicraft:eudialyte_gem"
                 ]
             },
-            "experienceCost": 6,
+            "experienceCost": 4,
             "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/silentgems_turquoise"
+            "moduleVariant": "single_socket/tropicraft_eudialyte_gem"
         },
         {
             "conditions": [
                 {
                     "type": "forge:mod_loaded",
-                    "modid": "silentgems"
+                    "modid": "tropicraft"
                 }
             ],
             "material": {
                 "items": [
-                    "silentgems:white_diamond"
+                    "tropicraft:azurite_gem"
+                ]
+            },
+            "experienceCost": 4,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/tropicraft_azurite_gem"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "tropicraft"
+                }
+            ],
+            "material": {
+                "items": [
+                    "tropicraft:zirconium_gem"
+                ]
+            },
+            "experienceCost": 4,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/tropicraft_zirconium_gem"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "unusualprehistory"
+                }
+            ],
+            "material": {
+                "items": [
+                    "unusualprehistory:amber_shard"
                 ]
             },
             "experienceCost": 10,
             "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/silentgems_white_diamond"
+            "moduleVariant": "single_socket/unusualprehistory_amber_chunk"
         },
         {
             "conditions": [
@@ -1114,28 +1322,12 @@
             ],
             "material": {
                 "items": [
-                    "voidscape:astral_crystal"
+                    "voidscape:voidic_crystal"
                 ]
             },
-            "experienceCost": 45,
+            "experienceCost": 10,
             "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/voidscape_astral_crystal"
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "voidscape"
-                }
-            ],
-            "material": {
-                "items": [
-                    "voidscape:ichor_crystal"
-                ]
-            },
-            "experienceCost": 25,
-            "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/voidscape_crystallized_ichor"
+            "moduleVariant": "single_socket/voidscape_voidic_crystal"
         },
         {
             "conditions": [
@@ -1162,12 +1354,28 @@
             ],
             "material": {
                 "items": [
-                    "voidscape:voidic_crystal"
+                    "voidscape:ichor_crystal"
                 ]
             },
-            "experienceCost": 10,
+            "experienceCost": 25,
             "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/voidscape_voidic_crystal"
+            "moduleVariant": "single_socket/voidscape_crystallized_ichor"
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "voidscape"
+                }
+            ],
+            "material": {
+                "items": [
+                    "voidscape:astral_crystal"
+                ]
+            },
+            "experienceCost": 45,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/voidscape_astral_crystal"
         }
     ]
 }

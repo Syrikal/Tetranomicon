@@ -1,0 +1,35 @@
+{
+    "key": "oreandmore_fire_amber",
+    "category": "gem",
+    "primary": 4.5,
+    "secondary": 2.9,
+    "tertiary": 0,
+    "durability": 250,
+    "integrityCost": 2,
+    "integrityGain": 2,
+    "magicCapacity": 84,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 6,
+    "tints": {
+        "glyph": "d8993a",
+        "texture": "d8993a"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "oreandmore:fire_amber"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "oreandmore"
+        }
+    ]
+}

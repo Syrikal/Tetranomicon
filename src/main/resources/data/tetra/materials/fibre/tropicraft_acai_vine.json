@@ -1,18 +1,18 @@
 {
-    "key": "ms_polar_bear_hide",
-    "category": "skin",
-    "primary": 6,
-    "secondary": 3,
-    "tertiary": 1,
-    "durability": 200,
+    "key": "tropicraft_acai_vine",
+    "category": "fibre",
+    "primary": 3,
+    "secondary": 1,
+    "tertiary": 3,
+    "durability": 250,
     "integrityCost": 1,
     "integrityGain": 5,
-    "magicCapacity": 120,
+    "magicCapacity": 90,
     "toolLevel": 0,
     "toolEfficiency": 0,
     "tints": {
-        "glyph": "f2f2f2",
-        "texture": "f2f2f2"
+        "glyph": "5B854C",
+        "texture": "5B854C"
     },
     "textures": [
         "crude",
@@ -20,16 +20,16 @@
     ],
     "material": {
         "items": [
-            "ms:entity/polar_bear_hide"
+            "tropicraft:acai_vine"
         ]
     },
     "requiredTools": {
-        "cut": "minecraft:stone"
+        "cut": "minecraft:gold"
     },
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "ms"
+            "modid": "tropicraft"
         }
     ]
 }

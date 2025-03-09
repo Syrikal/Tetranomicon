@@ -1,0 +1,38 @@
+{
+    "key": "forbidden_arcanus_edelwood",
+    "category": "wood",
+    "primary": 4,
+    "secondary": 2.8,
+    "tertiary": 5.5,
+    "durability": 512,
+    "integrityCost": 2,
+    "integrityGain": 6,
+    "magicCapacity": 144,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 4,
+    "effects": {
+        "stabilizing": 10
+    },
+    "tints": {
+        "glyph": "522800",
+        "texture": "522800"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "forbidden_arcanus:edelwood_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "forbidden_arcanus"
+        }
+    ]
+}
