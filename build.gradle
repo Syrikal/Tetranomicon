@@ -132,8 +132,8 @@ dependencies {
     implementation fg.deobf("curse.maven:upgrade-aquatic-326895:6157694")
     //Unearthed (requires Hyle)
     implementation fg.deobf("curse.maven:unearthed-406825:6223916")
-    //Quark (requires Zeta)
-    implementation fg.deobf("curse.maven:quark-243121:5594847")
+//    //Quark (requires Zeta)
+//    implementation fg.deobf("curse.maven:quark-243121:5594847")
 
 
     //SET ONE
@@ -207,8 +207,8 @@ dependencies {
     //FABRIC
     //BetterEnd (requires Fabric API and BCLib)
     implementation fg.deobf("curse.maven:betterend-413596:4971487")
-//    //BetterNether (requires Fabric API and BCLib) (incompatible with Quark)
-//    implementation fg.deobf("curse.maven:betternether-311377:4971478")
+    //BetterNether (requires Fabric API and BCLib) (incompatible with Quark)
+    implementation fg.deobf("curse.maven:betternether-311377:4971478")
 
 
     //REMOVED

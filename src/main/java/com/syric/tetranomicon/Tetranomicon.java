@@ -21,7 +21,7 @@ public class Tetranomicon {
         TetranomiconTiers.init();
 
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        if (ModList.get().isLoaded("oresabovediamonds")) {
+        if (ModList.get().isLoaded("oresabovediamonds") || ModList.get().isLoaded("betternether")) {
             TetranomiconItems.ITEMS.register(modEventBus);
         }
 
