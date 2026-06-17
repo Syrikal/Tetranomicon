@@ -14,7 +14,6 @@
           "fierySelf": [-3, -0.05]
       },
       "models": [{
-          "type": "static",
           "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "752626"
       }]
@@ -34,7 +33,6 @@
           "fierySelf": [-3, -0.07]
       },
       "models": [{
-          "type": "static",
           "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "752626"
       }]
@@ -54,7 +52,6 @@
           "fierySelf": [-3, -0.1]
       },
       "models": [{
-          "type": "static",
           "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "752626"
       }]
@@ -77,7 +74,6 @@
           "fierySelf": [-2, -0.05]
       },
       "models": [{
-          "type": "static",
           "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "ecf4f4"
       }]
@@ -97,7 +93,6 @@
           "fierySelf": [-2, -0.07]
       },
       "models": [{
-          "type": "static",
           "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "ecf4f4"
       }]
@@ -117,7 +112,6 @@
           "fierySelf": [-2, -0.1]
       },
       "models": [{
-          "type": "static",
           "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "ecf4f4"
       }]
@@ -140,7 +134,6 @@
           "fierySelf": [-2, -0.05]
       },
       "models": [{
-          "type": "static",
           "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "241c5c"
       }]
@@ -160,7 +153,6 @@
           "fierySelf": [-2, -0.07]
       },
       "models": [{
-          "type": "static",
           "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "241c5c"
       }]
@@ -180,7 +172,6 @@
           "fierySelf": [-2, -0.1]
       },
       "models": [{
-          "type": "static",
           "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "241c5c"
       }]
@@ -203,7 +194,6 @@
           "fierySelf": [-1, -0.05]
       },
       "models": [{
-          "type": "static",
           "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "5484b4"
       }]
@@ -223,7 +213,6 @@
           "fierySelf": [-1, -0.07]
       },
       "models": [{
-          "type": "static",
           "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "5484b4"
       }]
@@ -243,7 +232,6 @@
           "fierySelf": [-1, -0.1]
       },
       "models": [{
-          "type": "static",
           "location": "tetra:item/module/bow/stave/improvements/wrap",
           "tint": "5484b4"
       }]
