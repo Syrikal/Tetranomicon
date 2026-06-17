@@ -1,11 +1,11 @@
 {
     "key": "betternether_fireruby",
     "category": "gem",
-    "primary": 9,
+    "primary": 8,
     "secondary": 2.9,
     "tertiary": 0,
     "durability": 2861,
-    "integrityCost": 2,
+    "integrityCost": 3,
     "integrityGain": 2,
     "magicCapacity": 192,
     "toolLevel": "minecraft:netherite",
