@@ -1,0 +1,41 @@
+{
+    "key": "deeperdarker_bloom_wood",
+    "category": "wood",
+    "primary": 5,
+    "secondary": 2.5,
+    "tertiary": 6.5,
+    "durability": 1561,
+    "integrityCost": 1,
+    "integrityGain": 6,
+    "magicCapacity": 150,
+    "toolLevel": "minecraft:gold",
+    "toolEfficiency": 5,
+    "effects": {
+        "enderReverb": [
+            2,
+            0.2
+        ]
+    },
+    "tints": {
+        "glyph": "90aaa8",
+        "texture": "90aaa8"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [
+            "deeperdarker:bloom_planks"
+        ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:diamond"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "deeperdarker"
+        }
+    ]
+}

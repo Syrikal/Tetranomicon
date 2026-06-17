@@ -1,18 +1,18 @@
 {
-    "key": "l2complements_eternium",
+    "key": "deeperdarker_resonarium",
     "category": "metal",
     "primary": 6,
-    "secondary": 2.9,
-    "tertiary": 4,
-    "durability": 9999,
+    "secondary": 3.4,
+    "tertiary": 5.2,
+    "durability": 1193,
     "integrityCost": 2,
     "integrityGain": 6,
-    "magicCapacity": 6,
-    "toolLevel": "minecraft:netherite",
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:diamond",
     "toolEfficiency": 8,
     "tints": {
-        "glyph": "696ef7",
-        "texture": "696ef7"
+        "glyph": "4dd4fa",
+        "texture": "4dd4fa"
     },
     "textures": [
         "shiny",
@@ -21,16 +21,16 @@
     ],
     "material": {
         "items": [
-            "l2complements:eternium_ingot"
+            "deeperdarker:resonarium_plate"
         ]
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:netherite"
+        "hammer_dig": "minecraft:stone"
     },
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "l2complements"
+            "modid": "deeperdarker"
         }
     ]
 }

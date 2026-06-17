@@ -1,14 +1,14 @@
 {
     "key": "iceandfire_lightning_dragonsteel",
     "category": "metal",
-    "primary": 24,
-    "secondary": 4.5,
-    "tertiary": 2,
-    "durability": 8000,
-    "integrityCost": 4,
+    "primary": 9,
+    "secondary": 3.4,
+    "tertiary": 4,
+    "durability": 2640,
+    "integrityCost": 2,
     "integrityGain": 6,
     "magicCapacity": 60,
-    "toolLevel": "tetra:maxed_forge_hammer",
+    "toolLevel": "minecraft:netherite",
     "toolEfficiency": 10,
     "tints": {
         "glyph": "856fb5",
@@ -24,7 +24,7 @@
         ]
     },
     "requiredTools": {
-        "hammer_dig": "tetra:maxed_forge_hammer"
+        "hammer_dig": "minecraft:netherite"
     },
     "conditions": [
         {
