@@ -3,14 +3,11 @@ buildscript {
         mavenLocal()
         maven { url = 'https://files.minecraftforge.net/maven' }
         maven { url = "https://plugins.gradle.org/m2/" }
-        maven { url = 'https://repo.spongepowered.org/repository/maven-public/' }
-        jcenter()
         mavenCentral()
     }
     dependencies {
-        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
         classpath "com.wynprice.cursemaven:CurseMaven:2.1.1"
-        classpath group: 'org.spongepowered', name: 'mixingradle', version: '0.7-SNAPSHOT'
     }
 }
 
@@ -19,9 +16,8 @@ plugins {
     id 'idea'
     id 'maven-publish'
     id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+    id 'org.spongepowered.mixin' version '0.7.+'
 }
-
-apply plugin: 'org.spongepowered.mixin'
 
 version = mod_version
 group = mod_group_id
@@ -86,7 +82,6 @@ minecraft {
     }
 }
 
-sourceSets.main.resources { srcDir 'src/generated/resources' }
 repositories {
     maven {
         name = "cursemaven"
@@ -95,7 +90,20 @@ repositories {
             includeGroup "curse.maven"
         }
     }
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
+            }
+        }
+        forRepositories(fg.repository) // Only add this if you're using ForgeGradle, otherwise remove this line
+        filter {
+            includeGroup "maven.modrinth"
+        }
+    }
     mavenCentral()
+//    maven { url 'https://jitpack.io/' }
 }
 
 dependencies {
@@ -106,10 +114,10 @@ dependencies {
 //    implementation fg.deobf("curse.maven:scroll-of-harvests-571339:4706191")
 
     //PREVIOUSLY SUPPORTED
-    //Atmospheric (requires Blueprint)
-    implementation fg.deobf("curse.maven:atmospheric-362393:6057624")
-    //Autumnity (Requires Blueprint)
-    implementation fg.deobf("curse.maven:autumnity-365045:5292346")
+//    //Atmospheric (requires Blueprint)
+//    implementation fg.deobf("curse.maven:atmospheric-362393:6057624")
+//    //Autumnity (Requires Blueprint)
+//    implementation fg.deobf("curse.maven:autumnity-365045:5292346")
 //    //BOP (requires terrablender and glitchcore)
 //    implementation fg.deobf("curse.maven:biomes-o-plenty-220318:6028852")
 //    //Create
@@ -118,20 +126,20 @@ dependencies {
 //    implementation fg.deobf("curse.maven:enderite-mod-for-forge-401284:5017690")
 //    //Endergetic Expansion (requires Blueprint)
 //    implementation fg.deobf("curse.maven:endergetic-291509:6157658")
-    //Environmental (requires Blueprint)
-    implementation fg.deobf("curse.maven:environmental-388992:6060255")
-    //Ice and Fire (requires Citadel)
-    implementation fg.deobf("curse.maven:ice-and-fire-dragons-264231:5633453")
+//    //Environmental (requires Blueprint)
+//    implementation fg.deobf("curse.maven:environmental-388992:6060255")
+//    //Ice and Fire (requires Citadel)
+//    implementation fg.deobf("curse.maven:ice-and-fire-dragons-264231:5633453")
 //    //Outer End (Requires Blueprint)
 //    implementation fg.deobf("curse.maven:the-outer-end-430404:5812948")
 //    //Stalwart Dungeons
 //    implementation fg.deobf("curse.maven:stalwart-dungeons-474817:4703671")
 //    //Twilight Forest
 //    implementation fg.deobf("curse.maven:the-twilight-forest-227639:5468648")
-    //Upgrade Aquatic
-    implementation fg.deobf("curse.maven:upgrade-aquatic-326895:6157694")
-    //Unearthed (requires Hyle)
-    implementation fg.deobf("curse.maven:unearthed-406825:6223916")
+//    //Upgrade Aquatic
+//    implementation fg.deobf("curse.maven:upgrade-aquatic-326895:6157694")
+//    //Unearthed (requires Hyle)
+//    implementation fg.deobf("curse.maven:unearthed-406825:6223916")
 //    //Quark (requires Zeta)
 //    implementation fg.deobf("curse.maven:quark-243121:5594847")
 
@@ -156,8 +164,8 @@ dependencies {
 //    implementation fg.deobf("curse.maven:endless-biomes-667688:5679839")
 //    //Enlightend
 //    implementation fg.deobf("curse.maven:enlightend-502786:4880586")
-//    //Galosphere
-//    implementation fg.deobf("curse.maven:galosphere-631098:4983871")
+    //Galosphere
+    runtimeOnly fg.deobf("maven.modrinth:galosphere:1.20.1-1.5.2")
 //    //Voidscape
 //    implementation fg.deobf("curse.maven:voidscape-251730:5179872")
 //    //Organics
@@ -190,25 +198,28 @@ dependencies {
 
     //SET 5
     //Embers Rekindled
-    implementation fg.deobf("curse.maven:embers-rekindled-300777:6103508")
+//    implementation fg.deobf("curse.maven:embers-rekindled-300777:6103508")
     //Tropicraft
-    implementation fg.deobf("curse.maven:tropicraft-254794:4811116")
+//    implementation fg.deobf("curse.maven:tropicraft-254794:4811116")
     //Ore and More
-    implementation fg.deobf("curse.maven:oam-by-choupiclou2007-421326:6014464")
+//    implementation fg.deobf("curse.maven:oam-by-choupiclou2007-421326:6014464")
     //Unusual Prehistory (requires GeckoLib)
-    implementation fg.deobf("curse.maven:unusual-prehistory-forge-696283:4884372")
+//    implementation fg.deobf("curse.maven:unusual-prehistory-forge-696283:4884372")
 //    //Forbidden Arcanus (Requires Valhelsia Core) (thereby incompatible with Quark)
 //   implementation fg.deobf("curse.maven:forbidden-arcanus-309858:5198323")
     //Alex's Mobs (requires Citadel)
-    implementation fg.deobf("curse.maven:alexs-mobs-426558:5698791")
+//    implementation fg.deobf("curse.maven:alexs-mobs-426558:5698791")
 
+
+    //SET 6
+    //
 
 
     //FABRIC
     //BetterEnd (requires Fabric API and BCLib)
-    implementation fg.deobf("curse.maven:betterend-413596:4971487")
+//    implementation fg.deobf("curse.maven:betterend-413596:4971487")
     //BetterNether (requires Fabric API and BCLib) (incompatible with Quark)
-    implementation fg.deobf("curse.maven:betternether-311377:4971478")
+//    implementation fg.deobf("curse.maven:betternether-311377:4971478")
 
 
     //REMOVED
@@ -218,13 +229,15 @@ dependencies {
 //    implementation fg.deobf("curse.maven:phantasm-565254:6140585") //(causing crashes)
 
     //JEI
-    implementation fg.deobf("curse.maven:jei-238222:6075247")
-//    implementation fg.deobf("curse.maven:configured-457570:5180900")
-    implementation fg.deobf("curse.maven:just-enough-resources-jer-240630:5057220")
+    runtimeOnly fg.deobf("maven.modrinth:jei:RTFeXsvE")
+    runtimeOnly fg.deobf("maven.modrinth:just-enough-resources-jer:1.4.0.247")
+    runtimeOnly fg.deobf("maven.modrinth:forge-config-screens:v8.0.2-1.20.1-Forge")
 
     //Optimization
-//    implementation fg.deobf("curse.maven:rubidium-574856:4767529")
-//    implementation fg.deobf("curse.maven:oculus-581495:4767500")
+    runtimeOnly fg.deobf("maven.modrinth:embeddium:0.3.31+mc1.20.1")
+    runtimeOnly fg.deobf("maven.modrinth:chloride:FORGE-mc1.20.1-v1.7.7")
+    runtimeOnly fg.deobf("maven.modrinth:oculus:1.20.1-1.8.0")
+
 
     //Libraries and Dependencies
     implementation fg.deobf("curse.maven:mutil-351914:7772906")
@@ -232,15 +245,15 @@ dependencies {
 //    implementation fg.deobf("curse.maven:glitchcore-955399:5787839")
 //    implementation fg.deobf("curse.maven:architectury-api-419699:5137938")
 //    implementation fg.deobf("curse.maven:cloth-config-348521:5729105")
-    implementation fg.deobf("curse.maven:citadel-331936:6002521")
-    implementation fg.deobf("curse.maven:blueprint-382216:6143229")
-    implementation fg.deobf("curse.maven:hyle-609850:6223810")
-    implementation fg.deobf("curse.maven:zeta-968868:5597406")
+//    implementation fg.deobf("curse.maven:citadel-331936:6002521")
+//    implementation fg.deobf("curse.maven:blueprint-382216:6143229")
+//    implementation fg.deobf("curse.maven:hyle-609850:6223810")
+//    implementation fg.deobf("curse.maven:zeta-968868:5597406")
 //    implementation fg.deobf("curse.maven:structure-gel-api-378802:5278429")
-    implementation fg.deobf("curse.maven:sinytra-connector-890127:5761411")
-    implementation fg.deobf("curse.maven:forgified-fabric-api-889079:6136695")
-    implementation fg.deobf("curse.maven:connector-extras-913445:5490637")
-    implementation fg.deobf("curse.maven:geckolib-388172:6027567")
+//    implementation fg.deobf("curse.maven:sinytra-connector-890127:5761411")
+//    implementation fg.deobf("curse.maven:forgified-fabric-api-889079:6136695")
+//    implementation fg.deobf("curse.maven:connector-extras-913445:5490637")
+//    implementation fg.deobf("curse.maven:geckolib-388172:6027567")
 //    implementation fg.deobf("curse.maven:silent-lib-242998:4585754")
 //    implementation fg.deobf("curse.maven:resourceful-lib-570073:5659871")
 //    implementation fg.deobf("curse.maven:resourceful-config-714059:5020441")
@@ -251,12 +264,18 @@ dependencies {
 //    implementation fg.deobf("curse.maven:curios-309927:6058834")
 //    implementation fg.deobf("curse.maven:valhelsia-core-416935:5189548") //apparently incompatible with Quark??
 //    implementation fg.deobf("curse.maven:patchouli-306770:4966125")
-    implementation fg.deobf("curse.maven:bclib-495191:4971470")
+//    implementation fg.deobf("curse.maven:bclib-495191:4971470")
 
 
 //    implementation fg.deobf("curse.maven:majrusz-library-437409:5302100") //broken
 
+    // Apply Mixin AP
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
+    compileOnly(annotationProcessor("io.github.llamalad7:mixinextras-common:0.5.3"))
+    implementation(jarJar("io.github.llamalad7:mixinextras-forge:0.5.3")) {
+        jarJar.ranged(it, "[0.5.3,)")
+    }
 
 }
 

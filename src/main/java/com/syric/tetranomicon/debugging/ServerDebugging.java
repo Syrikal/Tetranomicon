@@ -1,9 +1,10 @@
-package com.syric.tetranomicon;
+package com.syric.tetranomicon.debugging;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.mojang.datafixers.util.Either;
+import com.syric.tetranomicon.Tetranomicon;
 import net.minecraft.ChatFormatting;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.network.chat.Component;
@@ -19,6 +20,7 @@ import net.minecraftforge.client.event.RenderTooltipEvent;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.event.ServerChatEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ForgeRegistries;
 import org.jetbrains.annotations.NotNull;
 import se.mickelus.tetra.ConfigHandler;
@@ -29,58 +31,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-@OnlyIn(Dist.CLIENT)
-public class Debugging {
+@Mod.EventBusSubscriber(modid = Tetranomicon.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
+public class ServerDebugging {
 
     @SubscribeEvent
-    void addToTooltip(RenderTooltipEvent.@NotNull GatherComponents event) {
-        if (true) {
-            return;
-        }
-        if (!ConfigHandler.development.get()) {
-            return;
-        }
-        List<Either<FormattedText, TooltipComponent>> components = event.getTooltipElements();
-        String item_id = event.getItemStack().getItem().toString();
-        String mod_id = event.getItemStack().getItem().getCreatorModId(event.getItemStack());
-        mod_id = mod_id == null ? " " : mod_id;
-        ItemStack stack = event.getItemStack();
-
-        boolean likelyCandidateTags = (stack.is(Tags.Items.STONE) || stack.is(ItemTags.PLANKS) || stack.is(Tags.Items.INGOTS) || stack.is(Tags.Items.GEMS));
-        boolean likelyCandidateID = (item_id.contains("planks") || item_id.contains("ingot"));
-        boolean minecraft = mod_id.contains("minecraft");
-        boolean likelyCandidate = likelyCandidateID || likelyCandidateTags && !minecraft;
-        boolean isTetraMaterial = DataManager.instance.materialData.getData().values().stream().anyMatch(x -> {
-            ItemPredicate predicate = x.material.getPredicate();
-            if (predicate != null) {
-                if (x.material.isTagged()) {
-                    return false;
-                }
-                return predicate.matches(stack);
-            }
-            return false;
-        });
-
-        if (likelyCandidate && !isTetraMaterial) {
-            Component newComponent = Component.literal("LIKELY CANDIDATE IS NOT MATERIAL!").withStyle(ChatFormatting.RED);
-            Either<FormattedText, TooltipComponent> eitherComponent = Either.left(newComponent);
-            components.add(eitherComponent);
-        }
-        if (likelyCandidate) {
-            Component newComponent = Component.literal("Item is a likely candidate").withStyle(ChatFormatting.BLUE);
-            Either<FormattedText, TooltipComponent> eitherComponent = Either.left(newComponent);
-            components.add(eitherComponent);
-        }
-        if (isTetraMaterial) {
-            Component newComponent = Component.literal("Item is a Tetra material!").withStyle(ChatFormatting.GREEN);
-            Either<FormattedText, TooltipComponent> eitherComponent = Either.left(newComponent);
-            components.add(eitherComponent);
-        }
-
-    }
-
-    @SubscribeEvent
-    void checkMissingMaterials(ServerChatEvent event) {
+    public static void checkMissingMaterials(ServerChatEvent event) {
         if (!ConfigHandler.development.get()) {
             return;
         }
@@ -97,7 +52,7 @@ public class Debugging {
     }
 
     @SubscribeEvent
-    void checkCandidates(ServerChatEvent event) {
+    public static void checkCandidates(ServerChatEvent event) {
         if (!ConfigHandler.development.get()) {
             return;
         }
@@ -139,7 +94,7 @@ public class Debugging {
     }
 
     @SubscribeEvent
-    void checkMissingReplacements(ServerChatEvent event) {
+    public static void checkMissingReplacements(ServerChatEvent event) {
         if (!ConfigHandler.development.get()) {
             return;
         }
@@ -166,7 +121,7 @@ public class Debugging {
     }
 
     @SubscribeEvent
-    void checkReplacementCandidates(ServerChatEvent event) {
+    public static void checkReplacementCandidates(ServerChatEvent event) {
         if (!ConfigHandler.development.get()) {
             return;
         }
@@ -197,7 +152,5 @@ public class Debugging {
                     .forEach(x -> Tetranomicon.LOGGER.debug("Candidate tool not replaced: " + x.getValue().getCreatorModId(x.getValue().getDefaultInstance()) + ":" + x.getValue()));
         }
     }
-
-
 
 }
